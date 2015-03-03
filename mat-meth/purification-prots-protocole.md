@@ -93,7 +93,7 @@ Pour la même raison, le tampon Ni ap TEV a une concentration en NaCl de 400 mM.
 
 - **tampon ResQ-A**
     + Tris-HCl 20 mM pH = 7,5
-    + NaCl 1OO mM
+    + NaCl 100 mM
     + 2-mercaptoethanol 5 mM 
 
 - **tampon ResQ-B**
@@ -127,7 +127,7 @@ congelée rapidement dans l'azote liquide par aliquots de 1 mL et stockée à -8
 
 - **tampon HepA**
     + Tris-HCl 20 mM pH = 7,5
-    + NaCl 1OO mM
+    + NaCl 100 mM
     + 2-mercaptoethanol 5 mM 
 
 - **tampon HepB**
