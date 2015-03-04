@@ -14,3 +14,6 @@ CV
 MgCl~2~
 NaCl
 m/m
+IPTG
+PBS
+
