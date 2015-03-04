@@ -39,8 +39,8 @@ alors lysées par sonication (sans dépasser 10 °C) : 60 pulses de 1 s espacée
 par 1 s de pause, à 35, 45, 55, 65 et enfin 75 % de la puissance du sonicateur.
 Le lysat est additionné de MgCl~2~ qsp 1,5 mM final et de benzonase à raison de
 1 µL par culot puis incubé 15 min à température ambiante sous agitation.
-Le lysat est finalement clarifié par centrifugation à 20 000 rpm **(COMBIEN DE
-G ?)** et filtration O,45 µm.
+Le lysat est finalement clarifié par centrifugation à 48 000 g et filtration
+0,45 µm.
 
 
 ### Purification des protéines
