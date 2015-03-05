@@ -44,11 +44,11 @@ d'IPTG qsp 0,5 mM final. La culture est alors poursuivie à 20 °C jusqu'au
 lendemain matin. Les cultures atteignent typiquement une densité finale de
 l'ordre de DO~600\ nm~ = 1,7 - 3.
 
-Les cultures sont finalement centrifugées à **3500 g VÉRIFIER** pendant 35 min.
-Chaque culot est rincé par resuspension dans 40 mL de PBS 1X, et ces suspensions
-sont finalement centrifugées une dernière fois à 3500 g pendant 20 min pour
-obtenir les culots finaux. Ces culots sont alors congelés rapidement dans
-l'azote liquide et stockés à -80 °C.
+Les cultures sont finalement centrifugées à 3000 g pendant 35 min. Chaque culot
+est rincé par resuspension dans 40 mL de PBS 1X, et ces suspensions sont
+finalement centrifugées une dernière fois à 3000 g pendant 20 min pour obtenir
+les culots finaux. Ces culots sont alors congelés rapidement dans l'azote
+liquide et stockés à -80 °C.
 
 
 ## Détails spécifiques aux protéines
