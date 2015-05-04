@@ -32,8 +32,28 @@ forme linéaire lors de l'analyse, et il a pu être vérifié expérimentalement
 l'ADN linéaire résultant contient bien des séquences télomériques à ses
 extrémités et que ces dernières sont bien fermées par une épingle à cheveux.
 
-L'enzyme responsable de cette activité a été mise en évidence expérimentalement
-et caractérisée au niveau biochimique [@kobryn2002].
+L'enzyme responsable de cette activité, appelée ResT (résolvase de télomères),
+a été purifiée et son activité a été caractérisée *in vitro* [@kobryn2002].
+L'enzyme seule, sans partenaire protéique ni cations divalents ni ATP, est
+capable de mimer *in vitro* la réaction précédemment caractérisée *in vivo*.
+Les auteurs de cette étude on pu montrer que l'enzyme agit selon un mécanisme
+similaire à celui des topoisomérases de type IB et des recombinases
+site-spécifique : une tyrosine catalytique clive un des brins et forme un
+intermédiaire covalent avec l'extrémité 3'-phosphate.
+
+La structure tridimensionnelle d'une résolvase de télomères a été publiée pour
+la première fois en 2007 [@aihara2007] avec l'enzyme virale TelK.
+Cette structure a permis de confirmer le mécanisme proposé d'après les
+expériences *in vitro*. La seule autre résolvase de télomères dont une structure
+tridimensionnelle est publiée vient de la bactérie *Agrobacterium tumefaciens*
+[@shi2013]. Mise en évidence peu avant [@huang2012] et aux implications
+comprises très récemment [@ramirez-bahena2014].
+
+Il a par la suite été démontré que la seule acquisition d'une résolvase de
+télomères suffit à linéariser un génome normalement circulaire comme celui d'*E.
+coli* sans altérer la viabilité de la bactérie [@cui2007]. Une autre étude
+explore les possibilités de manipulation génétique offertes par ce système, et
+discute des applications possibles en biologie synthétique [@liang2013].
 
 
 ## Extrémités liées covalemment à une protéine servant d'amorce pour la réplication
