@@ -116,6 +116,9 @@ protéique est additionnée de glycérol qsp 5 % v/v final comme cryoprotectant,
 congelée rapidement dans l'azote liquide par aliquots de 1 mL et stockée à -80
 °C.
 
+Les rendements typiques de purification sont d'environ 8 mg par culot pour RAP1
+et environ 6 mg par culot pour RAP1-ARAGA.
+
 
 ## Détails spécifiques à la purification de TRF2
 
@@ -149,4 +152,6 @@ Après analyse par SDS-PAGE, les fractions d'intérêt sont réunies, la solutio
 protéique est additionnée de glycérol qsp 5 % v/v final comme cryoprotectant,
 congelée rapidement dans l'azote liquide par aliquots de 1 mL et stockée à -80
 °C.
+
+Le rendement typique de purification de TRF2 est d'environ 7,5 mg par culot.
 
