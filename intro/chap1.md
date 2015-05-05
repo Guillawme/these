@@ -18,7 +18,7 @@ stratégies pour protéger et répliquer leurs extrémités.
 
 Les bactéries du genre *Borrelia* possèdent des ADN linéaires aux extrémités
 fermées covalemment par une épingle à cheveux (*closed hairpin telomeres*),
-ainsi qu'une enzyme appelée résolvase des télomères (ou parfois appelée
+ainsi qu'une enzyme appelée résolvase de télomères (ou parfois appelée
 protélomérase, mais ce terme est inapproprié car cette résolvase de télomères
 n'a rien en commun avec la télomérase des eucaryotes) qui permet de séparer les
 deux molécules filles, concaténées en une molécule circulaire suite à la
@@ -38,11 +38,11 @@ L'enzyme seule, sans partenaire protéique ni cations divalents ni ATP, est
 capable de mimer *in vitro* la réaction précédemment caractérisée *in vivo*.
 Les auteurs de cette étude on pu montrer que l'enzyme agit selon un mécanisme
 similaire à celui des topoisomérases de type IB et des recombinases
-site-spécifique : une tyrosine catalytique clive un des brins et forme un
+site-spécifique : une tyrosine catalytique clive un des brins d'ADN et forme un
 intermédiaire covalent avec l'extrémité 3'-phosphate.
 
 La structure tridimensionnelle d'une résolvase de télomères a été publiée pour
-la première fois en 2007 [@aihara2007] avec l'enzyme virale TelK.
+la première fois en 2007 avec l'enzyme TelK d'un bactériophage [@aihara2007].
 Cette structure a permis de confirmer le mécanisme proposé d'après les
 expériences *in vitro*. La seule autre résolvase de télomères dont une structure
 tridimensionnelle est publiée vient de la bactérie *Agrobacterium tumefaciens*
