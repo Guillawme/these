@@ -75,3 +75,58 @@ discute des applications possibles en biologie synthétique [@liang2013].
 Les bactéries du genre *Streptomyces* possèdent des ADN linéaires portant une
 protéine liée covalemment à chaque extrémité et servant d'amorce pour
 l'initiation de la réplication.
+
+
+## Extrémités protégées par un complexe nucléoprotéique
+
+Chez les eucaryotes, les télomères sont constitués de séquences d'ADN répétées
+en tandem liées par des protéines spécifiques. Nous passerons en revue la
+composition des télomères de divers organismes modèles, en termes de séquences
+d'ADN et de types de protéines liant ces séquences.
+
+Les séquences des répétitions télomériques des organismes modèles que nous
+examinerons sont listées dans le tableau 1 ci-dessous. Ces répétitions
+télomériques partagent la caractéristique d'être toujours riches en G sur le
+brin sens.
+
+Table: Tableau 1 : Séquences des répétitions télomériques d'organismes modèles (d'après [@wellinger1997]).
+
+                   Organisme    Séquence télomérique
+                 -----------    ----------------------
+   *Tetrahymena thermophila*    TTGGGG
+            *Oxytricha nova*    TTTTGGGG
+  *Saccharomyces cerevisiae*    (TG)~1-6~TG~2-3~
+ *Schizosaccharomyces pombe*    T~1-2~ACA~0-1~C~0-1~G~1-6~
+    *Caenorhabditis elegans*    TTAGGC
+   *Drosophila melanogaster*    
+      *Arabidopsis thaliana*    TTTAGGG
+              *Homo sapiens*    TTAGGG
+                 -----------    ----------------------
+
+
+### Chez les ciliés
+
+*Oxytricha nova* et *Tetrahymena thermophila*
+
+
+### Chez les levures
+
+*Saccharomyces cerevisiae* et *Schizosaccharomyces pomber*
+
+
+### Chez les nématodes
+
+*Caenorhabditis elegans*
+
+
+### Chez la drosophile
+
+*Drosophila melanogaster*
+
+
+### Chez les plantes
+
+*Arabidopsis thaliana*
+
+
+### Chez les vertébrés
