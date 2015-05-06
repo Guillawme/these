@@ -89,24 +89,30 @@ examinerons sont listées dans le tableau 1 ci-dessous. Ces répétitions
 télomériques partagent la caractéristique d'être toujours riches en G sur le
 brin sens.
 
-Table: Tableau 1 : Séquences des répétitions télomériques d'organismes modèles (d'après [@wellinger1997]).
+Table: Tableau 1 : Séquences des répétitions télomériques d'organismes modèles
+(d'après [@wellinger1997]).
 
-                   Organisme    Séquence télomérique
-                 -----------    ----------------------
-   *Tetrahymena thermophila*    TTGGGG
-            *Oxytricha nova*    TTTTGGGG
-  *Saccharomyces cerevisiae*    (TG)~1-6~TG~2-3~
- *Schizosaccharomyces pombe*    T~1-2~ACA~0-1~C~0-1~G~1-6~
-    *Caenorhabditis elegans*    TTAGGC
+                   Organisme    Répétition télomérique
+                 -----------    ------------------------
+   *Tetrahymena thermophila*    TTGGGG  
+            *Oxytricha nova*    TTTTGGGG  
+  *Saccharomyces cerevisiae*    (TG)~1-6~TG~2-3~  
+ *Schizosaccharomyces pombe*    T~1-2~ACA~0-1~C~0-1~G~1-6~  
+    *Caenorhabditis elegans*    TTAGGC  
    *Drosophila melanogaster*    
-      *Arabidopsis thaliana*    TTTAGGG
-              *Homo sapiens*    TTAGGG
-                 -----------    ----------------------
+      *Arabidopsis thaliana*    TTTAGGG  
+              *Homo sapiens*    TTAGGG  
+                 -----------    ------------------------
 
 
 ### Chez les ciliés
 
-*Oxytricha nova* et *Tetrahymena thermophila*
+Chez *Oxytricha nova*, les télomères sont protégés par un hétérodimère contenant
+les protéines TEBPα et TEBPβ (*telomere end binding proteins*). Ces protéines
+contiennent des motifs OB-fold (*oligonucleotide-binding*) leur permettant de
+lier l'extrémité simple-brin 3'-sortante [@gilson2007].
+
+et *Tetrahymena thermophila*
 
 
 ### Chez les levures
