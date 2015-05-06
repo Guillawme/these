@@ -11,26 +11,32 @@ circulaires comme support du génome. Cette stratégie est la plus répandue par
 les procaryotes.
 
 Les organismes possédant des ADN linéaires ont quant à eux adopté trois
-stratégies pour protéger et répliquer leurs extrémités.  
+stratégies pour protéger et répliquer leurs extrémités.
 
 
 ## Extrémités fermées covalemment par une épingle à cheveux
 
 Les bactéries du genre *Borrelia* possèdent des ADN linéaires aux extrémités
 fermées covalemment par une épingle à cheveux (*closed hairpin telomeres*),
-ainsi qu'une enzyme appelée résolvase de télomères (ou parfois appelée
+ainsi qu'une enzyme appelée résolvase de télomères^[Cette enzyme est parfois appelée
 protélomérase, mais ce terme est inapproprié car cette résolvase de télomères
-n'a rien en commun avec la télomérase des eucaryotes) qui permet de séparer les
-deux molécules filles, concaténées en une molécule circulaire suite à la
-réplication [@chaconas2010].
+n'a rien en commun avec la télomérase des eucaryotes.] qui permet de séparer les
+deux molécules filles, concaténées en un dimère circulaire suite à la
+réplication [@chaconas2010]. La figure 1 ci-dessous illustre le mode de
+réplication des ADN linéaires à télomères en épingles à cheveux avec une
+initiation centrale et une étape de résolution des télomères qui reconstitue
+deux ADN linéaires fermés covalemment par des épingles à cheveux.
+
+![Figure 1 : Principe de la réplication des ADN linéaires à télomères en épingle à cheveux (d'après [@shi2013]).](figures/replication-Borrelia.png)
 
 L'activité de résolution des télomères a été mise en évidence *in vivo* à l'aide
-de plasmides contenant la séquence télomérique répliquée, et directement
-introduits dans la bactérie par transformation [@chaconas2001]. Un plasmide
-circulaire contenant cette séquence télomérique répliquée est retrouvé sous
-forme linéaire lors de l'analyse, et il a pu être vérifié expérimentalement que
-l'ADN linéaire résultant contient bien des séquences télomériques à ses
-extrémités et que ces dernières sont bien fermées par une épingle à cheveux.
+de plasmides contenant la séquence télomérique répliquée (séquence répétée
+inversée), et directement introduits dans la bactérie par transformation
+[@chaconas2001]. Un plasmide circulaire contenant cette séquence télomérique
+répliquée est retrouvé sous forme linéaire lors de l'analyse, et il a pu être
+vérifié expérimentalement que l'ADN linéaire résultant contient bien des
+séquences télomériques à ses extrémités et que ces dernières sont bien fermées
+par une épingle à cheveux.
 
 L'enzyme responsable de cette activité, appelée ResT (résolvase de télomères),
 a été purifiée et son activité a été caractérisée *in vitro* [@kobryn2002].
@@ -46,8 +52,16 @@ la première fois en 2007 avec l'enzyme TelK d'un bactériophage [@aihara2007].
 Cette structure a permis de confirmer le mécanisme proposé d'après les
 expériences *in vitro*. La seule autre résolvase de télomères dont une structure
 tridimensionnelle est publiée vient de la bactérie *Agrobacterium tumefaciens*
-[@shi2013]. Mise en évidence peu avant [@huang2012] et aux implications
-comprises très récemment [@ramirez-bahena2014].
+[@shi2013]. Cette enzyme, appelée TelA, a été mise en évidence plus récemment
+[@huang2012]. Dans les deux cas, l'enzyme se fixe à la séquence télomérique
+répliquée sous forme de dimère, et une fois les deux brins clivés la
+conformation du dimère force la formation d'une épingle à cheveux par la courte
+extrémité 5'-sortante générée par le clivage. Cette extrémité 5' attaque le
+groupement phosphate lié à la tyrosine catalytique pour reformer une liaison
+phosphodiester et libérer l'enzyme. La figure 2 ci-dessous illustre le mécanisme
+des résolvases de télomères.
+
+![Figure 2 : Mécanisme des résolvases de télomères (d'après [@shi2013]).](figures/mecanisme-ResT.png)
 
 Il a par la suite été démontré que la seule acquisition d'une résolvase de
 télomères suffit à linéariser un génome normalement circulaire comme celui d'*E.
