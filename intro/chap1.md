@@ -27,7 +27,7 @@ réplication des ADN linéaires à télomères en épingles à cheveux avec une
 initiation centrale et une étape de résolution des télomères qui reconstitue
 deux ADN linéaires fermés covalemment par des épingles à cheveux.
 
-![Figure 1 : Principe de la réplication des ADN linéaires à télomères en épingle à cheveux (d'après [@shi2013]).](figures/replication-Borrelia.png)
+![Figure 1 : Principe de la réplication des ADN linéaires à télomères en épingle à cheveux, d'après [@shi2013].](figures/replication-Borrelia.png)
 
 L'activité de résolution des télomères a été mise en évidence *in vivo* à l'aide
 de plasmides contenant la séquence télomérique répliquée (séquence répétée
@@ -61,7 +61,7 @@ groupement phosphate lié à la tyrosine catalytique pour reformer une liaison
 phosphodiester et libérer l'enzyme. La figure 2 ci-dessous illustre le mécanisme
 des résolvases de télomères.
 
-![Figure 2 : Mécanisme des résolvases de télomères (d'après [@shi2013]).](figures/mecanisme-ResT.png)
+![Figure 2 : Mécanisme des résolvases de télomères, d'après [@shi2013].](figures/mecanisme-ResT.png)
 
 Il a par la suite été démontré que la seule acquisition d'une résolvase de
 télomères suffit à linéariser un génome normalement circulaire comme celui d'*E.
@@ -89,20 +89,19 @@ examinerons sont listées dans le tableau 1 ci-dessous. Ces répétitions
 télomériques partagent la caractéristique d'être toujours riches en G sur le
 brin sens.
 
-Table: Tableau 1 : Séquences des répétitions télomériques d'organismes modèles
-(d'après [@wellinger1997]).
+Table: Tableau 1 : Séquences des répétitions télomériques d'organismes modèles, d'après [@wellinger1997].
 
-                   Organisme    Répétition télomérique
-                 -----------    ------------------------
-   *Tetrahymena thermophila*    TTGGGG  
-            *Oxytricha nova*    TTTTGGGG  
-  *Saccharomyces cerevisiae*    (TG)~1-6~TG~2-3~  
- *Schizosaccharomyces pombe*    T~1-2~ACA~0-1~C~0-1~G~1-6~  
-    *Caenorhabditis elegans*    TTAGGC  
-   *Drosophila melanogaster*    
-      *Arabidopsis thaliana*    TTTAGGG  
-              *Homo sapiens*    TTAGGG  
-                 -----------    ------------------------
+               **Organisme**    **Répétition télomérique**
+----------------------------    ----------------------------
+   *Tetrahymena thermophila*    TTGGGG
+            *Oxytricha nova*    TTTTGGGG
+  *Saccharomyces cerevisiae*    (TG)~1-6~TG~2-3~
+ *Schizosaccharomyces pombe*    T~1-2~ACA~0-1~C~0-1~G~1-6~
+    *Caenorhabditis elegans*    TTAGGC
+   *Drosophila melanogaster*    -
+      *Arabidopsis thaliana*    TTTAGGG
+              *Homo sapiens*    TTAGGG
+
 
 
 ### Chez les ciliés
@@ -110,14 +109,37 @@ Table: Tableau 1 : Séquences des répétitions télomériques d'organismes mod�
 Chez *Oxytricha nova*, les télomères sont protégés par un hétérodimère contenant
 les protéines TEBPα et TEBPβ (*telomere end binding proteins*). Ces protéines
 contiennent des motifs OB-fold (*oligonucleotide-binding*) leur permettant de
-lier l'extrémité simple-brin 3'-sortante [@gilson2007].
+lier l'extrémité simple-brin 3'-sortante [@gilson2007; @linger2009].
 
 et *Tetrahymena thermophila*
 
 
 ### Chez les levures
 
-*Saccharomyces cerevisiae* et *Schizosaccharomyces pomber*
+La levure *Schizosaccharomyces pombe* possède un complexe télomérique
+ressemblant au *shelterin* des vertébrés. La protéine Taz1, orthologue des TRF,
+lie l'ADN télomérique double-brin. La protéine Pot1 lie l'ADN télomérique
+simple-brin. Ces deux protéines sont reliées par un réseau d'interactions
+protéine-protéine faisant intervenir Rap1, Poz1, et Tpz1. L'organisation du
+complexe télomérique de cette levure est présentée dans la figure 3 ci-dessous :
+
+![Figure 3 : Complexe télomérique de *S. pombe*, d'après [@linger2009].](figures/shelterin-pombe.png)
+
+
+Chez *Saccharomyces cerevisiae*, le complexe télomérique est assez différent
+[@linger2009]. Au niveau de l'ADN double-brin, on trouve la protéine Rap1
+capable de lier directement l'ADN sans l'intermédiaire d'une protéine TRF.
+Rap1 recrute les protéines Rif1 et Rif2 impliquées dans la régulation de la
+longueur des télomères, ainsi que les protéines Sir3 et Sir4 responsables de
+l'établissement et du maintien de la répression de la transcription des gènes
+situés dans les régions proches des télomères (*telomere position effect*).
+L'extrémité simple-brin 3'-sortante est quant à elle liée par le complexe CST
+(pour Cdc13, Stn1, Ten1), essentiel pour sa protection contre les exonucléases
+et également essentiel pour le recrutement de la télomérase lors de
+la réplication. L'organisation du complexe télomérique de *S. cerevisiae* est
+présentée dans la figure 4 ci-dessous :
+
+![Figure 4 : Complexe télomérique de *S. cerevisiae*, d'après [@linger2009].](figures/cplx-tel-cerevisiae.png)
 
 
 ### Chez les nématodes
@@ -127,7 +149,16 @@ et *Tetrahymena thermophila*
 
 ### Chez la drosophile
 
-*Drosophila melanogaster*
+*Drosophila melanogaster* ne possède pas de télomérase. Chez cet organisme, les
+ télomères sont maintenus par l'action de rétrotransposons [@fulcher2014].
+ Trois rétrotransposons sont trouvés aux télomères : HeT-A, TAHRE et TART.
+ Ils contiennent tous un gène GAG (codant pour des protéines prenant en charge
+ le transcrit). TAHRE et TART contiennent aussi un gène RT codant pour une
+ rétro-transcriptase. Ces rétro-transposons sans LTR synthétisent l'ADN
+ complémentaire de leur transcrit au site d'insertion, dans le cas présent
+ à l'extrémité du chromosome. Les télomères de la drosophile sont protégés par
+ un complexe protéique appelé terminine, très différent du *shelterin* et du
+ complexe CST.
 
 
 ### Chez les plantes
@@ -136,3 +167,7 @@ et *Tetrahymena thermophila*
 
 
 ### Chez les vertébrés
+
+
+# References
+
