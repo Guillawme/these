@@ -1,10 +1,34 @@
 # Problèmes d'extrémités
 
-Les molécules d'ADN linéaires sont confrontées au problème de la réplication des
-extrémités. En effet les ADN polymérases sont incapables d'initier la synthèse
-d'un brin sans une amorce, ce qui signifie que les extrémités ne peuvent pas
-être complétement répliquées par ces enzymes. Plusieurs stratégies pour
-contourner ce problème ont émergé au cours de l'évolution [@casjens1999].
+Tous les organismes cellulaires^[Par soucis de concision, nous n'examinerons pas
+ici les propriétés des virus.] utilisent l'ADN comme support de leur information
+génétique. Grâce aux propriétés de complémentarité des bases nucléiques, cette
+molécule permet en effet la réplication et donc la transmission de l'information
+génétique d'une génération à la suivante. Au delà de ce point commun
+fondamental, on peut observer une très vaste diversité dans l'organisation des
+génomes [@budd2012] : la taille des molécules d'ADN, leur nombre, leur
+géométrie, leur condensation, le degré de ploïdie, etc. sont autant de
+propriétés propres à chaque espèce.
+
+La propriété à laquelle nous nous intéresserons ici est la linéarité des
+chromosomes des eucaryotes. Nous verrons que cette linéarité pose deux grands
+problèmes : la réplication des extrémités, et la protection des extrémités
+contre les nucléases et autres menaces. Nous verrons comment différents
+organismes ont résolu ces problèmes, des bactéries aux eucaryotes.
+
+
+## Le problème de la réplication des extrémités
+
+
+## Le problème de la protection des extrémités
+
+
+## Quelles solutions à ces problèmes sont apparues au cours de l'évolution ?
+
+Comme nous l'avons vu dans les paragraphes précédent, les molécules d'ADN
+linéaires sont confrontées aux problèmes de la réplication et de la protection
+des extrémités. Plusieurs stratégies pour contourner ce problème ont émergé au
+cours de l'évolution [@casjens1999].
 
 La première stratégie, la plus simple, consiste à utiliser des molécules d'ADN
 circulaires comme support du génome. Cette stratégie est la plus répandue parmi
@@ -14,7 +38,7 @@ Les organismes possédant des ADN linéaires ont quant à eux adopté trois
 stratégies pour protéger et répliquer leurs extrémités.
 
 
-## Extrémités fermées covalemment par une épingle à cheveux
+### Extrémités fermées covalemment par une épingle à cheveux
 
 Les bactéries du genre *Borrelia* possèdent des ADN linéaires aux extrémités
 fermées covalemment par une épingle à cheveux (*closed hairpin telomeres*),
@@ -70,14 +94,14 @@ explore les possibilités de manipulation génétique offertes par ce système, 
 discute des applications possibles en biologie synthétique [@liang2013].
 
 
-## Extrémités liées covalemment à une protéine servant d'amorce pour la réplication
+### Extrémités liées covalemment à une protéine servant d'amorce pour la réplication
 
 Les bactéries du genre *Streptomyces* possèdent des ADN linéaires portant une
 protéine liée covalemment à chaque extrémité et servant d'amorce pour
 l'initiation de la réplication.
 
 
-## Extrémités protégées par un complexe nucléoprotéique
+### Extrémités protégées par un complexe nucléoprotéique
 
 Chez les eucaryotes, les télomères sont constitués de séquences d'ADN répétées
 en tandem liées par des protéines spécifiques. Nous passerons en revue la
@@ -104,7 +128,7 @@ Table: Tableau 1 : Séquences des répétitions télomériques d'organismes mod�
 
 
 
-### Chez les ciliés
+#### Chez les ciliés
 
 Chez *Oxytricha nova*, les télomères sont protégés par un hétérodimère contenant
 les protéines TEBPα et TEBPβ (*telomere end binding proteins*). Ces protéines
@@ -114,7 +138,7 @@ lier l'extrémité simple-brin 3'-sortante [@gilson2007; @linger2009].
 et *Tetrahymena thermophila*
 
 
-### Chez les levures
+#### Chez les levures
 
 La levure *Schizosaccharomyces pombe* possède un complexe télomérique
 ressemblant au *shelterin* des vertébrés. La protéine Taz1, orthologue des TRF,
@@ -142,12 +166,12 @@ présentée dans la figure 4 ci-dessous :
 ![Figure 4 : Complexe télomérique de *S. cerevisiae*, d'après [@linger2009].](figures/cplx-tel-cerevisiae.png)
 
 
-### Chez les nématodes
+#### Chez les nématodes
 
 *Caenorhabditis elegans*
 
 
-### Chez la drosophile
+#### Chez la drosophile
 
 *Drosophila melanogaster* ne possède pas de télomérase. Chez cet organisme, les
  télomères sont maintenus par l'action de rétrotransposons [@fulcher2014].
@@ -161,12 +185,12 @@ présentée dans la figure 4 ci-dessous :
  complexe CST.
 
 
-### Chez les plantes
+#### Chez les plantes
 
 *Arabidopsis thaliana*
 
 
-### Chez les vertébrés
+#### Chez les vertébrés
 
 
 # References
