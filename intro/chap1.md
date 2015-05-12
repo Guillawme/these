@@ -66,7 +66,7 @@ L'enzyme responsable de cette activité, appelée ResT (résolvase de télomère
 a été purifiée et son activité a été caractérisée *in vitro* [@kobryn2002].
 L'enzyme seule, sans partenaire protéique ni cations divalents ni ATP, est
 capable de mimer *in vitro* la réaction précédemment caractérisée *in vivo*.
-Les auteurs de cette étude on pu montrer que l'enzyme agit selon un mécanisme
+Les auteurs de cette étude ont pu montrer que l'enzyme agit selon un mécanisme
 similaire à celui des topoisomérases de type IB et des recombinases
 site-spécifique : une tyrosine catalytique clive un des brins d'ADN et forme un
 intermédiaire covalent avec l'extrémité 3'-phosphate.
