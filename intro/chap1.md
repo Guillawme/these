@@ -11,13 +11,44 @@ géométrie, leur condensation, le degré de ploïdie, etc. sont autant de
 propriétés propres à chaque espèce.
 
 La propriété à laquelle nous nous intéresserons ici est la linéarité des
-chromosomes des eucaryotes. Nous verrons que cette linéarité pose deux grands
-problèmes : la réplication des extrémités, et la protection des extrémités
-contre les nucléases et autres menaces. Nous verrons comment différents
-organismes ont résolu ces problèmes, des bactéries aux eucaryotes.
+chromosomes, partagée par tous les eucaryotes et par quelques groupes de
+procaryotes.  
+Nous verrons que cette linéarité pose deux grands problèmes : la réplication des
+extrémités, et la protection des extrémités contre la dégradation par des
+nucléases et contre les fusions. À travers la description des télomères (les
+structures terminales des ADN linéaires) de quelques organismes modèles, des
+bactéries aux eucaryotes, nous verrons quelles solutions à ces problèmes sont
+apparues au cours de l'évolution.
 
 
 ## Le problème de la réplication des extrémités
+
+Le problème de la réplication des extrémités des ADN linéaires vient du fait que
+les ADN polymérases ne peuvent pas initier la synthèse d'un brin d'ADN sans une
+amorce. Ces amorces sont de petits brins d'ARN d'une dizaine de nucléotides,
+synthétisés par une primase, et appelés fragments d'Okazaki.  
+Lors de la réplication, le brin orienté 3'-5' de la molécule d'ADN initiale sert
+de matrice pour la synthèse du nouveau brin dit "précoce", car sa synthèse ne
+nécessite qu'une seule amorce, et sa synthèse est en avance par rapport à celle
+de l'autre nouveau brin appelé quant à lui le brin "tardif". La synthèse du brin
+tardif nécessite plusieurs amorces car le brin servant de matrice est orienté de
+5' vers 3' et la polymèrase chargée de la synthèse de ce brin doit progresser
+dans le sens opposé au sens de progression de la fourche de réplication.  
+La réplication des extrémités est présentée dans la figure ci-dessous :
+
+![Figure : **Le problème de la réplication des extrémités.** Les brins d'ADN originaux sont représentés en traits épais rouge et bleu foncé et leur orientation est indiquée. Les brins néo-synthétisés sont représentés en traits plus fins orange (brin précoce) et bleu clair (brin tardif), la flèche indique le sens de progression de la polymérase. Les fragments d'Okazaki (amorces d'ARN) sont représentés en traits noirs épais. La flèche noire épaisse indique le sens de progression de la fourche de réplication. L'emplacement du dernier fragment d'Okazaki est indiqué en pointillés. Inspiré de [@gilson2007; @matot2010].](intro/figures/probleme-replication.png)
+
+Une première cause de raccourcissement vient du fait que le dernier fragment
+d'Okazaki est dégradé à la fin de la réplication, mais n'est pas remplacé par de
+l'ADN. Ceci a pour conséquence le raccourcissement du brin retardé (longueur L1
+dans la figure).
+
+La deuxième cause du raccourcissement vient du fait de l'existence d'une
+extrémité simple-brin sortante en 3'^[Dans le cas des télomères canoniques.
+Nous verrons par la suite que cette extrémité n'existe pas chez certains
+organismes.] : puisqu'il n'existe pas de matrice pour cette extension
+simple-brin, le brin précoce issu de la réplication se trouve raccourci de la
+longueur de l'extension (longueur L2 dans la figure).
 
 
 ## Le problème de la protection des extrémités
@@ -46,12 +77,12 @@ ainsi qu'une enzyme appelée résolvase de télomères^[Cette enzyme est parfois
 protélomérase, mais ce terme est inapproprié car cette résolvase de télomères
 n'a rien en commun avec la télomérase des eucaryotes.] qui permet de séparer les
 deux molécules filles, concaténées en un dimère circulaire suite à la
-réplication [@chaconas2010]. La figure 1 ci-dessous illustre le mode de
+réplication [@chaconas2010]. La figure ci-dessous illustre le mode de
 réplication des ADN linéaires à télomères en épingles à cheveux avec une
 initiation centrale et une étape de résolution des télomères qui reconstitue
 deux ADN linéaires fermés covalemment par des épingles à cheveux.
 
-![Figure 1 : Principe de la réplication des ADN linéaires à télomères en épingle à cheveux, d'après [@shi2013].](figures/replication-Borrelia.png)
+![Figure : Principe de la réplication des ADN linéaires à télomères en épingle à cheveux, d'après [@shi2013].](intro/figures/replication-Borrelia.png)
 
 L'activité de résolution des télomères a été mise en évidence *in vivo* à l'aide
 de plasmides contenant la séquence télomérique répliquée (séquence répétée
@@ -82,10 +113,10 @@ répliquée sous forme de dimère, et une fois les deux brins clivés la
 conformation du dimère force la formation d'une épingle à cheveux par la courte
 extrémité 5'-sortante générée par le clivage. Cette extrémité 5' attaque le
 groupement phosphate lié à la tyrosine catalytique pour reformer une liaison
-phosphodiester et libérer l'enzyme. La figure 2 ci-dessous illustre le mécanisme
+phosphodiester et libérer l'enzyme. La figure ci-dessous illustre le mécanisme
 des résolvases de télomères.
 
-![Figure 2 : Mécanisme des résolvases de télomères, d'après [@shi2013].](figures/mecanisme-ResT.png)
+![Figure : Mécanisme des résolvases de télomères, d'après [@shi2013].](intro/figures/mecanisme-ResT.png)
 
 Il a par la suite été démontré que la seule acquisition d'une résolvase de
 télomères suffit à linéariser un génome normalement circulaire comme celui d'*E.
@@ -145,9 +176,9 @@ ressemblant au *shelterin* des vertébrés. La protéine Taz1, orthologue des TR
 lie l'ADN télomérique double-brin. La protéine Pot1 lie l'ADN télomérique
 simple-brin. Ces deux protéines sont reliées par un réseau d'interactions
 protéine-protéine faisant intervenir Rap1, Poz1, et Tpz1. L'organisation du
-complexe télomérique de cette levure est présentée dans la figure 3 ci-dessous :
+complexe télomérique de cette levure est présentée dans la figure ci-dessous :
 
-![Figure 3 : Complexe télomérique de *S. pombe*, d'après [@linger2009].](figures/shelterin-pombe.png)
+![Figure : Complexe télomérique de *S. pombe*, d'après [@linger2009].](intro/figures/shelterin-pombe.png)
 
 
 Chez *Saccharomyces cerevisiae*, le complexe télomérique est assez différent
@@ -161,9 +192,9 @@ L'extrémité simple-brin 3'-sortante est quant à elle liée par le complexe CS
 (pour Cdc13, Stn1, Ten1), essentiel pour sa protection contre les exonucléases
 et également essentiel pour le recrutement de la télomérase lors de
 la réplication. L'organisation du complexe télomérique de *S. cerevisiae* est
-présentée dans la figure 4 ci-dessous :
+présentée dans la figure ci-dessous :
 
-![Figure 4 : Complexe télomérique de *S. cerevisiae*, d'après [@linger2009].](figures/cplx-tel-cerevisiae.png)
+![Figure : Complexe télomérique de *S. cerevisiae*, d'après [@linger2009].](intro/figures/cplx-tel-cerevisiae.png)
 
 
 #### Chez les nématodes
