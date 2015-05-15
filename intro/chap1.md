@@ -59,13 +59,13 @@ longueur de l'extension (longueur L2 dans la figure).
 Comme nous l'avons vu dans les paragraphes précédent, les molécules d'ADN
 linéaires sont confrontées aux problèmes de la réplication et de la protection
 des extrémités. Plusieurs stratégies pour contourner ce problème ont émergé au
-cours de l'évolution [@casjens1999].
+cours de l'évolution.
 
 La première stratégie, la plus simple, consiste à utiliser des molécules d'ADN
 circulaires comme support du génome. Cette stratégie est la plus répandue parmi
 les procaryotes.
 
-Les organismes possédant des ADN linéaires ont quant à eux adopté trois
+Les organismes possédant des ADN linéaires ont quant à eux adopté trois types de
 stratégies pour protéger et répliquer leurs extrémités.
 
 
@@ -99,7 +99,7 @@ L'enzyme seule, sans partenaire protéique ni cations divalents ni ATP, est
 capable de mimer *in vitro* la réaction précédemment caractérisée *in vivo*.
 Les auteurs de cette étude ont pu montrer que l'enzyme agit selon un mécanisme
 similaire à celui des topoisomérases de type IB et des recombinases
-site-spécifique : une tyrosine catalytique clive un des brins d'ADN et forme un
+site-spécifiques : une tyrosine catalytique clive un des brins d'ADN et forme un
 intermédiaire covalent avec l'extrémité 3'-phosphate.
 
 La structure tridimensionnelle d'une résolvase de télomères a été publiée pour
@@ -125,11 +125,27 @@ explore les possibilités de manipulation génétique offertes par ce système, 
 discute des applications possibles en biologie synthétique [@liang2013].
 
 
-### Extrémités liées covalemment à une protéine servant d'amorce pour la réplication
+### Extrémités liées covalemment à une protéine
 
 Les bactéries du genre *Streptomyces* possèdent des ADN linéaires portant une
-protéine liée covalemment à chaque extrémité et servant d'amorce pour
-l'initiation de la réplication.
+protéine appelée TP (*terminal protein*) liée covalemment à chaque extrémité 5'
+et servant d'amorce pour terminer la synthèse du brin tardif à la fin de la
+réplication (*end patching*) [@chen2007].
+
+Les séquences télomériques de ces bactéries sont composées de six palindromes
+couvrant environ 140 pb. Lors de la réplication, la synthèse incomplète du brin
+tardif laisse une extrémité simple-brin sortante en 3' pouvant atteindre jusqu'à
+environ 300 nucléotides de longueur. Les palindromes permettent alors le
+repliement de cette extrémité simple-brin en structures secondaires, formant une
+dizaine de tiges-boucles. L'extrémité 3' se trouve appariée et peut servir
+d'amorce pour la synthèse de la fin du brin tardif. Cette synthèse est initiée
+par la coopération entre une ADN polymérase et TP activée par un nucléotide (un
+dCMP lié covalemment à une thréonine de la protéine).
+
+Le mécanisme le plus probable de la fin de synthèse du brin tardif chez
+*Streptomyces* est présenté dans la figure ci-dessous.
+
+![Figure : Mécanisme de synthèse de la fin du brin tardif chez *Streptomyces*. D'après [@chen2007].](intro/figures/streptomyces-end-patching.png)
 
 
 ### Extrémités protégées par un complexe nucléoprotéique
@@ -205,15 +221,15 @@ présentée dans la figure ci-dessous :
 #### Chez la drosophile
 
 *Drosophila melanogaster* ne possède pas de télomérase. Chez cet organisme, les
- télomères sont maintenus par l'action de rétrotransposons [@fulcher2014].
- Trois rétrotransposons sont trouvés aux télomères : HeT-A, TAHRE et TART.
- Ils contiennent tous un gène GAG (codant pour des protéines prenant en charge
- le transcrit). TAHRE et TART contiennent aussi un gène RT codant pour une
- rétro-transcriptase. Ces rétro-transposons sans LTR synthétisent l'ADN
- complémentaire de leur transcrit au site d'insertion, dans le cas présent
- à l'extrémité du chromosome. Les télomères de la drosophile sont protégés par
- un complexe protéique appelé terminine, très différent du *shelterin* et du
- complexe CST.
+télomères sont maintenus par l'action de rétrotransposons [@fulcher2014].
+Trois rétrotransposons sont trouvés aux télomères : HeT-A, TAHRE et TART.
+Ils contiennent tous un gène GAG (codant pour des protéines prenant en charge le
+transcrit). TAHRE et TART contiennent aussi un gène RT codant pour une
+rétro-transcriptase. Ces rétro-transposons sans LTR synthétisent l'ADN
+complémentaire de leur transcrit au site d'insertion, dans le cas présent
+à l'extrémité du chromosome. Les télomères de la drosophile sont protégés par un
+complexe protéique appelé terminine, très différent du *shelterin* et du
+complexe CST.
 
 
 #### Chez les plantes
