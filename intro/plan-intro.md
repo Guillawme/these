@@ -12,7 +12,7 @@
         * ADN circulaire, pour la majorité des procaryotes
         * *Borrelia* et *A. tumefaciens* (+ qqs autres : phages, etc.) :
           *hairpin telomeres*
-        * *Streptomyces* (+ qqs autres : phages, etc.) : *5' protein priming*
+        * *Streptomyces* (+ qqs autres : phages, etc.) : *5' protein capping*
         * Eucaryotes
             + Télomères canoniques : séquence G-riche, *shelterin*, CST,
               télomérase, TERRA
