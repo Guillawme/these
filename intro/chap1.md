@@ -140,10 +140,14 @@ repliement de cette extrémité simple-brin en structures secondaires, formant u
 dizaine de tiges-boucles. L'extrémité 3' se trouve appariée et peut servir
 d'amorce pour la synthèse de la fin du brin tardif. Cette synthèse est initiée
 par la coopération entre une ADN polymérase et TP activée par un nucléotide (un
-dCMP lié covalemment à une thréonine de la protéine).
+dCMP lié covalemment à une thréonine de la protéine). La protéine TP reste
+associée à l'extrémité 5' une fois la réplication terminée, et permet de
+protéger l'extrémité.
 
-Le mécanisme le plus probable de la fin de synthèse du brin tardif chez
-*Streptomyces* est présenté dans la figure ci-dessous.
+Aucune structure tridimensionnelle de protéine TP n'a encore été publiée à ce
+jour, ainsi le mécanisme de synthèse de la fin du brin tardif n'est pas encore
+complètement élucidé. Le mécanisme le plus probable est présenté dans la figure
+ci-dessous.
 
 ![Figure : Mécanisme de synthèse de la fin du brin tardif chez *Streptomyces*, d'après [@chen2007].](intro/figures/streptomyces-end-patching.png)
 
