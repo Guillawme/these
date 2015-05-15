@@ -145,7 +145,18 @@ dCMP lié covalemment à une thréonine de la protéine).
 Le mécanisme le plus probable de la fin de synthèse du brin tardif chez
 *Streptomyces* est présenté dans la figure ci-dessous.
 
-![Figure : Mécanisme de synthèse de la fin du brin tardif chez *Streptomyces*. D'après [@chen2007].](intro/figures/streptomyces-end-patching.png)
+![Figure : Mécanisme de synthèse de la fin du brin tardif chez *Streptomyces*, d'après [@chen2007].](intro/figures/streptomyces-end-patching.png)
+
+Dans ce système, comme dans celui des *Borrelia*, la longueur des chromosomes et
+des plasmides linéaires reste constante car ces organismes ne possèdent pas de
+télomérase et utilisent à la place des mécanismes qui évitent totalement (chez
+les *Borrelia*) ou compensent exactement (chez les *Streptomyces*) l'érosion des
+extrémités. D'autre part, leur mode de protection des extrémités contre les
+nucléases et les fusions est très simple : une liaison covalente, soit entre les
+extrémités des deux brins soit entre l'extrémité d'un brin et une protéine,
+suffit à protéger efficacement les extrémités.  
+Nous verrons dans les paragraphes suivants que les systèmes des eucaryotes sont
+très différents.
 
 
 ### Extrémités protégées par un complexe nucléoprotéique
