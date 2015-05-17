@@ -175,7 +175,7 @@ examinerons sont listées dans le tableau 1 ci-dessous. Ces répétitions
 télomériques partagent la caractéristique d'être toujours riches en G sur le
 brin sens.
 
-Table: Tableau 1 : Séquences des répétitions télomériques d'organismes modèles, d'après [@wellinger1997].
+Table: Tableau : Séquences des répétitions télomériques d'organismes modèles, d'après [@wellinger1997].
 
                **Organisme**    **Répétition télomérique**
 ----------------------------    ----------------------------
@@ -236,15 +236,53 @@ présentée dans la figure ci-dessous :
 #### Chez la drosophile
 
 *Drosophila melanogaster* ne possède pas de télomérase. Chez cet organisme, les
-télomères sont maintenus par l'action de rétrotransposons [@fulcher2014].
-Trois rétrotransposons sont trouvés aux télomères : HeT-A, TAHRE et TART.
-Ils contiennent tous un gène GAG (codant pour des protéines prenant en charge le
-transcrit). TAHRE et TART contiennent aussi un gène RT codant pour une
-rétro-transcriptase. Ces rétro-transposons sans LTR synthétisent l'ADN
-complémentaire de leur transcrit au site d'insertion, dans le cas présent
-à l'extrémité du chromosome. Les télomères de la drosophile sont protégés par un
-complexe protéique appelé terminine, très différent du *shelterin* et du
-complexe CST.
+télomères sont maintenus par l'action de rétrotransposons [@raffa2013].
+Trois rétrotransposons sont trouvés aux télomères : HeT-A, TART et TAHRE.
+Ils contiennent tous un gène *gag* codant pour des protéines prenant en charge
+le transcrit. TAHRE et TART contiennent aussi un gène *pol* codant pour une
+rétro-transcriptase. Grâce à cette enzyme, ces rétro-transposons synthétisent au
+site d'insertion (à l'extrémité du chromosome) l'ADN complémentaire de leur
+transcrit. La régulation de la longueur des télomères est ainsi principalement
+contrôlée par le taux de transcription de ces rétrotransposons. Elle est aussi
+en partie régulée par l'hétéoridmère Ku70/Ku80 qui occupe potentiellement
+l'extrémité du chromosome et la rend inaccessible à la machinerie d'insertion
+des transposons.  
+Bien qu'il ne code pas sa propre rétro-transcriptase, ce qui le rend dépendant
+des autres rétrotransposons, HeT-A est le plus abondant aux télomères en termes
+de nombre de copies. Ceci peut être dû au fait que sa protéine Gag est la seule
+capable de s'associer spécifiquement aux télomères, et permet de recruter les
+protéines Gag de TART et TAHRE. Ces trois rétrotransposons se transposent à une
+fréquence de 10^-2^ à 10^-4^ par génération, tandis que l'érosion due au
+problème de la réplication est d'environ 70 pb par génération en moyenne.
+La stabilité de la longueur des télomères résulte donc d'un équilibre dynamique
+entre ces deux phénomènes.
+
+Contrairement aux organismes à télomères canoniques, chez la drosophile les
+fonctions de régulation de la longueur et de protection des télomères sont
+complètement indépendantes. Comme nous l'avons vu, la longueur est régulée par
+l'activité de trois rétrotransposons. La protection est quant à elle assurée par
+un complexe protéique appelé *terminin* [@raffa2013]. Les protéines de ce
+complexe ont été identifiées par mutagenèse aléatoire et recherche de phénotypes
+de dysfonction des télomères. Ces expériences ont permi d'identifier les
+protéines HOAP, HipHop, Moi et Ver dont la localisation télomérique a été
+démontrée par des expériences d'immunofluorescence et par la localisation de
+fusions avec la GFP. Ces protéines sont localisées exclusivement aux télomères
+pendant tout le cycle cellulaire, et les phénotypes associés à des mutations
+dans ces protéines sont exclusivement télomériques. Les protéines du *terminin*
+protègent les télomères en recrutant des facteurs accessoires dont la plupart
+sont impliqués dans les voies de réparation de l'ADN, comme MRN, ATM et ATR.
+Ces caractéristiques font de ce complexe l'homologue fonctionnel du *shelterin*
+des télomères canoniques.
+
+Les protéines du *terminin* n'ont pas d'orthologues connus en dehors du groupe
+des drosophilidae, et leur séquence mute rapidement [@raffa2013].
+L'hypothèse évolutive suivante est actuellement proposée : les drosophiles
+auraient perdu la télomérase (présente chez l'ancêtre commun de tous les
+eucaryotes), ce qui aurait conduit à une "domestication" rapide des
+rétrotransposons permettant de compenser l'érosion réplicative des extrémités.
+Ces changements ont provoqué la perte des répétitions télomériques riches en G,
+et donc la perte du *shelterin*, et ont favorisé l'émergence rapide de protéines
+liant les extrémités de l'ADN sans spécificité de séquence.
 
 
 #### Chez les plantes
