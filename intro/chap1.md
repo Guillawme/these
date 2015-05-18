@@ -171,7 +171,7 @@ composition des télomères de divers organismes modèles, en termes de séquenc
 d'ADN et de types de protéines liant ces séquences.
 
 Les séquences des répétitions télomériques des organismes modèles que nous
-examinerons sont listées dans le tableau 1 ci-dessous. Ces répétitions
+examinerons sont listées dans le tableau ci-dessous. Ces répétitions
 télomériques partagent la caractéristique d'être toujours riches en G sur le
 brin sens.
 
