@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
+   width="118.41895mm"
+   height="74.838234mm"
+   viewBox="0 0 419.59469 265.17484"
    id="svg4013"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -135,16 +135,27 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="248.19448"
-     inkscape:cy="481.95476"
+     inkscape:cx="85.944586"
+     inkscape:cy="88.36108"
      inkscape:document-units="px"
      inkscape:current-layer="g4029"
-     showgrid="false"
+     showgrid="true"
      inkscape:window-width="1280"
      inkscape:window-height="962"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showguides="true"
+     fit-margin-top="1"
+     fit-margin-left="1"
+     fit-margin-right="1"
+     fit-margin-bottom="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid7213"
+       originx="-162.24988"
+       originy="-393.59369" />
+  </sodipodi:namedview>
   <metadata
      id="metadata4018">
     <rdf:RDF>
@@ -160,7 +171,8 @@
   <g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-162.24989,-393.59368)">
     <g
        transform="matrix(1.25,0,0,-1.25,-480,891.29083)"
        inkscape:label="140515 réunion de labo footprint_038"
