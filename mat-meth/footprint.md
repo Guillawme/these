@@ -35,6 +35,7 @@ la figure ci-dessous.
 
 Puisque les deux objets sont des protéines, nous avons dû mettre au point le
 protocole en tenant compte de deux contraintes :
+
 1. pour s'assurer que la protéine qu'on étudie est bien engagée à 100 % dans des
    complexes, il faut un léger excès de l'autre protéine (un excès molaire de
    1,5 est suffisant car l'affinité de RAP1 pour TRF2 est très forte) ;
@@ -71,14 +72,14 @@ Les mélanges suivants sont préparés dans un volume final de 20 μL (les
 concentrations en TRF2 sont exprimées en termes de monomères) :
 
 1. protéines libres :
-   - TRF2 à 20 μM +/- sulfo-NHS-acetate à 4,075 mM
-   - RAP1 à 20 μM +/- sulfo-NHS-acetate à 7,85 mM
-   - ARAGA à 20 μM +/- sulfo-NHS-acetate à 7,85 mM
+    - TRF2 à 20 μM +/- sulfo-NHS-acetate à 4,075 mM
+    - RAP1 à 20 μM +/- sulfo-NHS-acetate à 7,85 mM
+    - ARAGA à 20 μM +/- sulfo-NHS-acetate à 7,85 mM
 2. complexes :
-   - TRF2 à 20 μM + RAP1 à 30 μM + sulfo-NHS-acetate à 4,075 mM
-   - TRF2 à 20 μM + ARAGA à 30 μM + sulfo-NHS-acetate à 4,075 mM
-   - RAP1 à 20 μM + TRF2 à 30 μM + sulfo-NHS-acetate à 7,85 mM
-   - ARAGA à 20 μM + TRF2 à 30 μM + sulfo-NHS-acetate à 7,85 mM
+    - TRF2 à 20 μM + RAP1 à 30 μM + sulfo-NHS-acetate à 4,075 mM
+    - TRF2 à 20 μM + ARAGA à 30 μM + sulfo-NHS-acetate à 4,075 mM
+    - RAP1 à 20 μM + TRF2 à 30 μM + sulfo-NHS-acetate à 7,85 mM
+    - ARAGA à 20 μM + TRF2 à 30 μM + sulfo-NHS-acetate à 7,85 mM
 
 Dans le cas des complexes, le partenaire est en excès molaire 1,5 face à la
 protéine que l'on souhaite étudier, et le sulfo-NHS-acetate est en excès molaire
@@ -131,9 +132,11 @@ par MS/MS.
 
 À l'aide du logiciel mMass [@strohalm2010], les spectres sont normalisés
 relativement au pic le plus haut :
+
 - le pic à m/z = 1064 pour RAP1 et ARAGA digérées par la trypsine,
 - le pic à m/z = 1483 pour RAP1 et ARAGA digérées par la protéase V8,
 - le pic à m/z = 909 pour TRF2 digérée par la trypsine.
+
 Cette échelle relative permet la comparaison de spectres obtenus à partir
 d'acquisitions et d'échantillons différents, qui ont des amplitudes différentes
 si on les trace avec leur échelle absolue.
