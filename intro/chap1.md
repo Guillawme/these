@@ -215,7 +215,7 @@ la protéine Rap1 d'une part et autour du complexe CST d'autre part
 [@kupiec2014].  
 Au niveau de l'ADN double-brin, on trouve la protéine Rap1 capable de lier
 directement l'ADN par un domaine composé de deux repliements de type Myb répétés
-en tandem [@konig1996]. Par son domaine C-terminal, Rap1 recrute les protéines
+en tandem [@koenig1996]. Par son domaine C-terminal, Rap1 recrute les protéines
 Rif1 et Rif2 impliquées dans la régulation de la longueur des télomères, ainsi
 que les protéines Sir3 et Sir4 responsables de l'établissement et du maintien de
 la répression de la transcription des gènes situés dans les régions proches des
