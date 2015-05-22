@@ -152,6 +152,3 @@ cela signifie que ce fragment acétylé est moins abondant dans cet échantillon
 et donc que cette lysine est moins accessible au sulfo-NHS-acetate lorsque la
 protéine est en complexe.
 
-
-## References
-

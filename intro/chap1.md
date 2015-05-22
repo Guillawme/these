@@ -307,5 +307,3 @@ liant les extrémités de l'ADN sans spécificité de séquence.
 #### Chez les vertébrés
 
 
-# References
-

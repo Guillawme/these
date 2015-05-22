@@ -34,7 +34,3 @@ s'affranchir de potentiels problèmes de radiolyse.
 
 ## Analyse des données et calcul des enveloppes
 
-
-
-## References
-

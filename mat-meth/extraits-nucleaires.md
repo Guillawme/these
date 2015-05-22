@@ -14,6 +14,3 @@ Le dosage par la méthode de Bradford indique que les extraits nucléaires
 contiennent de 3 à 5 mg/mL de protéines totales, avec une petite variabilité
 d'une préparation à une autre.
 
-
-# References
-
