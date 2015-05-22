@@ -47,11 +47,21 @@ La deuxième cause du raccourcissement vient du fait de l'existence d'une
 extrémité simple-brin sortante en 3'^[Dans le cas des télomères canoniques.
 Nous verrons par la suite que cette extrémité n'existe pas chez certains
 organismes.] : puisqu'il n'existe pas de matrice pour cette extension
-simple-brin, le brin précoce issu de la réplication se trouve raccourci de la
-longueur de l'extension (longueur L2 dans la figure).
+simple-brin, la molécule d'ADN issue de la synthèse du brin précoce se trouve
+raccourcie de la longueur de l'extension simple-brin (longueur L2 dans la
+figure).
+
+Ce problème de la réplication des extrémités est à l'origine de la sénescence
+qu'on observe dans une culture *in vitro* de cellules somatiques humaines après
+une cinquantaine de doublements [@hayflick1965]. Ce nombre limite de mitoses
+avant la sénescence est communément appelé la "limite de Hayflick".
 
 
 ## Le problème de la protection des extrémités
+
+### Voie NHEJ
+
+### Voie HR
 
 
 ## Quelles solutions à ces problèmes sont apparues au cours de l'évolution ?
@@ -173,21 +183,21 @@ d'ADN et de types de protéines liant ces séquences.
 Les séquences des répétitions télomériques des organismes modèles que nous
 examinerons sont listées dans le tableau ci-dessous. Ces répétitions
 télomériques partagent la caractéristique d'être toujours riches en G sur le
-brin sens.
+brin sens (que nous appellerons donc le "brin G").
 
-Table: Tableau : Séquences des répétitions télomériques d'organismes modèles, d'après [@wellinger1997].
+Table: Tableau : Séquences des répétitions télomériques d'organismes modèles,
+d'après la base de données <http://telomerase.asu.edu> [@podlevsky2008].
 
                **Organisme**    **Répétition télomérique**
 ----------------------------    ----------------------------
    *Tetrahymena thermophila*    TTGGGG
             *Oxytricha nova*    TTTTGGGG
-  *Saccharomyces cerevisiae*    (TG)~1-6~TG~2-3~
- *Schizosaccharomyces pombe*    T~1-2~ACA~0-1~C~0-1~G~1-6~
+  *Saccharomyces cerevisiae*    T(G)~2-3~(TG)~1-6~
+ *Schizosaccharomyces pombe*    G~2-8~TTAC(A)
     *Caenorhabditis elegans*    TTAGGC
-   *Drosophila melanogaster*    -
+   *Drosophila melanogaster*    rétrotransposons
       *Arabidopsis thaliana*    TTTAGGG
               *Homo sapiens*    TTAGGG
-
 
 
 #### Chez les ciliés
@@ -195,37 +205,41 @@ Table: Tableau : Séquences des répétitions télomériques d'organismes modèl
 Chez *Oxytricha nova*, les télomères sont protégés par un hétérodimère contenant
 les protéines TEBPα et TEBPβ (*telomere end binding proteins*). Ces protéines
 contiennent des motifs OB-fold (*oligonucleotide-binding*) leur permettant de
-lier l'extrémité simple-brin 3'-sortante [@gilson2007; @linger2009].
-
-et *Tetrahymena thermophila*
+lier l'extrémité simple-brin 3'-sortante du brin G [@gilson2007; @linger2009].
 
 
 #### Chez les levures
 
+Chez *Saccharomyces cerevisiae*, le complexe télomérique est organisé autour de
+la protéine Rap1 d'une part et autour du complexe CST d'autre part
+[@kupiec2014].  
+Au niveau de l'ADN double-brin, on trouve la protéine Rap1 capable de lier
+directement l'ADN par un domaine composé de deux repliements de type Myb répétés
+en tandem [@konig1996]. Par son domaine C-terminal, Rap1 recrute les protéines
+Rif1 et Rif2 impliquées dans la régulation de la longueur des télomères, ainsi
+que les protéines Sir3 et Sir4 responsables de l'établissement et du maintien de
+la répression de la transcription des gènes situés dans les régions proches des
+télomères (*telomere position effect*) [@feeser2008].  
+L'extrémité simple-brin 3'-sortante du brin G est quant à elle liée par le
+complexe CST (pour Cdc13, Stn1, Ten1), essentiel pour sa protection contre les
+nucléases et également essentiel pour le recrutement de la télomérase lors de la
+réplication [@kupiec2014]. L'organisation du complexe télomérique de *S.
+cerevisiae* est présentée schématiquement dans la figure ci-dessous :
+
+![Figure : Complexe télomérique de *S. cerevisiae*, d'après [@kupiec2014].](intro/figures/cplx-tel-cerevisiae-details.png)
+
 La levure *Schizosaccharomyces pombe* possède un complexe télomérique
-ressemblant au *shelterin* des vertébrés. La protéine Taz1, orthologue des TRF,
-lie l'ADN télomérique double-brin. La protéine Pot1 lie l'ADN télomérique
+ressemblant plus au *shelterin* des vertébrés. La protéine Taz1, orthologue des
+TRF, lie l'ADN télomérique double-brin. La protéine Pot1 lie l'ADN télomérique
 simple-brin. Ces deux protéines sont reliées par un réseau d'interactions
-protéine-protéine faisant intervenir Rap1, Poz1, et Tpz1. L'organisation du
-complexe télomérique de cette levure est présentée dans la figure ci-dessous :
+protéine-protéine faisant intervenir Rap1, Poz1, et Tpz1. *S. pombe* possède
+aussi les protéines Stn1 et Ten1, mais jusqu'à maintenant on ne connait pas
+d'homologue de Cdc13 chez cette levure et les fonctions de son complexe (C)ST
+sont encore très peu décrites [voir le tableau 1 dans @giraud-panis2010].
+L'organisation du complexe télomérique de *S. pombe* est présentée
+schématiquement dans la figure ci-dessous :
 
 ![Figure : Complexe télomérique de *S. pombe*, d'après [@linger2009].](intro/figures/shelterin-pombe.png)
-
-
-Chez *Saccharomyces cerevisiae*, le complexe télomérique est assez différent
-[@linger2009]. Au niveau de l'ADN double-brin, on trouve la protéine Rap1
-capable de lier directement l'ADN sans l'intermédiaire d'une protéine TRF.
-Rap1 recrute les protéines Rif1 et Rif2 impliquées dans la régulation de la
-longueur des télomères, ainsi que les protéines Sir3 et Sir4 responsables de
-l'établissement et du maintien de la répression de la transcription des gènes
-situés dans les régions proches des télomères (*telomere position effect*).
-L'extrémité simple-brin 3'-sortante est quant à elle liée par le complexe CST
-(pour Cdc13, Stn1, Ten1), essentiel pour sa protection contre les exonucléases
-et également essentiel pour le recrutement de la télomérase lors de
-la réplication. L'organisation du complexe télomérique de *S. cerevisiae* est
-présentée dans la figure ci-dessous :
-
-![Figure : Complexe télomérique de *S. cerevisiae*, d'après [@linger2009].](intro/figures/cplx-tel-cerevisiae.png)
 
 
 #### Chez les nématodes
