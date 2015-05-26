@@ -80,18 +80,27 @@ de réparation des cassures double-brin de l'ADN.
 
 ### Voie NHEJ
 
-La machinerie du NHEJ est capable de lier deux extrémités d'ADN sans nécessiter
-une molécule de séquence similaire pour servir de matrice, pour cette raison
-cette voie est utilisée pendant la phase G1 (les chromosomes ne sont pas encore
-répliqués, il n'existe donc pas encore de chromatide soeur pouvant servir de
-matrice pour la réparation). Les réparations effectuées par cette voie sont
-potentiellement mutagènes car les extrémités issues de la cassure sont traitées
-par des nucléases et polymérases pour générer des extrémités cohésives.
-
 Le déroulement de la réparation d'une cassure double-brin par la voie NHEJ est
 représenté schématiquement sur la figure ci-dessous :
 
-![Figure : **La voie NHEJ de réparation des cassures double-brin de l'ADN.**](intro/figures/c-nhej.png)
+![Figure : La voie NHEJ de réparation des cassures double-brin de l'ADN, inspiré de [@grundy2014].](intro/figures/c-nhej.png)
+
+Une cassure double-brin (1) est reconnue par l'hétérodimère Ku70/Ku80 (2), qui
+recrute la kinase DNA-PK~cs~ (3) permettant d'initier la voie de signalisation
+de réponse aux dommages de l'ADN (DDR, pour *DNA damage response*).
+Le recrutement des protéines XRCC4, Cernunnos, et Ligase IV forme le complexe
+basal du NHEJ et permet la synapse des deux extrémités générées par la cassure
+(4). Les extrémités sont alors traitées par divers facteurs accessoires dont des
+polymérases et des exonucléases (5) jusqu'à ce que des extrémités cohésives
+soient générées. La ligation s'opère alors sur ces extrémités cohésives (6).
+
+La machinerie du NHEJ est capable de lier deux extrémités d'ADN sans nécessiter
+une molécule de séquence similaire pour servir de matrice : pour cette raison
+cette voie est utilisée pendant la phase G1, au cours de laquelle les
+chromosomes ne sont pas encore répliqués (il n'existe donc pas encore de
+chromatide soeur pouvant servir de matrice pour la réparation). Les réparations
+effectuées par cette voie sont potentiellement mutagènes car les extrémités
+issues de la cassure sont traitées pour générer des extrémités cohésives.
 
 
 ### Voie HR
