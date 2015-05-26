@@ -59,14 +59,47 @@ avant la sénescence est communément appelé la "limite de Hayflick".
 
 ## Le problème de la protection des extrémités
 
+Les extrémités des ADN linéaires sont vulnérables à deux types de dommages : la
+digestion par des exonucléases, et les fusions d'extrémités.
+
+La digestion par des exonucléases est un phénomène nécessaire pour établir un
+télomère fonctionnel chez la plupart des organismes. Elle est par conséquent
+bien régulée par certaines des protéines télomériques. Ceci sera abordé par la
+suite, lorsque nous décrirons plus en détails les télomères des vertébrés.
+
+Les fusions d'extrémités sont quant à elles particulièrement délétères car elles
+conduisent à des défauts de ségrégation des chromosomes lors de la mitose ou de
+la méiose. Par conséquent elles sont à l'origine de caryotypes aberrants chez
+les cellules issues de la division, si celle-ci se termine, ou bien provoquent
+un arrêt du cycle cellulaire et potentiellement l'apoptose.
+
+Deux mécanismes provoquent les fusions d'extrémités : le NHEJ (*non-homologous
+end joining*) et la recombinaison homologue, qui sont tous les deux des systèmes
+de réparation des cassures double-brin de l'ADN.
+
+
 ### Voie NHEJ
+
+La machinerie du NHEJ est capable de lier deux extrémités d'ADN sans nécessiter
+une molécule de séquence similaire pour servir de matrice, pour cette raison
+cette voie est utilisée pendant la phase G1 (les chromosomes ne sont pas encore
+répliqués, il n'existe donc pas encore de chromatide soeur pouvant servir de
+matrice pour la réparation). Les réparations effectuées par cette voie sont
+potentiellement mutagènes car les extrémités issues de la cassure sont traitées
+par des nucléases et polymérases pour générer des extrémités cohésives.
+
+Le déroulement de la réparation d'une cassure double-brin par la voie NHEJ est
+représenté schématiquement sur la figure ci-dessous :
+
+![Figure : **La voie NHEJ de réparation des cassures double-brin de l'ADN.**](intro/figures/c-nhej.png)
+
 
 ### Voie HR
 
 
 ## Quelles solutions à ces problèmes sont apparues au cours de l'évolution ?
 
-Comme nous l'avons vu dans les paragraphes précédent, les molécules d'ADN
+Comme nous l'avons vu dans les paragraphes précédents, les molécules d'ADN
 linéaires sont confrontées aux problèmes de la réplication et de la protection
 des extrémités. Plusieurs stratégies pour contourner ce problème ont émergé au
 cours de l'évolution.
