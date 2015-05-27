@@ -29,8 +29,47 @@ paragraphe précédent. La chromatographie est réalisée sur une colonne
 d'exclusion stérique Bio-SEC3 (Agilent), avec des injections de 40 à 50 μL.
 La circulation des échantillons assure que chaque acquisition est faite sur une
 partie de la solution qui n'a pas encore été irradiée, ce qui permet de
-s'affranchir de potentiels problèmes de radiolyse.
+s'affranchir de potentiels problèmes de radiolyse. Pour chaque acquisition, une
+série de courbes est également enregistrée sur le tampon de l'expérience.
 
 
 ## Analyse des données et calcul des enveloppes
+
+Les courbes de diffusion sont obtenues directement à la ligne de lumière, par
+les opérations suivantes à l'aide du logiciel FoxTrot :
+
+1. on dessine un masque pour délimiter la région utile du détecteur (il faut
+   masquer le *beam stop* et son ombre),
+2. on applique le  masque sur les images de diffusion et le logiciel calcule
+   automatiquement les courbes brutes (traitement par lot sur l'ensemble des
+   images),
+3. parmi les courbes obtenues sur le tampon, on supprime celles qui comportent
+   des sauts brusques ou autres irrégularités,
+4. on fait la moyenne des courbes restantes pour obtenir la courbe finale du
+   tampon (CT),
+5. on soustrait CT de chaque courbe obtenue sur l'échantillon,
+6. on fait l'analyse de Guinier (approximation linéaire de la portion de courbe
+   aux plus petits angles, qui permet de déterminer les paramètres I0 et Rg) sur
+   la courbe la plus haute pour déterminer une gamme d'angles Qmin-Qmax telle
+   que Qmax.Rg < 1,3 (ou 1,2 dans le cas de protéines flexibles),
+7. on applique l'analyse de Guinier sur toutes les autres courbes (traitement
+   par lot) dans cette gamme d'angles pour obtenir les valeurs de I0 et Rg tout
+   le long du chromatogramme (la valeur de I0 reproduit l'allure du
+   chromatogramme obtenu avec l'absorbance à 280 nm car elle est
+   proportionnelle à la concentration en protéine),
+8. on choisit les courbes correspondant à une valeur de Rg constante sous le pic
+   d'intérêt du chromatogramme et on calcule leur moyenne (à partir des courbes
+   non soustraites du tampon) pour obtenir la courbe moyenne de l'échantillon
+   (CME),
+9. on effectue la soustration CME - CT pour obtenir la courbe finale
+   de l'échantillon.
+
+En utilisant l'HPLC, la courbe finale de l'échantillon est typiquement obtenue
+à partir d'une moyenne de 10 à 15 courbes. En utilisant le passeur
+d'échantillon, le nombre de courbes exploitables est limité par le nombre de
+réplicats que l'on peut mesurer avec la quantité d'échantillon disponible, et on
+utilise typiquement moins de courbes.
+
+Une fois en possession de la courbe de diffusion finale, nous utilisons le
+logiciel GNOM pour calculer la fonction de distribution des distances P(R).
 
