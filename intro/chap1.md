@@ -1,18 +1,52 @@
-# Problèmes d'extrémités
+# Origine et évolution des télomères
 
-Tous les organismes cellulaires^[Par soucis de concision, nous n'examinerons pas
-ici les propriétés des virus.] utilisent l'ADN comme support de leur information
-génétique. Grâce aux propriétés de complémentarité des bases nucléiques, cette
-molécule permet en effet la réplication et donc la transmission de l'information
-génétique d'une génération à la suivante. Au delà de ce point commun
-fondamental, on peut observer une très vaste diversité dans l'organisation des
-génomes [@budd2012] : la taille des molécules d'ADN, leur nombre, leur
-géométrie, leur condensation, le degré de ploïdie, etc. sont autant de
-propriétés propres à chaque espèce.
+## Le support de l'information génétique
 
-La propriété à laquelle nous nous intéresserons ici est la linéarité des
-chromosomes, partagée par tous les eucaryotes et par quelques groupes de
-procaryotes.  
+Tous les organismes cellulaires utilisent l'ADN comme support de leur
+information génétique. Grâce aux propriétés de complémentarité des bases
+nucléiques, cette molécule permet en effet la réplication et donc la
+transmission de l'information génétique d'une génération à la suivante. Au delà
+de ce point commun fondamental, on peut observer une très vaste diversité dans
+l'organisation des génomes [@budd2012] : la taille des molécules d'ADN, leur
+nombre, leur géométrie, leur condensation, le degré de ploïdie, etc. sont autant
+de propriétés propres à chaque espèce.
+
+Parmi cette diversité d'organisation des génomes, deux groupes principaux se
+distinguent : d'une part l'ensemble des procaryotes (à de rares exceptions près)
+possède un génome composé d'une ou plusieurs molécules d'ADN circulaires
+(chromosomes et plasmides), et d'autre part le génome nucléaire de tous les
+eucaryotes est constitué exclusivement de chromosomes linéaires.
+
+
+## Les télomères
+
+Les extrémités des ADN linéaires sont appelées les télomères^[Du grec τέλος
+signifiant "fin" et μέρος signifiant "partie" : la partie terminale du
+chromosome.]. Chez la majorité des organismes qui possèdent des ADN linéaires,
+les télomères partagent les caractéristiques suivantes :
+
+- ils sont composés de courtes séquences répétées en tandem et riches en guanine
+  (appelées "répétitions télomériques") sur le brin sens 5'-3' (appelé le "brin
+  G"),
+- ce brin G forme une extrémité simple-brin sortante en 3',
+- ces répétitions télomériques sont liées par des protéines spécifiques,
+- enfin, une enzyme appelée télomérase est présente et est capable d'allonger le
+  brin G à l'aide d'une matrice d'ARN et de son activité de type
+  rétro-transcriptase.
+
+Ces caractéristiques déterminent ce qui est appelé dans la littérature un
+"télomère canonique". Quelques organismes possèdent des télomères dits "non
+canoniques" qui ne partagent pas toutes ces caractéristiques ; le caractère non
+canonique sera indiqué lorsque nous mentionnerons ces télomères dans la suite de
+cette introduction.
+
+
+## Origine des chromosomes linéaires
+
+L'origine des chromosomes linéaires coincide avec l'origine des eucaryotes,
+puisque tous les eucaryotes possèdent exclusivement des chromosomes linéaires. 
+
+
 Nous verrons que cette linéarité pose deux grands problèmes : la réplication des
 extrémités, et la protection des extrémités contre la dégradation par des
 nucléases et contre les fusions. À travers la description des télomères (les
@@ -51,10 +85,10 @@ simple-brin, la molécule d'ADN issue de la synthèse du brin précoce se trouve
 raccourcie de la longueur de l'extension simple-brin (longueur L2 dans la
 figure).
 
-Ce problème de la réplication des extrémités est à l'origine de la sénescence
-qu'on observe dans une culture *in vitro* de cellules somatiques humaines après
-une cinquantaine de doublements [@hayflick1965]. Ce nombre limite de mitoses
-avant la sénescence est communément appelé la "limite de Hayflick".
+Ce raccourcissement des extrémités à chaque réplication est à l'origine de la
+sénescence que l'on observe dans une culture *in vitro* de cellules somatiques
+humaines après une cinquantaine de doublements [@hayflick1965]. Cette limitation
+du nombre de mitoses avant la sénescence est appelée la "limite de Hayflick".
 
 
 ## Le problème de la protection des extrémités
@@ -74,8 +108,9 @@ les cellules issues de la division, si celle-ci se termine, ou bien provoquent
 un arrêt du cycle cellulaire et potentiellement l'apoptose.
 
 Deux mécanismes provoquent les fusions d'extrémités : le NHEJ (*non-homologous
-end joining*) et la recombinaison homologue, qui sont tous les deux des systèmes
-de réparation des cassures double-brin de l'ADN.
+end joining* : jonction d'extrémités non homologues) et la recombinaison
+homologue, qui sont tous les deux des systèmes de réparation des cassures
+double-brin de l'ADN.
 
 
 ### Voie NHEJ
@@ -127,9 +162,9 @@ Les bactéries du genre *Borrelia* possèdent des ADN linéaires aux extrémité
 fermées covalemment par une épingle à cheveux (*closed hairpin telomeres*),
 ainsi qu'une enzyme appelée résolvase de télomères^[Cette enzyme est parfois appelée
 protélomérase, mais ce terme est inapproprié car cette résolvase de télomères
-n'a rien en commun avec la télomérase des eucaryotes.] qui permet de séparer les
-deux molécules filles, concaténées en un dimère circulaire suite à la
-réplication [@chaconas2010]. La figure ci-dessous illustre le mode de
+n'a rien en commun avec la télomérase des eucaryotes [voir @chaconas2010].] qui
+permet de séparer les deux molécules filles, concaténées en un dimère circulaire
+suite à la réplication [@chaconas2010]. La figure ci-dessous illustre le mode de
 réplication des ADN linéaires à télomères en épingles à cheveux avec une
 initiation centrale et une étape de résolution des télomères qui reconstitue
 deux ADN linéaires fermés covalemment par des épingles à cheveux.
@@ -319,7 +354,7 @@ complètement indépendantes. Comme nous l'avons vu, la longueur est régulée p
 l'activité de trois rétrotransposons. La protection est quant à elle assurée par
 un complexe protéique appelé *terminin* [@raffa2013]. Les protéines de ce
 complexe ont été identifiées par mutagenèse aléatoire et recherche de phénotypes
-de dysfonction des télomères. Ces expériences ont permi d'identifier les
+de dysfonction des télomères. Ces expériences ont permis d'identifier les
 protéines HOAP, HipHop, Moi et Ver dont la localisation télomérique a été
 démontrée par des expériences d'immunofluorescence et par la localisation de
 fusions avec la GFP. Ces protéines sont localisées exclusivement aux télomères
