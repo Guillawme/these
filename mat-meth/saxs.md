@@ -33,7 +33,9 @@ s'affranchir de potentiels problèmes de radiolyse. Pour chaque acquisition, une
 série de courbes est également enregistrée sur le tampon de l'expérience.
 
 
-## Analyse des données et calcul des enveloppes
+## Analyse des données
+
+### Traitement des données brutes
 
 Les courbes de diffusion sont obtenues directement à la ligne de lumière, par
 les opérations suivantes à l'aide du logiciel FoxTrot :
@@ -70,6 +72,33 @@ d'échantillon, le nombre de courbes exploitables est limité par le nombre de
 réplicats que l'on peut mesurer avec la quantité d'échantillon disponible, et on
 utilise typiquement moins de courbes.
 
+
+### Calcul des enveloppes
+
 Une fois en possession de la courbe de diffusion finale, nous utilisons le
-logiciel GNOM pour calculer la fonction de distribution des distances P(R).
+logiciel GNOM [@semenyuk1991] pour calculer la fonction de distribution des
+distances P(R).
+
+Cette fonction P(R) est utilisée en entrée du logiciel GASBOR [@svergun2001]
+pour générer automatiquement 100 enveloppes pour TRF2, RAP1, RAP1-RCT et les
+complexes TRF2/RAP1 et TRF2/RAP1-RCT, en renseignant un nombre de pseudo-résidus
+égal au nombre de résidus effectivement présents dans la protéine ou le complexe
+dont on calcule l'enveloppe. Nous n'imposons pas de symétrie pour ces calculs.
+Le programme utilise une approche *ab initio* pour construire l'enveloppe : il
+agence les pseudo-résidus dans l'espace de façon à minimiser l'écart entre la
+P(R) calculée à partir du modèle et la P(R) obtenue à partir de la courbe de
+diffusion expérimentale.
+
+Une fois que les 100 enveloppes issues de calculs indépendants sont prêtes, nous
+sélectionnons les meilleures selon les deux critères suivants :
+
+- le facteur Chi (qui mesure l'accord avec les données expérimentales) ne
+  dépasse pas Chi-minimum + écart-standard(Chis),
+- et le facteur NSD (*normalized spatial discrepancy*, vaut 0 pour deux objets
+  identiques parfaitement superposés) calculé lors de la superposition des
+  enveloppes sur l'enveloppe de meilleur Chi ne dépasse pas NSD-minimum +
+  déviation-moyenne(NSDs).
+
+Les modèles ainsi sélectionnés (typiquement une dizaine) sont finalement
+combinés avec le logiciel DAMAVER pour obtenir l'enveloppe finale.
 
