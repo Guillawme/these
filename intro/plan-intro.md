@@ -1,11 +1,11 @@
 # Introduction
 
-1. Problèmes d'extrémités (trouver un vrai titre)
-    - Parler de l'ADN en général, introduire les problèmes de réplication et
-      protection des extrémités
-        * Expliquer brièvement le problème de la réplication des extrémités, avec schémas
-        * Expliquer brièvement le problème de la protection des extrémités, avec
-          schémas
+1. Origine et évolution des télomères
+    - Le support de l'information génétique
+    - Les télomères
+    - Origine des chromosomes linéaires
+    - Le problème de la réplication des extrémités
+    - Le problème de la protection des extrémités
     - Solutions trouvées à ces problèmes au cours de l'évolution : comparer les
       structures terminales de plusieurs organismes modèles (bactéries, ciliés,
       levures, drosophile, plantes, nématode, vertébrés)

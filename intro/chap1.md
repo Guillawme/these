@@ -34,61 +34,64 @@ les télomères partagent les caractéristiques suivantes :
   brin G à l'aide d'une matrice d'ARN et de son activité de type
   rétro-transcriptase.
 
-Ces caractéristiques déterminent ce qui est appelé dans la littérature un
-"télomère canonique". Quelques organismes possèdent des télomères dits "non
-canoniques" qui ne partagent pas toutes ces caractéristiques ; le caractère non
-canonique sera indiqué lorsque nous mentionnerons ces télomères dans la suite de
+Ces caractéristiques déterminent ce qui est appelé un "télomère canonique".
+Quelques organismes possèdent des télomères dits "non canoniques" qui ne
+partagent pas toutes ces caractéristiques ; le caractère non canonique sera
+indiqué lorsque nous mentionnerons ces télomères dans la suite de
 cette introduction.
 
-
-## Origine des chromosomes linéaires
-
-L'origine des chromosomes linéaires coincide avec l'origine des eucaryotes,
-puisque tous les eucaryotes possèdent exclusivement des chromosomes linéaires. 
-
-
-Nous verrons que cette linéarité pose deux grands problèmes : la réplication des
+La linéarité des chromosome pose deux problèmes principaux : la réplication des
 extrémités, et la protection des extrémités contre la dégradation par des
-nucléases et contre les fusions. À travers la description des télomères (les
-structures terminales des ADN linéaires) de quelques organismes modèles, des
-bactéries aux eucaryotes, nous verrons quelles solutions à ces problèmes sont
-apparues au cours de l'évolution.
+nucléases et contre les fusions.
 
 
 ## Le problème de la réplication des extrémités
 
-Le problème de la réplication des extrémités des ADN linéaires vient du fait que
-les ADN polymérases ne peuvent pas initier la synthèse d'un brin d'ADN sans une
-amorce. Ces amorces sont de petits brins d'ARN d'une dizaine de nucléotides,
-synthétisés par une primase, et appelés fragments d'Okazaki.  
+La réplication nécessite une machinerie complexe que nous ne détaillerons pas
+ici. Pour comprendre le problème de la réplication des extrémités, il suffit de
+connaître les propriétés des ADN polymérases. Ces enzymes sont en charge de la
+synthèse d'un brin d'ADN à partir d'un brin matrice, elles ne peuvent
+polymériser que de 5' vers 3', et elles nécessitent, en plus du brin matrice,
+une amorce exposant une extrémité 3'-OH libre. Ces amorces sont de petits brins
+d'ARN d'une dizaine de nucléotides, synthétisés par une primase, et appelés
+fragments d'Okazaki.
+
 Lors de la réplication, le brin orienté 3'-5' de la molécule d'ADN initiale sert
 de matrice pour la synthèse du nouveau brin dit "précoce", car sa synthèse ne
-nécessite qu'une seule amorce, et sa synthèse est en avance par rapport à celle
-de l'autre nouveau brin appelé quant à lui le brin "tardif". La synthèse du brin
-tardif nécessite plusieurs amorces car le brin servant de matrice est orienté de
-5' vers 3' et la polymèrase chargée de la synthèse de ce brin doit progresser
-dans le sens opposé au sens de progression de la fourche de réplication.  
-La réplication des extrémités est présentée dans la figure ci-dessous :
+nécessite qu'une seule amorce (l'ADN polymérase peut en effet parcourir tout le
+brin une fois la synthèse initiée), et elle est en avance par rapport à celle de
+l'autre nouveau brin qui est appelé quant à lui le brin "tardif". La synthèse du
+brin tardif nécessite plusieurs amorces car le brin servant de matrice est
+orienté de 5' vers 3' et la polymèrase chargée de la synthèse de ce brin doit
+progresser dans le sens opposé au sens de progression de la fourche de réplication.  
 
-![Figure : **Le problème de la réplication des extrémités.** Les brins d'ADN originaux sont représentés en traits épais rouge et bleu foncé et leur orientation est indiquée. Les brins néo-synthétisés sont représentés en traits plus fins orange (brin précoce) et bleu clair (brin tardif), la flèche indique le sens de progression de la polymérase. Les fragments d'Okazaki (amorces d'ARN) sont représentés en traits noirs épais. La flèche noire épaisse indique le sens de progression de la fourche de réplication. L'emplacement du dernier fragment d'Okazaki est indiqué en pointillés. Inspiré de [@gilson2007; @matot2010].](intro/figures/probleme-replication.png)
+La réplication des extrémités est présentée dans la figure ci-dessous. Les brins
+d'ADN d'origine sont représentés en traits épais rouge et bleu foncé et leur
+orientation est indiquée. Les brins néo-synthétisés sont représentés en traits
+plus fins orange (brin précoce) et bleu clair (brin tardif), avec une flèche
+indiquant le sens de progression de la polymérase. Les fragments d'Okazaki sont
+représentés en traits noirs épais. La flèche noire épaisse indique le sens de
+progression de la fourche de réplication. L'emplacement du dernier fragment
+d'Okazaki est indiqué en pointillés.
+
+![Figure : Le problème de la réplication des extrémités, inspiré de [@gilson2007; @matot2010].](intro/figures/probleme-replication.png)
 
 Une première cause de raccourcissement vient du fait que le dernier fragment
 d'Okazaki est dégradé à la fin de la réplication, mais n'est pas remplacé par de
 l'ADN. Ceci a pour conséquence le raccourcissement du brin retardé (longueur L1
 dans la figure).
 
-La deuxième cause du raccourcissement vient du fait de l'existence d'une
-extrémité simple-brin sortante en 3'^[Dans le cas des télomères canoniques.
-Nous verrons par la suite que cette extrémité n'existe pas chez certains
-organismes.] : puisqu'il n'existe pas de matrice pour cette extension
-simple-brin, la molécule d'ADN issue de la synthèse du brin précoce se trouve
-raccourcie de la longueur de l'extension simple-brin (longueur L2 dans la
-figure).
+La deuxième cause du raccourcissement est due à l'extrémité simple-brin sortante
+en 3' : puisqu'il n'existe pas de matrice pour cette extension simple-brin, la
+molécule d'ADN issue de la synthèse du brin précoce se trouve raccourcie de la
+longueur de l'extension simple-brin (longueur L2 dans la figure).
 
 Ce raccourcissement des extrémités à chaque réplication est à l'origine de la
-sénescence que l'on observe dans une culture *in vitro* de cellules somatiques
-humaines après une cinquantaine de doublements [@hayflick1965]. Cette limitation
-du nombre de mitoses avant la sénescence est appelée la "limite de Hayflick".
+sénescence observée dans une culture *in vitro* de cellules somatiques humaines
+après une cinquantaine de doublements [@hayflick1965]. Cette limitation du
+nombre de mitoses avant la sénescence est appelée la "limite de Hayflick", et
+les seules cellules qui y échappent sont les lignées germinales et les
+cellules tumorales.
 
 
 ## Le problème de la protection des extrémités
@@ -139,6 +142,59 @@ issues de la cassure sont traitées pour générer des extrémités cohésives.
 
 
 ### Voie HR
+
+
+
+## Origine des chromosomes linéaires
+
+L'origine des chromosomes linéaires est liée à celle des eucaryotes, puisque le
+génome nucléaire de tous les eucaryotes est exclusivement constitué de
+chromosomes linéaires. Néanmoins, la linéarité a aussi émergé indépendamment
+chez quelques groupes de procaryotes. Les bactéries du genre *Borrelia* ont en
+effet une majorité de chromosomes et plasmides linéaires, aux télomères très
+différents des télomères canoniques : leurs molécules d'ADN linéaires sont
+fermées covalemment par une structure en épingle à cheveux liant les deux brins
+[@chaconas2010]. On trouve aussi ce type de télomères dans un plasmide linéaire
+de la bactérie *Agrobacterium tumefaciens* [@huang2012]. Le genre *Streptomyces*
+possède également des plasmides linéaires, avec des télomères non canoniques
+encore différents : ils ne sont pas fermés par une épingle à cheveux mais sont
+associés à une protéine terminale liée covalemment à l'extrémité 5' et
+permettant d'initier la réplication des extrémités [@chen2007].
+
+Les chromosomes linéaires semblent au premier abord défavorables car ils
+nécessitent des protéines spécialisées pour leur maintenance (protéines
+télomériques et télomérase), et la synthèse de ces protéines représente un coût
+énergétique important. Il a été proposé que les chromosomes linéaires ont été
+conservés au cours de l'évolution des eucaryotes car ils rendent possible la
+méiose, et car la diversité génétique qu'elle engendre confère un avantage qui
+compense largement le coût de la maintenance des télomères [@ishikawa1999].
+La méiose est en effet physiquement bien plus difficile à réaliser avec des
+chromosomes circulaires : ces chromosomes ne peuvent pas regrouper leurs
+extrémités pour faciliter leur appariement (puisqu'ils n'ont pas d'extrémités),
+et dans le cas où un appariement aurait lieu par simple rencontre aléatoire, ils
+doivent nécessairement subir un nombre pair d'événements de recombinaison pour
+ségréger correctement dans les cellules filles [@ishikawa1999]. Ces deux
+événements ont des probabilités très faibles, et pour qu'une cellule possédant
+plusieurs chromosomes circulaires réalise une méiose avec succès, il faut que
+ces événements se produisent pour chaque paire de chromosomes : la probabilité
+totale qu'une méiose termine correctement avec des chromosomes circulaires est
+donc infime [@ishikawa1999].
+
+La conservation des chromosomes linéaires chez les eucaryotes est une évidence
+et trouve donc une explication convaincante, en revanche expliquer leur
+apparition est plus difficile. Une hypothèse proposée [@garavis2013] est que les
+chromosomes linéaires pourraient être apparus lors du premier événement
+d'endosymbiose (celui qui a conduit à l'apparition des mitochondries par
+endocytose d'un organisme d'origine bactérienne) : le génome de l'ancêtre des
+eucaryotes aurait été envahi par des éléments mobiles venant du génome du
+symbionte, et ces éléments auraient été "capturés" à plusieurs reprises aux
+extrémités générées par des cassures double-brin dans l'ADN, permettant de
+stabiliser le génome suite à ces cassures non réparées et engendrant des
+répétitions télomériques primitives. Ces répétitions télomériques auraient permi
+le maintien de la longueur des télomères par un mode de réplication dépendant de
+la recombinaison homologue (la machinerie de recombinaison homologue existait
+déjà chez les bactéries avant l'apparition des eucaryotes), et la télomérase
+aurait pu émerger par la suite en évoluant à partir de rétro-transposons.
 
 
 ## Quelles solutions à ces problèmes sont apparues au cours de l'évolution ?
