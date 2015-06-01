@@ -74,7 +74,7 @@ représentés en traits noirs épais. La flèche noire épaisse indique le sens 
 progression de la fourche de réplication. L'emplacement du dernier fragment
 d'Okazaki est indiqué en pointillés.
 
-![Figure : Le problème de la réplication des extrémités, inspiré de [@gilson2007; @matot2010].](intro/figures/probleme-replication.png)
+![Figure : Le problème de la réplication des extrémités. Inspiré de [@gilson2007; @matot2010].](intro/figures/probleme-replication.png)
 
 Une première cause de raccourcissement vient du fait que le dernier fragment
 d'Okazaki est dégradé à la fin de la réplication, mais n'est pas remplacé par de
@@ -116,17 +116,17 @@ homologue, qui sont tous les deux des systèmes de réparation des cassures
 double-brin de l'ADN.
 
 
-### Voie NHEJ
+### Jonction d'extrémités non-homologues (NHEJ)
 
 Le déroulement de la réparation d'une cassure double-brin par la voie NHEJ est
 représenté schématiquement sur la figure ci-dessous :
 
-![Figure : La voie NHEJ de réparation des cassures double-brin de l'ADN, inspiré de [@grundy2014].](intro/figures/c-nhej.png)
+![Figure : La voie NHEJ de réparation des cassures double-brin de l'ADN. Inspiré de [@grundy2014].](intro/figures/c-nhej.png)
 
 Une cassure double-brin (1) est reconnue par l'hétérodimère Ku70/Ku80 (2), qui
 recrute la kinase DNA-PK~cs~ (3) permettant d'initier la voie de signalisation
 de réponse aux dommages de l'ADN (DDR, pour *DNA damage response*).
-Le recrutement des protéines XRCC4, Cernunnos, et Ligase IV forme le complexe
+Le recrutement des protéines XRCC4, Cernunnos et Ligase IV forme le complexe
 basal du NHEJ et permet la synapse des deux extrémités générées par la cassure
 (4). Les extrémités sont alors traitées par divers facteurs accessoires dont des
 polymérases et des exonucléases (5) jusqu'à ce que des extrémités cohésives
@@ -141,8 +141,42 @@ effectuées par cette voie sont potentiellement mutagènes car les extrémités
 issues de la cassure sont traitées pour générer des extrémités cohésives.
 
 
-### Voie HR
+### Recombinaison homologue
 
+L'autre voie de réparation des cassures double-brin est la recombinaison
+homologue [@sanfilippo2008]. Cette voie est utilisée principalement pendant les
+phases S et G2, quand une chromatide soeur existe et peut donc servir de matrice
+pour la réparation. Le principe de la recombinaison homologue est illustré dans
+la figure ci-dessous :
+
+![Figure : La recombinaison homologue. Inspiré de [@sanfilippo2008], adapté
+ à partir d'une [figure originale de Ewm sur Wikimedia Commons (CC BY-SA 3.0)](http://commons.wikimedia.org/wiki/File%3AHR_schematic_diagram.svg)](intro/figures/hr-schema.png)
+
+Suite à une cassure double-brin (1), les extrémités sont traitées par des
+exonucléases 5'-3' qui dégradent l'extrémité 5' et génèrent donc une extrémité
+simple-brin sortante en 3' (2). Cette extrémité est liée par la protéine Rad51
+qui polymérise et forme un filament, permettant la recherche d'une région
+homologue dans une autre molécule d'ADN. Lorsque cette région est trouvée,
+l'extrémité simple-brin envahit la molécule d'ADN homologue, s'apparie au brin
+qui lui est complémentaire, et son groupement 3'-OH sert d'amorce pour la
+synthèse d'ADN (3). À partir de cette étape, deux voies principales sont
+possibles :
+
+- La voie DSBR (*double-strand break repair* : réparation de la cassure
+  double-brin) implique la capture de la deuxième extrémité générée par la
+  cassure, son appariement au niveau de la D-loop (*displacement loop* : le brin
+  d'ADN déplacé suite à l'invasion de l'étape précédente) et la synthèse d'ADN.
+  Lorsque la synthèse a terminé de compléter les deux brins, une ligation est
+  opérée (4) et on obtient un intermédiaire à deux jonctions de Holliday
+  (structure branchée à 4 brins) qui est finalement résolu (5), le plus souvent
+  avec un échange de chromatides (*crossover product*).
+- La voie SDSA (*synthesis-dependant strand annealing* : appariement de brins
+  après synthèse d'ADN) débute avec le désappariemment du brin qui avait envahi
+  la molécule homologue. Ce brin, étendu après la synthèse, est capable de
+  s'apparier à l'autre extrémité de la cassure double-brin (6). La réparation
+  est finalement complétée par la synthèse du brin complémentaire et une
+  ligation des deux brins (7). Cette voie ne provoque jamais d'échanges
+  de chromatides.
 
 
 ## Origine des chromosomes linéaires
@@ -225,7 +259,7 @@ réplication des ADN linéaires à télomères en épingles à cheveux avec une
 initiation centrale et une étape de résolution des télomères qui reconstitue
 deux ADN linéaires fermés covalemment par des épingles à cheveux.
 
-![Figure : Principe de la réplication des ADN linéaires à télomères en épingle à cheveux, d'après [@shi2013].](intro/figures/replication-Borrelia.png)
+![Figure : Principe de la réplication des ADN linéaires à télomères en épingle à cheveux. D'après [@shi2013].](intro/figures/replication-Borrelia.png)
 
 L'activité de résolution des télomères a été mise en évidence *in vivo* à l'aide
 de plasmides contenant la séquence télomérique répliquée (séquence répétée
@@ -259,7 +293,7 @@ groupement phosphate lié à la tyrosine catalytique pour reformer une liaison
 phosphodiester et libérer l'enzyme. La figure ci-dessous illustre le mécanisme
 des résolvases de télomères.
 
-![Figure : Mécanisme des résolvases de télomères, d'après [@shi2013].](intro/figures/mecanisme-ResT.png)
+![Figure : Mécanisme des résolvases de télomères. D'après [@shi2013].](intro/figures/mecanisme-ResT.png)
 
 Il a par la suite été démontré que la seule acquisition d'une résolvase de
 télomères suffit à linéariser un génome normalement circulaire comme celui d'*E.
@@ -292,7 +326,7 @@ jour, ainsi le mécanisme de synthèse de la fin du brin tardif n'est pas encore
 complètement élucidé. Le mécanisme le plus probable est présenté dans la figure
 ci-dessous.
 
-![Figure : Mécanisme de synthèse de la fin du brin tardif chez *Streptomyces*, d'après [@chen2007].](intro/figures/streptomyces-end-patching.png)
+![Figure : Mécanisme de synthèse de la fin du brin tardif chez *Streptomyces*. D'après [@chen2007].](intro/figures/streptomyces-end-patching.png)
 
 Dans ce système, comme dans celui des *Borrelia*, la longueur des chromosomes et
 des plasmides linéaires reste constante car ces organismes ne possèdent pas de
@@ -359,7 +393,7 @@ nucléases et également essentiel pour le recrutement de la télomérase lors d
 réplication [@kupiec2014]. L'organisation du complexe télomérique de *S.
 cerevisiae* est présentée schématiquement dans la figure ci-dessous :
 
-![Figure : Complexe télomérique de *S. cerevisiae*, d'après [@kupiec2014].](intro/figures/cplx-tel-cerevisiae-details.png)
+![Figure : Complexe télomérique de *S. cerevisiae*. D'après [@kupiec2014].](intro/figures/cplx-tel-cerevisiae-details.png)
 
 La levure *Schizosaccharomyces pombe* possède un complexe télomérique
 ressemblant plus au *shelterin* des vertébrés. La protéine Taz1, orthologue des
@@ -372,7 +406,7 @@ sont encore très peu décrites [voir le tableau 1 dans @giraud-panis2010].
 L'organisation du complexe télomérique de *S. pombe* est présentée
 schématiquement dans la figure ci-dessous :
 
-![Figure : Complexe télomérique de *S. pombe*, d'après [@linger2009].](intro/figures/shelterin-pombe.png)
+![Figure : Complexe télomérique de *S. pombe*. D'après [@linger2009].](intro/figures/shelterin-pombe.png)
 
 
 #### Chez les nématodes
