@@ -120,7 +120,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.89478067"
-     inkscape:cx="410.57351"
+     inkscape:cx="410.01471"
      inkscape:cy="29.369916"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -195,7 +195,7 @@
        x="116.85877"
        y="580.31079" />
     <rect
-       style="opacity:0.65;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.14563656;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:0.65;fill:#00c6f0;fill-opacity:1;stroke:#000000;stroke-width:3.14563656;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4138-5"
        width="113.78351"
        height="25.200821"
@@ -209,7 +209,7 @@
        x="296.86911"
        y="580.32068" />
     <rect
-       style="opacity:0.65;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.25045013;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:0.65;fill:#00c6f0;fill-opacity:1;stroke:#000000;stroke-width:3.25045013;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4138-7-3"
        width="101.27711"
        height="25.096006"
@@ -223,7 +223,7 @@
        x="457.36749"
        y="580.30682" />
     <rect
-       style="opacity:0.65;fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.30768824;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:0.65;fill:#00c6f0;fill-opacity:1;stroke:#000000;stroke-width:3.30768824;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4138-7-3-1-6"
        width="223.46396"
        height="25.038769"
@@ -379,6 +379,6 @@
          sodipodi:role="line"
          id="tspan8962"
          x="190"
-         y="642.36218"></tspan></text>
+         y="642.36218" /></text>
   </g>
 </svg>
