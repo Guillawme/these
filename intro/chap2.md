@@ -2,11 +2,11 @@
 
 ## L'ADN télomérique et la *t-loop*
 
-Chez l'humain, l'ADN télomérique est constitué de répétitions en tandem du
-motif TTAGGG [@moyzis1988] qui s'étendent dans une région double-brin d'une
-longueur typique de 10 à 15 kb et se prolongent par une extrémité simple-brin
-sortante en 3' longue de 50 à 500 nucléotides [@palm2008]. L'organisation de
-l'ADN télomérique est représentée schématiquement sur la figure ci-dessous :
+Chez l'humain, l'ADN télomérique est constitué de répétitions en tandem du motif
+TTAGGG [@moyzis1988] qui s'étendent dans une région double-brin d'une longueur
+typique de 10 à 15 kb et se prolongent par une extrémité simple-brin sortante en
+3' longue de 50 à 500 nucléotides [@makarov1997]. L'organisation de l'ADN
+télomérique est représentée schématiquement sur la figure ci-dessous :
 
 ![Figure : L'ADN télomérique des mammifères. D'après [@palm2008].](intro/figures/seq-telo-humain.png)
 
@@ -56,4 +56,25 @@ Les 6 protéines qui forment ce complexe sont :
 - TPP1 : *POT1-binding partner*
 - TIN2 : *TRF1-interacting factor 2*
 - RAP1 : *repressor/activator protein 1*
+
+TRF1 et TRF2 lient les répétitions télomériques double-brin. RAP1 interagit
+spécifiquement avec TRF2. POT1 lie les répétitions télomériques simple-brin.
+TPP1 interagit avec POT1 et TIN2, et TIN2 interagit avec TRF1, TRF2 et TPP1.
+
+La stoechiométrie des protéines du *shelterin* a été analysée dans plusieurs
+lignées de cellules HeLa à télomères longs et courts et dans des fibroblastes
+primaires humains, par une méthode de Western blot quantitatif [@takai2010].
+Un dosage précis par cette méthode est délicat, et cette étude ne prétend
+fournir que des estimations. Les résultats les plus clairs de cette analyse
+montrent que TRF2 et RAP1 sont présents aux télomères à un ratio de 1:1 l'un par
+rapport à l'autre. Il en est de même pour TPP1 et POT1. TRF1 est deux à quatre
+fois moins abondant que TRF2 aux télomères. TIN2 est présent en quantité
+suffisante pour lier l'ensemble de TRF1 et TRF2. TPP1 et POT1 sont environ 10
+fois moins abondants que TIN2. De façon notable, un réservoir de RAP1 est
+également présent dans le cytosol. La déplétion de TRF2 par un shRNA d'un
+facteur 10 est sans impact sur les quantités de TRF1, TIN2, TPP1 et POT1 aux
+télomères, ce qui suggère l'existence de sous-complexes plus ou moins
+indépendants du *shelterin*. Cette déplétion de TRF2 diminue notablement la
+quantité de RAP1 télomérique, mais n'affecte que peu la quantité de
+RAP1 cytosolique.
 
