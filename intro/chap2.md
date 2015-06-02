@@ -1,6 +1,6 @@
 # Les télomères humains
 
-## L'ADN télomérique
+## L'ADN télomérique et la *t-loop*
 
 Chez l'humain, l'ADN télomérique est constitué de répétitions en tandem du
 motif TTAGGG [@moyzis1988] qui s'étendent dans une région double-brin d'une
@@ -37,3 +37,23 @@ existe *in vivo*, en revanche son temps de vie et sa dynamique d'ouverture et de
 fermeture sont encore mal caractérisés. Ces questions sont importantes pour
 comprendre comment la *t-loop* peut réguler l'accès à l'extrémité de la molécule
 d'ADN pour permettre l'élongation par la télomérase.
+
+
+## Les protéines télomériques forment le complexe *shelterin*
+
+Chez les vertébrés, en plus des nucléosomes, l'ADN télomérique est lié par un
+complexe de protéines spécifiques appelé le *shelterin* [@delange2005].
+Ces protéines sont associées aux télomères pendant toutes les phases du cycle
+cellulaire, elles sont absentes ou très peu abondantes dans les autres régions
+du noyau, et leurs fonctions principales sont télomériques (c'est-à-dire que le
+phénotype observé suite à leur délétion ou mutation est essentiellement
+télomérique).
+
+Les 6 protéines qui forment ce complexe sont :
+
+- TRF1 et TRF2 : *telomere repeat-binding factor 1 & 2*
+- POT1 : *protection of telomeres 1*
+- TPP1 : *POT1-binding partner*
+- TIN2 : *TRF1-interacting factor 2*
+- RAP1 : *repressor/activator protein 1*
+
