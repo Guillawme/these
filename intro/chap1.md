@@ -146,8 +146,9 @@ issues de la cassure sont traitées pour générer des extrémités cohésives.
 L'autre voie de réparation des cassures double-brin est la recombinaison
 homologue [@sanfilippo2008]. Cette voie est utilisée principalement pendant les
 phases S et G2, quand une chromatide soeur existe et peut donc servir de matrice
-pour la réparation. Le principe de la recombinaison homologue est illustré dans
-la figure ci-dessous :
+pour la réparation. Contrairement au NHEJ, la recombinaison homologue produit
+donc des réparations très fidèles à la séquence d'origine. Le principe de la
+recombinaison homologue est illustré dans la figure ci-dessous :
 
 ![Figure : La recombinaison homologue. Inspiré de [@sanfilippo2008], adapté
  à partir d'une [figure originale de Ewm sur Wikimedia Commons (CC BY-SA 3.0)](http://commons.wikimedia.org/wiki/File%3AHR_schematic_diagram.svg)](intro/figures/hr-schema.png)
