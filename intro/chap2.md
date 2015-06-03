@@ -49,17 +49,34 @@ du noyau, et leurs fonctions principales sont télomériques (c'est-à-dire que 
 phénotype observé suite à leur délétion ou mutation est essentiellement
 télomérique).
 
-Les 6 protéines qui forment ce complexe sont :
+Les 6 protéines qui forment ce complexe sont (dans l'ordre de leur découverte) :
 
-- TRF1 et TRF2 : *telomere repeat-binding factor 1 & 2*
-- POT1 : *protection of telomeres 1*
-- TPP1 : *POT1-binding partner*
-- TIN2 : *TRF1-interacting factor 2*
-- RAP1 : *repressor/activator protein 1*
+- TRF1 : *telomere repeat-binding factor 1*, identifié initialement par son
+  affinité et sa spécificité *in vitro* pour les répétitions télomériques
+  [@zhong1992], et dont la localisation télomérique a été confirmée peu de temps
+  après par immunofluorescence [@chong1995] ;
+- TRF2 : *telomere repeat-binding factor 2*, identifié initialement par sa
+  similarité de séquence avec TRF1 et ses propriétés de liaison à l'ADN
+  similaires [@bilaud1996], et dont la localisation télomérique a été confirmée
+  de la même façon [@bilaud1997] ;
+- TIN2 : *TRF1-interacting factor 2*, identifié initialement comme un partenaire
+  de TRF1 dans un crible de double-hybride, localisé aux télomères et dont les
+  mutations provoquent des phénotypes télomériques [@kim1999] ;
+- RAP1 : *repressor/activator protein 1*, identifié initialement comme un
+  partenaire de TRF2 dans un crible de double-hybride, et par sa similarité de
+  séquence avec scRap1 [@li2000] ;
+- POT1 : *protection of telomeres 1*, identifié initialement par sa similarité
+  de séquence avec les protéines TEBP des ciliés [@baumann2001] ;
+- TPP1 : *POT1-binding partner*, identifié indépendamment dans trois études
+  comme un partenaire de TIN2 et POT1 et nécessaire pour le recrutement de POT1
+  aux télomères [@liu2004; @ye2004; @houghtaling2004].
 
 TRF1 et TRF2 lient les répétitions télomériques double-brin. RAP1 interagit
 spécifiquement avec TRF2. POT1 lie les répétitions télomériques simple-brin.
 TPP1 interagit avec POT1 et TIN2, et TIN2 interagit avec TRF1, TRF2 et TPP1.
+
+Les 6 protéines du *shelterin* peuvent être co-purifiées [@liu2004], ce qui
+démontre les interactions multiples qui existent entre elles.
 
 La stoechiométrie des protéines du *shelterin* a été analysée dans plusieurs
 lignées de cellules HeLa à télomères longs et courts et dans des fibroblastes
