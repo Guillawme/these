@@ -16,7 +16,10 @@
    width="576pt"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="TRF2-Sup200.svg">
+   sodipodi:docname="TRF2-Sup200.svg"
+   inkscape:export-filename="/Users/Guillaume/Labo/redac/these/resultats/figures/chap1/TRF2-Sup200.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <metadata
      id="metadata727">
     <rdf:RDF>
@@ -26,7 +29,34 @@
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:title></dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Guillaume Gaullier</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>CC BY-SA 4.0</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
       </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
@@ -43,8 +73,8 @@
      id="namedview725"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="358.85593"
-     inkscape:cy="270"
+     inkscape:cx="371"
+     inkscape:cy="265"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -1590,14 +1620,8 @@
              d=" M4.89062 31.3906 L31.2031 31.3906 L31.2031 23.3906 L4.89062 23.3906 z "
              id="BitstreamVeraSans-Roman-2d" />
           <path
-             d=" M10.6875 12.4062 L21 12.4062 L21 0 L10.6875 0 z "
-             id="BitstreamVeraSans-Roman-2e" />
-          <path
              d=" M8.5 21.5781 L8.5 54.6875 L17.4844 54.6875 L17.4844 21.9219 Q17.4844 14.1562 20.5 10.2656 Q23.5312 6.39062 29.5938 6.39062 Q36.8594 6.39062 41.0781 11.0312 Q45.3125 15.6719 45.3125 23.6875 L45.3125 54.6875 L54.2969 54.6875 L54.2969 0 L45.3125 0 L45.3125 8.40625 Q42.0469 3.42188 37.7188 1 Q33.4062 -1.42188 27.6875 -1.42188 Q18.2656 -1.42188 13.375 4.4375 Q8.5 10.2969 8.5 21.5781"
              id="BitstreamVeraSans-Roman-75" />
-          <path
-             d=" M41.1094 46.2969 Q39.5938 47.1719 37.8125 47.5781 Q36.0312 48 33.8906 48 Q26.2656 48 22.1875 43.0469 Q18.1094 38.0938 18.1094 28.8125 L18.1094 0 L9.07812 0 L9.07812 54.6875 L18.1094 54.6875 L18.1094 46.1875 Q20.9531 51.1719 25.4844 53.5781 Q30.0312 56 36.5312 56 Q37.4531 56 38.5781 55.875 Q39.7031 55.7656 41.0625 55.5156 z "
-             id="BitstreamVeraSans-Roman-72" />
           <path
              d=" M18.1094 8.20312 L18.1094 -20.7969 L9.07812 -20.7969 L9.07812 54.6875 L18.1094 54.6875 L18.1094 46.3906 Q20.9531 51.2656 25.2656 53.625 Q29.5938 56 35.5938 56 Q45.5625 56 51.7812 48.0938 Q58.0156 40.1875 58.0156 27.2969 Q58.0156 14.4062 51.7812 6.48438 Q45.5625 -1.42188 35.5938 -1.42188 Q29.5938 -1.42188 25.2656 0.953125 Q20.9531 3.32812 18.1094 8.20312 M48.6875 27.2969 Q48.6875 37.2031 44.6094 42.8438 Q40.5312 48.4844 33.4062 48.4844 Q26.2656 48.4844 22.1875 42.8438 Q18.1094 37.2031 18.1094 27.2969 Q18.1094 17.3906 22.1875 11.75 Q26.2656 6.10938 33.4062 6.10938 Q40.5312 6.10938 44.6094 11.75 Q48.6875 17.3906 48.6875 27.2969"
              id="BitstreamVeraSans-Roman-70" />
@@ -1648,85 +1672,24 @@
              x="605.37109375"
              xlink:href="#BitstreamVeraSans-Roman-30"
              id="use679" />
-          <use
-             x="668.994140625"
-             xlink:href="#BitstreamVeraSans-Roman-2e"
-             id="use681" />
-          <use
-             x="700.78125"
-             xlink:href="#BitstreamVeraSans-Roman-72"
-             id="use683" />
-          <use
-             x="739.64453125"
-             xlink:href="#BitstreamVeraSans-Roman-65"
-             id="use685" />
-          <use
-             x="801.16796875"
-             xlink:href="#BitstreamVeraSans-Roman-73"
-             id="use687" />
         </g>
         <!-- Manual run 2 -->
         <defs
            id="defs689">
           <path
-             d=" M54.8906 33.0156 L54.8906 0 L45.9062 0 L45.9062 32.7188 Q45.9062 40.4844 42.875 44.3281 Q39.8438 48.1875 33.7969 48.1875 Q26.5156 48.1875 22.3125 43.5469 Q18.1094 38.9219 18.1094 30.9062 L18.1094 0 L9.07812 0 L9.07812 54.6875 L18.1094 54.6875 L18.1094 46.1875 Q21.3438 51.125 25.7031 53.5625 Q30.0781 56 35.7969 56 Q45.2188 56 50.0469 50.1719 Q54.8906 44.3438 54.8906 33.0156"
-             id="BitstreamVeraSans-Roman-6e" />
-          <path
              id="BitstreamVeraSans-Roman-20" />
-          <path
-             d=" M9.8125 72.9062 L24.5156 72.9062 L43.1094 23.2969 L61.8125 72.9062 L76.5156 72.9062 L76.5156 0 L66.8906 0 L66.8906 64.0156 L48.0938 14.0156 L38.1875 14.0156 L19.3906 64.0156 L19.3906 0 L9.8125 0 z "
-             id="BitstreamVeraSans-Roman-4d" />
         </defs>
         <g
            transform="translate(256.295625 38.2)scale(0.12 -0.12)"
            id="g694">
           <use
-             xlink:href="#BitstreamVeraSans-Roman-4d"
-             id="use696" />
-          <use
-             x="86.279296875"
-             xlink:href="#BitstreamVeraSans-Roman-61"
-             id="use698" />
-          <use
-             x="147.55859375"
-             xlink:href="#BitstreamVeraSans-Roman-6e"
-             id="use700" />
-          <use
-             x="210.9375"
-             xlink:href="#BitstreamVeraSans-Roman-75"
-             id="use702" />
-          <use
-             x="274.31640625"
-             xlink:href="#BitstreamVeraSans-Roman-61"
-             id="use704" />
-          <use
-             x="335.595703125"
-             xlink:href="#BitstreamVeraSans-Roman-6c"
-             id="use706" />
-          <use
              x="363.37890625"
              xlink:href="#BitstreamVeraSans-Roman-20"
              id="use708" />
           <use
-             x="395.166015625"
-             xlink:href="#BitstreamVeraSans-Roman-72"
-             id="use710" />
-          <use
-             x="436.279296875"
-             xlink:href="#BitstreamVeraSans-Roman-75"
-             id="use712" />
-          <use
-             x="499.658203125"
-             xlink:href="#BitstreamVeraSans-Roman-6e"
-             id="use714" />
-          <use
              x="563.037109375"
              xlink:href="#BitstreamVeraSans-Roman-20"
              id="use716" />
-          <use
-             x="594.82421875"
-             xlink:href="#BitstreamVeraSans-Roman-32"
-             id="use718" />
         </g>
       </g>
     </g>
