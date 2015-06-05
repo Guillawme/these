@@ -50,11 +50,10 @@ Le rendement typique est d'environ 6 mg de protéine par culot bactérien.
 
 ## RAP1_1-208
 
-La purification de RAP1_1-208 est typiquement réalisée en quatre étapes (cf.
+La purification de RAP1_1-208 est typiquement réalisée en deux étapes (cf.
 Matériel et méthodes) : chromatographie d'affinité pour le nickel, clivage de
 l'étiquette histidine et séparation par une seconde chromatographie d'affinité
-pour le nickel, chromatographie d'affinité pour l'héparine, et finalement
-chromatographie d'exclusion stérique.
+pour le nickel.
 
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
 purification typique de RAP1_1-208 sont présentés dans la figure ci-dessous :
@@ -66,11 +65,10 @@ Le rendement typique est d'environ 20,9 mg de protéine par culot bactérien.
 
 ## B-TRFH
 
-La purification de B-TRFH est typiquement réalisée en quatre étapes (cf.
+La purification de B-TRFH est typiquement réalisée en deux étapes (cf.
 Matériel et méthodes) : chromatographie d'affinité pour le nickel, clivage de
 l'étiquette histidine et séparation par une seconde chromatographie d'affinité
-pour le nickel, chromatographie d'affinité pour l'héparine, et finalement
-chromatographie d'exclusion stérique.
+pour le nickel.
 
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
 purification typique de B-TRFH sont présentés dans la figure ci-dessous :
