@@ -25,6 +25,9 @@ Temporary Items
 ## Autres
 *.docx
 *.pdf
+*.png
+*.jpg
+*.xcf
 
 
 ## Notepad++ backups #
