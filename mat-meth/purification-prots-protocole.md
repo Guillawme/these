@@ -66,21 +66,30 @@ La récupération de charge est collectée car elle contient la protéine d'int�
 Pour contrôle, on collecte également l'éluat chassé par 100 % de tampon NiB
 pendant 1 CV.
 
-À cette étape, le protocole diffère selon la protéine.  
-Pour les domaines TRFH et Myb-long de TRF2, la purification est terminée à cette
-étape : la solution protéique est additionnée de glycérol qsp 5 % v/v final
-comme cryoprotectant, congelée rapidement dans l'azote liquide par aliquots de
-1 mL et stockée à -80 °C.  
-Pour RAP1 et ARAGA, la purification est complétée par une étape de
-chromatographie d'échange d'anion. Pour TRF2 elle est complétée par une étape de
-chromatographie d'affinité pour l'héparine.
+À cette étape, le protocole diffère selon la protéine :
+
+- Pour les domaines B-TRFH et Myb-long de TRF2, et le domaine 1-208 de RAP1, la
+  purification est terminée à cette étape.
+- Pour RAP1 et RAP1-ARAGA, la purification est complétée par une étape de
+  chromatographie d'échange d'anions.
+- Pour TRF2, WRN_949-1079 et le domaine Myb-court de TRF2, elle est complétée
+  par une étape de chromatographie d'affinité pour l'héparine.
+
+En fin de purification les solutions protéiques sont toutes additionnées de
+5 % v/v de glycérol puis congelées rapidement dans l'azote liquide et enfin
+stockées à -80 °C.
+
+Avant toute expérience, les protéines décongelées sont soit dialysées dans le
+tampon de l'expérience, soit placées dans le tampon de l'expérience par
+chromatographie d'exclusion stérique sur une colonne Superdex 200 10/300 GL (GE
+Healthcare) à 0,5 mL/min.
 
 
-## Détails spécifiques à la purification de RAP1 et ARAGA
+## Détails spécifiques à RAP1 et RAP1-ARAGA
 
 ### Tampons
 
-Le tampon NiB a une concentration en NaCl de 1 M pour RAP1 et ARAGA. Ceci permet
+Le tampon NiB a une concentration en NaCl de 1 M pour RAP1 et RAP1-ARAGA. Ceci permet
 d'éluer complètement la protéine, qui est aussi retenue aux ions Ni~2+~ par une
 grande région riche en résidus acides (chargés négativement au pH de la
 purification) qui confère à la protéine son pI très bas.
@@ -111,16 +120,11 @@ sel pour l'ajuster à 100 mM en NaCl. La solution protéique est alors chargée
 équilibrée en tampon ResQ-A. La protéine est éluée par un gradient de 0 à 100
 % v/v de tampon ResQ-B en 15 CV.
 
-Après analyse par SDS-PAGE, les fractions d'intérêt sont réunies, la solution
-protéique est additionnée de glycérol qsp 5 % v/v final comme cryoprotectant,
-congelée rapidement dans l'azote liquide par aliquots de 1 mL et stockée à -80
-°C.
-
-Les rendements typiques de purification sont d'environ 8 mg par culot pour RAP1
-et environ 6 mg par culot pour RAP1-ARAGA.
+Après une dernière analyse par SDS-PAGE, les fractions d'intérêt finales
+sont réunies et stockées.
 
 
-## Détails spécifiques à la purification de TRF2
+## Détails spécifiques à TRF2, WRN_979-1049 et le domaine Myb-court de TRF2
 
 ### Tampons
 
@@ -148,10 +152,7 @@ sel pour l'ajuster à 100 mM en NaCl. La solution protéique est alors chargée
 équilibrée en tampon HepA. La protéine est éluée par un gradient de 0 à 100
 % v/v de tampon HepB en 15 CV.
 
-Après analyse par SDS-PAGE, les fractions d'intérêt sont réunies, la solution
-protéique est additionnée de glycérol qsp 5 % v/v final comme cryoprotectant,
-congelée rapidement dans l'azote liquide par aliquots de 1 mL et stockée à -80
-°C.
+Après une dernière analyse par SDS-PAGE, les fractions d'intérêt finales
+sont réunies et stockées.
 
-Le rendement typique de purification de TRF2 est d'environ 7,5 mg par culot.
 
