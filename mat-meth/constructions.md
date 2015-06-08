@@ -1,0 +1,196 @@
+# Constructions utilisées
+
+## Protéines
+
+Les constructions protéiques utilisées dans nos études sont listées ci-dessous.
+Les masses molaires, points isoélectriques et coefficients d'extinction molaire
+à 280 nm ont été déterminés à l'aide de l'outil ProtParam
+<http://web.expasy.org/protparam/>. Les étiquettes poly-histidine sont indiquées
+en gras jusqu'au site de coupure par la TEV ou la thrombine, la barre verticale
+délimite les résidus N-terminaux laissés par le vecteur et qui ne font pas
+partie de la séquence naturelle de la protéine.
+
+### TRF2
+
+> **TRF2**
+> **GHHHHHHHHGTGQQMGRDLENLYFQ**G|AGGGGSSDGSGRAAGRRASRSSGRARRGRHEPGLGGPAERGAGEARLEEAVNRWVLKFYFHEALRAFRGSRYGDFRQIRDIMQALLVRPLGKEHTVSRLLRVMQCLSRIEEGENLDCSFDMEAELTPLESAINVLEMIKTEFTLTEAVVESSRKLVKEAAVIICIKNKEFEKASKILKKHMSKDPTTQKLRNDLLNIIREKNLAHPVIQNFSYETFQQKMLRFLESHLDDAEPYLLTMAKKALKSESAASSTGKEDKQPAPGPVEKPPREPARQLRNPPTTIGMMTLKAAFKTLSGAQDSEAAFAKLDQKDLVLPTQALPASPALKNKRPRKDENESSAPADGEGGSELQPKNKRMTISRLVLEEDSQSTEPSAGLNSSQEAASAPPSKPTVLNQPLPGEKNPKVPKGKWNSSNGVEEKETWVEEDELFQVQAAPDEDSTTNITKKQKWTVEESEWVKAGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN  
+525 résidus ; pI = 9,14 ; MW = 58470,1 Da ; ε~280\ nm~ = 48930 M^-1^.cm^-1^.  
+Après TEV : 500 résidus ; pI = 9,22 ; MW = 55476,9 Da ; ε~280\ nm~ = 47440 M^-1^.cm^-1^.
+
+> **B-TRFH**
+> **AGAASHHHHHHHHGTGENLYFQ**GAGGGGSSDGSGRAAGRRASRSSGRARRGRHEPGLGGPAERGAGEARLEEAVNRWVLKFYFHEALRAFRGSRYGDFRQIRDIMQALLVRPLGKEHTVSRLLRVMQCLSRIEEGENLDCSFDMEAELTPLESAINVLEMIKTEFTLTEAVVESSRKLVKEAAVIICIKNKEFEKASKILKKHMSKDPTTQKLRNDLLNIIREKNLAHPVIQNFSYETFQQKMLRFLESHLDDAEPYLLTMAKKALK  
+267 résidus ; pI = 9,42 ; MW = 30065,3 Da ; ε~280\ nm~ = 12950 M^-1^.cm^-1^.  
+Après TEV : 245 résidus ; pI = 9,53 ; MW = 27600,7 Da ; ε~280\ nm~ = 11460 M^-1^.cm^-1^.
+
+> **Myb-court**
+> **MAGAASHHHHHHHHGTGENLYFQ**G|KQKWTVEESEWVKAGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN  
+77 résidus ; pI = 9,82 ; MW = 8940 Da ; ε~280\ nm~ = 26470 M^-1^.cm^-1^.  
+Après TEV : 55 résidus ; pI = 10,09 ; MW = 6475,4 Da ; ε~280\ nm~ = 24980 M^-1^.cm^-1^.
+
+> **Myb-long**
+> **MGHHHHHHHHGTGQQMGRDLENLYFQ**GEKNPKVPKGKWNSSNGVEEKETWVEEDELFQVQAAPDEDSTTNITKKQKWTVEESEWVKAGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN  
+127 résidus ; pI = 7,11 ; MW = 14815,4 Da ; ε~280\ nm~ = 37470 M^-1^.cm^-1^.  
+Après TEV : 101 résidus ; pI = 8,12 ; MW = 11691,1 Da ; ε~280\ nm~ = 35980 M^-1^.cm^-1^.
+
+
+Comparaison des constructions Myb-court et Myb-long :
+
+```
+Myb-court      ---------------------------------------------GKKQKWTVEESEWVK	14
+Myb-long       GEKNPKVPKGKWNSSNGVEEKETWVEEDELFQVQAAPDEDSTTNITKKQKWTVEESEWVK	60
+                                                             **************
+
+Myb-court      AGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN	55
+Myb-long       AGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN	101
+               *****************************************
+```
+
+
+### RAP1
+
+> **RAP1**
+> **MGHHHHHHHHHPTTENLYFQ**GHT|MAEAMDLGKDPNGPTHSSTLFVRDDGSSMSFYVRPSPAKRRLSTLILHGGGTVCRVQEPGAVLLAQPGEALAEASGDFISTQYILDCVERNERLELEAYRLGPASAADTGSEAKPGALAEGAAEPEPQRHAGRIAFTDADDVAILTYVKENARSPSSVTGNALWKAMEKSSLTQHSWQSLKDRYLKHLRGQEHKYLLGDAPVSPSSQKLKRKAEEDPEAADSGEPQNKRTPDLPEEEYVKEEIQENEEAVKKMLVEATREFEEVVVDESPPDFEIHITMCDDDPPTPEEDSETQPDEEEEEEEEKVSQPEVGAAIKIIRQLMEKFNLDLSTVTQAFLKNSGELEATSAFLASGQRADGYPIWSRQDDIDLQKDDEDTREALVKKFGAQNVARRIEFRKK  
+422 résidus ; pI = 4,87 ; MW = 47071,9 Da ; ε~280\ nm~ = 29910 M^-1^.cm^-1^.  
+Après TEV :  402 résidus ; pI = 4,66 ; MW = 44555,2 Da ; ε~280\ nm~ = 28420 M^-1^.cm^-1^.
+
+> **RAP1-ARAGA** (mutation indiquée en gras)
+> **MGHHHHHHHHHPTTENLYFQ**GHT|MAEAMDLGKDPNGPTHSSTLFVRDDGSSMSFYVRPSPAKRRLSTLILHGGGTVCRVQEPGAVLLAQPGEALAEASGDFISTQYILDCVERNERLELEA**A**R**A**G**A**ASAADTGSEAKPGALAEGAAEPEPQRHAGRIAFTDADDVAILTYVKENARSPSSVTGNALWKAMEKSSLTQHSWQSLKDRYLKHLRGQEHKYLLGDAPVSPSSQKLKRKAEEDPEAADSGEPQNKRTPDLPEEEYVKEEIQENEEAVKKMLVEATREFEEVVVDESPPDFEIHITMCDDDPPTPEEDSETQPDEEEEEEEEKVSQPEVGAAIKIIRQLMEKFNLDLSTVTQAFLKNSGELEATSAFLASGQRADGYPIWSRQDDIDLQKDDEDTREALVKKFGAQNVARRIEFRKK  
+422 résidus ; pI = 4,87 ; MW = 46911,7 Da ; ε~280\ nm~ = 28420 M^-1^.cm^-1^.  
+Après TEV : 402 résidus ; pI = 4,66 ; MW = 44395 Da ; ε~280\ nm~ = 26930 M^-1^.cm^-1^.
+
+> **RAP1_1-208**
+> **MGHHHHHHHHHPTTENLYFQ**GHT|MAEAMDLGKDPNGPTHSSTLFVRDDGSSMSFYVRPSPAKRRLSTLILHGGGTVCRVQEPGAVLLAQPGEALAEASGDFISTQYILDCVERNERLELEAYRLGPASAADTGSEAKPGALAEGAAEPEPQRHAGRIAFTDADDVAILTYVKENARSPSSVTGNALWKAMEKSSLTQHSWQSLKDRYLKHLRGQEHKYLLGDAPVSPSSQK  
+231 résidus ; pI = 6,33 ; MW = 25218 Da ; ε~280\ nm~ = 21430 M^-1^.cm^-1^.  
+Après TEV : 211 résidus ; pI = 5,99 ; MW = 22701,3 Da ; ε~280\ nm~ = 19940 M^-1^.cm^-1^.
+
+> **RAP1-RCT**
+> **GSSHHHHHHSSGLVPR**GSHM|PPDFEIHITMCDDDPPTPEEDSETQPDEEEEEEEEKVSQPEVGAAIKIIRQLMEKFNLDLSTVTQAFLKNSGELEATSAFLASGQRADGYPIWSRQDDIDLQKDDEDTREALVKKFGAQNVARRIEFRKK  
+150 résidus ; pI = 4,77 ; MW = 16991,6 Da ; ε~280\ nm~ = 6990 M^-1^.cm^-1^.  
+Après thrombine : 134 résidus ; pI = 4,37 ; MW = 15240,7 Da ; ε~280\ nm~ = 6990 M^-1^.cm^-1^.
+
+
+### WRN
+
+> **WRN_949-1079**
+> **MGHHHHHHHHGTGQQMGRDLENLYFQ**GDDSEDTSWDFGPQAFKLLSAVDILGEKFGIGLPILFLRGSNSQRLADQYRRHSLFGTGKDQTESWWKAFSRQLITEGFLVEVSRYNKFMKICALTKKGRNWLHKANTESQSLILQANEELCPKKLLLPSS  
+157 résidus ; pI = 8,57 ; MW = 18020,3 Da ; ε~280\ nm~ = 26470 M^-1^.cm^-1^.  
+Après TEV : 131 résidus ; pI = 8,96 ; MW = 14896 Da ; ε~280\ nm~ = 24980 M^-1^.cm^-1^.
+
+
+## Oligonucléotides
+
+### Première génération
+
+Ces oligonucléotides ont été conçus pour pouvoir les assembler en duplexes de 16
+pb avec deux sites TAGGG, avec des extrémités franches ou de deux bases
+sortantes en 5' ou en 3' de façon à produire des extrémités cohésives terminées
+par un appariement GC. Ces extrémités cohésives peuvent établir des interactions
+que l'on espère favorables pour la cristallisation du complexe Myb/ADN.
+
+**T2-S1** (brin sens)
+
+```
+5’- CTAGGGTTAGGGTTAG -3’
+```
+
+**T2-S2**
+
+```
+5’- CTAACCCTAACCCTAG -3’
+```
+
+**T2-S3**
+
+```
+5’- AACCCTAACCCTAGCT -3’
+```
+
+**T2-S4**
+
+```
+5’- AGCTAACCCTAACCCT -3’
+```
+
+L'hybridation de ces oligonucléotides produit les duplexes suivants :
+
+**T2-S1S1** (bouts francs)
+
+```
+5’- CTAGGGTTAGGGTTAG -3’
+3’- GATCCCAATCCCAATC -5’
+```
+
+**T2-S1S3** (3'-sortant)
+
+```
+5’-   CTAGGGTTAGGGTTAG -3’
+3’- TCGATCCCAATCCCAA   -5’
+```
+
+**T2-S1S4** (5'-sortant)
+
+```
+5’- CTAGGGTTAGGGTTAG   -3’
+3’-   TCCCAATCCCAATCGA -5’
+```
+
+
+### Seconde génération
+
+Ces oligonucléotides ont été conçus sur la base des précédents, en tenant compte
+du fait que les complexes protéine/ADN disponibles dans la PDB ont le plus
+souvent un ADN de 20 pb et des extrémités sortantes d'une seule base formant une
+paire AT, avec un la base T en 5' [@hol2011; @brown1996]. D'autre part, l'ADN en
+conformation B possède en moyenne 10 pb par tour d'hélice, donc un
+oligonucléotide d'une longueur multiple de 10 donne un nombre entier de tours
+d'hélice, ce qui peut favoriser l'empilement des complexes en une hélice
+semi-continue.
+
+**T2-S5** (brin sens)
+
+```
+5’- TACTAGGGTTAGGGTTAGCA -3’
+```
+
+**T2-S6**
+
+```
+5’- TGCTAACCCTAACCCTAGTA -3’
+```
+
+**T2-S7**
+
+```
+5’- GCTAACCCTAACCCTAGTAT -3’
+```
+
+**T2-S8**
+
+```
+5’- ATGCTAACCCTAACCCTAGT -3’
+```
+
+L'hybridation de ces oligonucléotides produit les duplexes suivants :
+
+**T2-S5S6** (bouts francs)
+
+```
+5’- TACTAGGGTTAGGGTTAGCA -3’
+3’- ATGATCCCAATCCCAATCGT -5’
+```
+
+**T2-S5S7** (3'-sortant)
+
+```
+5’-  TACTAGGGTTAGGGTTAGCA -3’
+3’- TATGATCCCAATCCCAATCG  -5’
+```
+
+**T2-S5S8** (5'-sortant)
+
+```
+5’- TACTAGGGTTAGGGTTAGCA  -3’
+3’-  TGATCCCAATCCCAATCGTA -5’
+```
+
+
