@@ -1,4 +1,51 @@
-# Cristallogenèse
+# Résolution de la structure du complexe Myb-long/ADN
+
+## Préparation du complexe
+
+La préparation du complexe Myb-long/ADN est réalisée en mélangeant la protéine
+avec un excès molaire en sites de liaison de 1,2. Ce mélange est concentré
+jusqu'à environ 100 μL et injecté à 0,5 mL/min sur une colonne d'exclusion
+stérique Superdex200 10/300 GL (GE Healthcare) équilibrée en tampon Tris-HCl 20
+mM, pH = 7,5, NaCl 150 mM, 2-mercaptoethanol 5 mM. Cette étape permet de séparer
+l'excès d'ADN du complexe, et nous assure que l'échantillon contient uniquement
+le complexe d'intérêt (les éventuels complexes où une seule protéine s'est fixée
+sur un oligonucléotide à deux sites sont aussi séparés). Les fractions d'intérêt
+sont réunies et concentrées jusqu'à environ 22 mg/mL en complexe.
+
+###Propriétés du complexe et de ses composants
+
+Pour la protéine, MW et ε~280\ nm~ sont obtenus avec l'outil ProtParam
+(<http://web.expasy.org/protparam/>) et ε~260\ nm~ est estimé par la mesure d'un
+spectre d'absorption UV au Nanodrop. Il s'obtient comme suit avec les valeurs
+d'absorbance lues :
+$ε_{260 nm} = \frac{ε_{280 nm}}{A_{280 nm}} \times A_{260 nm}$).
+
+Pour l'oligonucléotide, MW est connue car on connait les masses molaires des
+deux brins hybridés (ces masses sont données par le fournisseur, ici
+Eurogentec), ε~260\ nm~ et ε~280\ nm~ sont déterminés avec l'outil IDT
+Biophysics (<http://biophysics.idtdna.com/UVSpectrum.html>).
+
+Les propriétés du complexe sont déterminées en additionnant celles des
+composants en tenant compte de la stoechiométrie (deux protéines liées à un
+oligonucléotide).
+
+- Myb-long
+    + MW = 11691,1 Da
+    + ε~280\ nm~ = 35980 M^-1^.cm^-1^
+    + ε~260\ nm~ ≃ 22264,85 M^-1^.cm^-1^
+
+- oligonucléotide T2-S5S7
+    + MW = 12233,1 Da
+    + ε~280\ nm~ = 169099,5  M^-1^.cm^-1^
+    + ε~260\ nm~ = 320693,9 M^-1^.cm^-1^
+
+- complexe 1 oligonucléotide + 2 Myb-long
+    + MW = 35615,3 Da
+    + ε~280\ nm~ ≃ 264786  M^-1^.cm^-1^
+    + ε~260\ nm~ ≃ 365223,7 M^-1^.cm^-1^
+
+
+## Cristallogenèse
 
 Toutes les expériences de cristallogenèse sont réalisées par la méthode de
 diffusion de vapeur. Les premiers essais de cristallisation sont réalisés par
@@ -10,11 +57,28 @@ plaques de 24 puits.
 
 Les 2x 48 conditions décrites dans [@pryor2012; @lebihan2013] ont été préparées
 à l'aide du robot pipeteur MatrixMaker de la plateforme de cristallogenèse de
-l'Institut Pasteur.
+l'Institut Pasteur. Ces solutions ont ensuite été utilisées pour préparer
+manuellement des gouttes suspendues en plaques de 24 puits.
 
 
-# Collecte et traitement des données de diffraction
+## Collecte et traitement des données de diffraction
 
 Toutes les expériences de diffraction des rayons X ont été faites au synchrotron
 SOLEIL, sur les lignes de lumière PROXIMA 1 et 2. Les images de diffraction ont
 été indexées et intégrées à l'aide du logiciel XDS [@kabsch2010].
+
+
+## Détermination des phases
+
+Les phases sont déterminées par remplacement moléculaire avec le logiciel PHASER
+[@mccoy2007] utilisé à travers l'interface de PHENIX [@adams2010]. Le modèle
+a été préparé à partir de l'entrée PDB 1W0U et contient un "mini-complexe" fait
+d'un Myb-court lié à un motif TAGGG (avec le brin complémentaire présent).
+Ce modèle a 100 % d'identité de séquence avec notre complexe.
+
+
+## Affinement des modèles
+
+Les affinements sont réalisés avec le logiciel phenix.refine
+[@afonine2012; @adams2010].
+
