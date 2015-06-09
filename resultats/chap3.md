@@ -10,7 +10,7 @@ Giraud-Panis). En particulier, quelques lysines situées dans le *linker* juste
 en amont du domaine Myb semblent significativement protégées par la présence de
 l'ADN. Nous avons donc produit une construction du domaine Myb allongée de 46
 résidus en N-terminal (appelée Myb-long) et la construction classique
-correspondant au domaine présent dans l'entrée PDB 1WOU (appelée Myb-court) afin
+correspondant au domaine présent dans l'entrée PDB 1W0U (appelée Myb-court) afin
 de comparer leurs modes d'interaction avec l'ADN. Pour cela nous avons utilisé
 trois techniques : la calorimétrie de titration isotherme, le SAXS et
 la cristallographie.
@@ -122,19 +122,19 @@ Table: Tableau : Jeux de données cristallographiques et statistiques de
 traitement des données.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
-Cristal     Maille (a, b, c Å et α, β, γ °)    Résolution (Å)                  Nombre de réflexions    Complétude (%)    Rmeas (%)       CC1/2 (%)
+ Cristal    Maille (a, b, c Å et α, β, γ °)    Résolution (Å)                  Nombre de réflexions    Complétude (%)    Rmeas (%)       CC1/2 (%)
 ---------  ---------------------------------  ------------------------------  ----------------------  ----------------  --------------  -------------
-Myb2        87.87 27.21 108.74 90 98.29 90     49.024 – 2.146 (2.28 – 2.15)    28718                   99.49             8.5 (96.9)      99.9 (67.7)
+ Myb2       87.87 27.21 108.74 90 98.29 90     49.024 – 2.146 (2.28 – 2.15)    28718                   99.49             8.5 (96.9)      99.9 (67.7)
 
-Myb9        89.23 28.43 110.6 90 99.5 90       44.003 – 1.991 (2.12 – 2.00)    38419                   99.35             6.5 (119.1)     99.9 (81.6)
+ Myb9       89.23 28.43 110.6 90 99.5 90       44.003 – 1.991 (2.12 – 2.00)    38419                   99.35             6.5 (119.1)     99.9 (81.6)
 
-Myb10       89.12 28.47 110.44 90 99.42 90     43.959 – 2.093 (2.22 – 2.09)    32274                   96.79             9.9 (108.8)     99.9 (70.0)
+ Myb10      89.12 28.47 110.44 90 99.42 90     43.959 – 2.093 (2.22 – 2.09)    32274                   96.79             9.9 (108.8)     99.9 (70.0)
 
-Myb31       89.07 28.22 110.71 90 99.49 90     43.926 – 2.198 (2.33 – 2.20)    28222                   98.60             12.8 (154.7)    99.7 (53.2)
+ Myb31      89.07 28.22 110.71 90 99.49 90     43.926 – 2.198 (2.33 – 2.20)    28222                   98.60             12.8 (154.7)    99.7 (53.2)
 
-Myb32       89.0 28.37 110.62 90 99.479 90     43.89 – 1.789 (1.91 – 1.80)     52467                   99.44             5.9 (176.7)     99.9 (63.0)
+ Myb32      89.0 28.37 110.62 90 99.479 90     43.89 – 1.789 (1.91 – 1.80)     52467                   99.44             5.9 (176.7)     99.9 (63.0)
 
-Myb34       89.16 28.45 110.42 90 99.36 90     43.986 – 1.788 (1.90 – 1.79)    51069                   96.42             5.3 (116.4)     99.8 (54.3)
+ Myb34      89.16 28.45 110.42 90 99.36 90     43.986 – 1.788 (1.90 – 1.79)    51069                   96.42             5.3 (116.4)     99.8 (54.3)
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
