@@ -65,6 +65,19 @@ QUE PEUT-ON CONCLURE AVEC LES P(r) ?
 
 ## Cristallographie
 
+### Préparation du complexe
+
+Le mélange du Myb-long avec un excès d'oligonucléotide T2-S5S7 est purifié par
+chromatographie d'exclusion stérique (cf. Matériel et méthodes).
+Un chromatogramme typique est présenté dans la figure ci-dessous :
+
+![Figure : Chromatogramme d'exclusion stérique du complexe Myb-long/ADN. Absorbance à 280 nm en bleu, absorbance à 260 nm en rouge.](resultats/figures/chap3/myb-long_adn-sup200.png)
+
+Les fractions 6, 7 et 8 sont réunies et concentrées à environ 22 mg/mL en
+complexe pour obtenir l'échantillon final (les fractions 9 et 10 contiennent
+l'excès d'oligonucléotide libre).
+
+
 ### Cristallogenèse
 
 Afin de caractériser en détails le mode d'interaction avec l'ADN du Myb-long,
@@ -188,5 +201,5 @@ contient aucune densité positive dans la région N-terminale de la protéine.
 Nous avons pu au mieux ajouter quatre résidus en N-terminal du modèle affiné
 contre le jeu de données Myb10.
 
-COMPARER LES DIFFÉRENTES SOLUTIONS DE REMPLACEMENT MOLÉCULAIRE
+COMPARER LES DIFFÉRENTES SOLUTIONS DE REMPLACEMENT MOLÉCULAIRE (?)
 
