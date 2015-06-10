@@ -137,6 +137,56 @@ traitement des données.
  Myb34      89.16 28.45 110.42 90 99.36 90     43.986 – 1.788 (1.90 – 1.79)    51069                   96.42             5.3 (116.4)     99.8 (54.3)
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
+Le calcul du coefficient de Matthews [@matthews1968] suggère que l'unité
+asymétrique de ces cristaux contient deux copies du complexe. Les coefficients
+calculés pour le cristal Myb10 en supposant 1, 2 et 3 copies du complexe dans
+l'unité asymétrique sont présentés ci-dessous :
+
+```
+Cell volume:        276434.844
+For estimated molecular weight   35615.3
+Nmol/asym  Matthews Coeff  %solvent       P(tot)
+________________________________________________
+  1         3.88            71.72         0.60
+  2         1.94            43.44         0.39
+  3         1.29            15.16         0.01
+________________________________________________
+```
+
 
 ### Résolution de la structure et affinement
+
+Les résultats du remplacement moléculaire et du premier affinement (en corps
+rigide) sont présentés dans le tableau suivant.
+
+Table: Tableau : Résultats du remplacement moléculaire et premier affinement.
+
+-----------------------------------------------------------------------------------------------------------
+ Cristal    Nombre de solutions    Groupe d'espace    Top LLG     Top TFZ (>8)    R-work (%)    R-free (%)
+---------  ---------------------  -----------------  ----------  --------------  ------------  ------------
+ Myb2        1                      P 1 21 1          2755.010     8.1             34.58         40.40
+
+ Myb9        1                      P 1 21 1          3841.366     21.1            36.26         40.02
+
+ Myb10       1                      P 1 21 1          3565.377     20.1            34.22         38.38
+
+ Myb31       1                      P 1 21 1          2989.351     20.0            33.65         37.23
+
+ Myb32       1                      P 1 21 1          4686.503     35.9            36.12         38.94
+
+ Myb34       1                      P 1 21 1          4706.498     20.5            34.48         38.17
+-----------------------------------------------------------------------------------------------------------
+
+À ce stade, les quatre copies du modèle utilisé pour le remplacement moléculaire
+semblent correctement positionnées les unes par rapport aux autres. Les cartes
+de densité électronique sont suffisamment interprétables pour permettre la
+construction complète de l'oligonucléotide, ce qui confirme que les positions
+relatives des modèles de départ sont correctes.
+
+Malheureusement, malgré tous nos efforts, la carte de différence mFo-DFc ne
+contient aucune densité positive dans la région N-terminale de la protéine.
+Nous avons pu au mieux ajouter quatre résidus en N-terminal du modèle affiné
+contre le jeu de données Myb10.
+
+COMPARER LES DIFFÉRENTES SOLUTIONS DE REMPLACEMENT MOLÉCULAIRE
 

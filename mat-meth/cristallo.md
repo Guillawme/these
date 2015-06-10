@@ -74,11 +74,18 @@ Les phases sont déterminées par remplacement moléculaire avec le logiciel PHA
 [@mccoy2007] utilisé à travers l'interface de PHENIX [@adams2010]. Le modèle
 a été préparé à partir de l'entrée PDB 1W0U et contient un "mini-complexe" fait
 d'un Myb-court lié à un motif TAGGG (avec le brin complémentaire présent).
-Ce modèle a 100 % d'identité de séquence avec notre complexe.
+Ce modèle a 100 % d'identité de séquence avec notre complexe. Le coefficient de
+Matthews est calculé avec l'outil *Matthews* [@matthews1968; @kantardjieff2003]
+de la suite CCP4 [@winn2011] et suggère que l'unité asymétrique contient deux
+copies du complexe entier. Nous cherchons donc quatre copies de ce modèle à un
+Myb dans l'unité asymétrique.
 
 
 ## Affinement des modèles
 
 Les affinements sont réalisés avec le logiciel phenix.refine
-[@afonine2012; @adams2010].
+[@afonine2012; @adams2010]. Le premier tour d'affinement est toujours effectué
+en corps rigide pour ajuster le modèle dans la maille du cristal correspondant
+au jeu de données utilisées. Les affinements suivants agissent sur les
+coordonnées individuelles des atomes et les facteurs B.
 
