@@ -18,7 +18,7 @@ Pour la protéine, MW et ε~280\ nm~ sont obtenus avec l'outil ProtParam
 (<http://web.expasy.org/protparam/>) et ε~260\ nm~ est estimé par la mesure d'un
 spectre d'absorption UV au Nanodrop. Il s'obtient comme suit avec les valeurs
 d'absorbance lues :
-$ε_{260 nm} = \frac{ε_{280 nm}}{A_{280 nm}} \times A_{260 nm}$).
+$ε_{260 nm} = \frac{ε_{280 nm}}{A_{280 nm}} \times A_{260 nm}$.
 
 Pour l'oligonucléotide, MW est connue car on connait les masses molaires des
 deux brins hybridés (ces masses sont données par le fournisseur, ici
