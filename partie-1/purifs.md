@@ -11,7 +11,7 @@ chromatographie d'exclusion stérique.
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
 purification typique de TRF2 sont présentés dans la figure ci-dessous :
 
-![Figure : Purification de TRF2.](resultats/figures/chap1/purif-trf2.jpg)
+![Figure : Purification de TRF2.](partie-1/figures/purif-trf2.jpg)
 
 Le rendement typique est d'environ 7,5 mg de protéine par culot bactérien.
 
@@ -27,7 +27,7 @@ chromatographie d'exclusion stérique.
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
 purification typique de RAP1 sont présentés dans la figure ci-dessous :
 
-![Figure : Purification de RAP1.](resultats/figures/chap1/purif-rap1.jpg)
+![Figure : Purification de RAP1.](partie-1/figures/purif-rap1.jpg)
 
 Le rendement typique est d'environ 8 mg de protéine par culot bactérien.
 
@@ -43,7 +43,7 @@ chromatographie d'exclusion stérique.
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
 purification typique de RAP1-ARAGA sont présentés dans la figure ci-dessous :
 
-![Figure : Purification de RAP1-ARAGA.](resultats/figures/chap1/purif-araga.jpg)
+![Figure : Purification de RAP1-ARAGA.](partie-1/figures/purif-araga.jpg)
 
 Le rendement typique est d'environ 6 mg de protéine par culot bactérien.
 
@@ -58,7 +58,7 @@ pour le nickel.
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
 purification typique de RAP1_1-208 sont présentés dans la figure ci-dessous :
 
-![Figure : Purification de RAP1_1-208.](resultats/figures/chap1/purif-1-208.jpg)
+![Figure : Purification de RAP1_1-208.](partie-1/figures/purif-1-208.jpg)
 
 Le rendement typique est d'environ 20,9 mg de protéine par culot bactérien.
 
@@ -73,7 +73,7 @@ pour le nickel.
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
 purification typique de B-TRFH sont présentés dans la figure ci-dessous :
 
-![Figure : Purification de B-TRFH.](resultats/figures/chap1/purif-b-trfh.jpg)
+![Figure : Purification de B-TRFH.](partie-1/figures/purif-b-trfh.jpg)
 
 Le rendement typique est d'environ 6 mg de protéine par culot bactérien.
 

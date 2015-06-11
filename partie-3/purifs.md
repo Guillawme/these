@@ -10,7 +10,7 @@ pour le nickel, et chromatographie d'affinité pour l'héparine.
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
 purification typique du Myb-court sont présentés dans la figure ci-dessous :
 
-![Figure : Purification du Myb-court.](resultats/figures/chap1/purif-mybc.jpg)
+![Figure : Purification du Myb-court.](partie-3/figures/purif-mybc.jpg)
 
 Le rendement typique est d'environ 13,8 mg de protéine par culot bactérien.
 
@@ -25,7 +25,7 @@ pour le nickel.
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
 purification typique du Myb-long sont présentés dans la figure ci-dessous :
 
-![Figure : Purification du Myb-long.](resultats/figures/chap1/purif-mybl.jpg)
+![Figure : Purification du Myb-long.](partie-3/figures/purif-mybl.jpg)
 
 Le rendement typique est d'environ 6,3 mg de protéine par culot bactérien.
 

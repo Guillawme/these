@@ -7,7 +7,7 @@ isolé de RAP1 (RAP1-RCT) nous n'observons que la grande transition dans la
 courbe de titration (figure ci-dessous), en accord avec les données déjà
 disponibles dans la littérature [@chen2011].
 
-![Figure : Titration calorimétrique de TRF2 par RAP1 (panneau de gauche) et par RAP1-RCT (panneau de droite).](resultats/figures/chap1/itc-t2-r1-rct.jpg)
+![Figure : Titration calorimétrique de TRF2 par RAP1 (panneau de gauche) et par RAP1-RCT (panneau de droite).](partie-1/figures/itc-t2-r1-rct.jpg)
 
 Ce phénomère montre que l'interaction entre TRF2 et RAP1 entières est plus
 complexe qu'un seul événement de liaison. Les observations par AFM des complexes
@@ -18,3 +18,4 @@ annexe).
 
 Pour obtenir des données sur la conformation des protéines entières et du
 complexe, nous avons réalisé des mesures de SAXS.
+

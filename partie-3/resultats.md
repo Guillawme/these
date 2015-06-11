@@ -24,7 +24,7 @@ différents, ce qui suggère que la région du *linker* présente dans la
 construction Myb-long participe bien à l'interaction avec l'ADN (figure
 ci-dessous) :
 
-![Figure : Titration calorimétrique des constructions Myb-court (à gauche) et Myb-long (à droite) par l'oligonuclétoide T2-S5S7.](resultats/figures/chap3/itc-mybs.png)
+![Figure : Titration calorimétrique des constructions Myb-court (à gauche) et Myb-long (à droite) par l'oligonuclétoide T2-S5S7.](partie-3/figures/itc-mybs.png)
 
 Du fait d'une grande incertitude sur la concentration du lot d'oligonucléotide
 utilisé pour cette expérience, nous n'avons pas pu calculer les constantes
@@ -41,7 +41,7 @@ le long du chromatogramme, ce qui montre la très bonne homogénéité des
 échantillons (un des deux réplicats de chaque complexe est présenté dans la
 figure ci-dessous) :
 
-![Figure : Variation des paramètres Rg et I0 au cours de l'élution des complexes Myb-court/ADN (à gauche) et Myb-long/ADN (à droite).](resultats/figures/chap3/profils-rg-mybs.png)
+![Figure : Variation des paramètres Rg et I0 au cours de l'élution des complexes Myb-court/ADN (à gauche) et Myb-long/ADN (à droite).](partie-3/figures/profils-rg-mybs.png)
 
 Les courbes finales correspondant à ces acquisitions ont été obtenues en
 calculant la moyenne des courbes 100 à 116 pour le complexe Myb-court/ADN
@@ -51,7 +51,7 @@ Les courbes correspondant à l'autre réplicat (courbes rouge et bleu clair dans
 la figure ci-dessous) ont été obtenues en calculant la moyenne des courbes dans
 la même région du chromatogramme.
 
-![Figure : Courbes de SAXS des complexes Myb-court/ADN (deux réplicats en rouge et orange) et Myb-long/ADN (deux réplicats en bleu foncé et clair).](resultats/figures/chap3/courbes-saxs-mybs.png)
+![Figure : Courbes de SAXS des complexes Myb-court/ADN (deux réplicats en rouge et orange) et Myb-long/ADN (deux réplicats en bleu foncé et clair).](partie-3/figures/courbes-saxs-mybs.png)
 
 L'analyse de Guinier donne un Rg d'environ 20 Å pour le complexe Myb-court/ADN
 et d'environ 28 Å pour le complexe Myb-long/ADN. Cette différence de Rg de 8 Å
@@ -71,7 +71,7 @@ Le mélange du Myb-long avec un excès d'oligonucléotide T2-S5S7 est purifié p
 chromatographie d'exclusion stérique (cf. Matériel et méthodes).
 Un chromatogramme typique est présenté dans la figure ci-dessous :
 
-![Figure : Chromatogramme d'exclusion stérique du complexe Myb-long/ADN. Absorbance à 280 nm en bleu, absorbance à 260 nm en rouge.](resultats/figures/chap3/myb-long_adn-sup200.png)
+![Figure : Chromatogramme d'exclusion stérique du complexe Myb-long/ADN. Absorbance à 280 nm en bleu, absorbance à 260 nm en rouge.](partie-3/figures/myb-long_adn-sup200.png)
 
 Les fractions 6, 7 et 8 sont réunies et concentrées à environ 22 mg/mL en
 complexe pour obtenir l'échantillon final (les fractions 9 et 10 contiennent
@@ -121,7 +121,7 @@ a permis d'obtenir des cristaux, mais à l'apparence meilleure que les précéde
 et de façon bien reproductible : CONDITION. L'apparence typique de ces cristaux
 est montrée dans la photo ci-dessous :
 
-![Figure : Cristaux du complexe Myb-long/T2-S5S7.](resultats/figures/chap3/cristaux.jpg)
+![Figure : Cristaux du complexe Myb-long/T2-S5S7.](partie-3/figures/cristaux.jpg)
 
 
 ### Collecte et traitement des données
