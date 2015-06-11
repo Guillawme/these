@@ -73,11 +73,21 @@ du dimère entier) est produit par une autre équipe du laboratoire (équipe de
 Jean-Baptiste Charbonnier), nous avons cherché à vérifier cette interaction avec
 l'objectif de produire un complexe minimal potentiellement cristallisable.
 Nous avons donc dans un premier temps testé l'interaction de Ku avec le domaine
-TRFH de TRF2, par chromatographie d'exclusion stérique et par *pull-down* sur
+TRFH de TRF2, par chromatographie d'exclusion stérique et par *pull down* sur
 résine de nickel. Nous n'avons pas pu confirmer l'interaction dans ces
 conditions (figure ci-dessous) :
 
-![Figure : Tests d'interaction entre Ku et TRFH.](resultats/figures/chap2/tests-ku-trfh.png)
+![Figure : Tests d'interaction entre Ku et TRFH. Chromatogrammes d'exclusion stérique (gauche) et analyse SDS-PAGE du *pull down* (droite).](resultats/figures/chap2/tests-ku-trfh.png)
+
+En présence du domaine TRFH de TRF2 (chromatogramme rouge dans la figure
+ci-dessus), nous n'observons aucun pic dont le volume d'élution est inférieur
+à celui de Ku (11 mL, cf. le chromatogramme bleu dans la figure ci-dessus) ce
+qui signifie que dans ces conditions aucun complexe ne se forme. L'expérience de
+*pull down* ne montre pas non plus d'interaction puisque la quantité de TRFH
+élué est identique en absence ou en présence de Ku (comparer les pistes E1 et E2
+correspondant aux fractions d'élution, cf. Matériel et méthodes). Si TRFH
+interagissait avec Ku, il serait enrichi dans la fraction d'élution dans
+l'expérience où Ku est présent.
 
 Nous avons également réalisé la titration calorimétrique de Ku par TRFH et par
 TRF2, qui a confirmé que dans nos conditions expérimentales *in vitro* Ku et
