@@ -1,6 +1,6 @@
-# Partenaires de TRF2 et du complexe TRF2/RAP1
+## Résultats
 
-## WRN
+### WRN
 
 L'interaction directe *in vitro* entre TRF2 et WRN est décrite dans la
 littérature [@opresko2002]. D'après cette étude, le fragment 949-1092 de WRN est
@@ -54,7 +54,7 @@ figure ci-dessous :
 ![Figure : Titration calorimétrique de WRN-RQC par l'oligonucléotide T2-S5S6.](partie2/figures/itc-wrn-adn.jpg)
 
 
-## Ku
+### Ku
 
 Il a été montré par des expériences de double-hybride puis confirmé *in vitro*
 avec des protéines recombinantes purifiées que TRF2 interagit avec Ku70 par son
