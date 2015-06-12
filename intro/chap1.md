@@ -12,16 +12,16 @@ nombre, leur géométrie, leur condensation, le degré de ploïdie, etc. sont au
 de propriétés propres à chaque espèce.
 
 Parmi cette diversité d'organisation des génomes, deux groupes principaux se
-distinguent : d'une part l'ensemble des procaryotes (à de rares exceptions près)
-possède un génome composé d'une ou plusieurs molécules d'ADN circulaires
-(chromosomes et plasmides), et d'autre part le génome nucléaire de tous les
-eucaryotes est constitué exclusivement de chromosomes linéaires.
+distinguent : d'une part la majorité des procaryotes possède un génome composé
+d'une ou plusieurs molécules d'ADN circulaires (chromosomes et plasmides), et
+d'autre part le génome nucléaire de tous les eucaryotes est constitué
+exclusivement de chromosomes linéaires.
 
 
 ## Les télomères
 
-Les extrémités des ADN linéaires sont appelées les télomères^[Du grec τέλος
-signifiant "fin" et μέρος signifiant "partie" : la partie terminale du
+Les extrémités des chromosomes linéaires sont appelées les télomères^[Du grec
+τέλος signifiant "fin" et μέρος signifiant "partie" : la partie terminale du
 chromosome.]. Chez la majorité des organismes qui possèdent des ADN linéaires,
 les télomères partagent les caractéristiques suivantes :
 
@@ -30,9 +30,8 @@ les télomères partagent les caractéristiques suivantes :
   G"),
 - ce brin G forme une extrémité simple-brin sortante en 3',
 - ces répétitions télomériques sont liées par des protéines spécifiques,
-- enfin, une enzyme appelée télomérase est présente et est capable d'allonger le
-  brin G à l'aide d'une matrice d'ARN et de son activité de type
-  rétro-transcriptase.
+- enfin, une enzyme appelée télomérase est capable d'allonger le brin G à l'aide
+  d'une matrice d'ARN et de son activité de type rétro-transcriptase.
 
 Ces caractéristiques déterminent ce qui est appelé un "télomère canonique".
 Quelques organismes possèdent des télomères dits "non canoniques" qui ne
@@ -49,12 +48,12 @@ nucléases et contre les fusions.
 
 La réplication nécessite une machinerie complexe que nous ne détaillerons pas
 ici. Pour comprendre le problème de la réplication des extrémités, il suffit de
-connaître les propriétés des ADN polymérases. Ces enzymes sont en charge de la
-synthèse d'un brin d'ADN à partir d'un brin matrice, elles ne peuvent
-polymériser que de 5' vers 3', et elles nécessitent, en plus du brin matrice,
-une amorce exposant une extrémité 3'-OH libre. Ces amorces sont de petits brins
-d'ARN d'une dizaine de nucléotides, synthétisés par une primase, et appelés
-fragments d'Okazaki.
+connaître les propriétés générales des ADN polymérases. Ces enzymes utilisent un
+brin d'ADN matrice qu'elles lisent dans le sens 3'-5' pour synthétiser un
+nouveau brin complémentaire de 5' vers 3'. En plus du brin matrice, elles
+nécessitent une amorce exposant une extrémité 3'-OH libre. Ces amorces sont de
+petits brins d'ARN d'une dizaine de nucléotides, synthétisés par une primase, et
+appelés fragments d'Okazaki.
 
 Lors de la réplication, le brin orienté 3'-5' de la molécule d'ADN initiale sert
 de matrice pour la synthèse du nouveau brin dit "précoce", car sa synthèse ne
@@ -90,8 +89,8 @@ Ce raccourcissement des extrémités à chaque réplication est à l'origine de 
 sénescence observée dans une culture *in vitro* de cellules somatiques humaines
 après une cinquantaine de doublements [@hayflick1965]. Cette limitation du
 nombre de mitoses avant la sénescence est appelée la "limite de Hayflick", et
-les seules cellules qui y échappent sont les lignées germinales et les
-cellules tumorales.
+les seules cellules qui y échappent sont les lignées germinales et certaines
+cellules tumorales hautement prolifératives.
 
 
 ## Le problème de la protection des extrémités
@@ -143,7 +142,7 @@ issues de la cassure sont traitées pour générer des extrémités cohésives.
 
 ### Recombinaison homologue
 
-L'autre voie de réparation des cassures double-brin est la recombinaison
+L'autre voie majeure de réparation des cassures double-brin est la recombinaison
 homologue [@sanfilippo2008]. Cette voie est utilisée principalement pendant les
 phases S et G2, quand une chromatide soeur existe et peut donc servir de matrice
 pour la réparation. Contrairement au NHEJ, la recombinaison homologue produit
@@ -203,7 +202,7 @@ télomériques et télomérase), et la synthèse de ces protéines représente u
 conservés au cours de l'évolution des eucaryotes car ils rendent possible la
 méiose, et car la diversité génétique qu'elle engendre confère un avantage qui
 compense largement le coût de la maintenance des télomères [@ishikawa1999].
-La méiose est en effet physiquement bien plus difficile à réaliser avec des
+La méiose est en effet physiquement plus difficile à réaliser avec des
 chromosomes circulaires : ces chromosomes ne peuvent pas regrouper leurs
 extrémités pour faciliter leur appariement (puisqu'ils n'ont pas d'extrémités),
 et dans le cas où un appariement aurait lieu par simple rencontre aléatoire, ils
@@ -251,14 +250,14 @@ stratégies pour protéger et répliquer leurs extrémités.
 
 Les bactéries du genre *Borrelia* possèdent des ADN linéaires aux extrémités
 fermées covalemment par une épingle à cheveux (*closed hairpin telomeres*),
-ainsi qu'une enzyme appelée résolvase de télomères^[Cette enzyme est parfois appelée
-protélomérase, mais ce terme est inapproprié car cette résolvase de télomères
-n'a rien en commun avec la télomérase des eucaryotes [voir @chaconas2010].] qui
-permet de séparer les deux molécules filles, concaténées en un dimère circulaire
-suite à la réplication [@chaconas2010]. La figure ci-dessous illustre le mode de
-réplication des ADN linéaires à télomères en épingles à cheveux avec une
-initiation centrale et une étape de résolution des télomères qui reconstitue
-deux ADN linéaires fermés covalemment par des épingles à cheveux.
+ainsi qu'une enzyme appelée résolvase de télomères^[Cette enzyme est parfois
+appelée protélomérase, bien qu'elle n'ait rien en commun avec la télomérase des
+eucaryotes [voir @chaconas2010].] qui permet de séparer les deux molécules
+filles, concaténées en un dimère circulaire suite à la réplication
+[@chaconas2010]. La figure ci-dessous illustre le mode de réplication des ADN
+linéaires à télomères en épingles à cheveux avec une initiation centrale et une
+étape de résolution des télomères qui reconstitue deux ADN linéaires fermés
+covalemment par des épingles à cheveux.
 
 ![Figure : Principe de la réplication des ADN linéaires à télomères en épingle à cheveux. D'après [@shi2013].](intro/figures/replication-Borrelia.png)
 
@@ -266,7 +265,7 @@ L'activité de résolution des télomères a été mise en évidence *in vivo* �
 de plasmides contenant la séquence télomérique répliquée (séquence répétée
 inversée), et directement introduits dans la bactérie par transformation
 [@chaconas2001]. Un plasmide circulaire contenant cette séquence télomérique
-répliquée est retrouvé sous forme linéaire lors de l'analyse, et il a pu être
+répliquée est retrouvé sous forme linéaire lors de l'analyse, et il a été
 vérifié expérimentalement que l'ADN linéaire résultant contient bien des
 séquences télomériques à ses extrémités et que ces dernières sont bien fermées
 par une épingle à cheveux.

@@ -10,9 +10,9 @@ télomérique est représentée schématiquement sur la figure ci-dessous :
 
 ![Figure : L'ADN télomérique des mammifères. D'après [@palm2008].](intro/figures/seq-telo-humain.png)
 
-Du fait de l'extrémité simple-brin et de la nature répétée des séquences
-télomériques, l'ADN télomérique est capable de former une structure en boucle
-appelée la *t-loop*, représentée dans la figure ci-dessous :
+L'extrémité simple-brin et de la nature répétée des séquences télomériques rend
+possible la formation d'une structure en boucle appelée la *t-loop*, représentée
+dans la figure ci-dessous :
 
 ![Figure : La *t-loop*. Panneau en haut à gauche d'après [@griffith1999] ; panneau
  en haut à droit d'après [@doksani2013], la barre équivaut à 0,4 μm ;  panneau du bas d'après [@palm2008].](intro/figures/t-loop.jpg)
@@ -26,7 +26,7 @@ replie vers l'arrière et que l'extrémité simple-brin envahit la région
 double-brin et s'apparie au brin C (panneau du bas dans la figure). Ce modèle
 suggère également que la *t-loop* est une solution pour la protection des
 extrémités contre les systèmes de réparation des cassures double-brin : elle
-bloque physiquement l'accès à l'extrémité de la molécule d'ADN.
+bloque physiquement l'accès à l'extrémité de la molécule d'ADN [@griffith1999].
 
 Plus récemment, la *t-loop* a pu être visualisée dans des cellules de souris
 sans extraction ni purification, par une technique de microscopie de
