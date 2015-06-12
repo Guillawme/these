@@ -11,7 +11,8 @@ solutions sont dégazées et leur température est ajustée à celle de l'expér
 
 Les conditions expérimentales de chaque expérience sont détaillées dans le
 tableau suivant (les concentrations en TRF2, TRFH, B-TRFH et complexe TRF2/RAP1
-sont toujours exprimées en termes de monomères).
+sont toujours exprimées en termes de monomères, les concentrations en Ku sont
+tonjours exprimées en termes de l'hétérodimère).
 
 Table: Tableau : Conditions expérimentales des titrations calorimétriques.
 
@@ -50,6 +51,10 @@ Table: Tableau : Conditions expérimentales des titrations calorimétriques.
 
  TRF2/RAP1 13,46 μM     WRN-RQC 134,59 μM     C             293                    10
 
+ Ku 11,16 μM            TRFH 280 μM           D             298                    6
+
+ Ku 9,04 μM             TRF2 180,8 μM         D             298                    6
+
  Myb-court 20 μM        T2-S5S6 100 μM        C             283                    10
 
  Myb-long 20 μM         T2-S5S6 100 μM        C             283                    10
@@ -69,6 +74,11 @@ Tampons utilisés :
 
 - **Tampon C** :
     + Tris-HCl 20 mM, pH = 7,5
+    + NaCl 150 mM
+    + 2-mercaptoethanol 5 mM
+
+- **Tampon D** :
+    + Tris-HCl 20 mM, pH = 8,0
     + NaCl 150 mM
     + 2-mercaptoethanol 5 mM
 
