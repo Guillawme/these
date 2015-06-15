@@ -134,4 +134,28 @@ TRF2 n'interagissent pas (figure ci-dessous) :
 ![Figure : Titrations calorimétriques de Ku par TRFH et TRF2.](partie2/figures/itc-ku-trfh-trf2.jpg)
 
 
+### Strep-DNA pull down
+
+Pour mettre en évidence de façon plus générale l'effet de RAP1 sur les
+propriétés d'interaction de TRF2 avec ses autres partenaires protéiques, nous
+avons réalisé des expériences de *pull down* (cf. Matériel et méthodes).
+Dans ces expériences, TRF2 ou le complexe TRF2/RAP1 ou TRF2/RAP1-ARAGA sont
+fixés sur un oligonucléotide contenant un site de liaison à TRF2, cet
+oligonucléotide étant lui-même immobilisés sur un support chromatographique par
+un système streptavidine/biotine. Des extraits nucléaires de cellules HeLa sont
+ensuite incubés avec ces complexes, et on analyse le contenu des éluats par
+SDS-PAGE.
+
+Premièrement, nous observons de façon reproductible des chromatogrammes
+d'élution différents selon que les extraits nucléaires ont été incubés avec TRF2
+seul, le complexe TRF2/RAP1, le complexe TRF2/ARAGA ou l'ADN seul (figure-ci
+dessous), alors que les quantités de protéines et d'extraits nucléaires sont
+identiques dans tous les essais.
+
+![Figure : Chromatogrammes d'élution des *pull down*. ADN seul (en haut à gauche), ADN saturé en TRF2 (en haut à droite), ADN saturé en TRF2/RAP1 (en bas à gauche), ADN saturé en TRF2/RAP1-ARAGA (en bas à droite). Le premier pic autour de 1 mL correspond à la fraction non retenue des extraits nucléaires.](partie-2/figures/strep-pull-down-chromato.png)
+
+L'analyse par SDS-PAGE montre que les éluats contiennent des protéines
+différentes (figure ci-dessous) :
+
+![Figure : Analyse SDS-PAGE des éluats des *pull down*.](partie-2/figures/strep-pull-down-gel.jpg)
 

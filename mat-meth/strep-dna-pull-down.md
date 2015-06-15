@@ -20,8 +20,10 @@ le système.
 Les oligonucléotides suivants sont hybridés pour obtenir un ADN db biotinylé
 avec une base sortante en 5' à chaque extrémité :
 
-- biotine-5'-TACTAGGGTTAGGGTTAGCA-3'
-- 5'-ATGCTAACCCTAACCCTAGT-3'
+```
+biotine-5'-TACTAGGGTTAGGGTTAGCA -3'
+        3'- TGATCCCAATCCCAATCGTA-5'
+```
 
 Une quantité de 9 nmoles de cet ADN est chargée à 0,1 mL/min sur une colonne
 HiTrap Streptavidin HP 1 mL (GE Healthcare) préalablement équilibrée en tampon
