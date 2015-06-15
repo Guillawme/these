@@ -10,7 +10,7 @@ télomérique est représentée schématiquement sur la figure ci-dessous :
 
 ![Figure : L'ADN télomérique des mammifères. D'après [@palm2008].](intro/figures/seq-telo-humain.png)
 
-L'extrémité simple-brin et de la nature répétée des séquences télomériques rend
+L'extrémité simple-brin et la nature répétée des séquences télomériques rend
 possible la formation d'une structure en boucle appelée la *t-loop*, représentée
 dans la figure ci-dessous :
 
