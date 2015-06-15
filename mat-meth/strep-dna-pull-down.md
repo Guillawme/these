@@ -17,8 +17,9 @@ le système.
 
 ## Protocole
 
-Les oligonucléotides suivants sont hybridés pour obtenir un ADN db biotinylé
-avec une base sortante en 5' à chaque extrémité :
+Les oligonucléotides T2-S5-biotinylé et T2-S8 sont hybridés pour obtenir un ADN
+db biotinylé avec une base sortante en 5' à chaque extrémité et contenant un
+site de liaison de TRF2 (deux motifs TAGGG en tandem) :
 
 ```
 biotine-5'-TACTAGGGTTAGGGTTAGCA -3'
