@@ -33,6 +33,7 @@ tableau suivant :
              TRF2-TRFH     1H6P               [@fairall2001]
  TRF2-TRFH/Apollo~TBM~     3BUA               [@chen2008]
    TRF2-TRFH/TIN2~TBM~     3BU8               [@chen2008]
+   TRF2-TRFH/SLX4~TBM~     4M7C               [@wan2013]
               TRF2-Myb     1VF9               [@hanaoka2005]
           TRF2-Myb/ADN     1VFC               [@hanaoka2005]
      (TRF2-Myb)~2~/ADN     1WOU               [@court2005]
