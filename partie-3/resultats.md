@@ -90,8 +90,12 @@ méthodes). Après optimisation manuelle des meilleures conditions découvertes 
 ce crible, la condition optimale suivante a été isolée :
 
 - extrémités 3'-sortantes (oligonucléotide T2-S1S3),
-- 17 °C
-- CONDITION à RETROUVER
+- 17 °C,
+- ~23 mg/mL en complexe,
+- solution de cristallisation :
+    + HEPES 100 mM pH = 7,5
+    + PEG 8000 3-10 % m/v
+    + Ca acetate 50 mM
 
 Cette condition n'a malheureusement produit que des cristaux irréguliers qui
 diffractaient seulement à très basse résolution (environ 20 Å).
@@ -118,8 +122,17 @@ nouveau crible plus restreint de 2x 48 conditions avec uniquement
 l'oligonucléotide T2-S5S7 et à 17 °C, en utilisant les conditions décrites dans
 [@pryor2012; @lebihan2013]. Une seule condition, la n° 48 de [@pryor2012],
 a permis d'obtenir des cristaux, mais à l'apparence meilleure que les précédents
-et de façon bien reproductible : CONDITION. L'apparence typique de ces cristaux
-est montrée dans la photo ci-dessous :
+et de façon bien reproductible :
+
+- extrémités 3'-sortantes (oligonucléotide T2-S5S7),
+- 17 °C,
+- ~23 mg/mL en complexe,
+- solution de cristallisation :
+    + HEPES 100 mM pH = 7,5
+    + PEG 4000 25-29 % m/v
+    + CaCl~2~ 170-180 mM
+
+L'apparence typique de ces cristaux est montrée dans la photo ci-dessous :
 
 ![Figure : Cristaux du complexe Myb-long/T2-S5S7.](partie-3/figures/cristaux.jpg)
 
