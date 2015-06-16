@@ -1,0 +1,6 @@
+Recherche du motif R-G-L-x-x-x-[YH]-x-L-x-P contre les séquences présentes dans partenaires-trf2-telopin.txt
+
+NB : on ne retrouve pas SLX4 car elle n'est pas présente dans TeloPIN.
+
+sp|Q9H816|DCR1B_HUMAN   RGLalkYlLtP
+
