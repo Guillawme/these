@@ -156,3 +156,132 @@ Après une dernière analyse par SDS-PAGE, les fractions d'intérêt finales
 sont réunies et stockées.
 
 
+## Résultats des purifications
+
+Les résultats typiques obtenus pour les purifications des protéines sont
+détaillés ci-dessous.
+
+
+### TRF2
+
+La purification de TRF2 est typiquement réalisée en quatre étapes (cf.
+Matériel et méthodes) : chromatographie d'affinité pour le nickel, clivage de
+l'étiquette histidine et séparation par une seconde chromatographie d'affinité
+pour le nickel, chromatographie d'affinité pour l'héparine, et finalement
+chromatographie d'exclusion stérique.
+
+Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
+purification typique de TRF2 sont présentés dans la figure ci-dessous :
+
+![Figure : Purification de TRF2.](partie-1/figures/purif-trf2.jpg)
+
+Le rendement typique est d'environ 7,5 mg de protéine par culot bactérien.
+
+
+### RAP1
+
+La purification de RAP1 est typiquement réalisée en quatre étapes (cf.
+Matériel et méthodes) : chromatographie d'affinité pour le nickel, clivage de
+l'étiquette histidine et séparation par une seconde chromatographie d'affinité
+pour le nickel, chromatographie d'échange d'anions, et finalement
+chromatographie d'exclusion stérique.
+
+Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
+purification typique de RAP1 sont présentés dans la figure ci-dessous :
+
+![Figure : Purification de RAP1.](partie-1/figures/purif-rap1.jpg)
+
+Le rendement typique est d'environ 8 mg de protéine par culot bactérien.
+
+
+### RAP1-ARAGA
+
+La purification de RAP1-ARAGA est typiquement réalisée en quatre étapes (cf.
+Matériel et méthodes) : chromatographie d'affinité pour le nickel, clivage de
+l'étiquette histidine et séparation par une seconde chromatographie d'affinité
+pour le nickel, chromatographie d'affinité pour l'héparine, et finalement
+chromatographie d'exclusion stérique.
+
+Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
+purification typique de RAP1-ARAGA sont présentés dans la figure ci-dessous :
+
+![Figure : Purification de RAP1-ARAGA.](partie-1/figures/purif-araga.jpg)
+
+Le rendement typique est d'environ 6 mg de protéine par culot bactérien.
+
+
+### RAP1_1-208
+
+La purification de RAP1_1-208 est typiquement réalisée en deux étapes (cf.
+Matériel et méthodes) : chromatographie d'affinité pour le nickel, clivage de
+l'étiquette histidine et séparation par une seconde chromatographie d'affinité
+pour le nickel.
+
+Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
+purification typique de RAP1_1-208 sont présentés dans la figure ci-dessous :
+
+![Figure : Purification de RAP1_1-208.](partie-1/figures/purif-1-208.jpg)
+
+Le rendement typique est d'environ 20,9 mg de protéine par culot bactérien.
+
+
+### B-TRFH
+
+La purification de B-TRFH est typiquement réalisée en deux étapes (cf.
+Matériel et méthodes) : chromatographie d'affinité pour le nickel, clivage de
+l'étiquette histidine et séparation par une seconde chromatographie d'affinité
+pour le nickel.
+
+Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
+purification typique de B-TRFH sont présentés dans la figure ci-dessous :
+
+![Figure : Purification de B-TRFH.](partie-1/figures/purif-b-trfh.jpg)
+
+Le rendement typique est d'environ 6 mg de protéine par culot bactérien.
+
+
+### WRN_949-1079
+
+La purification de WRN_949-1079 est typiquement réalisée en trois étapes (cf.
+Matériel et méthodes) : chromatographie d'affinité pour le nickel, clivage de
+l'étiquette histidine et séparation par une seconde chromatographie d'affinité
+pour le nickel, et chromatographie d'affinité pour l'héparine.
+
+Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
+purification typique de WRN_949-1079 sont présentés dans la figure ci-dessous :
+
+![Figure : Purification de WRN_949-1079.](partie-2/figures/purif-wrn.jpg)
+
+Le rendement typique est d'environ 3,2 mg de protéine par culot bactérien.
+
+
+## Myb-court
+
+La purification du Myb-court est typiquement réalisée en trois étapes (cf.
+Matériel et méthodes) : chromatographie d'affinité pour le nickel, clivage de
+l'étiquette histidine et séparation par une seconde chromatographie d'affinité
+pour le nickel, et chromatographie d'affinité pour l'héparine.
+
+Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
+purification typique du Myb-court sont présentés dans la figure ci-dessous :
+
+![Figure : Purification du Myb-court.](partie-3/figures/purif-mybc.jpg)
+
+Le rendement typique est d'environ 13,8 mg de protéine par culot bactérien.
+
+
+## Myb-long
+
+La purification du Myb-long est typiquement réalisée en deux étapes (cf.
+Matériel et méthodes) : chromatographie d'affinité pour le nickel, clivage de
+l'étiquette histidine et séparation par une seconde chromatographie d'affinité
+pour le nickel.
+
+Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour une
+purification typique du Myb-long sont présentés dans la figure ci-dessous :
+
+![Figure : Purification du Myb-long.](partie-3/figures/purif-mybl.jpg)
+
+Le rendement typique est d'environ 6,3 mg de protéine par culot bactérien.
+
+
