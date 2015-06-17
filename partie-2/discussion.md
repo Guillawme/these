@@ -5,10 +5,10 @@
 Nous avons démontré que l'interaction entre TRF2 et WRN, précédemment mise en
 évidence avec les protéines entières [@opresko2002], ne peut pas être détectée
 par calorimétrie en utilisant la région minimale de WRN supposée suffisante pour
-l'interaction. Ceci peut signifier que le motif **K**L**L**L**P** présent dans
-la séquence de WRN aux positions 1073-1077 n'est pas un motif TBM, ou bien qu'il
-n'est pas suffisant pour conférer une affinité détectable comme c'est le cas
-pour le motif TBM de RAP1.
+l'interaction. Ceci peut signifier que le motif `KLLLP` présent dans la séquence
+de WRN aux positions 1073-1077 n'est pas un motif TBM, ou bien qu'il n'est pas
+suffisant pour conférer une affinité détectable comme c'est le cas pour le motif
+TBM de RAP1.
 
 Les protéines entières de l'étude [@opresko2002] ont été exprimées en cellules
 d'insectes, elles portent donc potentiellement des modifications
@@ -25,14 +25,18 @@ inconnue, pourrait être impliquée dans la régulation de l'interaction avec WR
 Dans l'objectif d'identifier les déterminants structuraux de l'interaction entre
 TRF2 et WRN, il serait intéressant de réaliser les expériences suivantes :
 
-- Tester la liaison du motif **K**L**L**L**P** de WRN (TBM putatif) au domaine
-  TRFH, car comme dans le cas de RAP1 il se peut que le motif seul puisse
-  interagir tandis que les domaines n'interagissent pas. Cette expérience
-  permettrait aussi d'affiner notre compréhension de la reconnaissance des
-  motifs TBM par le domaine TRFH.
+- Tester la liaison du motif `KLLLP` de WRN (TBM putatif) au domaine TRFH, car
+  comme dans le cas de RAP1 il se peut que l'interaction soit détectable avec le
+  motif seul puisse interagir mais pas avec le domaine. En cas de résultat
+  positif, il serait de plus possible de cristalliser le complexe pour résoudre
+  sa structure tridimensionnelle. Ces expériences permettraient d'affiner notre
+  compréhension de la reconnaissance des motifs TBM par le domaine TRFH.
 - Tester l'interaction avec les protéines entières exprimées dans *E. coli*,
   afin de déterminer si elle dépend ou non de modifications
-  post-traductionnelles.
+  post-traductionnelles. Il serait aussi intéressant de phosphoryler ces
+  protéines par leurs kinases spécifiques [dont certaines sont déjà connues,
+  voir par exemple @walker2012] pour tester l'interaction avec des
+  phosphorylations bien déterminées.
 - Tester l'interaction de WRN avec le complexe TRF2/RAP1 ou TRF2/RAP1-ARAGA
   préformé, afin de déterminer si RAP1 module l'affinité de TRF2 pour WRN.
 - Réaliser des expériences de protéolyse ménagée avec le complexe des protéines
@@ -42,10 +46,10 @@ TRF2 et WRN, il serait intéressant de réaliser les expériences suivantes :
 
 ### Ku
 
-Nous avons démontré que Ku et TRF2 n'interagissent pas directement en solution.
-Ce résultat est en contradiction avec des résultats publiés dans la littérature
-[@song2000; @ribes-zamora2013], et nous allons tenter d'y apporter
-une explication.
+Nous avons observé que dans nos conditions expérimentales aucune interaction n'a
+pu être détectée entre Ku et TRF2. Ce résultat est en désaccord avec des
+résultats précédents [@song2000; @ribes-zamora2013], et nous allons tenter d'y
+apporter une explication.
 
 Concernant l'interaction de Ku70 avec le domaine TRFH [@song2000], il convient
 d'aborder ce résultat avec un regard critique. Les auteurs précisent qu'ils
@@ -60,10 +64,13 @@ construction Ku70_200-385 :
 
 ![Figure : Structure tridimensionnelle de l'hétérodimère Ku. Ku80 en vert, Ku70 en orange, Ku70_200-385 en rouge.](partie-2/figures/ku70-song2000-construct.png)
 
-Puisque cette construction ne correspond à aucune réalité biologique ni d'un
-point de vue structural (cf. figure ci-dessus), ni d'un point de vue fonctionnel
-(cette construction de Ku70 est incapable de s'associer avec Ku80), ce résultat
-nous semble être un faux positif.
+De façon évidente, les délimitations de cette construction ne correspondent pas
+aux délimitations naturelles entre les domaines de la protéine. Le repliement
+correct de cette construction n'a pas été vérifié par les auteurs de l'étude, et
+nous semble peu probable. Puisque cette construction ne correspond à aucune
+réalité biologique ni d'un point de vue structural (cf. figure ci-dessus), ni
+d'un point de vue fonctionnel (cette construction de Ku70 est incapable de
+s'associer avec Ku80), ce résultat nous semble être un faux positif.
 
 L'interaction mise en évidence *in vivo* [@ribes-zamora2013] par des expériences
 de PCA semble plus plausible. Ce type d'expérience n'exclut pas la possibilité

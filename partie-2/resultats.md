@@ -42,26 +42,26 @@ vivo* [@vanoverbeek2006; @lenain2006].
 
 L'interaction directe *in vitro* entre TRF2 et WRN est décrite dans la
 littérature [@opresko2002]. D'après cette étude, le fragment 949-1092 de WRN est
-suffisant pour lier TRF2 entière. Ce fragment contient un motif
-**K**L**L**L**P** aux positions 1073-1077, qui est très semblable aux motifs de
-liaison au domaine TRFH (TBM, pour *TRFH-binding motifs*) YxLxP et HxLxP déjà
-mis en évidence [@chen2008; @wan2013]. Une structure RMN du fragment 949-1092
-montre que ce motif est situé dans une région non structurée de la protéine
-[@hu2005], ce qui en fait un candidat pertinent pour être un motif TBM.
-Les auteurs de cette structure RMN indiquent que cette construction a été très
-difficile à produire de façon soluble, en revanche une étude plus récente
-a montré par protéolyse ménagée que le fragment 949-1079 peut être purifié
-aisément et est bien soluble [@kitano2010]. Ce dernier fragment contient
-toujours le motif TBM putatif. Nous avons donc exprimé et purifié cette
-construction appelée WRN-RQC (cf. Matériel et méthodes) afin de tester son
-interaction avec le domaine TRFH de TRF2. Nous avons privilégié cette approche
-plutôt que l'étude des protéines entières car en cas d'interaction nous
-obtiendrons un complexe potentiellement cristallisable, ce qui ne serait pas le
-cas avec les protéines entières.
+suffisant pour lier TRF2 entière. Ce fragment contient un motif `KLLLP` aux
+positions 1073-1077, qui est très semblable aux motifs de liaison au domaine
+TRFH (TBM, pour *TRFH-binding motifs*) YxLxP et HxLxP déjà mis en évidence
+[@chen2008; @wan2013]. Une structure RMN du fragment 949-1092 montre que ce
+motif est situé dans une région non structurée de la protéine [@hu2005], ce qui
+en fait un candidat pertinent pour être un motif TBM. Les auteurs de cette
+structure RMN indiquent que cette construction a été très difficile à produire
+de façon soluble, en revanche une étude plus récente a montré par protéolyse
+ménagée que le fragment 949-1079 peut être purifié aisément et est bien soluble
+[@kitano2010]. Ce dernier fragment contient toujours le motif TBM putatif.
+Nous avons donc exprimé et purifié cette construction appelée WRN-RQC (cf.
+Matériel et méthodes) afin de tester son interaction avec le domaine TRFH de
+TRF2. Nous avons privilégié cette approche plutôt que l'étude des protéines
+entières car en cas d'interaction nous obtiendrons un complexe potentiellement
+cristallisable, ce qui ne serait pas le cas avec les protéines entières.
 
-La titration calorimétrique du domaine TRFH de TRF2 par WRN-RQC montre que ces
-deux protéines n'interagissent pas (figure ci-dessous), ce qui réfute notre
-hypothèse d'un motif TBM dans la séquence de WRN.
+La titration calorimétrique du domaine TRFH de TRF2 par WRN-RQC ne montre aucune
+interaction détectable entre ces deux protéines dans nos conditions
+expérimentales (figure ci-dessous), ce qui remet en question notre hypothèse
+que le motif `KLLLP` dans la séquence de WRN soit un motif TBM.
 
 ![Figure : Titrations calorimétriques du domaine TRFH de TRF2 par WRN-RQC. À 10 °C (panneau de gauche), 20 °C (panneau central) et 30 °C (panneau de droite).](partie-2/figures/itc-wrn-trfh.jpg)
 
@@ -128,8 +128,8 @@ interagissait avec Ku, il serait enrichi dans la fraction d'élution dans
 l'expérience où Ku est présent.
 
 Nous avons également réalisé la titration calorimétrique de Ku par TRFH et par
-TRF2, qui a confirmé que dans nos conditions expérimentales *in vitro* Ku et
-TRF2 n'interagissent pas (figure ci-dessous) :
+TRF2, et nous confirmons que dans nos conditions expérimentales *in vitro*
+aucune interaction n'est détectée entre Ku et TRF2 (figure ci-dessous) :
 
 ![Figure : Titrations calorimétriques de Ku par TRFH et TRF2.](partie-2/figures/itc-ku-trfh-trf2.jpg)
 
@@ -139,18 +139,18 @@ TRF2 n'interagissent pas (figure ci-dessous) :
 Pour mettre en évidence de façon plus générale l'effet de RAP1 sur les
 propriétés d'interaction de TRF2 avec ses autres partenaires protéiques, nous
 avons réalisé des expériences de *pull down* (cf. Matériel et méthodes).
-Dans ces expériences, TRF2 ou le complexe TRF2/RAP1 ou TRF2/RAP1-ARAGA sont
-fixés sur un oligonucléotide contenant un site de liaison à TRF2, cet
-oligonucléotide étant lui-même immobilisés sur un support chromatographique par
-un système streptavidine/biotine. Des extraits nucléaires de cellules HeLa sont
-ensuite incubés avec ces complexes, et on analyse le contenu des éluats par
-SDS-PAGE.
+Dans ces expériences un oligonucléotide contenant un site de liaison de TRF2 est
+immobilisé sur un support chromatographique par un système
+streptavidine/biotine. TRF2 ou le complexe TRF2/RAP1 ou TRF2/RAP1-ARAGA sont
+fixés sur cet oligonucléotide. Enfin, des extraits nucléaires de cellules HeLa
+sont ensuite incubés avec ces complexes pré-formés, et on analyse le contenu des
+éluats par SDS-PAGE.
 
-Premièrement, nous observons de façon reproductible des chromatogrammes
-d'élution différents selon que les extraits nucléaires ont été incubés avec TRF2
-seul, le complexe TRF2/RAP1, le complexe TRF2/ARAGA ou l'ADN seul (figure-ci
-dessous), alors que les quantités de protéines et d'extraits nucléaires sont
-identiques dans tous les essais.
+Nous observons de façon reproductible des chromatogrammes d'élution différents
+selon que les extraits nucléaires ont été incubés avec TRF2 seul, le complexe
+TRF2/RAP1, le complexe TRF2/ARAGA ou l'ADN seul (figure-ci dessous), alors que
+les quantités de protéines et d'extraits nucléaires sont identiques dans tous
+les essais.
 
 ![Figure : Chromatogrammes d'élution des *pull down*. ADN seul (en haut à gauche), ADN saturé en TRF2 (en haut à droite), ADN saturé en TRF2/RAP1 (en bas à gauche), ADN saturé en TRF2/RAP1-ARAGA (en bas à droite). Le premier pic autour de 1 mL correspond à la fraction non retenue des extraits nucléaires.](partie-2/figures/strep-pull-down-chromato.png)
 
