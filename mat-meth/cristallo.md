@@ -12,6 +12,16 @@ le complexe d'intérêt (les éventuels complexes où une seule protéine s'est 
 sur un oligonucléotide à deux sites sont aussi séparés). Les fractions d'intérêt
 sont réunies et concentrées jusqu'à environ 22 mg/mL en complexe.
 
+Un chromatogramme typique obtenu en préparant le complexe Myb-long/T2-S5S7 est
+présenté dans la figure ci-dessous :
+
+![Figure : Chromatogramme d'exclusion stérique du complexe Myb-long/ADN. Absorbance à 280 nm en bleu, absorbance à 260 nm en rouge.](mat-meth/figures/myb-long_adn-sup200.png)
+
+Les fractions 6, 7 et 8 sont réunies et concentrées à environ 22 mg/mL en
+complexe pour obtenir l'échantillon final (les fractions 9 et 10 contiennent
+l'excès d'oligonucléotide libre).
+
+
 ###Propriétés du complexe et de ses composants
 
 Pour la protéine, MW et ε~280\ nm~ sont obtenus avec l'outil ProtParam

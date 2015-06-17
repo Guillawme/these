@@ -4,25 +4,35 @@ Comme nous l'avons vu dans l'introduction, le mode d'interaction de TRF2 avec
 l'ADN est complexe et ses propriétés ne s'expliquent pas uniquement par la
 liaison du domaine Myb à l'ADN. Notamment, une expérience d'empreinte protéique
 par acétylation des lysines réalisée par nos collaborateurs au laboratoire
-d'Eric Gilson montre que beaucoup de régions de TRF2 sont engagées dans
+d'Eric Gilson montre que beaucoup d'autres régions de TRF2 sont engagées dans
 l'interaction avec l'ADN (communication personnelle de Marie-Josèphe
-Giraud-Panis). En particulier, quelques lysines situées dans le *linker* juste
-en amont du domaine Myb semblent significativement protégées par la présence de
-l'ADN. Nous avons donc produit une construction du domaine Myb allongée de 46
-résidus en N-terminal (appelée Myb-long) et la construction classique
-correspondant au domaine présent dans l'entrée PDB 1W0U (appelée Myb-court) afin
-de comparer leurs modes d'interaction avec l'ADN. Pour cela nous avons utilisé
-trois techniques : la calorimétrie de titration isotherme, le SAXS et
+Giraud-Panis). En particulier, plusieurs lysines situées dans la région
+destructurée précédant le domaine Myb semblent significativement protégées par
+la présence de l'ADN. Nous avons donc produit une construction du domaine Myb
+allongée de 46 résidus en N-terminal (appelée Myb-long) et la construction
+classique correspondant au domaine présent dans l'entrée PDB 1W0U (appelée
+Myb-court) afin de comparer leurs modes d'interaction avec l'ADN. Les séquences
+alignées de ces deux constructions sont indiquées ci-dessous :
+
+```
+Myb-court      ---------------------------------------------GKKQKWTVEESEWVK	460
+Myb-long       GEKNPKVPKGKWNSSNGVEEKETWVEEDELFQVQAAPDEDSTTNITKKQKWTVEESEWVK	460
+                                                             **************
+
+Myb-court      AGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN	500
+Myb-long       AGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN	500
+               *****************************************
+```
+
+Pour cette étude nous avons utilisé trois techniques : l'ITC, le SAXS et
 la cristallographie.
 
 
 ## Calorimétrie
 
-La titration calorimétrique de ces deux constructions par un oligonucléotide
-double-brin contenant deux sites TAGGG (T2-S5S7) montre des profils très
-différents, ce qui suggère que la région du *linker* présente dans la
-construction Myb-long participe bien à l'interaction avec l'ADN (figure
-ci-dessous) :
+La titration calorimétrique des deux constructions Myb-court et Myb-long par un
+oligonucléotide double-brin contenant deux sites TAGGG (T2-S5S7) montre des
+profils très différents (figure ci-dessous) :
 
 ![Figure : Titration calorimétrique des constructions Myb-court (à gauche) et Myb-long (à droite) par l'oligonuclétoide T2-S5S7.](partie-3/figures/itc-mybs.png)
 
@@ -31,14 +41,23 @@ utilisé pour cette expérience, nous n'avons pas pu calculer les constantes
 d'équilibre de dissociation de façon fiable. Ces titrations seront reproduites
 très prochainement avec un lot d'oligonucléotide précisément dosé.
 
+Il est toutefois intéressant de noter que les thermogrammes montrent des pics
+positifs dans le cas du Myb-court (la variation d'enthalpie ΔH est positive,
+l'interaction est donc endothermique) et des pics négatifs dans le cas du
+Myb-long (ΔH est négative, l'interaction est donc exothermique).
+Cette différence témoigne d'un mode de liaison différent et suggère que la
+région du *linker* présente dans la construction Myb-long participe bien
+à l'interaction avec l'ADN.
+
 
 ## SAXS
 
-Nous avons également réalisé des mesures de SEC-SAXS sur ces deux complexes,
-cette fois avec l'oligonucléotide T2-S5S8. Deux réplicats ont été mesurés sur
-chaque complexe. Pour toutes les acquisitions le Rg est quasiment constant tout
-le long du chromatogramme, ce qui montre la très bonne homogénéité des
-échantillons (un des deux réplicats de chaque complexe est présenté dans la
+Nous avons également réalisé des mesures de SEC-SAXS [SAXS couplé à la
+chromatographie d'exclusion stérique, voir @david2009; @perez2015] sur ces deux
+complexes, cette fois avec l'oligonucléotide T2-S5S8. Deux réplicats ont été
+mesurés sur chaque complexe. Pour toutes les acquisitions le Rg est quasiment
+constant tout le long du chromatogramme, ce qui montre la très bonne homogénéité
+des échantillons (un des deux réplicats de chaque complexe est présenté dans la
 figure ci-dessous) :
 
 ![Figure : Variation des paramètres Rg et I0 au cours de l'élution des complexes Myb-court/ADN (à gauche) et Myb-long/ADN (à droite).](partie-3/figures/profils-rg-mybs.png)
@@ -53,41 +72,31 @@ la même région du chromatogramme.
 
 ![Figure : Courbes de SAXS des complexes Myb-court/ADN (deux réplicats en rouge et orange) et Myb-long/ADN (deux réplicats en bleu foncé et clair).](partie-3/figures/courbes-saxs-mybs.png)
 
-L'analyse de Guinier donne un Rg d'environ 20 Å pour le complexe Myb-court/ADN
-et d'environ 28 Å pour le complexe Myb-long/ADN. Cette différence de Rg de 8 Å
-est clairement trop petite pour correspondre à 46 résidus supplémentaires
-complètement désordonnés (qui représenteraient environ 80 Å de long dans une
-conformation complètement étendue), ce qui suggère également que la portion de
-*linker* du Myb-long interagit avec l'ADN.
+L'analyse de Guinier montre que les complexes Myb-court/ADN et Myb-long/ADN ont
+respectivement des Rg de 20 et 28 Å. La différence de Rg de 8 Å est clairement
+trop petite pour correspondre à 46 résidus supplémentaires complètement
+désordonnés (qui représenteraient environ 80 Å de long dans une conformation
+complètement étendue), ce qui suggère également que la portion de *linker* du
+Myb-long interagit avec l'ADN.
 
 QUE PEUT-ON CONCLURE AVEC LES P(r) ?
 
 
 ## Cristallographie
 
-### Préparation du complexe
-
-Le mélange du Myb-long avec un excès d'oligonucléotide T2-S5S7 est purifié par
-chromatographie d'exclusion stérique (cf. Matériel et méthodes).
-Un chromatogramme typique est présenté dans la figure ci-dessous :
-
-![Figure : Chromatogramme d'exclusion stérique du complexe Myb-long/ADN. Absorbance à 280 nm en bleu, absorbance à 260 nm en rouge.](partie-3/figures/myb-long_adn-sup200.png)
-
-Les fractions 6, 7 et 8 sont réunies et concentrées à environ 22 mg/mL en
-complexe pour obtenir l'échantillon final (les fractions 9 et 10 contiennent
-l'excès d'oligonucléotide libre).
+Afin de caractériser à l'échelle moléculaire le mode d'interaction avec l'ADN du
+Myb-long, nous avons étudié par cristallographie la structure tridimensionnelle
+du complexe qu'il forme avec l'ADN.
 
 
 ### Cristallogenèse
 
-Afin de caractériser en détails le mode d'interaction avec l'ADN du Myb-long,
-nous avons tenté de résoudre la structure cristallographique du complexe qu'il
-forme avec l'ADN. Un premier crible de 7x 96 conditions de cristallisation
-(certaines redondantes) a été réalisé à la plateforme de cristallogenèse de
-l'Institut Pasteur (Paris) avec trois complexes différents basés sur les
-oligonucléotides de 16 pb T2-S1S2, T2-S1S3 et T2-S1S4 (cf. Matériel et
-méthodes). Après optimisation manuelle des meilleures conditions découvertes par
-ce crible, la condition optimale suivante a été isolée :
+Un premier crible de 7x 96 conditions de cristallisation (certaines redondantes)
+a été réalisé à la plateforme de cristallogenèse de l'Institut Pasteur (Paris)
+avec trois complexes différents basés sur les oligonucléotides de 16 pb T2-S1S2,
+T2-S1S3 et T2-S1S4 (cf. Matériel et méthodes). L'optimisation au laboratoire des
+meilleures pistes obtenues avec ces cribles a conduit à la condition de
+cristallisation suivante :
 
 - extrémités 3'-sortantes (oligonucléotide T2-S1S3),
 - 17 °C,
@@ -100,15 +109,15 @@ ce crible, la condition optimale suivante a été isolée :
 Cette condition n'a malheureusement produit que des cristaux irréguliers qui
 diffractaient seulement à très basse résolution (environ 20 Å).
 
-Il est connu que la cristallisation des complexes protéine/ADN est largement
-affectée par la longueur et le type d'extrémités (donc par la séquence) de
-l'oligonucléotide utilisé, et qu'il est plus raisonnable de cribler peu de
-conditions avec plusieurs types d'oligonucléotides plutôt que de très nombreuses
-conditions avec un seul oligonucléotide peu favorable [@hollis2007]. Nous avons
-donc cherché à optimiser les oligonucléotides pour faire correspondre leur
-longueur et leurs extrémités (nombre et nature des bases sortantes) à celles qui
-sont le plus souvent observées dans les complexes protéine/ADN disponibles dans
-la PDB [@hol2011; @brown1996]. Cette démarche nous a conduit à concevoir des
+La cristallisation des complexes protéine/ADN est affectée par la longueur et le
+type d'extrémités (donc par la séquence) de l'oligonucléotide utilisé, et il
+peut être plus efficace de cribler peu de conditions avec plusieurs types
+d'oligonucléotides plutôt que de très nombreuses conditions avec un seul
+oligonucléotide défavorable [@hollis2007]. Nous avons donc cherché à optimiser
+les oligonucléotides pour faire correspondre leur longueur et leurs extrémités
+(nombre et nature des bases sortantes) à celles qui sont le plus souvent
+observées dans les complexes protéine/ADN disponibles dans la PDB
+[@hol2011; @brown1996]. Cette démarche nous a conduit à concevoir des
 oligonucléotides de 20 pb avec une seule base sortante : T2-S5S6, T2-S5S7 et
 T2-S5S8 (cf. Matériel et méthodes).
 
@@ -182,6 +191,11 @@ ________________________________________________
 
 ### Résolution de la structure et affinement
 
+La structure 1W0U disponible dans la PDB a 100 % d'identité avec notre complexe,
+nous avons donc choisi la méthode du remplacement moléculaire pour déterminer
+les phases (la préparation du modèle est décrite dans la partie Matériel et
+méthodes).
+
 Les résultats du remplacement moléculaire et du premier affinement (en corps
 rigide) sont présentés dans le tableau suivant.
 
@@ -209,10 +223,10 @@ de densité électronique sont suffisamment interprétables pour permettre la
 construction complète de l'oligonucléotide, ce qui confirme que les positions
 relatives des modèles de départ sont correctes.
 
-Malheureusement, malgré tous nos efforts, la carte de différence mFo-DFc ne
-contient aucune densité positive dans la région N-terminale de la protéine.
-Nous avons pu au mieux ajouter quatre résidus en N-terminal du modèle affiné
-contre le jeu de données Myb10.
+Malheureusement, malgré tous nos efforts, nous n'observons aucune densité
+positive dans la région N-terminale de la protéine dans la carte de différence
+mFo-DFc. Nous avons pu au mieux ajouter quatre résidus en N-terminal du modèle
+affiné contre le jeu de données Myb10.
 
 COMPARER LES DIFFÉRENTES SOLUTIONS DE REMPLACEMENT MOLÉCULAIRE (?)
 
