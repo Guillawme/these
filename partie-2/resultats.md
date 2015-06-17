@@ -45,18 +45,25 @@ littérature [@opresko2002]. D'après cette étude, le fragment 949-1092 de WRN 
 suffisant pour lier TRF2 entière. Ce fragment contient un motif `KLLLP` aux
 positions 1073-1077, qui est très semblable aux motifs de liaison au domaine
 TRFH (TBM, pour *TRFH-binding motifs*) YxLxP et HxLxP déjà mis en évidence
-[@chen2008; @wan2013]. Une structure RMN du fragment 949-1092 montre que ce
-motif est situé dans une région non structurée de la protéine [@hu2005], ce qui
-en fait un candidat pertinent pour être un motif TBM. Les auteurs de cette
-structure RMN indiquent que cette construction a été très difficile à produire
-de façon soluble, en revanche une étude plus récente a montré par protéolyse
-ménagée que le fragment 949-1079 peut être purifié aisément et est bien soluble
-[@kitano2010]. Ce dernier fragment contient toujours le motif TBM putatif.
-Nous avons donc exprimé et purifié cette construction appelée WRN-RQC (cf.
-Matériel et méthodes) afin de tester son interaction avec le domaine TRFH de
-TRF2. Nous avons privilégié cette approche plutôt que l'étude des protéines
-entières car en cas d'interaction nous obtiendrons un complexe potentiellement
-cristallisable, ce qui ne serait pas le cas avec les protéines entières.
+[partie 1 et @chen2008; @wan2013]. Les alignements deux à deux de ces motifs
+venant des séquences de WRN, Apollo, SLX4 et RAP1 sont représentés dans la
+figure ci-dessous :
+
+![Figure : Alignements du motif KLLLP de WRN avec les motifs TBM d'Apollo, de SLX4 et de RAP1.](partie-2/figures/)
+
+
+Une structure RMN du fragment 949-1092 montre que ce motif est situé dans une
+région non structurée de la protéine [@hu2005], ce qui en fait un candidat
+pertinent pour être un motif TBM. Les auteurs de cette structure RMN indiquent
+que cette construction a été très difficile à produire de façon soluble, en
+revanche une étude plus récente a montré par protéolyse ménagée que le fragment
+949-1079 peut être purifié aisément et est bien soluble [@kitano2010].
+Ce dernier fragment contient toujours le motif TBM putatif. Nous avons donc
+exprimé et purifié cette construction appelée WRN-RQC (cf. Matériel et méthodes)
+afin de tester son interaction avec le domaine TRFH de TRF2. Nous avons
+privilégié cette approche plutôt que l'étude des protéines entières car en cas
+d'interaction nous obtiendrons un complexe potentiellement cristallisable, ce
+qui ne serait pas le cas avec les protéines entières.
 
 La titration calorimétrique du domaine TRFH de TRF2 par WRN-RQC ne montre aucune
 interaction détectable entre ces deux protéines dans nos conditions
