@@ -32,6 +32,9 @@ partie de la solution qui n'a pas encore été irradiée, ce qui permet de
 s'affranchir de potentiels problèmes de radiolyse. Pour chaque acquisition, une
 série de courbes est également enregistrée sur le tampon de l'expérience.
 
+Les restes des échantillons sont analysés par SDS-PAGE pour s'assurer qu'aucune
+dégradation ne s'est produite pendant le temps des acquisitions.
+
 
 ## Analyse des données
 
@@ -77,16 +80,17 @@ utilise typiquement moins de courbes.
 
 Une fois en possession de la courbe de diffusion finale, nous utilisons le
 logiciel GNOM [@semenyuk1991] pour calculer la fonction de distribution des
-distances P(R).
+distances P(r) qui est le résultat de la transformée de Fourier de la courbe
+de diffusion.
 
-Cette fonction P(R) est utilisée en entrée du logiciel GASBOR [@svergun2001]
+Cette fonction P(r) est utilisée en entrée du logiciel GASBOR [@svergun2001]
 pour générer automatiquement 100 enveloppes pour TRF2, RAP1, RAP1-RCT et les
 complexes TRF2/RAP1 et TRF2/RAP1-RCT, en renseignant un nombre de pseudo-résidus
 égal au nombre de résidus effectivement présents dans la protéine ou le complexe
 dont on calcule l'enveloppe. Nous n'imposons pas de symétrie pour ces calculs.
 Le programme utilise une approche *ab initio* pour construire l'enveloppe : il
 agence les pseudo-résidus dans l'espace de façon à minimiser l'écart entre la
-P(R) calculée à partir du modèle et la P(R) obtenue à partir de la courbe de
+P(r) calculée à partir du modèle et la P(r) obtenue à partir de la courbe de
 diffusion expérimentale.
 
 Une fois que les 100 enveloppes issues de calculs indépendants sont prêtes, nous
