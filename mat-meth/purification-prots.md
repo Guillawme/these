@@ -172,7 +172,7 @@ d'affinité pour l'héparine, et finalement chromatographie d'exclusion stériqu
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
 de TRF2 sont présentés dans la figure ci-dessous :
 
-![Figure : Purification de TRF2.](partie-1/figures/purif-trf2.jpg)
+![Figure : Purification de TRF2.](mat-meth/figures/purif-trf2.jpg)
 
 Le rendement est d'environ 7,5 mg de protéine par culot bactérien.
 
@@ -187,7 +187,7 @@ d'anions, et finalement chromatographie d'exclusion stérique.
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
 de RAP1 sont présentés dans la figure ci-dessous :
 
-![Figure : Purification de RAP1.](partie-1/figures/purif-rap1.jpg)
+![Figure : Purification de RAP1.](mat-meth/figures/purif-rap1.jpg)
 
 Le rendement est d'environ 8 mg de protéine par culot bactérien.
 
@@ -202,7 +202,7 @@ d'affinité pour l'héparine, et finalement chromatographie d'exclusion stériqu
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
 de RAP1-ARAGA sont présentés dans la figure ci-dessous :
 
-![Figure : Purification de RAP1-ARAGA.](partie-1/figures/purif-araga.jpg)
+![Figure : Purification de RAP1-ARAGA.](mat-meth/figures/purif-araga.jpg)
 
 Le rendement est d'environ 6 mg de protéine par culot bactérien.
 
@@ -216,7 +216,7 @@ une seconde chromatographie d'affinité pour le nickel.
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
 de RAP1_1-208 sont présentés dans la figure ci-dessous :
 
-![Figure : Purification de RAP1_1-208.](partie-1/figures/purif-1-208.jpg)
+![Figure : Purification de RAP1_1-208.](mat-meth/figures/purif-1-208.jpg)
 
 Le rendement est d'environ 20,9 mg de protéine par culot bactérien.
 
@@ -230,7 +230,7 @@ une seconde chromatographie d'affinité pour le nickel.
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
 de B-TRFH sont présentés dans la figure ci-dessous :
 
-![Figure : Purification de B-TRFH.](partie-1/figures/purif-b-trfh.jpg)
+![Figure : Purification de B-TRFH.](mat-meth/figures/purif-b-trfh.jpg)
 
 Le rendement est d'environ 6 mg de protéine par culot bactérien.
 
@@ -245,7 +245,7 @@ d'affinité pour l'héparine.
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
 de WRN_949-1079 sont présentés dans la figure ci-dessous :
 
-![Figure : Purification de WRN_949-1079.](partie-2/figures/purif-wrn.jpg)
+![Figure : Purification de WRN_949-1079.](mat-meth/figures/purif-wrn.jpg)
 
 Le rendement est d'environ 3,2 mg de protéine par culot bactérien.
 
@@ -260,7 +260,7 @@ d'affinité pour l'héparine.
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
 du Myb-court sont présentés dans la figure ci-dessous :
 
-![Figure : Purification du Myb-court.](partie-3/figures/purif-mybc.jpg)
+![Figure : Purification du Myb-court.](mat-meth/figures/purif-mybc.jpg)
 
 Le rendement est d'environ 13,8 mg de protéine par culot bactérien.
 
@@ -274,7 +274,7 @@ une seconde chromatographie d'affinité pour le nickel.
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
 du Myb-long sont présentés dans la figure ci-dessous :
 
-![Figure : Purification du Myb-long.](partie-3/figures/purif-mybl.jpg)
+![Figure : Purification du Myb-long.](mat-meth/figures/purif-mybl.jpg)
 
 Le rendement est d'environ 6,3 mg de protéine par culot bactérien.
 
