@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="206.43687mm"
+   width="216.49393mm"
    height="274.45102mm"
-   viewBox="0 0 731.46924 972.46424"
+   viewBox="0 0 767.10447 972.46424"
    id="svg7371"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -31,8 +31,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="407.59328"
-     inkscape:cy="497.37426"
+     inkscape:cx="406.88617"
+     inkscape:cy="157.96306"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -49,8 +49,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid7379"
-       originx="-4.1387698"
-       originy="-62.58006" />
+       originx="-4.1387696"
+       originy="-62.580004" />
   </sodipodi:namedview>
   <metadata
      id="metadata7376">
@@ -74,7 +74,7 @@
         <dc:date>May 26th 2015</dc:date>
         <dc:description>Simplified representation of c-NHEJ mechanism.</dc:description>
         <cc:license
-           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
       </cc:Work>
       <cc:License
          rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
@@ -1160,6 +1160,6 @@
          id="tspan9359"
          x="531.1665"
          y="971.75024"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Accessory factors</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">Facteurs accessoires</tspan></text>
   </g>
 </svg>

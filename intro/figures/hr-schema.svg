@@ -10,7 +10,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="699.43628"
-   height="808.59277"
+   height="812.78809"
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.91 r13725"
@@ -18,7 +18,8 @@
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
-   version="1.0">
+   version="1.0"
+   inkscape:export-filename="/Users/Guillaume/Labo/redac/these/intro/figures/hr-schema.png">
   <title
      id="title4356">Homologous recombination</title>
   <sodipodi:namedview
@@ -32,8 +33,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="424.43736"
-     inkscape:cy="410.49999"
+     inkscape:cx="344.43736"
+     inkscape:cy="614.49998"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -51,7 +52,7 @@
        type="xygrid"
        id="grid4397"
        originx="25.989259"
-       originy="-19.742843" />
+       originy="-15.742858" />
   </sodipodi:namedview>
   <defs
      id="defs4">
@@ -131,7 +132,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-17.946781,-70.93428)">
+     transform="translate(-17.946781,-70.738968)">
     <path
        style="fill:none;stroke:#000000;stroke-width:1.43999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
        d="m 359.64571,163.13145 0,26.74332"
@@ -149,7 +150,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.43999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
-       d="m 550.68838,599.31041 0,26.74336"
+       d="m 550.68838,593.31041 0,26.74336"
        id="path5637"
        inkscape:connector-curvature="0" />
     <path
@@ -206,19 +207,15 @@
          id="path2709" />
       <text
          id="text17932"
-         y="740.53918"
+         y="746.53918"
          x="427.9877"
          style="font-style:normal;font-weight:normal;font-size:16px;font-family:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            style="font-size:16px"
-           y="740.53918"
+           y="746.53918"
            x="427.9877"
            id="tspan17934"
-           sodipodi:role="line"><tspan
-             style="font-size:16px"
-             id="tspan17936"
-             y="740.53918"
-             x="427.9877">Non-crossover</tspan></tspan></text>
+           sodipodi:role="line">Jamais de crossing-over</tspan></text>
       <text
          id="text17944"
          y="648.56055"
@@ -233,7 +230,7 @@
              style="font-size:16px"
              id="tspan17948"
              y="648.56055"
-             x="427.9877">DNA synthesis,</tspan></tspan><tspan
+             x="427.9877">Synthèse d'ADN,</tspan></tspan><tspan
            style="font-size:16px"
            y="665.76056"
            x="427.9877"
@@ -242,7 +239,7 @@
              style="font-size:16px"
              id="tspan17954"
              y="665.76056"
-             x="427.9877">Ligation</tspan></tspan></text>
+             x="427.9877">ligation</tspan></tspan></text>
     </g>
     <g
        id="g4439">
@@ -363,19 +360,19 @@
          id="path3508" />
       <text
          id="text17918"
-         y="875.15985"
+         y="879.15985"
          x="68.431129"
          style="font-style:normal;font-weight:normal;font-size:16px;font-family:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            style="font-size:16px"
-           y="875.15985"
+           y="879.15985"
            x="68.431129"
            id="tspan17920"
-           sodipodi:role="line"><tspan
-             style="font-size:16px"
-             id="tspan17922"
-             y="875.15985"
-             x="68.431129">Crossover (common)</tspan></tspan></text>
+           sodipodi:role="line">Crossing-over (fréquent)<tspan
+   style="font-size:16px"
+   id="tspan17922"
+   y="879.15985"
+   x="68.431129" /></tspan></text>
       <text
          id="text17924"
          y="780.7608"
@@ -386,26 +383,26 @@
            y="780.7608"
            x="187.88361"
            id="tspan17926"
-           sodipodi:role="line"><tspan
-             style="font-size:16px"
-             id="tspan17928"
-             y="780.7608"
-             x="187.88361">or</tspan></tspan></text>
+           sodipodi:role="line">ou<tspan
+   style="font-size:16px"
+   id="tspan17928"
+   y="780.7608"
+   x="187.88361" /></tspan></text>
       <text
          id="text17938"
-         y="740.58057"
+         y="744.58057"
          x="67.987686"
          style="font-style:normal;font-weight:normal;font-size:16px;font-family:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            style="font-size:16px"
-           y="740.58057"
+           y="744.58057"
            x="67.987686"
            id="tspan17940"
-           sodipodi:role="line"><tspan
-             style="font-size:16px"
-             id="tspan17942"
-             y="740.58057"
-             x="67.987686">Non-crossover (uncommon)</tspan></tspan></text>
+           sodipodi:role="line">Pas de crossing-over (rare)<tspan
+   style="font-size:16px"
+   id="tspan17942"
+   y="744.58057"
+   x="67.987686" /></tspan></text>
       <text
          id="text17956"
          y="650.30988"
@@ -416,11 +413,11 @@
            y="650.30988"
            x="67.987686"
            id="tspan17958"
-           sodipodi:role="line"><tspan
-             style="font-size:16px"
-             id="tspan17960"
-             y="650.30988"
-             x="67.987686">Branch migration,</tspan></tspan><tspan
+           sodipodi:role="line">Migration et résolution<tspan
+   style="font-size:16px"
+   id="tspan17960"
+   y="650.30988"
+   x="67.987686" /></tspan><tspan
            style="font-size:16px"
            y="667.50989"
            x="67.987686"
@@ -429,7 +426,7 @@
              style="font-size:16px"
              id="tspan17966"
              y="667.50989"
-             x="67.987686">Resolution</tspan></tspan></text>
+             x="67.987686">de la jonction de Holliday</tspan></tspan></text>
     </g>
     <g
        id="g4478">
@@ -470,19 +467,20 @@
          id="path2705" />
       <text
          id="text17970"
-         y="521.79126"
+         y="497.79126"
          x="428.328"
          style="font-style:normal;font-weight:normal;font-size:16px;font-family:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            style="font-size:16px"
-           y="521.79126"
+           y="497.79126"
            x="428.328"
            id="tspan17972"
-           sodipodi:role="line"><tspan
-             style="font-size:16px"
-             id="tspan17974"
-             y="521.79126"
-             x="428.328">Strand displacement, annealing</tspan></tspan></text>
+           sodipodi:role="line">Déplacement du brin,</tspan><tspan
+           style="font-size:16px"
+           y="517.79126"
+           x="428.328"
+           sodipodi:role="line"
+           id="tspan5870">appariement à l'autre extrémité</tspan></text>
     </g>
     <g
        id="g4407">
@@ -691,37 +689,29 @@
          id="path3346" />
       <text
          id="text17976"
-         y="477.4462"
+         y="493.4462"
          x="68.328011"
          style="font-style:normal;font-weight:normal;font-size:16px;font-family:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            style="font-size:16px"
-           y="477.4462"
+           y="493.4462"
            x="68.328011"
            id="tspan17978"
-           sodipodi:role="line"><tspan
-             style="font-size:16px"
-             id="tspan17980"
-             y="477.4462"
-             x="68.328011">Second end capture,</tspan></tspan><tspan
+           sodipodi:role="line">Capture de la 2e extrémité</tspan><tspan
            style="font-size:16px"
-           y="494.64621"
+           y="513.44617"
            x="68.328011"
            id="tspan17984"
-           sodipodi:role="line"><tspan
-             style="font-size:16px"
-             id="tspan17986"
-             y="494.64621"
-             x="68.328011">DNA synthesis,</tspan></tspan><tspan
+           sodipodi:role="line">synthèse d'ADN, ligation</tspan><tspan
            style="font-size:16px"
-           y="511.84619"
+           y="513.44617"
            x="68.328011"
            id="tspan17990"
            sodipodi:role="line"><tspan
              style="font-size:16px"
              id="tspan17992"
-             y="511.84619"
-             x="68.328011">Ligation</tspan></tspan></text>
+             y="527.84619"
+             x="68.328011" /></tspan></text>
     </g>
     <text
        xml:space="preserve"
@@ -830,11 +820,7 @@
            y="335.20398"
            x="234.98143"
            id="tspan18010"
-           sodipodi:role="line"><tspan
-             style="font-size:16px"
-             id="tspan18012"
-             y="335.20398"
-             x="234.98143">Stand invasion,</tspan></tspan><tspan
+           sodipodi:role="line">Invasion du brin,</tspan><tspan
            style="font-size:16px"
            y="351.40399"
            x="234.98143"
@@ -843,7 +829,7 @@
              style="font-size:16px"
              id="tspan18018"
              y="351.40399"
-             x="234.98143">D-loop formation,</tspan></tspan><tspan
+             x="234.98143">formation d'une D-loop,</tspan></tspan><tspan
            style="font-size:16px"
            y="368.60397"
            x="234.98143"
@@ -852,7 +838,7 @@
              style="font-size:16px"
              id="tspan18024"
              y="368.60397"
-             x="234.98143">DNA synthesis</tspan></tspan></text>
+             x="234.98143">synthèse d'ADN</tspan></tspan></text>
     </g>
     <g
        id="g4345">
@@ -896,11 +882,11 @@
            y="83.387405"
            x="235.98669"
            id="tspan18034"
-           sodipodi:role="line"><tspan
-             style="font-size:16px"
-             id="tspan18036"
-             y="83.387405"
-             x="235.98669">Double-strand break</tspan></tspan></text>
+           sodipodi:role="line">Cassure double-brin<tspan
+   style="font-size:16px"
+   id="tspan18036"
+   y="83.387405"
+   x="235.98669" /></tspan></text>
     </g>
     <g
        id="g4356">
@@ -1008,7 +994,7 @@
              style="font-size:16px"
              id="tspan18030"
              y="222.70731"
-             x="238.53792">5' resection</tspan></tspan></text>
+             x="238.53792">5' résection</tspan></tspan></text>
       <text
          id="text8881"
          y="250.00067"
