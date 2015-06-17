@@ -1,0 +1,8 @@
+Alignement manuel des TBM d'Apollo, NBS1, SLX4 et RAP1 + candidat TBM de WRN
+
+NBS1       tssnnnsmvsntlakmripnYqLsPtklpsinkskdrasqqqqtnsir
+Apollo     shsskgtpllAtefRGLalkYlLtPvnffqagyssrrfdqqvekyhkp
+SLX4       ItsepeeqsgAvrERGLevsHrLaPwqaspphpcrfllgppqggsprg
+RAP1       IstqyildcvernERleleaYrLgPasaadtgseakpgalaegaaepe
+WRN        kantesqslilqaneelcpkKlLlPssktvssgtkehcynqvpvelst
+
