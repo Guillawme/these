@@ -63,7 +63,7 @@ interaction détectable entre ces deux protéines dans nos conditions
 expérimentales (figure ci-dessous), ce qui remet en question notre hypothèse
 que le motif `KLLLP` dans la séquence de WRN soit un motif TBM.
 
-![Figure : Titrations calorimétriques du domaine TRFH de TRF2 par WRN-RQC. À 10 °C (panneau de gauche), 20 °C (panneau central) et 30 °C (panneau de droite).](partie-2/figures/itc-wrn-trfh.jpg)
+![Figure : Titrations calorimétriques du domaine TRFH de TRF2 par WRN-RQC. À 10 °C (panneau de gauche), 20 °C (panneau central) et 30 °C (panneau de droite).](partie-2/figures/itc-wrn-trfh.png)
 
 Puisque la délimitation des régions d'interaction n'a été faite que du côté de
 WRN [@opresko2002], il est possible que le domaine WRN-RQC interagisse avec TRF2
@@ -72,7 +72,7 @@ le site principal d'interaction est situé dans le *linker* de TRF2). Nous avons
 donc testé l'interaction de WRN-RQC avec TRF2 entière, et avons également obtenu
 un résultat négatif (figure ci-dessous).
 
-![Figure : Titration calorimétrique de TRF2 par WRN-RQC.](partie-2/figures/itc-wrn-trf2.jpg)
+![Figure : Titration calorimétrique de TRF2 par WRN-RQC.](partie-2/figures/itc-wrn-trf2.png)
 
 Finalement, il est possible que l'interaction dépende de la présence de RAP1
 puisque nous avons montré dans la partie précédente que celle-ci est susceptible
@@ -81,7 +81,7 @@ l'interaction de WRN-RQC avec le complexe TRF2/RAP1, et avec RAP1 seule
 comme contrôle. Là encore nous n'avons obtenu que des résultats négatifs (figure
 ci-dessous).
 
-![Figure : Titration calorimétrique du complexe TRF2/RAP1 (gauche) et de RAP1 (droite) par WRN-RQC.](partie-2/figures/itc-wrn-t2r1-rap1.jpg)
+![Figure : Titration calorimétrique du complexe TRF2/RAP1 (gauche) et de RAP1 (droite) par WRN-RQC.](partie-2/figures/itc-wrn-t2r1-rap1.png)
 
 Afin de vérifier le bon repliement du domaine WRN-RQC, nous avons finalement
 testé son interaction avec l'ADN (cf. Matériel et méthodes) et avons retrouvé
@@ -89,7 +89,7 @@ une affinité d'environ 2,15 μM, de l'ordre de grandeur de celle rapportée dan
 la littérature [@kitano2010]. Ce dernier thermogramme est présenté dans la
 figure ci-dessous :
 
-![Figure : Titration calorimétrique de WRN-RQC par l'oligonucléotide T2-S5S6.](partie-2/figures/itc-wrn-adn.jpg)
+![Figure : Titration calorimétrique de WRN-RQC par l'oligonucléotide T2-S5S6.](partie-2/figures/itc-wrn-adn.png)
 
 
 ### Ku
@@ -131,7 +131,7 @@ Nous avons également réalisé la titration calorimétrique de Ku par TRFH et p
 TRF2, et nous confirmons que dans nos conditions expérimentales *in vitro*
 aucune interaction n'est détectée entre Ku et TRF2 (figure ci-dessous) :
 
-![Figure : Titrations calorimétriques de Ku par TRFH et TRF2.](partie-2/figures/itc-ku-trfh-trf2.jpg)
+![Figure : Titrations calorimétriques de Ku par TRFH (à gauche) et par TRF2 (à droite).](partie-2/figures/itc-ku-trfh-trf2.png)
 
 
 ### Strep-DNA pull down
