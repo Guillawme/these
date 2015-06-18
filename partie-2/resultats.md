@@ -3,33 +3,36 @@
 ### Apollo
 
 La superposition de notre structure cristallographique du complexe
-TRFH/RAP1~TBM~ avec celle du complexe TRFH/Apollo~TBM~
+TRFH/RAP1-TBM avec celle du complexe TRFH/Apollo-TBM
 [entrée PDB 3BUA, @chen2008] montre que les motifs TBM de ces deux protéines
 occupent le même site de liaison dans le domaine TRFH, comme attendu.
 La superposition est présentée dans la figure ci-dessous :
 
-![Figure : Superposition des structures TRFH/RAP1~TBM~ et TRFH/Apollo~TBM~.](partie-2/figures/tbm-apollo-rap1.png)
+![Figure : Superposition des structures TRFH/RAP1-TBM et TRFH/Apollo-TBM.](partie-2/figures/tbm-apollo-rap1.png)
 
 Ceci suggère une compétition possible entre RAP1 et Apollo, et plus généralement
 entre RAP1 et les autres partenaires de TRF2. L'affinité du motif TBM d'Apollo
 pour le domaine TRFH est bien meilleure que celle du motif TBM de RAP1 : 120 nM
 [@chen2008] ou 59 nM lorsque nous avons reproduit cette mesure, contre 13 μM
-pour le motif de RAP1. Néanmoins, la liaison de RAP1 par son domaine RCT à TRF2
-a une affinité très forte (de l'ordre de 1 nM, cf. première partie) et peut
-potentiellement favoriser la liaison de son motif TBM du fait du rapprochement
-spatial de ce motif et du domaine TRFH. Nous avons donc mesuré l'affinité du
-motif TBM d'Apollo pour le complexe TRF2/RAP1 préformé, et réciproquement
-l'affinité de RAP1 pour le complexe TRF2/Apollo~TBM~ préformé (figure
-ci-dessous).
+pour le motif de RAP1 (cf. première partie). Néanmoins, la liaison de RAP1 par
+son domaine RCT à TRF2 a une affinité très forte (de l'ordre de 1 nM, cf.
+première partie) et peut potentiellement favoriser la liaison de son motif TBM
+du fait du rapprochement spatial de ce motif et du domaine TRFH. Nous avons donc
+mesuré l'affinité du motif TBM d'Apollo pour le complexe TRF2/RAP1 préformé, et
+réciproquement l'affinité de RAP1 pour le complexe TRF2/Apollo-TBM préformé
+(figure ci-dessous).
 
-![Figure : Titration calorimétrique du complexe TRF2/RAP1 préformé par Apollo~TBM~ (gauche) et du complexe TRF2/Apollo~TBM~ par RAP1 (droite).](partie-2/figures/itc-apollo-rap1.png)
+![Figure : Titrations calorimétriques de TRFH par Apollo-TBM (en haut à gauche), de TRF2 par Apollo-TBM (en haut à droite), du complexe TRF2/RAP1 préformé par Apollo-TBM (en bas à gauche) et du complexe TRF2/Apollo-TBM préformé par RAP1 (en bas à droite).](partie-2/figures/itc-apollo-trf2-rap1.png)
 
 Nous obtenons les K~D~ suivants :
 
-- Apollo~TBM~ contre TRF2 : K~D~ ≃ 46 nM
-- Apollo~TBM~ contre TRF2/RAP1 : K~D~ ≃ 47 nM
+- Apollo-TBM contre TRFH : K~D~ ≃ 59 nM,
+- Apollo-TBM contre TRF2 : K~D~ ≃ 46 nM,
+- Apollo-TBM contre TRF2/RAP1 : K~D~ ≃ 47 nM,
+- RAP1 contre TRF2/Apollo-TBM : K~D~ ≃ 1 nM pour la transition majeure, la
+  transition mineure est plus faible et ne permet plus de calculer un K~D~.
 
-Dans le cas de la titration du complexe TRF2/Apollo~TBM~ par RAP1, nous
+Dans le cas de la titration du complexe TRF2/Apollo-TBM par RAP1, nous
 observons toujours une courbe biphasique mais dont la transition mineure n'est
 plus suffisamment importante pour pouvoir calculer un K~D~.
 

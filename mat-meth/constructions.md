@@ -96,6 +96,9 @@ Pour le dimère : pI ≃ 5,94 ; MW = 69843 + 84927,8 = 154770,8 Da ; ε~280\ nm~
 
 ## Oligonucléotides
 
+Les oligonucléotides proviennent tous du fournisseur Eurogentec.
+
+
 ### Première génération
 
 Ces oligonucléotides ont été conçus pour pouvoir les assembler en duplexes de 16
@@ -213,8 +216,10 @@ L'hybridation de ces oligonucléotides produit les duplexes suivants :
 
 ## Peptides
 
-pS indique une sérine phosphorylée.
+Les peptides proviennent tous du fournisseur Eurogentec.
 
-> **CtIP-Phos**
-> PTRVpSSPVFGAT
+> **Apollo-TBM** (494-511)
+> ATEFRGLALKYLLTPVNF
 
+> **RAP1-TBM** (89-106)
+> ENRERLELEAYRLGPASA
