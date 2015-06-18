@@ -49,7 +49,7 @@ pas altéré le repliement de la protéine. Pour s'en assurer nous avons aussi
 suivi la dénaturation thermique des deux protéines, présentée dans la figure
 ci-dessous :
 
-![Figure : Dénaturation thermique de RAP1 et RAP1-ARAGA.](mat-meth/figures/denaturation-thermique.png)
+![Figure : Dénaturation thermique de RAP1 (à gauche) et RAP1-ARAGA (à droite).](mat-meth/figures/denaturation-thermique.png)
 
 La modélisation des données de dénaturation thermique par une courbe sigmoïde
 indique les températures de demi-dénaturation suivantes :
