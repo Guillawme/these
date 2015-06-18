@@ -52,7 +52,7 @@ TRFH (TBM, pour *TRFH-binding motifs*) YxLxP et HxLxP déjà mis en évidence
 venant des séquences de WRN, Apollo, SLX4 et RAP1 sont représentés dans la
 figure ci-dessous :
 
-![Figure : Alignements du motif KLLLP de WRN avec les motifs TBM d'Apollo, de SLX4 et de RAP1.](partie-2/figures/)
+![Figure : Alignements du motif KLLLP de WRN avec les motifs TBM d'Apollo, de SLX4 et de RAP1.](partie-2/figures/alignements-tbm-wrn.png)
 
 
 Une structure RMN du fragment 949-1092 montre que ce motif est situé dans une

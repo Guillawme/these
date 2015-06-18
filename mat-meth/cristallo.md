@@ -85,7 +85,7 @@ Les phases sont déterminées par remplacement moléculaire avec le logiciel PHA
 a été préparé à partir de l'entrée PDB 1W0U et contient un "mini-complexe" fait
 d'un Myb-court lié à un motif TAGGG (avec le brin complémentaire présent).
 Ce modèle a 100 % d'identité de séquence avec notre complexe. Le coefficient de
-Matthews est calculé avec l'outil *Matthews* [@matthews1968; @kantardjieff2003]
+Matthews est calculé avec l'outil `Matthews` [@matthews1968; @kantardjieff2003]
 de la suite CCP4 [@winn2011] et suggère que l'unité asymétrique contient deux
 copies du complexe entier. Nous cherchons donc quatre copies de ce modèle à un
 Myb dans l'unité asymétrique.
