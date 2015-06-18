@@ -1,4 +1,4 @@
-# Mode d'interaction de TRF2 avec l'ADN
+## Résultats
 
 Comme nous l'avons vu dans l'introduction, le mode d'interaction de TRF2 avec
 l'ADN est complexe et ses propriétés ne s'expliquent pas uniquement par la
@@ -28,7 +28,7 @@ Pour cette étude nous avons utilisé trois techniques : l'ITC, le SAXS et
 la cristallographie.
 
 
-## Calorimétrie
+### Calorimétrie
 
 La titration calorimétrique des deux constructions Myb-court et Myb-long par un
 oligonucléotide double-brin contenant deux sites TAGGG (T2-S5S7) montre des
@@ -50,7 +50,7 @@ région du *linker* présente dans la construction Myb-long participe bien
 à l'interaction avec l'ADN.
 
 
-## SAXS
+### SAXS
 
 Nous avons également réalisé des mesures de SEC-SAXS [SAXS couplé à la
 chromatographie d'exclusion stérique, voir @david2009; @perez2015] sur ces deux
@@ -79,17 +79,32 @@ désordonnés (qui représenteraient environ 80 Å de long dans une conformatio
 complètement étendue), ce qui suggère également que la portion de *linker* du
 Myb-long interagit avec l'ADN.
 
+La courbe expérimentale et les paramètres Rg (rayon de gyration) et I0
+(intensité à l'angle nul, obtenue par extrapolation) obtenus par l'analyse de
+Guinier permettent de représenter les données sous une forme modifiée appellée
+la représentation de Kratky normalisée [@durand2010], qui accentue aux grands
+angles les différences entre une chaine repliée de façon compacte et une chaine
+dépliée de conformation complètement aléatoire. La représentation de Kratky des
+courbes de diffusion des complexes Myb-court/ADN et Myb-long/ADN est montrée
+dans la figure ci-dessous :
+
+![Figure : Représentation de Kratky normalisée des courbes de diffusion des complexes Myb-court/ADN (rouge et orange) et Myb-long/ADN (bleu foncé et bleu clair). Le panneau de droite indique les courbes théoriques pour une chaine repliée compacte et une chaine complètement dépliée [d'après @durand2010].](partie-3/figures/kratky-plots-mybs-th.png)
+
+Ces réprésentations indiquent que les deux complexes sont relativement compacts.
+Pour le complexe Myb-long/ADN, ceci signifie que le *linker* adopte une
+conformation non aléatoire et suggère donc qu'il interagit avec l'ADN.
+
 QUE PEUT-ON CONCLURE AVEC LES P(r) ?
 
 
-## Cristallographie
+### Cristallographie
 
 Afin de caractériser à l'échelle moléculaire le mode d'interaction avec l'ADN du
 Myb-long, nous avons étudié par cristallographie la structure tridimensionnelle
 du complexe qu'il forme avec l'ADN.
 
 
-### Cristallogenèse
+#### Cristallogenèse
 
 Un premier crible de 7x 96 conditions de cristallisation (certaines redondantes)
 a été réalisé à la plateforme de cristallogenèse de l'Institut Pasteur (Paris)
@@ -146,7 +161,7 @@ L'apparence typique de ces cristaux est montrée dans la photo ci-dessous :
 ![Figure : Cristaux du complexe Myb-long/T2-S5S7.](partie-3/figures/cristaux.jpg)
 
 
-### Collecte et traitement des données
+#### Collecte et traitement des données
 
 Ces derniers cristaux nous ont permis d'obtenir plusieurs jeux de données à des
 résolutions allant de 1,8 à 2,2 Å de résolution, tous du groupe d'espace
@@ -189,7 +204,7 @@ ________________________________________________
 ```
 
 
-### Résolution de la structure et affinement
+#### Résolution de la structure et affinement
 
 La structure 1W0U disponible dans la PDB a 100 % d'identité avec notre complexe,
 nous avons donc choisi la méthode du remplacement moléculaire pour déterminer
