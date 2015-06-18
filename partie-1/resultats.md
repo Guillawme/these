@@ -15,11 +15,12 @@ Nous obtenons les affinités suivantes :
 - TRF2/RAP1 : K~D~ ≃ 1 nM pour la transition majeure, et K~D~ ≃ 0,5 mM pour la
   transition mineure.
 
-Ce phénomère montre que l'interaction entre TRF2 et RAP1 entières est plus
-complexe qu'un seul événement de liaison. Les observations par AFM des complexes
-TRF2/ADN, RAP1/TRF2/ADN et RAP1-RCT/TRF2/ADN, suggèrent quant à elles que la
-région N-terminale de RAP1 est responsable des effets observés sur les
-propriétés de TRF2 (cf. introduction de la partie et article en annexe).
+Ce phénomène montre que l'interaction entre TRF2 et RAP1 entières est plus
+complexe qu'un seul événement de liaison (nous l'appellerons l'interaction
+complète). Les observations par AFM des complexes TRF2/ADN, RAP1/TRF2/ADN et
+RAP1-RCT/TRF2/ADN, suggèrent quant à elles que la région N-terminale de RAP1 est
+responsable des effets observés sur les propriétés de TRF2 (cf. introduction de
+la partie et article en annexe).
 
 Pour obtenir des données sur la conformation des protéines entières et du
 complexe, nous avons réalisé des mesures de SAXS. Les courbes de SAXS des
@@ -105,4 +106,24 @@ Comme attendu, nous retrouvons la transition majeure correspondant
 La transition mineure est quant à elle nettement réduite, à tel point qu'il
 n'est plus possible de calculer le K~D~ correspondant. Ceci démontre que le
 motif `YRLGP` de RAP1 est bien un motif TBM fonctionnel.
+
+Nous connaissons maintenant la région minimale des deux protéines impliquée dans
+l'interaction complète : le motif TBM de RAP1 et la poche de liaison des motifs
+TBM dans le domaine TRFH de TRF2. Cependant, cette interaction complète affecte
+probablement des régions plus grandes dans les protéines entières. Afin de
+déterminer quelles sont ces régions, nous avons réalisé des expériences
+d'empreinte protéique par acétylation des lysines. Le principe de la technique
+est schématisé dans la figure ci-dessous.
+
+![Figure : Principe de l'expérience d'empreinte protéique.](partie-1/figures/footprint-principe.png)
+
+Seules les chaines latérales accessibles au solvant sont réactives, ainsi cette
+technique permet de sonder l'accessibiltié au solvant des résidus réactifs et de
+déterminer lesquels sont exposés en surface de la protéine et lesquels sont
+enfouis dans la structure. On peut également analyser la protéine d'intérêt non
+pas seule mais en complexe avec un partenaire, et dans ce cas les résidus
+inaccessibles au réactif en présence du partenaire (alors qu'ils sont
+accessibles en son absence) sont donc des résidus impliqués dans l'interaction.
+Les résidus modifiés sont détectés par spectrométrie de masse en comparant les
+spectres avec ceux obtenus à partir de la protéine non modifiée.
 
