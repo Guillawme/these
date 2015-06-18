@@ -1,5 +1,7 @@
 # Dichroïsme circulaire
 
+## Protocole
+
 Les protéines sont dialysées dans un tampon Tris-HCl 9 mM pH = 7,5, NaF 300 mM.
 Pour chaque protéine, l'acquisition des spectres de dichroïsme circulaire est
 faite sur une série de concentrations : 3, 6 et 15 μM en protéine (concentration
@@ -33,4 +35,29 @@ l'échantillon est chauffé de 10 à 95 °C par pas de 1 °C. Les données de
 dénaturation thermique sont modélisées avec une courbe sigmoïde à l'aide du
 logiciel SciDAVis (<http://scidavis.sourceforge.net>) afin d'estimer la valeur
 de la température de demi-dénaturation T~m~.
+
+
+## Résultats
+
+Les spectres de dichroïsme circulaire de TRF2 et de RAP1 et RAP1-ARAGA sont
+présentés dans la figure ci-dessous :
+
+![Figure : Spectres de dichroïsme circulaire de TRF2 (à gauche) et de RAP1 et RAP1-ARAGA (à droite).](mat-meth/figures/spectres-cd.png)
+
+Les spectres superposables de RAP1 et RAP1-ARAGA indiquent que la mutation n'a
+pas altéré le repliement de la protéine. Pour s'en assurer nous avons aussi
+suivi la dénaturation thermique des deux protéines, présentée dans la figure
+ci-dessous :
+
+![Figure : Dénaturation thermique de RAP1 et RAP1-ARAGA.](mat-meth/figures/denaturation-thermique.png)
+
+La modélisation des données de dénaturation thermique par une courbe sigmoïde
+indique les températures de demi-dénaturation suivantes :
+
+- RAP1 : Tm ≃ 54,7 ± 0,9 °C
+- RAP1-ARAGA : Tm ≃ 50,9 ± 0,6 °C
+
+Ceci indique que la structure de RAP1-ARAGA est légèrement moins stable que
+celle de RAP1, néanmoins cette faible différence indique que la mutation
+n'affecte que très peu la stabilité du repliement.
 
