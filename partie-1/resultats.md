@@ -29,12 +29,18 @@ présentées dans la figure ci-dessous :
 
 ![Figure : Courbes de SAXS de TRF2 (bleu), RAP1 (rouge), RAP1-RCT (jaune), TRF2/RAP1 (vert) et TRF2/RAP1-RCT (violet). Le panneau de droite montre un agrandissement dans la région des petits angles.](partie-1/figures/courbes-saxs-t2r1.png)
 
-La représentation de Kratky normalisée [@durand2010] de chacune de ces courbes
-nous indique que toutes les protéines et tous les complexes ont une conformation
-de type "collier de perles" correspondant à des domaines compacts connectés par
-des régions flexibles, ce qui confirme les prédictions concernant les régions
-non structurées des protéines. La figure suivante montre les représentations de
-Kratky normalisées de nos protéines et complexes.
+La courbe expérimentale et les paramètres Rg (rayon de gyration) et I~0~
+(intensité à l'angle nul, obtenue par extrapolation) obtenus par l'analyse de
+Guinier permettent de représenter les données sous une forme modifiée appellée
+la représentation de Kratky normalisée [@durand2010], qui accentue aux grands
+angles les différences entre une chaine repliée de façon compacte et une chaine
+dépliée de conformation complètement aléatoire. La représentation de Kratky
+normalisée de chacune de ces courbes nous indique que toutes les protéines et
+tous les complexes ont une conformation de type "collier de perles"
+correspondant à des domaines compacts connectés par des régions flexibles, ce
+qui confirme les prédictions concernant les régions non structurées des
+protéines. La figure suivante montre les représentations de Kratky normalisées
+de nos protéines et complexes.
 
 ![Figure : Représentations de Kratky normalisées de TRF2 (bleu), RAP1 (rouge), RAP1-RCT (jaune), TRF2/RAP1 (vert) et TRF2/RAP1-RCT (violet). Le panneau de droite indique les courbes théoriques pour une chaine repliée compacte et une chaine complètement dépliée [d'après @durand2010].](partie-1/figures/kratky-plots-t2r1-th.png)
 
@@ -44,23 +50,47 @@ dessous) :
 
 ![Figure : Fonctions de distribution des distances de TRF2 (bleu), RAP1 (rouge), RAP1-RCT (jaune), TRF2/RAP1 (vert) et TRF2/RAP1-RCT (violet).](partie-1/figures/pr-t2r1.png)
 
+Les valeurs des masses moléculaires théoriques (calculées d'après la séquence
+des protéines) et expérimentales (calculées d'après la valeur de I~0~), et des
+paramètres Rg et Dmax sont résumées dans le tableau suivant :
+
+Table: Tableau : Rg, Dmax et masses moléculaires des protéines et des complexes (nd : non déterminé).
+
+ **Protéine ou complexe**     **Masse moléculaire théorique (kDa)**     **Masse moléculaire expérimentale (kDa)**     **Rg (Å)**    **Dmax (Å)**
+--------------------------   ---------------------------------------   -------------------------------------------   ------------  --------------
+   TRF2                         56,6 x2                                   117                                           70,2          290
+   RAP1                         44,5                                      42,5                                          53,1          190
+   RAP1-RCT                     15,2                                      nd                                            32,0          130
+   TRF2/RAP1                    56,6 x2 + 44,5 x2                         200                                           85,4          345
+   TRF2/RAP1-RCT                56,6 x2 + 15,2 x2                         nd                                            67,8          265
+
 La fonction de distribution des distances sert ensuite de contrainte pour
 construire des modèles *ab inito* représentant la conformation moyenne
 prépondérante (c'est-à-dire la conformation le plus souvent occupée par la
 majorité des molécules présentes dans l'échantillon) des protéines seules et des
-complexes. Les enveloppes de TRF2, RAP1 et du complexe TRF2/RAP1 sont présentées
-dans la figure suivante :
+complexes. Les enveloppes de TRF2, RAP1, RAP1-RCT et des complexes TRF2/RAP1 et
+TRF2/RAP1-RCT sont présentées dans la figure suivante :
 
-![Figure : Enveloppes de TRF2 (rouge), de RAP1 (cyan) et du complexe TRF2/RAP1 (jaune).](partie-1/figures/enveloppes-t2r1.png)
+![Figure : Enveloppes de TRF2 (A), de RAP1 (B), de RAP1-RCT (C), du complexe TRF2/RAP1 (D) et du complexe TRF2/RAP1-RCT (E). Superpositions des enveloppes du complexe TRF2/RAP1-RCT et de TRF2 (F), du complexe TRF2/RAP1 et de TRF2 (G), et du complexe TRF2/RAP1, de TRF2 et de deux RAP1 (H).](partie-1/figures/enveloppes-t2r1.png)
 
 Nous observons que TRF2 adopte une conformation étendue, avec une grande
-distance séparant ses domaines Myb (jusqu'à environ 230 Å). La présence de RAP1
-semble étendre encore plus la conformation de TRF2, en accord avec une plus
-grande valeur de Dmax entre les fonctions P(r) de TRF2 seul et du complexe
-TRF2/RAP1. La comparaison de ces enveloppes révèle enfin que les enveloppes de
-TRF2 et RAP1 ne peuvent pas se superposer à celle du complexe TRF2/RAP1, ce qui
-indique que la formation du complexe fait intervenir un important changement de
-conformation des deux protéines.
+distance séparant ses domaines Myb (jusqu'à environ 230 Å ; figure ci-dessus,
+A). La conformation de RAP1 est également étendue (figure ci-dessus, B), en
+accord avec son graphe de Kratky. Concernant RAP1-RCT, sa grande valeur de Dmax
+ainsi que son graphe de Kratky caractéristique d'une chaine majoritairement
+désordonnée peuvent s'expliquer par le fait que notre construction
+[réalisée avant la publication de la structure du domaine RCT par @chen2011]
+comporte 36 résidus de plus que le domaine minimal. La présence de RAP1 semble
+étendre encore plus la conformation de TRF2 (figure ci-dessus, G), en accord
+avec une plus grande valeur de Dmax pour le complexe TRF2/RAP1 comparé à TRF2
+seul. Au contraire, la conformation du complexe TRF2/RAP1-RCT n'est pas
+significativement différente de celle de TRF2 seul, comme en témoignent les
+valeurs de Rg et Dmax relativement proches (voir aussi figure ci-dessus, F).
+La comparaison de ces enveloppes révèle enfin que les enveloppes de TRF2 et RAP1
+ne peuvent pas se superposer à celle du complexe TRF2/RAP1 (figure ci-dessus,
+H : un exemple parmi tous nos essais), ce qui indique que la formation du
+complexe fait intervenir un important changement de conformation des
+deux protéines.
 
 À ce stade nous savons donc d'après les titrations calorimétriques que
 l'interaction entre TRF2 et RAP1 est plus complexe qu'un simple événement de
