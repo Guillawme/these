@@ -99,7 +99,7 @@ Myb-long, nous avons étudié par cristallographie la structure tridimensionnell
 du complexe qu'il forme avec l'ADN.
 
 
-#### Cristallogenèse
+#### Cristallisation
 
 Un premier crible de 7x 96 conditions de cristallisation (certaines redondantes)
 a été réalisé à la plateforme de cristallogenèse de l'Institut Pasteur (Paris)
