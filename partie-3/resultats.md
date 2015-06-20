@@ -79,14 +79,9 @@ désordonnés (qui représenteraient environ 80 Å de long dans une conformatio
 complètement étendue), ce qui suggère également que la portion de *linker* du
 Myb-long interagit avec l'ADN.
 
-La courbe expérimentale et les paramètres Rg (rayon de gyration) et I0
-(intensité à l'angle nul, obtenue par extrapolation) obtenus par l'analyse de
-Guinier permettent de représenter les données sous une forme modifiée appellée
-la représentation de Kratky normalisée [@durand2010], qui accentue aux grands
-angles les différences entre une chaine repliée de façon compacte et une chaine
-dépliée de conformation complètement aléatoire. La représentation de Kratky des
-courbes de diffusion des complexes Myb-court/ADN et Myb-long/ADN est montrée
-dans la figure ci-dessous :
+La représentation de Kratky normalisée [@durand2010] des courbes de diffusion
+des complexes Myb-court/ADN et Myb-long/ADN est montrée dans la figure
+ci-dessous :
 
 ![Figure : Représentation de Kratky normalisée des courbes de diffusion des complexes Myb-court/ADN (rouge et orange) et Myb-long/ADN (bleu foncé et bleu clair). Le panneau de droite indique les courbes théoriques pour une chaine repliée compacte et une chaine complètement dépliée [d'après @durand2010].](partie-3/figures/kratky-plots-mybs-th.png)
 
