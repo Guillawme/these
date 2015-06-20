@@ -10,7 +10,7 @@ chaine latérale (acide carboxylique, amine, alcool, thiol) [@mendoza2009].
 Une analyse par spectrométrie de masse permet de déterminer quels résidus sont
 modifiés dans la séquence de la protéine. Seules les chaines latérales
 accessibles au solvant sont réactives, ainsi cette technique permet de sonder
-l'accessibiltié au solvant des résidus réactifs et de déterminer lesquels sont
+l'accessibilité au solvant des résidus réactifs et de déterminer lesquels sont
 exposés en surface de la protéine et lesquels sont enfouis dans la structure.
 On peut également analyser la protéine d'intérêt non pas seule mais en complexe
 avec un partenaire, et dans ce cas les résidus inaccessibles au réactif en
