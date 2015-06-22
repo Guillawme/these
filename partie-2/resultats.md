@@ -143,7 +143,7 @@ aucune interaction n'est détectée entre Ku et TRF2 (figure ci-dessous) :
 ![Figure : Titrations calorimétriques de Ku par TRFH (à gauche) et par TRF2 (à droite).](partie-2/figures/itc-ku-trfh-trf2.png)
 
 
-### Strep-DNA pull down
+### *Pull down* streptavidine-ADN
 
 Pour mettre en évidence de façon plus générale l'effet de RAP1 sur les
 propriétés d'interaction de TRF2 avec ses autres partenaires protéiques, nous
@@ -163,8 +163,12 @@ les essais.
 
 ![Figure : Chromatogrammes d'élution des *pull down*. ADN seul (en haut à gauche), ADN saturé en TRF2 (en haut à droite), ADN saturé en TRF2/RAP1 (en bas à gauche), ADN saturé en TRF2/RAP1-ARAGA (en bas à droite). Le premier pic autour de 1 mL correspond à la fraction non retenue des extraits nucléaires.](partie-2/figures/strep-pull-down-chromato.png)
 
-L'analyse par SDS-PAGE montre que les éluats contiennent des protéines
-différentes (figure ci-dessous) :
+L'analyse par SDS-PAGE est présentée dans la figure ci-dessous :
 
-![Figure : Analyse SDS-PAGE des éluats des *pull down*.](partie-2/figures/strep-pull-down-gel.jpg)
+![Figure : Analyse SDS-PAGE des éluats des *pull down*. 1 : extrait nucléaire (en entrée), 2 : marqueur de masse moléculaire, 3 : excès de TRF2 non fixé sur la colonne, 4 : excès d'extraits nucléaires non retenus par TRF2, 5 : éluat TRF2, 6 : excès de TRF2/RAP1 non fixé sur la colonne, 7 : excès d'extraits nucléaires non retenus par TRF2/RAP1, 8 : éluat TRF2/RAP1, 9 : excès de TRF2/RAP1-ARAGA non fixé sur la colonne, 10 : excès d'extraits nucléaires non retenus par TRF2/RAP1-ARAGA, 11 : éluat TRF2/RAP1-ARAGA, 12 : extrait nucléaires non retenus sur l'ADN, 13 : extraits nucléaires retenus sur l'ADN.](partie-2/figures/strep-pull-down-gel.png)
+
+Les éluats contiennent des protéines différentes (comparer les pistes 5, 8 et
+11), par exemple dans la région encadrée : une protéine retenue par TRF2 n'est
+pas retenue par le complexe TRF2/RAP1, et seulement peu retenue par le complexe
+TRF2/RAP1-ARAGA.
 
