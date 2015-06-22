@@ -1,4 +1,4 @@
-# Origine et évolution des télomères
+# Fonctions des télomères
 
 ## Le support de l'information génétique
 
@@ -20,10 +20,10 @@ exclusivement de chromosomes linéaires.
 
 ## Les télomères
 
-Les extrémités des chromosomes linéaires sont appelées les télomères^[Du grec
-τέλος signifiant "fin" et μέρος signifiant "partie" : la partie terminale du
-chromosome.]. Chez la majorité des organismes qui possèdent des ADN linéaires,
-les télomères partagent les caractéristiques suivantes :
+Les extrémités des chromosomes linéaires sont appelées les télomères, du grec
+τέλος signifiant "fin" et μέρος signifiant "partie". Chez la majorité des
+organismes qui possèdent des ADN linéaires, les télomères partagent les
+caractéristiques suivantes :
 
 - ils sont composés de courtes séquences répétées en tandem et riches en guanine
   (appelées "répétitions télomériques") sur le brin sens 5'-3' (appelé le "brin
@@ -39,12 +39,32 @@ partagent pas toutes ces caractéristiques ; le caractère non canonique sera
 indiqué lorsque nous mentionnerons ces télomères dans la suite de
 cette introduction.
 
+Les séquences des répétitions télomériques de quelques organismes modèles
+courants en biologie des télomères sont listées dans le tableau ci-dessous.
+
+Table: Tableau : Séquences des répétitions télomériques d'organismes modèles,
+d'après la base de données <http://telomerase.asu.edu> [@podlevsky2008].
+
+               **Organisme**    **Répétition télomérique**
+----------------------------    ----------------------------
+   *Tetrahymena thermophila*    TTGGGG
+            *Oxytricha nova*    TTTTGGGG
+  *Saccharomyces cerevisiae*    T(G)~2-3~(TG)~1-6~
+ *Schizosaccharomyces pombe*    G~2-8~TTAC(A)
+    *Caenorhabditis elegans*    TTAGGC
+   *Drosophila melanogaster*    rétrotransposons
+      *Arabidopsis thaliana*    TTTAGGG
+              *Homo sapiens*    TTAGGG
+
 La linéarité des chromosome pose deux problèmes principaux : la réplication des
 extrémités, et la protection des extrémités contre la dégradation par des
-nucléases et contre les fusions.
+nucléases et contre les fusions. Dans les deux paragraphes suivants nous
+expliquerons les origines de ces deux problèmes.
 
 
 ## Le problème de la réplication des extrémités
+
+### Aperçu du problème de la réplication
 
 La réplication nécessite une machinerie complexe que nous ne détaillerons pas
 ici. Pour comprendre le problème de la réplication des extrémités, il suffit de
@@ -56,24 +76,19 @@ petits brins d'ARN d'une dizaine de nucléotides, synthétisés par une primase,
 appelés fragments d'Okazaki.
 
 Lors de la réplication, le brin orienté 3'-5' de la molécule d'ADN initiale sert
-de matrice pour la synthèse du nouveau brin dit "précoce", car sa synthèse ne
-nécessite qu'une seule amorce (l'ADN polymérase peut en effet parcourir tout le
-brin une fois la synthèse initiée), et elle est en avance par rapport à celle de
-l'autre nouveau brin qui est appelé quant à lui le brin "tardif". La synthèse du
-brin tardif nécessite plusieurs amorces car le brin servant de matrice est
-orienté de 5' vers 3' et la polymèrase chargée de la synthèse de ce brin doit
-progresser dans le sens opposé au sens de progression de la fourche de réplication.  
+de matrice pour la synthèse du nouveau brin dit "précoce" (aussi appelé le "brin
+sens", car sa synthèse ne nécessite qu'une seule amorce (l'ADN polymérase peut
+en effet parcourir tout le brin une fois la synthèse initiée), et elle est en
+avance par rapport à celle de l'autre nouveau brin qui est appelé quant à lui le
+brin "tardif" (aussi appelé le "brin anti-sens"). La synthèse du brin tardif
+nécessite plusieurs amorces car le brin servant de matrice est orienté de 5'
+vers 3' et la polymèrase chargée de la synthèse de ce brin doit progresser dans
+le sens opposé au sens de progression de la fourche de réplication.
 
-La réplication des extrémités est présentée dans la figure ci-dessous. Les brins
-d'ADN d'origine sont représentés en traits épais rouge et bleu foncé et leur
-orientation est indiquée. Les brins néo-synthétisés sont représentés en traits
-plus fins orange (brin précoce) et bleu clair (brin tardif), avec une flèche
-indiquant le sens de progression de la polymérase. Les fragments d'Okazaki sont
-représentés en traits noirs épais. La flèche noire épaisse indique le sens de
-progression de la fourche de réplication. L'emplacement du dernier fragment
-d'Okazaki est indiqué en pointillés.
+La réplication des extrémités d'un chromosome est présentée dans la figure
+ci-dessous :
 
-![Figure : Le problème de la réplication des extrémités. Inspiré de [@gilson2007; @matot2010].](intro/figures/probleme-replication.png)
+![Figure : Le problème de la réplication des extrémités. Les brins d'ADN d'origine sont représentés en traits épais rouge et bleu foncé et leur orientation est indiquée. Les brins néo-synthétisés sont représentés en traits plus fins orange (brin précoce) et bleu clair (brin tardif), avec une flèche indiquant le sens de progression de la polymérase. Les fragments d'Okazaki sont représentés en traits noirs épais. La flèche noire épaisse indique le sens de progression de la fourche de réplication. L'emplacement du dernier fragment d'Okazaki est indiqué en pointillés. Inspiré de [@gilson2007; @matot2010].](intro/figures/probleme-replication.png)
 
 Une première cause de raccourcissement vient du fait que le dernier fragment
 d'Okazaki est dégradé à la fin de la réplication, mais n'est pas remplacé par de
@@ -91,6 +106,33 @@ après une cinquantaine de doublements [@hayflick1965]. Cette limitation du
 nombre de mitoses avant la sénescence est appelée la "limite de Hayflick", et
 les seules cellules qui y échappent sont les lignées germinales et certaines
 cellules tumorales hautement prolifératives.
+
+Deux mécanismes principaux permettent le maintien de la longueur des télomères :
+l'activité de la télomérase, et la voie alternative appelée ALT (*alternative
+lengthening of telomeres*) utilisant la recombinaison homologue.
+
+
+### La télomérase permet le maintien de la longueur des télomères
+
+La télomérase est l'enzyme qui allonge le brin G des télomères. Sa découverte
+chez l'organisme modèle *Tetrahymena thermophila* [@greider1985] ainsi que les
+autres travaux initiaux sur la biologie des télomères ont valu un prix Nobel en
+2009 à Elizabeth Blackburn, Carol Greider et Jack Szostak.
+
+La télomérase fonctionnelle est un complexe ribonucléoprotéique composé d'une
+sous-unité protéique appelée TERT (*telomerase reverse transcriptase*) et d'une
+sous-unité d'ARN appelée TERC (*telomerase RNA component*). TERC sert de matrice
+pour la synthèse des répétitions télomériques par TERT. La première structure
+tridimensionnelle d'une sous-unité TERT entière a montré que cette enzyme a un
+repliement similaire à celui de rétro-transcriptases virales telle que celle du
+VIH [@gillis2008]. La structure de la même enzyme en complexe avec un hybride
+ADN/ARN mimant le produit de synthèse a quant à elle fourni des informations sur
+le mécanisme de synthèse des répétitions télomériques [@mitchell2010].
+
+Le mécanisme de synthèse des répétitions télomériques est représenté
+schématiquement dans la figure suivante :
+
+![Figure : Synthèse des répétitions télomériques par la télomérase [@collins2011].](intro/figures/telomerase-synthese.png)
 
 
 ## Le problème de la protection des extrémités
@@ -341,31 +383,6 @@ très différents.
 
 
 ### Extrémités protégées par un complexe nucléoprotéique
-
-Chez les eucaryotes, les télomères sont constitués de séquences d'ADN répétées
-en tandem liées par des protéines spécifiques. Nous passerons en revue la
-composition des télomères de divers organismes modèles, en termes de séquences
-d'ADN et de types de protéines liant ces séquences.
-
-Les séquences des répétitions télomériques des organismes modèles que nous
-examinerons sont listées dans le tableau ci-dessous. Ces répétitions
-télomériques partagent la caractéristique d'être toujours riches en G sur le
-brin sens (que nous appellerons donc le "brin G").
-
-Table: Tableau : Séquences des répétitions télomériques d'organismes modèles,
-d'après la base de données <http://telomerase.asu.edu> [@podlevsky2008].
-
-               **Organisme**    **Répétition télomérique**
-----------------------------    ----------------------------
-   *Tetrahymena thermophila*    TTGGGG
-            *Oxytricha nova*    TTTTGGGG
-  *Saccharomyces cerevisiae*    T(G)~2-3~(TG)~1-6~
- *Schizosaccharomyces pombe*    G~2-8~TTAC(A)
-    *Caenorhabditis elegans*    TTAGGC
-   *Drosophila melanogaster*    rétrotransposons
-      *Arabidopsis thaliana*    TTTAGGG
-              *Homo sapiens*    TTAGGG
-
 
 #### Chez les ciliés
 

@@ -1,10 +1,12 @@
 # Introduction
 
-1. Origine et évolution des télomères
+1. Fonctions des télomères
     - Le support de l'information génétique
     - Les télomères
-    - Origine des chromosomes linéaires
     - Le problème de la réplication des extrémités
+        * Aperçu du problème de la réplication
+        * La télomérase permet le maintien de la longueur des télomères
+        * Voie ALT ?
     - Le problème de la protection des extrémités
     - Solutions trouvées à ces problèmes au cours de l'évolution : comparer les
       structures terminales de plusieurs organismes modèles (bactéries, ciliés,
@@ -18,6 +20,7 @@
               télomérase, TERRA
             + Télomères non canoniques (ex. drosophile) : rétrotransposons et
               *terminin*
+    - Origine des chromosomes linéaires
     - Universalité des structures terminales : tous les organismes possédant de
       l'ADN linéaire ont des structures terminales spécifiques
     - Diversité des structures terminales
