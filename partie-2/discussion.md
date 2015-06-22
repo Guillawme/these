@@ -1,5 +1,24 @@
 ## Discussion
 
+### Apollo
+
+Nous avons montré que la présence de RAP1 n'empêche pas la liaison du motif TBM
+d'Apollo au domaine TRFH de TRF2, en accord avec le fait que TRF2 et Apollo
+interagissent ensemble *in vivo* [@vanoverbeek2006; @lenain2006]. Nous pouvons
+donc raisonnablement supposer que la protéine Apollo entière est également
+capable de se lier au complexe TRF2/RAP1 *in vitro*, bien que cette expérience
+reste à réaliser. Les mêmes considérations s'appliquent à la protéine SLX4, qui
+interagit elle aussi avec TRF2 par un motif TBM [@wan2013].
+
+La protéine TRF1 recrute elle aussi des partenaires possédant un motif TBM
+légèrement différent, de séquence consensus `FxLxP`. Il a été montré qu'un motif
+TBM de ce type est présent dans la séquence de la protéine TIN2 et est
+spécifique de TRF1 (K~D~ ≃ 0,3 μM), mais peut également se lier non
+spécifiquement au domaine TRFH de TRF2 avec un K~D~ ≃ 6 μM [@chen2008]. Un des
+rôles fonctionnels du motif TBM de RAP1 pourrait ainsi être d'empêcher la
+liaison non spécifique des motifs `FxLxP` au domaine TRFH de TRF2.
+
+
 ### WRN
 
 Nous avons démontré que l'interaction entre TRF2 et WRN, précédemment mise en
