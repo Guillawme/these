@@ -16,7 +16,13 @@ TBM de ce type est présent dans la séquence de la protéine TIN2 et est
 spécifique de TRF1 (K~D~ ≃ 0,3 μM), mais peut également se lier non
 spécifiquement au domaine TRFH de TRF2 avec un K~D~ ≃ 6 μM [@chen2008]. Un des
 rôles fonctionnels du motif TBM de RAP1 pourrait ainsi être d'empêcher la
-liaison non spécifique des motifs `FxLxP` au domaine TRFH de TRF2.
+liaison non spécifique des motifs `FxLxP` au domaine TRFH de TRF2. Pour vérifier
+cette hypothèse, il serait intéressant de réaliser une variante de l'expérience
+de co-immunoprécipitation réalisée par [@chen2008] qui montrait que TIN2 ne
+coprécipite pas avec TRF2 délété de la région 352-367 (région du *linker*
+à laquelle se lie TIN2) : la même expérience faite à partir de cellules KO pour
+RAP1, si notre hypothèse est vraie, devrait montrer que TIN2 peut co-précipiter
+avec TRF2 même lorsque la région 352-367 du *linker* est délétée.
 
 
 ### WRN
