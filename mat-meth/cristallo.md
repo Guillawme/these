@@ -61,6 +61,16 @@ Toutes les expériences de cristallogenèse sont réalisées par la méthode de
 diffusion de vapeur. Les premiers essais de cristallisation sont réalisés par
 des cribles de 7x 96 conditions en gouttes assises de 0,2 μL préparées par un
 robot Mosquito à la plateforme de cristallogenèse de l'Institut Pasteur (Paris).
+Ces conditions de cristallisation viennent des kits commerciaux suivants :
+
+- Crystal Screen 1 & 2 (Hampton Research)
+- Wizard 1 & 2 (Emerald Biosystems)
+- Structure Screen 1 & 2 (Molecular Dimensions Ltd)
+- JBS 1-4 (Jena Bioscience)
+- JBS 5-8 (Jena Bioscience)
+- PEGion/Cryo (Hampton Research)
+- Salt RX (Hampton Research)
+
 Lorsque des conditions favorables sont trouvées dans ces cribles, elles sont
 reproduites manuellement au laboratoire en gouttes suspendues de 1 μL dans des
 plaques de 24 puits.
