@@ -30,7 +30,9 @@
 
 2. Les télomères humains
     - L'ADN télomérique et la *t-loop*
-    - Les protéines télomériques
+    - Les protéines télomériques forment le complexe *shelterin*
+    - Régulation de la télomérase par les protéines télomériques
+    - Les facteurs télomériques accessoires
     - Régulation de la longueur des télomères
         * Mécanisme et régulation de la télomérase
         * Voie ALT

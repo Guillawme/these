@@ -70,9 +70,18 @@ Les 6 protéines qui forment ce complexe sont (dans l'ordre de leur découverte)
   comme un partenaire de TIN2 et POT1 et nécessaire pour le recrutement de POT1
   aux télomères [@liu2004; @ye2004; @houghtaling2004].
 
-TRF1 et TRF2 lient les répétitions télomériques double-brin. RAP1 interagit
-spécifiquement avec TRF2. POT1 lie les répétitions télomériques simple-brin.
-TPP1 interagit avec POT1 et TIN2, et TIN2 interagit avec TRF1, TRF2 et TPP1.
+Toutes ces protéines sont organisées en domaines multiples connectés par des
+régions flexibles. La figure suivante donne un aperçu des domaines dont une
+structure tridimensionnelle est disponible à ce jour :
+
+![Figure : (A) Domaines structuraux des protéines du *shelterin* [modifié à partir de @palm2008]. Les hélices sont colorées en vert, les feuillets en bleu et les boucles en rouge ; l'ADN est coloré en gris. Les représentations des domaines ont été produites à partir des entrées PDB 3BUA, 1W0U, 3K6G, 1FEX, 2I46 et 1XJV. (B) Représentation schématique du complexe *shelterin* d'après les connaissances actuelles [@palm2008].](intro/figures/domaines-prots-shelterin.png)
+
+TRF1 et TRF2 s'assemblent en homodimères par leur domaine TRFH et lient les
+répétitions télomériques double-brin par leur domaine Myb. RAP1 interagit
+spécifiquement avec TRF2 par son domaine RCT (*RAP1 C-terminus*). POT1 lie les
+répétitions télomériques simple-brin avec son tandem de deux domaines OB-fold
+(*oligonucleotide-binding fold*). TPP1 interagit avec POT1 et TIN2, et TIN2
+interagit avec TRF1, TRF2 et TPP1.
 
 Les 6 protéines du *shelterin* peuvent être co-purifiées [@liu2004], ce qui
 démontre les interactions multiples qui existent entre elles.
@@ -130,8 +139,39 @@ de l'activité de la télomérase : en masquant l'extrémité 3', cette protéin
 empêche physiquement l'élongation du bin G [@lei2005] ; mais lorsqu'elle glisse
 le long du brin d'ADN en s'éloignant de l'extrémité 3' elle augmente la
 processivité de la télomérase [@lei2005] probablement en maintenant son
-association avec l'ADN avec l'aide de TPP1 [@wang2007; @xin2007].
+association avec l'ADN avec l'aide de TPP1 [@wang2007; @xin2007]. Le mécanisme
+précis de passage de l'état extensible à l'état non extensible n'est pas
+encore compris.
 
 Toutefois toutes les protéines du *shelterin* semblent impliquées dans la
 répression de la télomérase. Rôle de la *t-loop* ?
+
+
+## Les facteurs télomériques accessoires
+
+En plus des protéines du *shelterin*, présentes aux télomères pendant toutes les
+phases du cycle cellulaire, et dont les fonctions connues sont essentiellement
+télomériques, on trouve également un grand nombre de facteurs accessoires.
+La base de données TeloPIN [*telomeric proteins interaction network* ; @luo2015]
+recense un très grand nombre de partenaires des protéines du shelterin : 300
+partenaires pour TRF1, 248 pour TRF2, 131 pour RAP1, 167 pour TIN2, 65 pour TPP1
+et 184 pour POT1 (certaines de ces protéines sont probablement des partenaires
+communs à plusieurs des protéines du *shelterin*). Ces facteurs accessoires,
+contrairement aux protéines télomériques, ne sont pas présents uniquement aux
+télomères, et n'y sont pas présents pendant toutes les phases du
+cycles cellulaires. Leurs fonctions sont essentiellement non télomériques : ces
+facteurs sont impliqués dans les voies de réparation de l'ADN, dans la
+signalisation des dommages à l'ADN, dans la réplication, dans le remodelage de
+la chromatine, etc. [@lee2011].
+
+Les détails moléculaires du mode de recrutement des facteurs accessoires sont
+encore peu connus. Un mode de recrutement a déjà été mis en évidence et implique
+le domaine TRFH des protéines TRF1 et TRF2 : ce domaine n'est pas seulement un
+domaine d'homodimérisation mais aussi d'interactions protéine-protéine.
+Le domaine TRFH est en effet capable de recruter des partenaires contenant un
+motif appelé TBM (*TRFH-binding motif*) de séquence consensus `FxLxP` pour le
+domaine TRFH de TRF1 [@chen2008] et `YxLxP` [@chen2008] ou `YRL` [@kim2009] pour
+le domaine TRFH de TRF2. D'autres modes de recrutement existent très
+probablement puisque de nombreux facteurs accessoires sont recrutés par les
+autres protéines télomériques qui ne possèdent pas de domaine TRFH.
 
