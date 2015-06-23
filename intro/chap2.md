@@ -8,14 +8,13 @@ typique de 10 à 15 kb et se prolongent par une extrémité simple-brin sortante
 3' longue de 50 à 500 nucléotides [@makarov1997]. L'organisation de l'ADN
 télomérique est représentée schématiquement sur la figure ci-dessous :
 
-![Figure : L'ADN télomérique des mammifères. D'après [@palm2008].](intro/figures/seq-telo-humain.png)
+![Figure : L'ADN télomérique des mammifères [@palm2008].](intro/figures/seq-telo-humain.png)
 
 L'extrémité simple-brin et la nature répétée des séquences télomériques rend
 possible la formation d'une structure en boucle appelée la *t-loop*, représentée
 dans la figure ci-dessous :
 
-![Figure : La *t-loop*. Panneau en haut à gauche d'après [@griffith1999] ; panneau
- en haut à droit d'après [@doksani2013], la barre équivaut à 0,4 μm ;  panneau du bas d'après [@palm2008].](intro/figures/t-loop.jpg)
+![Figure : La *t-loop*. Panneau en haut à gauche de [@griffith1999] ; panneau en haut à droite de [@doksani2013], la barre équivaut à 0,4 μm ;  panneau du bas de [@palm2008].](intro/figures/t-loop.jpg)
 
 Cette structure a été mise en évidence pour la première fois par microscopie
 électronique [@griffith1999], purifiée à partir de cellules HeLa fixées par un
@@ -45,20 +44,20 @@ Chez les vertébrés, en plus des nucléosomes, l'ADN télomérique est lié par
 complexe de protéines spécifiques appelé le *shelterin* [@delange2005].
 Ces protéines sont associées aux télomères pendant toutes les phases du cycle
 cellulaire, elles sont absentes ou très peu abondantes dans les autres régions
-du noyau, et leurs fonctions principales sont télomériques (c'est-à-dire que le
-phénotype observé suite à leur délétion ou mutation est essentiellement
+du noyau, et leurs fonctions principales connues sont télomériques (c'est-à-dire
+que le phénotype observé suite à leur délétion ou mutation est essentiellement
 télomérique).
 
 Les 6 protéines qui forment ce complexe sont (dans l'ordre de leur découverte) :
 
 - TRF1 : *telomere repeat-binding factor 1*, identifié initialement par son
   affinité et sa spécificité *in vitro* pour les répétitions télomériques
-  [@zhong1992], et dont la localisation télomérique a été confirmée peu de temps
-  après par immunofluorescence [@chong1995] ;
+  double-brin [@zhong1992], et dont la localisation télomérique a été confirmée
+  peu de temps après par immunofluorescence [@chong1995] ;
 - TRF2 : *telomere repeat-binding factor 2*, identifié initialement par sa
-  similarité de séquence avec TRF1 et ses propriétés de liaison à l'ADN
-  similaires [@bilaud1996], et dont la localisation télomérique a été confirmée
-  de la même façon [@bilaud1997] ;
+  similarité de séquence avec TRF1 et ses propriétés similaires de liaison
+  à l'ADN [@bilaud1996], et dont la localisation télomérique a été confirmée de
+  la même façon [@bilaud1997] ;
 - TIN2 : *TRF1-interacting factor 2*, identifié initialement comme un partenaire
   de TRF1 dans un crible de double-hybride, localisé aux télomères et dont les
   mutations provoquent des phénotypes télomériques [@kim1999] ;
@@ -92,6 +91,23 @@ fois moins abondants que TIN2. De façon notable, un réservoir de RAP1 est
 facteur 10 est sans impact sur les quantités de TRF1, TIN2, TPP1 et POT1 aux
 télomères, ce qui suggère l'existence de sous-complexes plus ou moins
 indépendants du *shelterin*. Cette déplétion de TRF2 diminue notablement la
-quantité de RAP1 télomérique, mais n'affecte que peu la quantité de
-RAP1 cytosolique.
+quantité de RAP1 télomérique, mais n'affecte que peu la quantité de RAP1
+cytosolique, ce qui suggère des fonctions extra-télomériques pour RAP1
+[@kabir2010; @martinez2011; @ghosh2012].
+
+Il a été montré que le complexe *shelterin* se lie préférentiellement aux
+régions contenant une jonction double-brin/simple-brin, c'est-à-dire avec un
+site de liaison de POT1 et au moins un site de liaison du domaine Myb de TRF2 ou
+TRF1 [@choi2011]. Cette étude a également montré que deux complexes majoritaires
+possèdent cette spécificité de liaison : un complexe contenant les six protéines
+du *shelterin*, et un autre qui ne contient pas TRF1. Puisque les télomères
+contiennent peu de ces sites de haute affinité, et bien plus de sites de plus
+faible affinité (répétitions télomériques double-brin éloignées des sites de
+liaison de POT1), on suppose que les sites de haute affinité permettent de
+positionner le complexe aux endroits critiques du télomère où il peut ainsi lier
+et rapprocher physiquement l'extrémité simple-brin et la région double-brin et
+ainsi favoriser la formation de la *t-loop* [@choi2011].
+
+
+
 

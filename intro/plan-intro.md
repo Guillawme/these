@@ -29,7 +29,7 @@
         * Origines multiples de la linéarité ?
 
 2. Les télomères humains
-    - L'ADN télomérique
+    - L'ADN télomérique et la *t-loop*
     - Les protéines télomériques
     - Régulation de la longueur des télomères
         * Mécanisme et régulation de la télomérase
