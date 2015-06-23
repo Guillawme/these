@@ -109,5 +109,29 @@ et rapprocher physiquement l'extrémité simple-brin et la région double-brin e
 ainsi favoriser la formation de la *t-loop* [@choi2011].
 
 
+## Régulation de la télomérase par les protéines télomériques
 
+La télomérase agit préférentiellement sur les télomères courts. Cette propriété
+a été mise en évidence pour la première fois chez la levue *Saccharomyces
+cerevisiae* et a conduit au modèle du "comptage protéique" [*protein counting
+model of telomere length regulation* ; @marcand1997]. Selon ce modèle, le
+télomère est enrichi en répresseurs de la télomérase et un télomère long possède
+ainsi un fort potentiel d'inhibition de la télomérase. Le raccourcissement dû au
+problème de la réplication provoque la diminution du nombre de sites
+télomériques et donc l'appauvrissement en répresseurs de la télomérase.
+Lorsque le nombre de répresseurs chute en dessous d'une valeur critique,
+c'est-à-dire lorsque le télomère devient suffisamment court, la répression est
+levée et la télomérase peut allonger le télomère. Chez *S. cerevisiae*, ces
+répresseurs de la télomérase sont les protéines Rif1 et Rif2 recrutées par
+scRap1 [@bianchi2008]. Chez l'humain, TRF1 est principalement responsable de
+l'inhibition de la télomérase [@vansteensel1997; @ancelin2002], et agit avec
+POT1 [@loayza2003; @ye2004]. POT1 semble avoir un double rôle dans le contrôle
+de l'activité de la télomérase : en masquant l'extrémité 3', cette protéine
+empêche physiquement l'élongation du bin G [@lei2005] ; mais lorsqu'elle glisse
+le long du brin d'ADN en s'éloignant de l'extrémité 3' elle augmente la
+processivité de la télomérase [@lei2005] probablement en maintenant son
+association avec l'ADN avec l'aide de TPP1 [@wang2007; @xin2007].
+
+Toutefois toutes les protéines du *shelterin* semblent impliquées dans la
+répression de la télomérase. Rôle de la *t-loop* ?
 
