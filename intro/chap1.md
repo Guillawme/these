@@ -105,14 +105,21 @@ sénescence observée dans une culture *in vitro* de cellules somatiques humaine
 après une cinquantaine de doublements [@hayflick1965]. Cette limitation du
 nombre de mitoses avant la sénescence est appelée la "limite de Hayflick", et
 les seules cellules qui y échappent sont les lignées germinales et certaines
-cellules tumorales hautement prolifératives.
+cellules tumorales hautement prolifératives, ainsi que les
+organismes unicellulaires.
 
-Deux mécanismes principaux permettent le maintien de la longueur des télomères :
-l'activité de la télomérase, et la voie alternative appelée ALT (*alternative
-lengthening of telomeres*) utilisant la recombinaison homologue.
+Chez les eucaryotes, deux mécanismes principaux compensent l'érosion des
+télomères et permettent donc de contourner le problème de la réplication :
+l'activité de la télomérase, et une voie alternative appelée ALT (*alternative
+lengthening of telomeres*) utilisant la recombinaison homologue. Il est
+intéressant de noter que d'autres systèmes existent dans la nature, comme chez
+la drosophile qui a perdu la télomérase ou chez les quelques procaryotes qui
+possèdent des chromosomes linéaires mais ne possèdent pas de télomérase.
+Ces systèmes de réplication des télomères sont présentés dans les
+paragraphes suivants.
 
 
-### La télomérase permet le maintien de la longueur des télomères
+### L'addition de répétitions télomériques par la télomérase
 
 La télomérase est l'enzyme qui allonge le brin G des télomères. Sa découverte
 chez l'organisme modèle *Tetrahymena thermophila* [@greider1985] ainsi que les
@@ -133,6 +140,137 @@ Le mécanisme de synthèse des répétitions télomériques est représenté
 schématiquement dans la figure suivante :
 
 ![Figure : Synthèse des répétitions télomériques par la télomérase [@collins2011].](intro/figures/telomerase-synthese.png)
+
+
+### La voie alternative d'élongation des télomères
+
+Cette voie alternative d'élongation des télomères (appelée ALT pour *alternative
+lengthening of telomeres*) a été découverte pour la première fois dans des
+cellules tumorales qui n'exprimaient pas la télomérase [@bryan1995; @bryan1997].
+On estime que 10 à 15 % des tumeurs maintiennent leurs télomères par cette voie
+indépendante de la télomérase [@pickett2009]. Un phénomène similaire peut être
+détecté chez *Saccharomyces cerevisiae* dans des souches chez lesquelles la
+télomérase est inactivée : la majorité des levures meurent, mais en prolongeant
+la culture on peut tout de même isoler des "survivants", et leur survie dépend
+du bon fonctionnement de la recombinaison homologue [@lundblad1993].
+
+Les télomères maintenus par la voie ALT ont une longueur moyenne plus grande que
+ceux maintenus par la télomérase (respectivement entre 12 et 48 kb, et autour de
+6kb), et présentent une plus grande hétérogénéité de longueur, comme le montre
+la figure suivante :
+
+![Figure : Longueur moyenne des télomères maintenus par la voie ALT, à gauche, et par la télomérase, à droite [@pickett2009].](intro/figures/longueur-telo-alt-telomerase.png)
+
+Les modèles d'élongation des télomères par la voie ALT actuellement proposés
+sont schématisés dans la figure suivante :
+
+![Figure : Modèles actuels de l'élongation des télomères par la voie ALT [adapté de @cesare2010].](intro/figures/modeles-alt.png)
+
+
+### Les rétro-transposons de *Drosophila*
+
+*Drosophila melanogaster* ne possède pas de télomérase. Chez cet organisme, les
+télomères sont maintenus par l'action de rétrotransposons [@raffa2013].
+Trois rétrotransposons sont trouvés aux télomères : HeT-A, TART et TAHRE.
+Ils contiennent tous un gène *gag* codant pour des protéines prenant en charge
+le transcrit. TAHRE et TART contiennent aussi un gène *pol* codant pour une
+rétro-transcriptase. Grâce à cette enzyme, ces rétro-transposons synthétisent au
+site d'insertion (à l'extrémité du chromosome) l'ADN complémentaire de leur
+transcrit. La régulation de la longueur des télomères est ainsi principalement
+contrôlée par le taux de transcription de ces rétrotransposons. Elle est aussi
+en partie régulée par l'hétéoridmère Ku70/Ku80 qui occupe potentiellement
+l'extrémité du chromosome et la rend inaccessible à la machinerie d'insertion
+des transposons. Bien qu'il ne code pas sa propre rétro-transcriptase, ce qui le
+rend dépendant des autres rétrotransposons, HeT-A est le plus abondant aux
+télomères en termes de nombre de copies. Ceci peut être dû au fait que sa
+protéine Gag est la seule capable de s'associer spécifiquement aux télomères, et
+permet de recruter les protéines Gag de TART et TAHRE. Ces trois
+rétrotransposons se transposent à une fréquence de 10^-2^ à 10^-4^ par
+génération, tandis que l'érosion due au problème de la réplication est d'environ
+70 pb par génération en moyenne. La stabilité de la longueur des télomères
+résulte donc d'un équilibre dynamique entre ces deux phénomènes.
+
+
+### Les chromosomes fermés covalemment de *Borrelia*
+
+Les bactéries du genre *Borrelia* possèdent des ADN linéaires et contournent le
+problème de la réplication des extrémités d'une façon bien plus simple.
+Les extrémités sont fermées covalemment par une épingle à cheveux (*closed
+hairpin telomeres*), et une enzyme appelée résolvase de télomères [parfois
+appelée protélomérase bien qu'elle n'ait rien en commun avec la télomérase des
+eucaryotes, voir @chaconas2010] permet de séparer les deux molécules filles,
+concaténées en un dimère circulaire suite à la réplication [@chaconas2010].
+La figure ci-dessous illustre le mode de réplication des ADN linéaires
+à télomères en épingles à cheveux avec une initiation centrale et une étape de
+résolution des télomères qui reconstitue deux ADN linéaires fermés covalemment
+par des épingles à cheveux.
+
+![Figure : Principe de la réplication des ADN linéaires à télomères en épingle à cheveux [@shi2013].](intro/figures/replication-Borrelia.png)
+
+L'enzyme catalysant la résolution du dimère, appelée ResT (résolvase de
+télomères), a été purifiée et son activité a été caractérisée *in vitro*
+[@kobryn2002]. L'enzyme seule, sans partenaire protéique ni cations divalents ni
+ATP, est capable de reconstituer *in vitro* la réaction de résolution.
+Les auteurs de cette étude ont pu montrer que l'enzyme agit selon un mécanisme
+similaire à celui des topoisomérases de type IB et des recombinases
+site-spécifiques : une tyrosine catalytique clive un des brins d'ADN et forme un
+intermédiaire covalent avec l'extrémité 3'-phosphate.
+
+La structure tridimensionnelle d'une résolvase de télomères a été publiée pour
+la première fois en 2007 avec l'enzyme TelK d'un bactériophage [@aihara2007].
+Cette structure a permis de confirmer le mécanisme proposé d'après les
+expériences *in vitro*. La seule autre résolvase de télomères dont une structure
+tridimensionnelle est publiée vient de la bactérie *Agrobacterium tumefaciens*
+[@shi2013]. Cette enzyme, appelée TelA, a été mise en évidence plus récemment
+[@huang2012]. Dans les deux cas, l'enzyme se fixe sous la forme d'un dimère à la
+séquence télomérique répliquée, et une fois les deux brins clivés la
+conformation du dimère force la formation d'une épingle à cheveux par la courte
+extrémité 5'-sortante générée par le clivage. Cette extrémité 5' attaque le
+groupement phosphate lié à la tyrosine catalytique pour reformer une liaison
+phosphodiester et libérer l'enzyme. La figure ci-dessous illustre le mécanisme
+des résolvases de télomères.
+
+![Figure : Mécanisme des résolvases de télomères [@shi2013].](intro/figures/mecanisme-ResT.png)
+
+Il a par la suite été démontré que la seule acquisition d'une résolvase de
+télomères suffit à linéariser un génome normalement circulaire comme celui d'*E.
+coli* sans altérer la viabilité de la bactérie [@cui2007]. Ceci indique que la
+résolvase de télomères est le seul facteur nécessaire et suffisant pour
+contourner le problème de la réplication des extrémités des ADN linéaires.
+
+
+### La protéine terminale de *Streptomyces*
+
+Les bactéries du genre *Streptomyces* possèdent des ADN linéaires portant une
+protéine appelée TP (*terminal protein*) liée covalemment à chaque extrémité 5'
+et servant d'amorce pour terminer la synthèse du brin tardif à la fin de la
+réplication (un processus appelé *end patching*, soit "colmatage" des
+extrémités) [@chen2007].
+
+Les séquences télomériques de ces bactéries sont composées de six palindromes
+couvrant environ 140 pb. Lors de la réplication, la synthèse incomplète du brin
+tardif laisse une extrémité simple-brin sortante en 3' pouvant atteindre jusqu'à
+environ 300 nucléotides de longueur. Les palindromes permettent alors le
+repliement de cette extrémité simple-brin en structures secondaires, formant une
+dizaine de tiges-boucles. L'extrémité 3' se trouve appariée et peut servir
+d'amorce pour la synthèse de la fin du brin tardif. Cette synthèse est initiée
+par la coopération entre une ADN polymérase et TP activée par un nucléotide (un
+dCMP lié covalemment à une thréonine de la protéine). La protéine TP reste
+associée à l'extrémité 5' une fois la réplication terminée, et permet de
+protéger l'extrémité [@chen2007].
+
+Aucune structure tridimensionnelle de protéine TP n'a encore été publiée à ce
+jour, ainsi le mécanisme de synthèse de la fin du brin tardif n'est pas encore
+complètement élucidé. Le mécanisme le plus probable est présenté dans la figure
+ci-dessous.
+
+![Figure : Mécanisme de synthèse de la fin du brin tardif chez *Streptomyces* [@chen2007].](intro/figures/streptomyces-end-patching.png)
+
+Dans ce système, comme dans celui des *Borrelia*, la longueur des chromosomes et
+des plasmides linéaires reste constante car ces organismes ne possèdent pas de
+télomérase et utilisent à la place des mécanismes qui évitent totalement (chez
+les *Borrelia*) ou compensent exactement (chez les *Streptomyces*) l'érosion des
+extrémités.
 
 
 ## Le problème de la protection des extrémités
@@ -273,6 +411,7 @@ déjà chez les bactéries avant l'apparition des eucaryotes), et la téloméras
 aurait pu émerger par la suite en évoluant à partir de rétro-transposons.
 
 
+
 ## Quelles solutions à ces problèmes sont apparues au cours de l'évolution ?
 
 Comme nous l'avons vu dans les paragraphes précédents, les molécules d'ADN
@@ -286,100 +425,6 @@ les procaryotes.
 
 Les organismes possédant des ADN linéaires ont quant à eux adopté trois types de
 stratégies pour protéger et répliquer leurs extrémités.
-
-
-### Extrémités fermées covalemment par une épingle à cheveux
-
-Les bactéries du genre *Borrelia* possèdent des ADN linéaires aux extrémités
-fermées covalemment par une épingle à cheveux (*closed hairpin telomeres*),
-ainsi qu'une enzyme appelée résolvase de télomères^[Cette enzyme est parfois
-appelée protélomérase, bien qu'elle n'ait rien en commun avec la télomérase des
-eucaryotes [voir @chaconas2010].] qui permet de séparer les deux molécules
-filles, concaténées en un dimère circulaire suite à la réplication
-[@chaconas2010]. La figure ci-dessous illustre le mode de réplication des ADN
-linéaires à télomères en épingles à cheveux avec une initiation centrale et une
-étape de résolution des télomères qui reconstitue deux ADN linéaires fermés
-covalemment par des épingles à cheveux.
-
-![Figure : Principe de la réplication des ADN linéaires à télomères en épingle à cheveux. D'après [@shi2013].](intro/figures/replication-Borrelia.png)
-
-L'activité de résolution des télomères a été mise en évidence *in vivo* à l'aide
-de plasmides contenant la séquence télomérique répliquée (séquence répétée
-inversée), et directement introduits dans la bactérie par transformation
-[@chaconas2001]. Un plasmide circulaire contenant cette séquence télomérique
-répliquée est retrouvé sous forme linéaire lors de l'analyse, et il a été
-vérifié expérimentalement que l'ADN linéaire résultant contient bien des
-séquences télomériques à ses extrémités et que ces dernières sont bien fermées
-par une épingle à cheveux.
-
-L'enzyme responsable de cette activité, appelée ResT (résolvase de télomères),
-a été purifiée et son activité a été caractérisée *in vitro* [@kobryn2002].
-L'enzyme seule, sans partenaire protéique ni cations divalents ni ATP, est
-capable de mimer *in vitro* la réaction précédemment caractérisée *in vivo*.
-Les auteurs de cette étude ont pu montrer que l'enzyme agit selon un mécanisme
-similaire à celui des topoisomérases de type IB et des recombinases
-site-spécifiques : une tyrosine catalytique clive un des brins d'ADN et forme un
-intermédiaire covalent avec l'extrémité 3'-phosphate.
-
-La structure tridimensionnelle d'une résolvase de télomères a été publiée pour
-la première fois en 2007 avec l'enzyme TelK d'un bactériophage [@aihara2007].
-Cette structure a permis de confirmer le mécanisme proposé d'après les
-expériences *in vitro*. La seule autre résolvase de télomères dont une structure
-tridimensionnelle est publiée vient de la bactérie *Agrobacterium tumefaciens*
-[@shi2013]. Cette enzyme, appelée TelA, a été mise en évidence plus récemment
-[@huang2012]. Dans les deux cas, l'enzyme se fixe à la séquence télomérique
-répliquée sous forme de dimère, et une fois les deux brins clivés la
-conformation du dimère force la formation d'une épingle à cheveux par la courte
-extrémité 5'-sortante générée par le clivage. Cette extrémité 5' attaque le
-groupement phosphate lié à la tyrosine catalytique pour reformer une liaison
-phosphodiester et libérer l'enzyme. La figure ci-dessous illustre le mécanisme
-des résolvases de télomères.
-
-![Figure : Mécanisme des résolvases de télomères. D'après [@shi2013].](intro/figures/mecanisme-ResT.png)
-
-Il a par la suite été démontré que la seule acquisition d'une résolvase de
-télomères suffit à linéariser un génome normalement circulaire comme celui d'*E.
-coli* sans altérer la viabilité de la bactérie [@cui2007]. Une autre étude
-explore les possibilités de manipulation génétique offertes par ce système, et
-discute des applications possibles en biologie synthétique [@liang2013].
-
-
-### Extrémités liées covalemment à une protéine
-
-Les bactéries du genre *Streptomyces* possèdent des ADN linéaires portant une
-protéine appelée TP (*terminal protein*) liée covalemment à chaque extrémité 5'
-et servant d'amorce pour terminer la synthèse du brin tardif à la fin de la
-réplication (*end patching*) [@chen2007].
-
-Les séquences télomériques de ces bactéries sont composées de six palindromes
-couvrant environ 140 pb. Lors de la réplication, la synthèse incomplète du brin
-tardif laisse une extrémité simple-brin sortante en 3' pouvant atteindre jusqu'à
-environ 300 nucléotides de longueur. Les palindromes permettent alors le
-repliement de cette extrémité simple-brin en structures secondaires, formant une
-dizaine de tiges-boucles. L'extrémité 3' se trouve appariée et peut servir
-d'amorce pour la synthèse de la fin du brin tardif. Cette synthèse est initiée
-par la coopération entre une ADN polymérase et TP activée par un nucléotide (un
-dCMP lié covalemment à une thréonine de la protéine). La protéine TP reste
-associée à l'extrémité 5' une fois la réplication terminée, et permet de
-protéger l'extrémité.
-
-Aucune structure tridimensionnelle de protéine TP n'a encore été publiée à ce
-jour, ainsi le mécanisme de synthèse de la fin du brin tardif n'est pas encore
-complètement élucidé. Le mécanisme le plus probable est présenté dans la figure
-ci-dessous.
-
-![Figure : Mécanisme de synthèse de la fin du brin tardif chez *Streptomyces*. D'après [@chen2007].](intro/figures/streptomyces-end-patching.png)
-
-Dans ce système, comme dans celui des *Borrelia*, la longueur des chromosomes et
-des plasmides linéaires reste constante car ces organismes ne possèdent pas de
-télomérase et utilisent à la place des mécanismes qui évitent totalement (chez
-les *Borrelia*) ou compensent exactement (chez les *Streptomyces*) l'érosion des
-extrémités. D'autre part, leur mode de protection des extrémités contre les
-nucléases et les fusions est très simple : une liaison covalente, soit entre les
-extrémités des deux brins soit entre l'extrémité d'un brin et une protéine,
-suffit à protéger efficacement les extrémités.  
-Nous verrons dans les paragraphes suivants que les systèmes des eucaryotes sont
-très différents.
 
 
 ### Extrémités protégées par un complexe nucléoprotéique
@@ -432,28 +477,6 @@ schématiquement dans la figure ci-dessous :
 
 
 #### Chez la drosophile
-
-*Drosophila melanogaster* ne possède pas de télomérase. Chez cet organisme, les
-télomères sont maintenus par l'action de rétrotransposons [@raffa2013].
-Trois rétrotransposons sont trouvés aux télomères : HeT-A, TART et TAHRE.
-Ils contiennent tous un gène *gag* codant pour des protéines prenant en charge
-le transcrit. TAHRE et TART contiennent aussi un gène *pol* codant pour une
-rétro-transcriptase. Grâce à cette enzyme, ces rétro-transposons synthétisent au
-site d'insertion (à l'extrémité du chromosome) l'ADN complémentaire de leur
-transcrit. La régulation de la longueur des télomères est ainsi principalement
-contrôlée par le taux de transcription de ces rétrotransposons. Elle est aussi
-en partie régulée par l'hétéoridmère Ku70/Ku80 qui occupe potentiellement
-l'extrémité du chromosome et la rend inaccessible à la machinerie d'insertion
-des transposons.  
-Bien qu'il ne code pas sa propre rétro-transcriptase, ce qui le rend dépendant
-des autres rétrotransposons, HeT-A est le plus abondant aux télomères en termes
-de nombre de copies. Ceci peut être dû au fait que sa protéine Gag est la seule
-capable de s'associer spécifiquement aux télomères, et permet de recruter les
-protéines Gag de TART et TAHRE. Ces trois rétrotransposons se transposent à une
-fréquence de 10^-2^ à 10^-4^ par génération, tandis que l'érosion due au
-problème de la réplication est d'environ 70 pb par génération en moyenne.
-La stabilité de la longueur des télomères résulte donc d'un équilibre dynamique
-entre ces deux phénomènes.
 
 Contrairement aux organismes à télomères canoniques, chez la drosophile les
 fonctions de régulation de la longueur et de protection des télomères sont

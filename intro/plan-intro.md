@@ -5,21 +5,12 @@
     - Les télomères
     - Le problème de la réplication des extrémités
         * Aperçu du problème de la réplication
-        * La télomérase permet le maintien de la longueur des télomères
-        * Voie ALT ?
+        * L'addition de répétitions télomériques par la télomérase
+        * La voie alternative d'élongation des télomères
+        * Les rétro-transposons de *Drosophila*
+        * Les chromosomes fermés covalemment de *Borrelia*
+        * La protéine terminale de *Streptomyces*
     - Le problème de la protection des extrémités
-    - Solutions trouvées à ces problèmes au cours de l'évolution : comparer les
-      structures terminales de plusieurs organismes modèles (bactéries, ciliés,
-      levures, drosophile, plantes, nématode, vertébrés)
-        * ADN circulaire, pour la majorité des procaryotes
-        * *Borrelia* et *A. tumefaciens* (+ qqs autres : phages, etc.) :
-          *hairpin telomeres*
-        * *Streptomyces* (+ qqs autres : phages, etc.) : *5' protein capping*
-        * Eucaryotes
-            + Télomères canoniques : séquence G-riche, *shelterin*, CST,
-              télomérase, TERRA
-            + Télomères non canoniques (ex. drosophile) : rétrotransposons et
-              *terminin*
     - Origine des chromosomes linéaires
     - Universalité des structures terminales : tous les organismes possédant de
       l'ADN linéaire ont des structures terminales spécifiques
