@@ -199,32 +199,33 @@ l'interaction entre TRF2 et RAP1 est plus complexe qu'un simple événement de
 liaison, et que cette interaction complexe dépend de la région N-terminale de
 RAP1 puisque nous n'observons qu'une simple liaison avec le domaine RCT isolé de
 RAP1. D'autre part nous savons d'après les enveloppes calculées avec les données
-de SAXS que cette interaction complexe est associée à un profond changement de
-conformation des deux protéines. Nous avons donc cherché un autre site
-d'interaction potentiel entre TRF2 et RAP1. Le domaine TRFH de TRF2 n'est pas
-seulement un domaine de dimérisation, il est également un domaine d'interaction
-protéine-protéine par lequel TRF2 recrute des partenaires en liant un motif
-appelé TBM (pour *TRFH-binding motif*) présent dans leur séquence
-[@chen2008; @kim2009; @wan2013]. Il est donc possible que le domaine TRFH
+de SAXS que cette interaction complexe est associée à un changement de
+conformation significatif des deux protéines. Nous avons donc cherché un autre
+site d'interaction potentiel entre TRF2 et RAP1. Puisque le domaine TRFH est un
+domaine d'interactions protéine-protéine par lequel TRF2 recrute des partenaires
+en liant un motif TBM (cf. Introduction), il est possible que ce domaine
 intervienne dans l'interaction avec RAP1 : nous avons donc cherché le motif
-consensus `[YH]RLxP` dans la séquence de RAP1 et l'avons trouvé aux résidus 99
-à 103. La figure suivante montre l'alignement du motif `YRLGP` (TBM candidat) de
-RAP1 aux motifs TBM connus d'Apollo [@chen2008] et SLX4 [@wan2013] :
+consensus `[YH]RLxP` dans la séquence de RAP1 et l'avons trouvé justement dans
+la région N-terminale, aux résidus 99 à 103. La figure suivante montre
+l'alignement du motif `YRLGP` (TBM candidat) de RAP1 aux motifs TBM connus
+d'Apollo [@chen2008] et SLX4 [@wan2013] :
 
 ![Figure : Alignement du motif YRLGP de RAP1 avec les motifs TBM connus d'Apollo et SLX4. Les résidus du motif sont indiqués par les triangles noirs, le résidu R du motif consensus défini par [@kim2009] est encadré en noir, les résidus identiques sont surlignés en rouge et les résidus similaires sont encadrés en bleu.](partie-1/figures/apollo-slx4-rap1-tbm.png)
 
-Nous avons donc testé par ITC l'interaction d'un peptide de RAP1 contenant ce
-motif `YRLGP` (résidus 89 à 106 de RAP1, appelés par la suite RAP1-TBM) avec le
-domaine TRFH de TRF2(figure ci-dessous) : dans nos conditions expérimentales,
-nous obtenons un K~D~ ≃ 13 μM.
+Comme la séquence de RAP1 contient un motif très similaire à deux motifs TBM
+connus, nous avons voulu vérifier si ce motif était effectivement capable de
+lier le domaine TRFH. Nous avons testé par ITC l'interaction d'un peptide de
+RAP1 contenant ce motif `YRLGP` (résidus 89 à 106 de RAP1, appelés par la suite
+RAP1-TBM) avec le domaine TRFH de TRF2 (figure ci-dessous) : dans nos conditions
+expérimentales, nous obtenons un K~D~ ≃ 13 μM.
 
 ![Figure : Titration calorimétrique du domaine TRFH de TRF2 par le peptide RAP1-TBM.](partie-1/figures/itc-rap1-tbm-trfh.png)
 
-La structure cristallographique à 2,4 Å du complexe TRFH/RAP1-TBM a été résolue
-au laboratoire (Simona Miron), par remplacement moléculaire avec comme modèle un
-monomère du domaine TRFH (entrée PDB 3BUA). Les statistiques de collecte des
-données, de résolution de la structure et d'affinement du modèle sont présentées
-dans le tableau suivant :
+La structure cristallographique à 2,4 Å du complexe TRFH/RAP1-TBM a par ailleurs
+été résolue au laboratoire (Simona Miron), par remplacement moléculaire avec
+comme modèle un monomère du domaine TRFH (entrée PDB 3BUA). Les statistiques de
+collecte des données, de résolution de la structure et d'affinement du modèle
+sont présentées dans le tableau suivant :
 
 Table: Tableau : Statistiques de collecte des données, de résolution de la structure et d'affinement du modèle du complexe TRFH/RAP1-TBM.
 
@@ -258,8 +259,8 @@ Le modèle final est représenté dans la figure suivante :
 
 ![Figure : Structure cristallographique du complexe TRFH/RAP1-TBM. Le domaine TRFH est représenté en jaune, le peptide RAP1-TBM est représenté en cyan.](partie-1/figures/structure-trfh-rap1-tbm.png)
 
-Afin de confirmer que ce motif `YRLGP` de RAP1 est bien un motif TBM
-fonctionnel, nous avons muté en alanine les trois résidus Y, L et P dans la
+Afin de confirmer que ce motif TBM de RAP1 est bien engagé dans l'interaction
+avec TRF2, nous avons muté en alanine les trois résidus Y, L et P dans la
 séquence de RAP1 entière, donnant le motif muté `ARAGA`. Ce mutant est appelé
 RAP1-ARAGA. Nous avons mesuré l'interaction de ce mutant avec TRF2 par ITC
 (figure ci-dessous) :
@@ -270,7 +271,7 @@ Comme attendu, nous retrouvons la transition majeure correspondant
 à l'interaction de haute affinité entre le domaine RCT de RAP1 et TRF2.
 La transition mineure est quant à elle nettement réduite, à tel point qu'il
 n'est plus possible de calculer le K~D~ correspondant. Ceci démontre que le
-motif `YRLGP` de RAP1 est bien un motif TBM fonctionnel.
+motif TBM de RAP1 participe bien à l'interaction complète avec TRF2.
 
 Nous connaissons maintenant la région minimale des deux protéines impliquée dans
 l'interaction complète : le motif TBM de RAP1 et la poche de liaison des motifs
