@@ -61,39 +61,102 @@ RAP1-RCT/TRF2/ADN, suggèrent quant à elles que la région N-terminale de RAP1 
 responsable des effets observés sur les propriétés de TRF2 (cf. introduction de
 la partie et article en annexe).
 
-Pour obtenir des données sur la conformation des protéines entières et du
-complexe, nous avons réalisé des mesures de SAXS. Les courbes de SAXS des
-protéines TRF2, RAP1, RAP1-RCT et des complexes TRF2/RAP1 et TRF2/RAP1-RCT sont
-présentées dans la figure ci-dessous :
+Pour compléter cette information, nous avons voulu mieux comprendre
+l'interaction complète entre TRF2 et RAP1 d'un point de vue structural.
+La cristallographie n'est pas adaptée pour l'étude de ces protéines entières
+à cause de la flexibilité conformationnelle conférée par leurs longues régions
+non structurées. D'autre part nous avons besoin d'une technique applicable sur
+des objets en solution, afin d'être dans les mêmes conditions expérimentales que
+celles des mesures d'ITC dans lesquelles nous avons pu détecter l'interaction
+complète. Deux techniques de biophysique répondent bien à cette contrainte : la
+diffusion des rayons X aux petits angles (SAXS, pour *small-angle X-ray
+scattering*) et la résonnance magnétique nucléaire (RMN). Nous avons utilisé le
+SAXS car cette technique est bien adaptée pour la caractérisation de protéines
+et complexes flexibles [@rambo2010], et car elle n'est pas limitée par la taille
+des protéines à étudier et ne nécessite pas de marquage, contrairement à la RMN
+(la limite de taille actuellement admise est de 30 à 50 kDa ; le complexe
+TRF2/RAP1 a une masse d'environ 200 kDa).
+
+Un pré-requis indispensable à une expérience de SAXS est la préparation d'une
+solution de la macromolécule d'intérêt concentrée et bien homogène. La diffusion
+des rayons X est en effet sensible à la taille des objets présents dans la
+solution, et augmente non linéairement avec la taille. Ainsi une espèce de
+grande taille, comme par exemple un agrégat de la protéine étudiée, affecte
+fortement la diffusion même si cette espèce représente une population
+minoritaire dans la solution. La ligne de lumière SWING du synchrotron SOLEIL,
+où nous avons réalisé les acquisitions, dispose d'un système de chromatographie
+d'exclusion stérique couplé à la mesure de diffusion [@david2009] afin
+d'optimiser l'homogénéité de l'échantillon juste avant la mesure. Nous avons
+tiré parti de cette installation, et nous nous sommes aussi assurés au préalable
+de la haute pureté de nos préparations de TRF2 et RAP1 (cf. Matériel et
+méthodes, purification des protéines recombinantes).
+
+Les courbes de SAXS des protéines TRF2, RAP1, RAP1-RCT et des complexes
+TRF2/RAP1 et TRF2/RAP1-RCT sont présentées dans la figure ci-dessous :
 
 ![Figure : Courbes de SAXS de TRF2 (bleu), RAP1 (rouge), RAP1-RCT (jaune), TRF2/RAP1 (vert) et TRF2/RAP1-RCT (violet). Le panneau de droite montre un agrandissement dans la région des petits angles.](partie-1/figures/courbes-saxs-t2r1.png)
 
-La courbe expérimentale et les paramètres Rg (rayon de gyration) et I~0~
-(intensité à l'angle nul, obtenue par extrapolation) obtenus par l'analyse de
-Guinier permettent de représenter les données sous une forme modifiée appellée
-la représentation de Kratky normalisée [@durand2010], qui accentue aux grands
-angles les différences entre une chaine repliée de façon compacte et une chaine
-dépliée de conformation complètement aléatoire. La représentation de Kratky
-normalisée de chacune de ces courbes nous indique que toutes les protéines et
-tous les complexes ont une conformation de type "collier de perles"
-correspondant à des domaines compacts connectés par des régions flexibles, ce
-qui confirme les prédictions concernant les régions non structurées des
-protéines. La figure suivante montre les représentations de Kratky normalisées
-de nos protéines et complexes.
+À partir de la courbe expérimentale, l'analyse de Guinier [@guinier1939] permet
+d'obtenir les valeurs du rayon de giration (R~g~) et de l'intensité de diffusion
+à l'angle nul (I(0), aussi notée I~0~) à l'aide de la formule suivante (où q est
+l'angle de diffusion et I(q) l'intensité mesurée à cet angle) :
 
-![Figure : Représentations de Kratky normalisées de TRF2 (bleu), RAP1 (rouge), RAP1-RCT (jaune), TRF2/RAP1 (vert) et TRF2/RAP1-RCT (violet). Le panneau de droite indique les courbes théoriques pour une chaine repliée compacte et une chaine complètement dépliée [d'après @durand2010].](partie-1/figures/kratky-plots-t2r1-th.png)
+$I(q) = I(0) \times \exp{(- \frac{1}{3} {R_g}^2 q^2)}$
 
-Ces données de SAXS nous ont permis de calculer les fonctions de distribution
-des distances P(r) pour chacune des protéines et chacun des complexes (figure-ci
-dessous) :
+Cette formule se linéarise comme suit : $\ln{I(q)} = \ln{I(0)} - \frac{1}{3} {R_g}^2 q^2$
+
+Ainsi en représentant la courbe expérimentale comme $\ln{I(q)} = f(q^2)$, la
+portion de courbe aux très petits angles peut être modélisée par une droite
+d'ordonnée à l'origine $\ln{I(0)}$ et de coefficient directeur $- \frac{1}{3}
+{R_g}^2$.
+
+La courbe expérimentale et les paramètres R~g~ et I~0~ permettent de représenter
+les données sous une forme modifiée appellée la représentation de Kratky
+normalisée [@durand2010], qui accentue aux grands angles les différences entre
+une chaine repliée de façon compacte et une chaine dépliée de conformation
+complètement aléatoire. La figure suivante montre les représentations de Kratky
+normalisées théoriques pour une chaine parfaitement globulaire et compacte et
+pour une chaine complètement dépliée, ainsi que quelques exemples de
+représentations de Kratky de protéines réelles.
+
+![Figure : Représentations de Kratky normalisées théoriques d'une chaine repliée compacte et d'une chaine complètement dépliée [à gauche ; @durand2010]. Représentations de Kratky normalisées de quelques protéines représentatives des différents types de structuration [à droite ; @receveur-brechot2012] : globulaire compacte (bleu), multi-domaines compacte (vert), multi-domaines flexible (rouge) et dépliée (gris et violet).](partie-1/figures/kratky-plots-theoriques.png)
+
+Les représentations de Kratky normalisées de nos protéines et complexes sont
+représentées dans la figure suivante.
+
+![Figure : Représentations de Kratky normalisées de TRF2 (bleu), RAP1 (rouge), RAP1-RCT (jaune), TRF2/RAP1 (vert) et TRF2/RAP1-RCT (violet).](partie-1/figures/kratky-plots-t2r1.png)
+
+Ces courbes nous indiquent que toutes les protéines et tous les complexes ont
+une conformation de type "collier de perles" correspondant à des domaines
+compacts connectés par des régions flexibles, ce qui confirme les prédictions
+concernant les régions non structurées des protéines.
+
+La courbe expérimentale de SAXS permet également de calculer la fonction de
+distribution des distances P(r). Cette fonction s'obtient par la transformée de
+Fourier de la courbe de diffusion, et correspond à un histogramme des distances
+présentes dans la macromolécule. La fonction P(r) d'une protéine globulaire a la
+forme d'une courbe en cloche : son sommet fournit une autre estimation du R~g~
+(obtenu à partir de l'ensemble des données, contrairement au R~g~ obtenu par
+l'analyse de Guinier qui n'utilise que les données aux très petits angles), et
+la valeur maximale de r pour laquelle P(r) > 0 correspond au paramètre D~max~ :
+la plus grande distance présente dans la macromolécule. Comme le graphe de
+Kratky, la fonction P(r) contient des informations structurales intéressantes :
+
+![Figure : Formes caractéristiques de la fonction P(r) [@receveur-brechot2012].](partie-1/figures/pr-theoriques.png)
+
+Les fonctions de distribution des distances de nos protéines et complexes sont
+présentées dans la figure-ci dessous :
 
 ![Figure : Fonctions de distribution des distances de TRF2 (bleu), RAP1 (rouge), RAP1-RCT (jaune), TRF2/RAP1 (vert) et TRF2/RAP1-RCT (violet).](partie-1/figures/pr-t2r1.png)
 
+Ces courbes confirment la structuration en domaines connectés par des
+régions flexibles.
+
 Les valeurs des masses moléculaires théoriques (calculées d'après la séquence
 des protéines) et expérimentales (calculées d'après la valeur de I~0~), et des
-paramètres Rg et Dmax sont résumées dans le tableau suivant :
+paramètres R~g~ et D~max~ sont résumées dans le tableau suivant :
 
-Table: Tableau : Rg, Dmax et masses moléculaires des protéines et des complexes (nd : non déterminé).
+Table: Tableau : R~g~, D~max~ et masses moléculaires des protéines et des complexes (nd : non déterminé).
 
  **Protéine ou complexe**     **Masse moléculaire théorique (kDa)**     **Masse moléculaire expérimentale (kDa)**     **Rg (Å)**    **Dmax (Å)**
 --------------------------   ---------------------------------------   -------------------------------------------   ------------  --------------
