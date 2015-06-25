@@ -220,8 +220,41 @@ nous obtenons un K~D~ ≃ 13 μM.
 
 ![Figure : Titration calorimétrique du domaine TRFH de TRF2 par le peptide RAP1-TBM.](partie-1/figures/itc-rap1-tbm-trfh.png)
 
-La structure cristallographique à 2,4 Å du complexe TRFH/RAP1-TBM a également
-été résolue au laboratoire par Simona Miron (figure ci-dessous).
+La structure cristallographique à 2,4 Å du complexe TRFH/RAP1-TBM a été résolue
+au laboratoire (Simona Miron), par remplacement moléculaire avec comme modèle un
+monomère du domaine TRFH (entrée PDB 3BUA). Les statistiques de collecte des
+données, de résolution de la structure et d'affinement du modèle sont présentées
+dans le tableau suivant :
+
+Table: Tableau : Statistiques de collecte des données, de résolution de la structure et d'affinement du modèle du complexe TRFH/RAP1-TBM.
+
+-------------------------------------   -----------------------------
+Longueur d'onde (Å)                     0.98
+Groupe d'espace                         P2~1~
+Résolution (Å) (dernière tranche)       2.44 (2.63 - 2.44)
+Maille (a, b, c en Å ; α, β, γ en °)    58.8 104.8 85.3 ; 90 94.4 90
+R-merge (%)                             6.8 (66.4)
+Réflexions uniques                      33979 (5718)
+I/σ                                     14.29 (2.26)
+Complétude (%)                          96.5 (79.4)
+Wilson B-factor (Å^2^)                  51.6
+**Remplacement moléculaire**            -
+Modèle                                  entrée PDB 3BUA
+LLG                                     1391
+**Affinement**                          -
+Résolution (Å)                          2.44
+R-work (%)                              19.3
+R-free (%)                              23.7
+Nombre d'atomes (protéine)              6938
+Nombre de molécules d'eau               94
+Figure de mérite                        0.7813
+RMSD longueur des liaisons              0.004
+RMSD angles de liaisons                 0.976
+RMSD chiralité                          15.25
+**Entrée PDB**                          4RQI
+-------------------------------------   -----------------------------
+
+Le modèle final est représenté dans la figure suivante :
 
 ![Figure : Structure cristallographique du complexe TRFH/RAP1-TBM. Le domaine TRFH est représenté en jaune, le peptide RAP1-TBM est représenté en cyan.](partie-1/figures/structure-trfh-rap1-tbm.png)
 
