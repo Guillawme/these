@@ -28,7 +28,7 @@ cristallographique [@kvaratskhelia2002].
 
 Pour l'étude de l'interaction entre TRF2 et RAP1, nous avons choisi d'utiliser
 l'acétylation des lysines comme réaction d'empreinte. Le réactif permettant
-cette réaction est le sulfo-NHS-acetate, dont la structure est représenté dans
+cette réaction est le sulfo-NHS-acetate, dont la structure est représentée dans
 la figure ci-dessous.
 
 ![Figure : Structure du sulfo-NHS-acetate.](mat-meth/figures/sulfo-NHS-acetate.png)
