@@ -1,10 +1,49 @@
 ## Résultats
 
+Nous avons dans un premier temps entrepris de mesurer l'interaction entre TRF2
+et RAP1 entières, car si cette interaction est déjà connue [@li2000] elle n'a en
+revanche été étudiée de façon quantitative qu'avec des domaines isolés
+[@chen2011]. Pour cette mesure nous avons utilisé la titration calorimétrique
+isotherme (ITC pour *isothermal titration calorimetry*) car cette technique est
+la seule qui permette d'obtenir une valeur réelle de la constante d'équilibre de
+dissociation (K~D~), sans marquage (contrairement aux méthodes de mesure de
+polarisation ou d'anisotropie de fluorescence) ni immobilisation d'un des
+partenaires (contrairement à la résonance plasmonique de surface) ni séparation
+(contrairement aux techniques de chromatographie et d'électrophorèse).
+Le calorimètre est schématisé dans la figure suivante :
+
+![Figure : Représentation schématique d'un calorimètre de titration isotherme ([domaine public](https://en.wikipedia.org/wiki/File:ITC1.png)).](parti-1/figures/calorimetre.png)
+
+Une des deux molécules est placée dans la cuve et l'autre dans la seringue.
+Les concentrations doivent être de l'ordre de 10x K~D~ dans la cuve et 100x K~D~
+dans la seringue, ainsi lorsque l'on ne connait pas l'ordre de grandeur du K~D~
+il faut réaliser plusieurs essais pour mettre au point l'expérience.
+Cette technique a donc le défaut d'être très consommatrice en matériel
+biologique : elle est d'autant plus consommatrice que l'affinité entre les deux
+partenaires est faible (c'est-à-dire que le K~D~ est élevé). Une fois la cuve et
+la seringue remplies (respectivement 2 mL et 500 μL sur un appareil VP-ITC),
+l'appareil stabilise la température dans l'enceinte adiabatique et injecte le
+contenu de la seringue dans la cuve par étapes de volume défini (typiquement 10
+μL sur un appareil VP-ITC), puis il mesure la puissance électrique qu'il doit
+fournir pour maintenir la température constante. Ceci revient à mesurer les
+échanges de chaleur entre le contenu de la cuve et l'enceinte : la courbe de la
+puissance fournie en fonction du temps s'appelle le thermogramme.
+L'intégration des pics du thermogramme fournit une mesure directe à chaque point
+d'injection de la variation d'enthalpie (ΔH) accompagnant la liaison des deux
+molécules. Puisque les concentrations de départ sont connues et le volume final
+après chaque injection est facile à déterminer, il est possible de déterminer
+les concentrations des deux molécules dans la cuve après chaque injection et
+donc de calculer le rapport molaire entre elles. Lorsque les concentrations de
+départ sont bien choisies, le tracé de la variation d'enthalpie en fonction du
+rapport molaire à chaque point d'injection donne une courbe sigmoïde qui permet
+d'obtenir par ajustement d'un modèle mathématique les valeurs de K~D~, ΔS
+(variation d'entropie) et n (stoechiométrie) caractéristiques de l'interaction.
+
 Dans nos conditions expérimentales (cf. Matériel et méthodes), la titration
-calorimétrique de TRF2 par RAP1 produit de façon reproductible une courbe
-biphasique. D'autre part, lorsque nous titrons TRF2 par le domaine C-terminal
-isolé de RAP1 (RAP1-RCT) nous n'observons que la transition majeure dans la
-courbe de titration (figure ci-dessous), en accord avec les données déjà
+calorimétrique de TRF2 par RAP1 produit de façon reproductible une courbe à deux
+transitions sigmoïdes. D'autre part, lorsque nous titrons TRF2 par le domaine
+C-terminal isolé de RAP1 (RAP1-RCT) nous n'observons que la transition majeure
+dans la courbe de titration (figure ci-dessous), en accord avec les données déjà
 disponibles dans la littérature [@chen2011].
 
 ![Figure : Titration calorimétrique de TRF2 par RAP1 (panneau de gauche) et par RAP1-RCT (panneau de droite).](partie-1/figures/itc-t2-r1-rct.png)
