@@ -78,18 +78,18 @@ des protéines à étudier et ne nécessite pas de marquage, contrairement à la
 TRF2/RAP1 a une masse d'environ 200 kDa).
 
 Un pré-requis indispensable à une expérience de SAXS est la préparation d'une
-solution de la macromolécule d'intérêt concentrée et bien homogène. La diffusion
-des rayons X est en effet sensible à la taille des objets présents dans la
-solution, et augmente non linéairement avec la taille. Ainsi une espèce de
-grande taille, comme par exemple un agrégat de la protéine étudiée, affecte
-fortement la diffusion même si cette espèce représente une population
-minoritaire dans la solution. La ligne de lumière SWING du synchrotron SOLEIL,
-où nous avons réalisé les acquisitions, dispose d'un système de chromatographie
-d'exclusion stérique couplé à la mesure de diffusion [@david2009] afin
-d'optimiser l'homogénéité de l'échantillon juste avant la mesure. Nous avons
-tiré parti de cette installation, et nous nous sommes aussi assurés au préalable
-de la haute pureté de nos préparations de TRF2 et RAP1 (cf. Matériel et
-méthodes, purification des protéines recombinantes).
+solution de la macromolécule d'intérêt concentrée (de l'ordre de 1 mg/mL) et
+bien homogène. La diffusion des rayons X est en effet sensible à la taille des
+objets présents dans la solution, et augmente non linéairement avec la taille.
+Ainsi une espèce de grande taille, comme par exemple un agrégat de la protéine
+étudiée, affecte fortement la diffusion même si cette espèce représente une
+population minoritaire dans la solution. La ligne de lumière SWING du
+synchrotron SOLEIL, où nous avons réalisé les acquisitions, dispose d'un système
+de chromatographie d'exclusion stérique couplé à la mesure de diffusion
+[@david2009] afin d'optimiser l'homogénéité de l'échantillon juste avant la
+mesure. Nous avons tiré parti de cette installation, et nous nous sommes aussi
+assurés au préalable de la haute pureté de nos préparations de TRF2 et RAP1 (cf.
+Matériel et méthodes, purification des protéines recombinantes).
 
 Les courbes de SAXS des protéines TRF2, RAP1, RAP1-RCT et des complexes
 TRF2/RAP1 et TRF2/RAP1-RCT sont présentées dans la figure ci-dessous :
@@ -153,8 +153,9 @@ Ces courbes confirment la structuration en domaines connectés par des
 régions flexibles.
 
 Les valeurs des masses moléculaires théoriques (calculées d'après la séquence
-des protéines) et expérimentales (calculées d'après la valeur de I~0~), et des
-paramètres R~g~ et D~max~ sont résumées dans le tableau suivant :
+des protéines) et expérimentales [calculées d'après la valeur de I~0~ ;
+@fischer2010], et des paramètres R~g~ et D~max~ sont résumées dans le
+tableau suivant :
 
 Table: Tableau : R~g~, D~max~ et masses moléculaires des protéines et des complexes (nd : non déterminé).
 
@@ -173,7 +174,7 @@ majorité des molécules présentes dans l'échantillon) des protéines seules e
 complexes. Les enveloppes de TRF2, RAP1, RAP1-RCT et des complexes TRF2/RAP1 et
 TRF2/RAP1-RCT sont présentées dans la figure suivante :
 
-![Figure : Enveloppes de TRF2 (A), de RAP1 (B), de RAP1-RCT (C), du complexe TRF2/RAP1 (D) et du complexe TRF2/RAP1-RCT (E). Superpositions des enveloppes du complexe TRF2/RAP1-RCT et de TRF2 (F), du complexe TRF2/RAP1 et de TRF2 (G), et du complexe TRF2/RAP1, de TRF2 et de deux RAP1 (H).](partie-1/figures/enveloppes-t2r1.png)
+![Figure : Enveloppes de TRF2 (A), de RAP1 (B), de RAP1-RCT (C), du complexe TRF2/RAP1 (D) et du complexe TRF2/RAP1-RCT (E). Superpositions des enveloppes du complexe TRF2/RAP1-RCT et de TRF2 (F), du complexe TRF2/RAP1 et de TRF2 (G), et du complexe TRF2/RAP1, de TRF2 et de deux RAP1 (H). Le positionnement des domaines dans les enveloppes a été fait manuellement et est présenté comme simple repère ; les superpositions d'enveloppes ont aussi été faites manuellement.](partie-1/figures/enveloppes-t2r1.png)
 
 Nous observons que TRF2 adopte une conformation étendue, avec une grande
 distance séparant ses domaines Myb (jusqu'à environ 230 Å ; figure ci-dessus,
