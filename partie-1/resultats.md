@@ -278,24 +278,41 @@ l'interaction complète : le motif TBM de RAP1 et la poche de liaison des motifs
 TBM dans le domaine TRFH de TRF2. Cependant, cette interaction complète affecte
 probablement des régions plus grandes dans les protéines entières. Afin de
 déterminer quelles sont ces régions, nous avons réalisé des expériences
-d'empreinte protéique par acétylation des lysines par le sulfo-NHS-acetate.
-Le principe de la technique est schématisé dans la figure ci-dessous.
+d'empreinte protéique par acétylation des lysines. Le principe de cette méthode
+est schématisé dans la figure ci-dessous.
 
 ![Figure : Principe de l'expérience d'empreinte protéique.](partie-1/figures/footprint-principe.png)
 
-Seules les chaines latérales accessibles au solvant sont réactives, ainsi cette
-technique nous permet de sonder l'accessibilité au solvant des lysines et de
-déterminer lesquelles sont exposées en surface de la protéine et lesquelles sont
-enfouies dans la structure. On peut également analyser la protéine d'intérêt non
-pas seule mais en complexe avec un partenaire, et dans ce cas les résidus
-inaccessibles au réactif en présence du partenaire (alors qu'ils sont
-accessibles en son absence) sont donc des résidus impliqués dans l'interaction.
-Les résidus modifiés sont détectés par spectrométrie de masse en comparant les
-spectres avec ceux obtenus à partir de la protéine non modifiée.
+La méthode d'empreinte protéique repose sur la possibilité d'identifier les
+lysines modifiées par spectrométrie de masse. Un contrôle est réalisé en
+traitant la protéine d'intérêt seule avec un excès de réactif : ceci permet
+d'identifier les lysines accessibles en surface de la protéine. Le même
+traitement est ensuite reproduit sur la protéine en complexe avec son
+partenaire, et permet d'identifier les lysines protégées par la présence du
+partenaire (donc engagées dans l'interaction). Cette méthode a été utilisée avec
+succès sur des complexes protéine/ADN [voir par exemple @kvaratskhelia2002] et
+est complémentaire des techniques d'empreinte sur l'ADN (par exemple l'empreinte
+à la DNase I) puisqu'elle indique l'empreinte de l'ADN sur la protéine. Dans le
+cas d'un complexe protéine/protéine comme le complexe TRF2/RAP1, nous avons dû
+réaliser deux expériences : une expérience en présence d'un excès de RAP1 pour
+analyser TRF2 en étant certain qu'il est engagé dans le complexe à 100 %, et
+l'expérience réciproque en excès de TRF2 pour analyser RAP1 engagé dans le
+complexe à 100 %. Du fait du nombre de lysines différent dans les deux
+protéines, ces excès de l'une ou l'autre protéine conduisent à des nombres de
+lysines différents dans les différentes expériences. Pour en tenir compte, nous
+avons donc dû également ajuster la concentration en réactif d'une expérience
+à l'autre. Les détails de ces ajustements sont indiqués dans la partie Matériel
+et méthodes.
 
-Nous avons donc comparé les profils d'acétylation des lysines des complexes
-TRF2/RAP1 et TRF2/RAP1-ARAGA avec ceux des protéines libres TRF2, RAP1 et
-RAP1-ARAGA. Nous détectons plusieurs types de lysines :
+Les lysines présentes dans TRF2 (44 par monomère) et RAP1 (25) sont indiquées
+dans la figure suivante, avec leur localisation spatiale pour celles situées
+dans les domaines dont une structure tridimensionnelle est disponible.
+
+![Figure : Positions des lysines dans les séquences et structures de TRF2 et RAP1 (les lysines sont indiquées en rouge).](partie-1/figures/positions-lysines.png)
+
+Nous avons comparé les profils d'acétylation des lysines des complexes TRF2/RAP1
+et TRF2/RAP1-ARAGA avec ceux des protéines libres TRF2, RAP1 et RAP1-ARAGA.
+Nous détectons plusieurs types de lysines :
 
 1. des lysines acétylées dans toutes les conditions, ce qui indique une région
    constamment accessible et non engagée dans l'interaction ;
@@ -309,37 +326,50 @@ RAP1-ARAGA. Nous détectons plusieurs types de lysines :
    complexes, pouvant correspondre à des régions indirectement affectées par
    l'interaction qui se trouvent exposées suite au changement de conformation.
 
+La figure suivante indique comment nous avons interprété les spectres de masse :
+
+![Figure : Interprétation des spectres de masse. Les spectres orange et rouge (deux réplicats) correspondent à la protéine libre ; les spectres bleu clair et foncé (deux réplicats) correspondent à la protéine dans le complexe. Le fragment de protéolyse à l'origine du pic présenté est indiqué au dessus des spectres, avec le nombre d'acétylations. À gauche, exemple de lysines protégées dans le complexe : le fragment acétylé est environ 4 fois moins abondant dans l'échantillon obtenu à partir de la protéine en complexe que dans celui obtenu à partir de la protéine libre. À droite, exemple d'une lysine plus accessible dans le complexe : le fragment acétylé est environ 3 fois plus abondant dans l'échantillon obtenu à partir de le protéine en complexe que dans celui obtenu à partir de la protéine libre.](partie-1/figures/lecture-spectres-ms.png)
+
 Comme attendu, nous pouvons détecter l'interaction de haute affinité déjà
 décrite entre le domaine RAP1-RCT et la région TRF2-RBM, ce qui valide notre
 méthode. La lysine K293 de TRF2 (dans la région RBM) est protégée dans le
-complexe. Les lysines K327, K329 et K333 de TRF2 sont aussi affectées, ce qui
-suggère que le motif RBM de TRF2 dans le contexte des protéines entières est en
-réalité plus long d'une vingtaine de résidus que le motif minimal présent dans
-l'entrée PDB 3K6G [@chen2011]. Du côté de RAP1, les lysines K383 et K384 sont
-également affectées par l'interaction. L'ensemble de ces informations est résumé
-schématiquement dans la figure ci-dessous :
+complexe, tandis que les lysines K307 et K311 sont plus accessibles dans le
+complexe. Du côté de RAP1, les lysines K383 et K384 sont protégées dans le
+complexe, tandis que la lysine K324 est plus accessible dans le complexe.
+Ces résultats sont résumés dans la figure suivante :
 
-![Figure : Empreinte de TRF2 sur RAP1 et de RAP1 sur TRF2 dans la région de l'interaction de haute affinité (TRF2-RBM et RAP1-RCT). TRF2 est représenté en jaune, RAP1 en cyan. Les lysines sont représentées en sphères, celles qui sont protégées dans le complexe sont colorées en bleu, celles qui sont plus accessibles dans le complexe sont colorées en rouge. La figure a été réalisée avec l'entrée PDB 3K6G.](partie-1/figures/footprint-t2-rbm-r1-rct.png)
+![Figure : Empreinte de TRF2 sur RAP1 et de RAP1 sur TRF2 dans la région de l'interaction de haute affinité (TRF2-RBM et RAP1-RCT). TRF2 est représenté en jaune, RAP1 en cyan. Les lysines sont représentées en sphères, celles qui sont protégées dans le complexe sont colorées en bleu, celles qui sont plus accessibles dans le complexe sont colorées en rouge. La figure a été réalisée avec l'entrée PDB 3K6G. Les pics issus des spectres de masse (deux réplicats) sont indiqués pour chaque lysine (spectres orange et rouge : protéine libre ; spectres bleus : protéine dans le complexe). Le fragment trypsique ou V8 correspondant à chaque pic est indiqué au dessus avec le nombre d'acétylations et les lysines représentées avec le même code couleur que dans la structure.](partie-1/figures/empreinte-rct-rbm-spectres.png)
 
-Le domaine TRFH contient 18 lysines par monomère, dont 8 pour lesquelles nous
-avons pu détecter l'acétylation. Pour six d'entre elles l'acétylation est
-diminuée en présence de RAP1 : K58 et K93, situées proches de la poche de
-liaison du motif TBM, et K184 et K190 situées plus loin de cette poche. Il est
-intéressant de noter que K184 et K190 sont protégées de l'acétylation uniquement
-par RAP1, et ne sont pas protégées par RAP1-ARAGA, ce qui suggère que
-l'engagement de cette région du domaine TRFH dans l'interaction dépend de la
-liaison du motif TBM de RAP1. Les lysines K202 et K220, situées sur l'autre face
-du domaine par rapport aux précédentes, sont acétylées indifféremment en
-présence ou absence de RAP1, ce qui indique que cette face du domaine n'est pas
-engagée dans l'interaction avec RAP1. L'empreinte de RAP1 sur le domaine TRFH
-est représentée dans la figure suivante :
+Les lysines K327 et K329 de TRF2 sont aussi protégées dans le complexe (cf.
+figure suivante), ce qui suggère que le motif RBM de TRF2 dans le contexte des
+protéines entières est en réalité plus long d'une vingtaine de résidus que le
+motif minimal présent dans l'entrée PDB 3K6G [@chen2011].
+
+![Figure : Protection des lysines K327 et K329 de TRF2 dans le complexe TRF2/RAP1. Les spectres orange et rouge (deux réplicats) correspondent à la protéine libre ; les spectres bleu clair et foncé (deux réplicats) correspondent à la protéine dans le complexe. Le fragment de protéolyse à l'origine du pic présenté est indiqué au dessus des spectres, avec le nombre d'acétylations.](partie-1/figures/trf2-rbm-etendu-spectres.png)
+
+Le domaine TRFH contient 18 lysines par monomère (cf. figure précédente), dont
+8 pour lesquelles nous avons pu détecter l'acétylation. Pour six d'entre elles
+l'acétylation est diminuée en présence de RAP1 : K58 et K93, situées proches de
+la poche de liaison du motif TBM, et K184 et K190 situées plus loin de cette
+poche. Il est intéressant de noter que K184 et K190 sont protégées de
+l'acétylation uniquement par RAP1, et ne sont pas protégées par RAP1-ARAGA, ce
+qui suggère que l'engagement de cette région du domaine TRFH dans l'interaction
+dépend de la liaison du motif TBM de RAP1. Les lysines K202 et K220, situées sur
+l'autre face du domaine par rapport aux précédentes, sont acétylées
+indifféremment en présence ou absence de RAP1, ce qui indique que cette face du
+domaine n'est pas engagée dans l'interaction avec RAP1. L'analyse détaillée des
+spectres de masse est présentée dans les figures supplémentaires de l'article en
+annexe. L'empreinte de RAP1 sur le domaine TRFH est représentée dans la figure
+suivante :
 
 ![Figure : Empreinte de RAP1 sur le domaine TRFH de TRF2. La position du motif TBM de RAP1 est représentée en cyan et violet. Les lysines sont représentées en sphères, celles qui sont protégées sont colorées en bleu (bleu clair lorsque la position précise n'a pas pu être déterminée), celles qui sont non affectées sont colorées en gris. Les lysines colorées en vert sont protégées uniquement par RAP1 sauvage, pas par RAP1-ARAGA.](partie-1/figures/footprint-t2-trfh.png)
 
 La région N-terminale de RAP1 (résidus 1 à 230) contient 13 lysines dont 6 pour
 lesquelles nous pouvons détecter une acétylation. Pour trois d'entre elles
-l'acétylation est affectée par la formation du complexe. L'empreinte de TRF2 sur
-la région N-terminale de RAP1 est représentée dans la figure suivante :
+l'acétylation est affectée par la formation du complexe. L'analyse détaillée des
+spectres de masse est présentée dans les figures supplémentaires de l'article en
+annexe. L'empreinte de TRF2 sur la région N-terminale de RAP1 est représentée
+dans la figure suivante :
 
 ![Figure : Empreinte de TRF2 sur la région N-terminale de RAP1. Les résidus du motif TBM sont représentés en sphères violettes. Les lysines sont représentées en sphères, K114 protégée dans le complexe est colorée en bleu, K186 protégée dans le complexe uniquement avec RAP1 sauvage (et pas avec RAP1-ARAGA) est colorée en vert, K39 rendue plus accessible dans le complexe uniquement avec RAP1 sauvage (et pas avec RAP1-ARAGA) est colorée en orange. Les lysines dont l'acétylation n'est pas modifiée en présence de TRF2 sont colorées en gris.](partie-1/figures/footprint-r1-nter.png)
 
