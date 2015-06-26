@@ -37,7 +37,7 @@ donc de calculer le rapport molaire entre elles. Lorsque les concentrations de
 départ sont bien choisies, le tracé de la variation d'enthalpie en fonction du
 rapport molaire à chaque point d'injection donne une courbe sigmoïde qui permet
 d'obtenir par ajustement d'un modèle mathématique les valeurs de K~D~, ΔS
-(variation d'entropie) et n (stoechiométrie) caractéristiques de l'interaction.
+(variation d'entropie) et n (stoechiométrie) associées à l'interaction.
 
 Dans nos conditions expérimentales (cf. Matériel et méthodes), la titration
 calorimétrique de TRF2 par RAP1 produit de façon reproductible une courbe à deux
