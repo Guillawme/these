@@ -12,7 +12,7 @@ partenaires (contrairement à la résonance plasmonique de surface) ni séparati
 (contrairement aux techniques de chromatographie et d'électrophorèse).
 Le calorimètre est schématisé dans la figure suivante :
 
-![Figure : Représentation schématique d'un calorimètre de titration isotherme ([domaine public](https://en.wikipedia.org/wiki/File:ITC1.png)).](parti-1/figures/calorimetre.png)
+![Figure : Représentation schématique d'un calorimètre de titration isotherme ([domaine public](https://en.wikipedia.org/wiki/File:ITC1.png)).](partie-1/figures/calorimetre.png)
 
 Une des deux molécules est placée dans la cuve et l'autre dans la seringue.
 Les concentrations doivent être de l'ordre de 10x K~D~ dans la cuve et 100x K~D~
