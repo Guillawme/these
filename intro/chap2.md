@@ -171,11 +171,28 @@ le long du brin d'ADN en s'éloignant de l'extrémité 3' elle augmente la
 processivité de la télomérase [@lei2005] probablement en maintenant son
 association avec l'ADN avec l'aide de TPP1 [@wang2007; @xin2007]. Le mécanisme
 précis de passage de l'état extensible à l'état non extensible n'est pas
-encore compris.
-
-Toutefois toutes les protéines du *shelterin* semblent impliquées dans la
-répression de la télomérase. Rôle de la *t-loop* ?
+encore compris, au même titre que le rôle possible de la *t-loop* dans la
+régulation de l'accessibilité de l'extrémité 3'.
 
 
+## Protection de l'extrémité du chromosome par le complexe *shelterin*
 
+La fonction du *shelterin* à l'origine de son nom est celle de protection des
+extrémités contre les voies de réparation des cassures double-brin de l'ADN et
+contre la dégradation par des exonucléases.
 
+Ces fonctions ont été récemment étudiées chez la souris par des méthodes
+génétiques de délétion conditionnelle sélective d'un ou plusieurs gènes codant
+pour les protéines du complexe [@sfeir2012]. La double délétion de TRF1 et TRF2
+suffit à réduire à un niveau indétectable (par ChIP et immunofluorescence) la
+présence aux télomères de toutes les protéines du *shelterin*. Les télomères
+"nus" ainsi générés sont très rapidement la cible de la machinerie du NHEJ
+classique (c-NHEJ, dépendant de Ku et de la ligase 4) : des fusions de
+chromosomes se produisent à une fréquence très élevée. Pour pouvoir observer les
+autres phénotypes provoqués par l'absence du *shelterin*, les auteurs ont étudié
+des cellules chez lesquelles la ligase 4 est inactivée (Lig4^-/-^) : dans ce
+contexte génétique les fusions de chromosomes sont plus rares mais tout de même
+possibles, ce qui suggère que la voie NHEJ alternative est aussi active (a-NHEJ,
+dépendant de PARP1 et la ligase 3), et qui est confirmé par l'augmentation de la
+fréquence des fusions dans des cellules délétées de Ku80 (qui réprime le
+a-NHEJ). 
