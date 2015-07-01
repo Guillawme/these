@@ -5,7 +5,7 @@
 La préparation du complexe Myb-long/ADN est réalisée en mélangeant la protéine
 avec un excès molaire en sites de liaison de 1,2. Ce mélange est concentré
 jusqu'à environ 100 μL et injecté à 0,5 mL/min sur une colonne d'exclusion
-stérique Superdex200 10/300 GL (GE Healthcare) équilibrée en tampon Tris-HCl 20
+stérique Superdex75 10/300 GL (GE Healthcare) équilibrée en tampon Tris-HCl 20
 mM, pH = 7,5, NaCl 150 mM, 2-mercaptoethanol 5 mM. Cette étape permet de séparer
 l'excès d'ADN du complexe, et nous assure que l'échantillon contient uniquement
 le complexe d'intérêt (les éventuels complexes où une seule protéine s'est fixée
@@ -15,22 +15,23 @@ sont réunies et concentrées jusqu'à environ 22 mg/mL en complexe.
 Un chromatogramme typique obtenu en préparant le complexe Myb-long/T2-S5S7 est
 présenté dans la figure ci-dessous :
 
-![Figure : Chromatogramme d'exclusion stérique du complexe Myb-long/ADN. Absorbance à 280 nm en bleu, absorbance à 260 nm en rouge.](mat-meth/figures/myb-long_adn-sup200.png)
+![Figure : Chromatogramme d'exclusion stérique du complexe Myb-long/ADN. Absorbance à 280 nm en bleu, absorbance à 260 nm en rouge.](mat-meth/figures/myb-long_adn-sup75.png)
 
-Les fractions 6, 7 et 8 sont réunies et concentrées à environ 22 mg/mL en
-complexe pour obtenir l'échantillon final (les fractions 9 et 10 contiennent
-l'excès d'oligonucléotide libre).
+Les fractions 3, 4 et 5 sont réunies et concentrées à environ 22 mg/mL en
+complexe pour obtenir l'échantillon final (les fractions 7 et 8 contiennent
+probablement du complexe à une seule protéine, et les fractions 9, 10 et 11
+contiennent l'excès d'oligonucléotide libre).
 
 
 ###Propriétés du complexe et de ses composants
 
-Pour la protéine, MW et ε~280\ nm~ sont obtenus avec l'outil ProtParam
+Pour la protéine, M~W~ et ε~280\ nm~ sont obtenus avec l'outil ProtParam
 (<http://web.expasy.org/protparam/>) et ε~260\ nm~ est estimé par la mesure d'un
 spectre d'absorption UV au Nanodrop. Il s'obtient comme suit avec les valeurs
 d'absorbance lues :
 $ε_{260 nm} = \frac{ε_{280 nm}}{A_{280 nm}} \times A_{260 nm}$.
 
-Pour l'oligonucléotide, MW est connue car on connait les masses molaires des
+Pour l'oligonucléotide, M~W~ est connue car on connait les masses molaires des
 deux brins hybridés (ces masses sont données par le fournisseur, ici
 Eurogentec), ε~260\ nm~ et ε~280\ nm~ sont déterminés avec l'outil IDT
 Biophysics (<http://biophysics.idtdna.com/UVSpectrum.html>).
@@ -40,17 +41,17 @@ composants en tenant compte de la stoechiométrie (deux protéines liées à un
 oligonucléotide).
 
 - Myb-long
-    + MW = 11691,1 Da
+    + M~W~ = 11691,1 Da
     + ε~280\ nm~ = 35980 M^-1^.cm^-1^
     + ε~260\ nm~ ≃ 22264,85 M^-1^.cm^-1^
 
 - oligonucléotide T2-S5S7
-    + MW = 12233,1 Da
+    + M~W~ = 12233,1 Da
     + ε~280\ nm~ = 169099,5  M^-1^.cm^-1^
     + ε~260\ nm~ = 320693,9 M^-1^.cm^-1^
 
 - complexe 1 oligonucléotide + 2 Myb-long
-    + MW = 35615,3 Da
+    + M~W~ = 35615,3 Da
     + ε~280\ nm~ ≃ 264786  M^-1^.cm^-1^
     + ε~260\ nm~ ≃ 365223,7 M^-1^.cm^-1^
 
