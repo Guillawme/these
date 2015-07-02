@@ -1,8 +1,14 @@
-Alignement manuel des TBM d'Apollo, NBS1, SLX4 et RAP1 + candidat TBM de WRN
+Alignement manuel des TBM d'Apollo, SLX4, PNUTS et MCPH1 (tous confirmés in
+vitro et in vivo), NBS1 (confirmé uniquement in vitro), RAP1 (confirmé
+uniquement in vitro), et le candidat TBM de WRN
 
-NBS1       tssnnnsmvsntlakmripnYqLsPtklpsinkskdrasqqqqtnsir
 Apollo     shsskgtpllAtefRGLalkYlLtPvnffqagyssrrfdqqvekyhkp
 SLX4       ItsepeeqsgAvrERGLevsHrLaPwqaspphpcrfllgppqggsprg
+PNUTS      etpslvpvkknastvvvsdkYnLkPiplkrqsnvaapgdatppaekky
+MCPH1      vvtpdqkqaagmsqetfeekYrLsPtlsstkghllihsrprsssvkrk
+NBS1       tssnnnsmvsntlakmripnYqLsPtklpsinkskdrasqqqqtnsir
 RAP1       IstqyildcvernERleleaYrLgPasaadtgseakpgalaegaaepe
 WRN        kantesqslilqaneelcpkKlLlPssktvssgtkehcynqvpvelst
+
+consensus (Kim et al, 2009) KGYYHKYRLSPLN
 
