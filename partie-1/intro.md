@@ -9,7 +9,11 @@ expériences de biologie cellulaire est difficile car les conséquences de la
 surexpression ou de la déplétion de l'une comme de l'autre sont multiples et
 inter-dépendantes. Enfin, peu d'études *in vitro* s'intéressent spécifiquement
 à l'interaction entre TRF2 et RAP1 entières, et les études structurales publiées
-concernent uniquement des domaines isolés des protéines.
+concernent uniquement des domaines isolés des protéines. L'importance de TRF2 au
+coeur du complexe *shelterin*, sa capacité à interagir avec de multiples
+partenaires, et la compréhension limitée du rôle de RAP1 malgré son extrême
+conservation nous ont encouragé à chercher à comprendre comment s'assemble le
+complexe formé par ces deux protéines.
 
 Nos collaborateurs au laboratoire d'Eric Gilson ont commencé à étudier l'effet
 de RAP1 sur les propriétés d'interaction avec l'ADN de TRF2. Ils utilisent l'AFM

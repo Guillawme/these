@@ -101,10 +101,11 @@ TRF2/RAP1 et TRF2/RAP1-RCT sont présentées dans la figure ci-dessous :
 
 ![Figure : Courbes de SAXS de TRF2 (bleu), RAP1 (rouge), RAP1-RCT (jaune), TRF2/RAP1 (vert) et TRF2/RAP1-RCT (violet). Le panneau de droite montre un agrandissement dans la région des petits angles.](partie-1/figures/courbes-saxs-t2r1.png)
 
-À partir de la courbe expérimentale, l'analyse de Guinier [@guinier1939] permet
-d'obtenir les valeurs du rayon de giration (R~g~) et de l'intensité de diffusion
-à l'angle nul (I(0), aussi notée I~0~) à l'aide de la formule suivante (où q est
-l'angle de diffusion et I(q) l'intensité mesurée à cet angle) :
+À partir de la courbe expérimentale ($I = f(q)$, souvent représentée comme $\ln
+I = f(q)$), l'analyse de @guinier1939 permet d'obtenir les valeurs du rayon de
+giration (R~g~) et de l'intensité de diffusion à l'angle nul (I(0), aussi notée
+I~0~) à l'aide de la formule suivante (où *q* est l'angle de diffusion et *I(q)*
+l'intensité mesurée à cet angle) :
 
 $I(q) = I(0) \times \exp{(- \frac{1}{3} {R_g}^2 q^2)}$
 
@@ -118,29 +119,34 @@ d'ordonnée à l'origine $\ln{I(0)}$ et de coefficient directeur $- \frac{1}{3}
 La valeur de I~0~ permet de calculer la masse moléculaire avec la formule
 suivante [@mylonas2007] :
 
-$M_W = \frac{I_0}{c} \times \frac{N_A}{{Δρ_M}^2} \times \frac{(I_0)_{eau,
-théorique}}{(I_0)_{eau, expérimentale}}$
+$M_W = \frac{I_0 \times N_A}{c \times {Δρ_M}^2}$
 
 où *M~W~* est la masse moléculaire en Da, *c* est la concentration en protéine
-en mg/mL, *I~0~* est l'intensité diffusée à l'angle nul, *(I~0~)~eau,\ théorique~*
-= 1,632x10^-2^ et *(I~0~)~eau,\ expérimentale~* sont les intensités
-diffusées à l'angle nul théorique et expérimentale de l'eau pure, *N~A~* =
-6,02x10^23^ mol^-1^ est le nombre d'Avogadro et *Δρ~M~* est le contraste de
-densité électronique entre la macromolécule et le tampon en g^-1^.cm^-3^.
+en mg/mL, *I~0~* est l'intensité diffusée à l'angle nul en cm^-1^ (mise sur une
+échelle absolue en multipliant par le rapport (I~0~)~eau,\ théorique~/(I~0~)~eau,\ expérimentale~
+où (I~0~)~eau,\ théorique~ = 1,632x10^-2^ et (I~0~)~eau,\ expérimentale~
+sont les intensités diffusées à l'angle nul théorique et expérimentale de l'eau
+pure), *N~A~* = 6,02x10^23^ mol^-1^ est le nombre d'Avogadro et *Δρ~M~* est le
+contraste de densité électronique entre la macromolécule et le tampon en
+cm.g^-1^ (pour les protéines, Δρ~M~ ≃ 2.10^10^ cm.g^-1^).
 
 La masse moléculaire peut aussi être calculée sans connaître la concentration en
 protéine (qui n'est pas mesurable lors des acquisitions couplées à la
 chromatographie d'exclusion stérique) par la formule suivante [@fischer2010] :
-$M_W = 2 {\pi}^2 \times \frac{I_0}{Q} \times ρ_m$
+$M_W = 2 {\pi}^2 \times \frac{I_0}{Q} \times ρ$ où *I~0~* est sur une échelle
+relative (il n'est pas nécessaire de mesurer la diffusion de l'eau pour calibrer
+l'échelle d'intensité), $Q = \int_0^\infty I(q)q^2 \, \mathrm{d}q$ et *ρ* est la
+masse volumique de la protéine.
 
 La courbe expérimentale et les paramètres R~g~ et I~0~ permettent de représenter
-les données sous une forme modifiée appelée la représentation de Kratky
-normalisée [@durand2010], qui accentue aux grands angles les différences entre
-une chaine repliée de façon compacte et une chaine dépliée de conformation
-complètement aléatoire. La figure suivante montre les représentations de Kratky
-normalisées théoriques pour une chaine parfaitement globulaire et compacte et
-pour une chaine complètement dépliée, ainsi que quelques exemples de
-représentations de Kratky de protéines réelles.
+les données sous une forme modifiée comme $(qR_g)^2 I(q) / I_0 = f(qR_g)$,
+appelée la représentation de Kratky normalisée [@durand2010].
+Cette représentation accentue aux grands angles les différences entre une chaine
+repliée de façon compacte et une chaine dépliée de conformation complètement
+aléatoire. La figure suivante montre les représentations de Kratky normalisées
+théoriques pour une chaine parfaitement globulaire et compacte et pour une
+chaine complètement dépliée, ainsi que quelques exemples de représentations de
+Kratky de protéines réelles.
 
 ![Figure : Représentations de Kratky normalisées théoriques d'une chaine repliée compacte et d'une chaine complètement dépliée [à gauche ; @durand2010]. Représentations de Kratky normalisées de quelques protéines représentatives des différents types de structuration [à droite ; @receveur-brechot2012] : globulaire compacte (bleu), multi-domaines compacte (vert), multi-domaines flexible (rouge) et dépliée (gris et violet).](partie-1/figures/kratky-plots-theoriques.png)
 
