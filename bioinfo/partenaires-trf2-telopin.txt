@@ -1,4 +1,6 @@
-Human TRF2 interacting proteins (from TeloPIN) Uniprot codes
+Human TRF2 interacting proteins (from TeloPIN) Uniprot codes.
+Use http://prosite.expasy.org/scanprosite/ to search motifs against
+these sequences.
 
 Q9UDR5
 P33897
