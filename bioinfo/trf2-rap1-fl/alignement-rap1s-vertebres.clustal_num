@@ -1,0 +1,194 @@
+CLUSTAL O(1.2.1) multiple sequence alignment
+
+
+Homo_sapiens               MAEAMDLGKDPNGPTHSSTLFVRDDGSSMSFYVRPSPAKRRLSTLILHGGGTVCRVQEPG	60
+Gallus_gallus              ------------MAAPPRKVFVWEDGTPMRFYIRPGMAKLRLAPLLLAGGAGLCRVQEPG	48
+Xenopus_laevis             -------MATLGGLTHSHTLFVEDDGTPVRFYIPPGPLKRQLYQLIIHGGGEMCRLQQPG	53
+Xenopus_tropicalis         -------MAALGGLTHSRTLFVDDDGTPMSFYVPPGPLKRQLYPLITHGGGEMCRMQQPG	53
+Callithrix_jacchus         MAEAMDLGKDPNGPTHSSTLFVREDGSSMSFYVRPSPAKRRLSTLILHGGGTLCRVQEPG	60
+Oryctolagus_cuniculus      MAEAMDLGKDPNGPTHSSTLFVREDGSSMSFYVRPSPAKRRLSTLILHGGGSVCRVQEPG	60
+Bos_taurus                 MAEAMELGKDPNGPTHSSTLFVREDGSSMSFYVRPSPAKRRLSTLILHGGGTLCRVQEPG	60
+Rattus_norvegicus          MAEVMDLGKDPNGPTHSSTLFVREDGSAMSFYVRPSSAKRRLSTLILHGGGILCRVQKPG	60
+Mus_musculus               MAEAMDLGKDPNGPTHSSTLFVREDGSAMSFYVRPSSAKRRLSTLILHGGGTVCRVQEPG	60
+Macaca_mulatta             MAEAMDLGKDPNGPTHSSTLFVREDGSSMSFYVRPSPAKRRLSTLILHGGGTVCRVQEPG	60
+Monodelphis_domestica      MTEGLEMGKDPNDSTHSRSLFVREDGSSISFYVRPGPAKRRLSSLILHGGGSLCRVQEPE	60
+Canis_familiaris           MAEAMDLGKDPNGPTHSSTLFVREDGSSMSFYVRPSPAKRRLSTLILHGGGTLCRVQEPG	60
+Taeniopygia_guttata        -------------AARSRSLFLWDDGHPMRFYLRPGLAKLRLAPLVLAGGGRLCRVQEPG	47
+Danio_rerio                ------MSKKKEASKISPVLFLDPGGQSMRFYVRPGPTKMQLHPLITSGGGNLCRNQEPG	54
+                                              :*:   *  : **: *.  * :*  *:  **. :** *:* 
+
+Homo_sapiens               AVLLAQPGEALAE---ASGDFISTQYILDCVERNERLELEAYRLGPASAADTGS------	111
+Gallus_gallus              AVHLVQPGEPAPD------GAVSTDYVVACVESQRRLPLDLYRHSGP-------------	89
+Xenopus_laevis             ALLLSTPGSAQGA------QYVSTAYVMDCVRKGELLHVDDYRLDGSHGRKRQSKGMKQD	107
+Xenopus_tropicalis         ALLLSAPGSAQGA------QYVSTAYIMDCVRIDKLLDVDDYRLDGSHGRPRKSQGSKKE	107
+Callithrix_jacchus         AVLLAQPGEALAE---ASGDFISTQYILDCVEQNERLELETYRLGPASAADTGS------	111
+Oryctolagus_cuniculus      AVLLAQPGEALAE---ASGDFISTQYILDCVERNERLELEAYRLGLASGAGPAP------	111
+Bos_taurus                 AVLLAQPGEAAAE---ASGDFISTQYILDCVERNEKLELEAYRLGPAPAAYQAP------	111
+Rattus_norvegicus          AVLLAQPGEALAE---ASGDFISTQYILDCVERNEKLELEAYRLGLTEQ---AS------	108
+Mus_musculus               AVLLAQPGEALAE---ASGDFISTQYILDCVDRNEKLDLEAYRLGLTEQ---AS------	108
+Macaca_mulatta             AVLLAQPGEALAE---ASGDFISTQYILDCVERNERLELEAYRLGSASAADTGS------	111
+Monodelphis_domestica      AVLLAQPGELQAE---ASGDFISTQYITDCVERNERLELEDYRLGRRDSES---------	108
+Canis_familiaris           AVLLAQPGEAAAE---ASGDFISTQYILDCVERNERLDLEAYRLGSAAGQ--AP------	109
+Taeniopygia_guttata        AVLLAQPGEVAPD------GAVSIEYVAECVKPRGH------------------------	77
+Danio_rerio                AILLIDPTDATNVTQNTGQKYISTKYILDCVEQNQQLDPNDYAIIIGPSVQ---------	105
+                           *: *  * .            :*  *:  **                             
+
+Homo_sapiens               ----EAKPGALAE-----------------------------------------------	120
+Gallus_gallus              ------------------------------------------------------------	89
+Xenopus_laevis             ERE-----GESSHGSDGKEQVKVGEGPEEEDELSDLGELVIEEGLEEDEQESDTVKIKKE	162
+Xenopus_tropicalis         ERAPQQKVGESSQESDQKQQAKVGGDLEEGDKLSDPGEPVNEESLGS-----VSSTRKKE	162
+Callithrix_jacchus         ----EAKPGALGE-----------------------------------------------	120
+Oryctolagus_cuniculus      ----DAKSGAS-------------------------------------------------	118
+Bos_taurus                 ----ETKPGVLAGGV---------------------------------------------	122
+Rattus_norvegicus          ----DPKPGASAE-----------------------------------------------	117
+Mus_musculus               ----DPKPGASTE-----------------------------------------------	117
+Macaca_mulatta             ----EAKPGALAE-----------------------------------------------	120
+Monodelphis_domestica      ------------------------------------------------------------	108
+Canis_familiaris           ----ETKPGAQAEGS---------------------------------------------	120
+Taeniopygia_guttata        ------------------------------------------------------------	77
+Danio_rerio                ------------------------------------------------------------	105
+                                                                                       
+
+Homo_sapiens               -----------GAAEPEPQRHAGRIAFTDADDVAILTYVKENARSPSSVTGNALWKAMEK	169
+Gallus_gallus              --------------APLAASPRGRLPFTEAEDAALLRAVRERSGA-PRVSGTALWKELEC	134
+Xenopus_laevis             NKMDCSEAQKIGSLKSARIHQTGRNPFTEEEDVAILVYVRDNAPHRGTVTGIALWKEMEQ	222
+Xenopus_tropicalis         NKMDCSEAQKIGSLKSARIHQTRRNVFTEKEDVAIMLYVRENAPHRGT--GVSLWKEMEQ	220
+Callithrix_jacchus         -----------GSVEPEPQRHTGRVAYTDADDVAILTYVKENARSPSSVTGNALWKAMEK	169
+Oryctolagus_cuniculus      --------SAEGAAEPEPQPPAGRISFSDADDVAILTYVKENARSPSSVTGNALWKAMEK	170
+Bos_taurus                 -----------AAAEPEPQSQAGRMVFTDADDVAIITYVKEHARSASSVTGNALWKAMEK	171
+Rattus_norvegicus          -----------GSTEPEPQPLTGRIAYTDADDVAILTYVKENARSPSSVTGNALWKAMEK	166
+Mus_musculus               -----------GSTEPEPQPLTGRIAYTDAEDVAILTYVKENARSPSSVTGNALWKAMEK	166
+Macaca_mulatta             -----------GAAEPEPQRLAGRIAFTDADDVAILTYVKENARSPSSVTGNALWKAMEK	169
+Monodelphis_domestica      ---------------PEPASGEPGDAFTEAEDLAIVRYVKDNSRSPSSQTGNTLWKALEK	153
+Canis_familiaris           -------AAAAAAAQPEPQPLAGRIAFTDADDVAILTYVKENARSPSSVTGTALWKAMEK	173
+Taeniopygia_guttata        -------------------------LFTEAEDAAMLQAAR-GQGM-VRLSGRALWIELER	110
+Danio_rerio                ------------TRMALRNQGSGRLGYSSEEDAAILKFIEKRQ---QDAKGNLVWKEMEK	150
+                                                     ::. :* *::   .          *  :*  :* 
+
+Homo_sapiens               SSLTQHSWQSLKDRYLKHLRGQEHKYLLGDAP-VS---------------------PSS-	206
+Gallus_gallus              TGLTRHSWQAMRDRYLRHLRPLHRESQQTEEA-AA---------------------PM--	170
+Xenopus_laevis             RRVLKRTWQAIKDRYIKHLKGKQGYRLPLSAASRS-------------------HDPSE-	262
+Xenopus_tropicalis         KQVVKRTWQAIKNRYFRYLKGKRNYVLPLTDDSSS-------------------QEPSDD	261
+Callithrix_jacchus         SSLTQHSWQSLKDRYLKHLRGQEHKYLLGDAP-VS---------------------PSS-	206
+Oryctolagus_cuniculus      SALTPHSWQALKDRYLKHLRGQEHKYLLGDAP-VS---------------------PSS-	207
+Bos_taurus                 SSLTQHSWQSMKDRYLKRLRGQEHKYLLGEAP-VS---------------------PSS-	208
+Rattus_norvegicus          SSLTQHSWQSLKDRYLKHLQGQEHKYLLGNAP-VS---------------------PSS-	203
+Mus_musculus               SSLTQHSWQSLKDRYLKHLRGQEHKYLLGNAP-VS---------------------PSS-	203
+Macaca_mulatta             SSLTQHSWQSLKDRYLKHLRGQEHKYLLGDAP-VS---------------------PSS-	206
+Monodelphis_domestica      AALTQHPWQAMKDRYLKHLKGLEYKHLEGEEP-AS---------------------PSQ-	190
+Canis_familiaris           SSLTEHSWQSLKDRYLKHLRGQEHKYLLGDAP-VS---------------------PSS-	210
+Taeniopygia_guttata        SGLTRHSWQAMRDRYLRHLLPRLWEPPQTEDP-TQ---------------------IR--	146
+Danio_rerio                RHVTEHSWQSMKDRFLKHLQQKLADKPTKKSPIKRKPLSFTQSPLRKKKVVEISEDESVQ	210
+                             :  : **::::*::: *                                         
+
+Homo_sapiens               -----QKL---K-----------RK----------------------------AEEDPEA	219
+Gallus_gallus              ------------------------------------------------------------	170
+Xenopus_laevis             -DESPQPITKKS-----------RT----------------------------NTSTPWT	282
+Xenopus_tropicalis         EEECPQPITKKS-----------RI----------------------------SDSTPCT	282
+Callithrix_jacchus         -----QKL---K-----------RK----------------------------AEEDPEA	219
+Oryctolagus_cuniculus      -----QTL---K-----------RK----------------------------AEQDPEA	220
+Bos_taurus                 -----QKL---K-----------RK----------------------------AEQDPEA	221
+Rattus_norvegicus          -----QKL---K-----------RK----------------------------AEQDPEA	216
+Mus_musculus               -----QKL---K-----------RK----------------------------AEQDPEA	216
+Macaca_mulatta             -----QKL---K-----------RK----------------------------AEEDPEA	219
+Monodelphis_domestica      ------KL---K-----------RK----------------------------ADET---	199
+Canis_familiaris           -----QKL---K-----------RK----------------------------AEQDPEA	223
+Taeniopygia_guttata        ------------------------------------------------------------	146
+Danio_rerio                KGDCPEAPMATETGSINPPASPERASSPPEEPQAAGQPSQASSNDSQDETCVLVIETPES	270
+                                                                                       
+
+Homo_sapiens               ADSG-EP--QNKR-------------------------------TPDLPEEEYVK----E	241
+Gallus_gallus              ------------------------------------------------------------	170
+Xenopus_laevis             KRPGNIGRTSEKLGTALPMEKSS---TKAPAEQS--DA--VESTSINFPLEKRGQHVTKG	335
+Xenopus_tropicalis         EKPGVAEKTGEKLSTDTSVEG-------PSTEKS--DA--AKTSNVNLPVEERGQEVTEG	331
+Callithrix_jacchus         ADSG-EP--QNKR-------------------------------TPDLPEEEYGK----E	241
+Oryctolagus_cuniculus      ADSGVEP--QNKR-------------------------------TPDLPEGEYVK----K	243
+Bos_taurus                 ADSG-EP--QNKR-------------------------------TPDLPEEEFEK----E	243
+Rattus_norvegicus          ADSG-EP--QNKR-------------------------------TPDLPEEECVK----G	238
+Mus_musculus               ADSG-EP--QNKR-------------------------------APDLPEEECVK----G	238
+Macaca_mulatta             ADSG-EP--QNKR-------------------------------TPDLPEEEYVK----E	241
+Monodelphis_domestica      EPADWEP--QKKK-------------------------------NPDLPEEDSPE----E	222
+Canis_familiaris           ADSG-EP--QNKR-------------------------------TPDLPEEEYVK----E	245
+Taeniopygia_guttata        ------------------------------------------------------------	146
+Danio_rerio                ENPRLDEDAPDASNEHSSLKKKRRKTCKTSTTDSRSSRLEEDPVGQDIPDESNAQSSPKK	330
+                                                                                       
+
+Homo_sapiens               ----EIQ-----------------------------------------------------	244
+Gallus_gallus              ------------------------------------------------------------	170
+Xenopus_laevis             ----VVRRSEGEKKS------------------------SDMS-----------------	350
+Xenopus_tropicalis         ----AIKRSEGNKKS------------------------TEMN-----------------	346
+Callithrix_jacchus         ----ELQ-----------------------------------------------------	244
+Oryctolagus_cuniculus      ----EMK-----------------------------------------------------	246
+Bos_taurus                 ----EIK-----------------------------------------------------	246
+Rattus_norvegicus          ----ETK-----------------------------------------------------	241
+Mus_musculus               ----EIK-----------------------------------------------------	241
+Macaca_mulatta             ----EIQ-----------------------------------------------------	244
+Monodelphis_domestica      ----QVQ-----------------------------------------------------	225
+Canis_familiaris           ----EIK-----------------------------------------------------	248
+Taeniopygia_guttata        ------------------------------------------------------------	146
+Danio_rerio                KRQKACKTSTTDSRSSRLEENPDRRDIPDESTEQSSPNKSQMTSKISTSDSGNPIGDQGC	390
+                                                                                       
+
+Homo_sapiens               -----------------------ENEEAVKKMLVEATREFEEVVVDESPPDFEIHITMCD	281
+Gallus_gallus              ------------------------------GIFEAANREFESSESGSDTSDTPDELPLQN	200
+Xenopus_laevis             ---KG---------AVSATSKEDQEDGGDLHIFEIANMEFEVD----DTPEIELPKR---	391
+Xenopus_tropicalis         ---EE---------AVSASSKENQDDGADLHIFEIANLEFEVE----DTPELEVPKR---	387
+Callithrix_jacchus         -----------------------DNEDAVKKMLIEATQEFEEVVVDESPPDFEIHITMCD	281
+Oryctolagus_cuniculus      -----------------------ENEEAVKKMFMEATREFEEVVVEES-PDFEIHITMCD	282
+Bos_taurus                 -----------------------ENEAAVKKMLVEATREFEEIVVDES-PDFEIHITMCD	282
+Rattus_norvegicus          -----------------------ENGEADNKLFEEATPELGEAVVDES-PDFEIHITMCD	277
+Mus_musculus               -----------------------ENGEADNKLFEEAAPEFGEAVVDES-PDFEIHITMCD	277
+Macaca_mulatta             -----------------------ENEEAVKKMLVEATREFEEVVVDESPPDFEIHITMCD	281
+Monodelphis_domestica      -----------------------DSEITEEDVLCSKNQEVKECEVHDQTPDLELIVIKNG	262
+Canis_familiaris           -----------------------ENDEAVKKMLVEATREFEEIVVDES-PDFEIHITMCD	284
+Taeniopygia_guttata        ------------------------------GLFAAANREFESTESESDSSDVA-EHPTQD	175
+Danio_rerio                DNPHGCNANSSPSKTRQTNSEASTPDSKKLGILAKAAKEFEDSDVMDDSEECENPCEVPI	450
+                                                          ::     *.       .  :         
+
+Homo_sapiens               D-DPPTPEEDS---------------------ETQPDEEEE-E----------------E	302
+Gallus_gallus              GEGTFPLEAASGLQT-GL---------DDCALPAAQGENK--Q----------------T	232
+Xenopus_laevis             ---------SLSLRE-FV---------MGEDPPSSQSQ---TQ----------------V	413
+Xenopus_tropicalis         ---------SFGLKE-FV---------MGEDLPSSQSQ---TQ----------------V	409
+Callithrix_jacchus         D-DPPTPEEDS---------------------ETQPDEEEE-E----------------E	302
+Oryctolagus_cuniculus      D-APSTPEEDS---------------------EAQPEEEEE-------------------	301
+Bos_taurus                 D-DPCTPEEDS---------------------ETQPDEEE--E----------------E	302
+Rattus_norvegicus          G-DPPTPEEDS---------------------ETQPDEEE-------------------E	296
+Mus_musculus               G-DPPTPEEDS---------------------ETQPDEEE-------------------E	296
+Macaca_mulatta             D-DPPTPEEDS---------------------ETQPDEEEE-E----------------E	302
+Monodelphis_domestica      E-LTSPGKNNSNSKE-AS--------------KDDELEAEESS----------------S	290
+Canis_familiaris           D-DPPTPEEDS---------------------ETQPDEDEEEE----------------E	306
+Taeniopygia_guttata        GVRRFPGETACELKT-GP---------EDSAFPDIQLQRQERP----------------K	209
+Danio_rerio                A-EPSDAQESSATPATLVREPESQAEHHEETQPDSPMSEEERPGPSSAVVPPSLNSSTSC	509
+                                                                .                      
+
+Homo_sapiens               EEKVSQPE------VGAAIKIIRQLMEKFNLDLSTVTQAFLKNSGELEATSAFLASGQRA	356
+Gallus_gallus              NTFSDSSK------AEEAAQIIQHFMEEFHTDLLTVTQALLKNSGEVEATSYYLHAGQRL	286
+Xenopus_laevis             DEVSSSPEDS---ESEGLQEALLGMMSEFKLRLRDVTQALLKNNGELSATRHFLRTGSRP	470
+Xenopus_tropicalis         DEVSSSPDAS---ESEGLQEALLSMMSEFKLSLCDVTQALLKNNGELAATRHFLQTGSRP	466
+Callithrix_jacchus         EEKVSQPE------VGTAIKIIRQLMEKFNLDLSTVTQAFLKNSGELEATSAFLASGQRA	356
+Oryctolagus_cuniculus      EEKVSAPE------DSISCLCSLVL-LLYCV-----------------------------	325
+Bos_taurus                 EEKVSAPE------VGAAIKIIRQLMEKFNLDLSTVTQAFLKNSGELEATSSFLESGQRA	356
+Rattus_norvegicus          EPKVSTQE------VGTAIKIIRQLMEKFNLDLSTVTQALLKNSGELEATSSFLESGRRP	350
+Mus_musculus               EPKVSTQE------VGTAIKVIRQLMEKFNLDLSTVTQALLKNSGELEATSSFLESGRRP	350
+Macaca_mulatta             EEKVSQPE------VGAAIKIIRQLMEKFNLDLSTVTQAFLKNSGELEATSAFLASGQRA	356
+Monodelphis_domestica      SPSSLSPD------VGAAIKVIRHLMEEFSVDLATVTQAFLKNSGELEATCSFLQTGQRS	344
+Canis_familiaris           EEKVSPPE------VGAAIKIIRQLMEKFNLDLSTVTQAFLKNSGELEATSSFLESGQRA	360
+Taeniopygia_guttata        STCSTSNV------VGQVVKTMEHFMEKFAVDLLTVTQAFLKNSGDVEATSYFLQTGQRL	263
+Danio_rerio                SHIRETPEETLSRDLLEVKEQVINLMRETKKDLVEVTKALLKASGDLKRAQVFLLNGYDH	569
+                           .                       :                                   
+
+Homo_sapiens               -DGYPIWSRQDDIDLQKDDEDTREALVKKFGAQNVARRIEFRKK---	399
+Gallus_gallus              -DGYPVWSREDDLELQKDDEDVRSKLIAKFGAENVARRVAFRKS---	329
+Xenopus_laevis             -DGFPIWIRKDDLDLQKADAETQKRLIQKYGSDNVAKRVAFLAS---	513
+Xenopus_tropicalis         -DGYPIWVRKDDLDLQKDDAETLKRLIQKYGADNVAKRVAFLAS---	509
+Callithrix_jacchus         -DGYPIWSRQDDIDLQKDDEDTREALVKKFGAQNVARRIEFRKK---	399
+Oryctolagus_cuniculus      -----------------------------------------------	325
+Bos_taurus                 -DGYPIWSRQDDLDLQKDDEATRDALVKKFGAQNVARRIEFRKK---	399
+Rattus_norvegicus          -DGFPIWCRQDDLDLQKDDDDTRNALVKKYGAQNVARRIEFRKK---	393
+Mus_musculus               -DGYPIWCRQDDLDLQKDDDDTKNALVKKFGAQNVARRIEFRKK---	393
+Macaca_mulatta             -DGYPIWSRQDDIDLQKDDEDTREALVKKFGAQNVARRIEFRKK---	399
+Monodelphis_domestica      -DGYPIWTRQDDVDLQKDDENTRSKLIKKFGAKNVARRIEFRSN---	387
+Canis_familiaris           -DGYPIWSRQDDLDLQKDDEDARDALVKKFGAQNVARRIEFRKK---	403
+Taeniopygia_guttata        -DGYPVWSREDDLELQKDDEHVRNKLVAKFGAGNVEKRIVFRES---	306
+Danio_rerio                ETHGPLWTRLDDETLLAADPYELEQLQSKFGEEEVTRRKSFLATDVK	616
+                                                                          
