@@ -375,30 +375,72 @@ qui évitent totalement (chez les *Borrelia*) ou compensent exactement (chez les
 
 ## Le problème de la protection des extrémités
 
-Les extrémités des ADN linéaires sont vulnérables à deux types de dommages : la
-digestion par des exonucléases, et les fusions d'extrémités.
+Les extrémités des ADN linéaires sont vulnérables à différents processus
+cellulaires : la dégradation par des exonucléases, l'activation illicite de la
+voie de signalisation des dommages à l'ADN, les fusions d'extrémités et les
+événements de recombinaison.
 
 La digestion par des exonucléases est un phénomène nécessaire pour établir un
-télomère fonctionnel chez la plupart des organismes. Elle est par conséquent
-bien régulée par certaines des protéines télomériques. Ceci sera abordé par la
-suite, lorsque nous décrirons plus en détails les télomères des vertébrés.
+télomère fonctionnel chez la plupart des organismes, pour générer l'extrémité
+simple-brin sortante en 3'. Elle doit par conséquent être parfaitement régulée
+par les protéines télomériques.
 
-Les fusions d'extrémités sont quant à elles particulièrement délétères car elles
-conduisent à des défauts de ségrégation des chromosomes lors de la mitose ou de
-la méiose. Par conséquent elles sont à l'origine de caryotypes aberrants chez
-les cellules issues de la division, si celle-ci se termine, ou bien provoquent
-un arrêt du cycle cellulaire et potentiellement l'apoptose.
+L'activation de la voie de signalisation des dommages à l'ADN (DDR pour *DNA
+damage response*) est initiée par deux kinases appelées ATM (*ataxia
+telangiectasia mutated*) et ATR (*ataxia telangiectasia and Rad3 related*).
+Le complexe MRN (MRE11/RAD50/NBS1) détecte les cassures double-brin et recrute
+ATM qui initie la voie DDR. De façon complémentaire, c'est la présence d'ADN
+simple-brin exposé qui active la signalisation par ATR, recrutée par la protéine
+RPA. Ces deux kinases phosphorylent de nombreuses protéines, ce qui a pour
+conséquences principales l'arrêt du cycle cellulaire et l'activation des voies
+de réparation appropriées [voir les revues @palm2008; @lamarche2010;
+@gobbini2013]. L'activation de la voie DDR par ces deux kinases est détectable
+par la formation de foyers enrichis en protéines cibles de ces kinases (comme
+par exemple l'histone H2AX phosphorylé sur la sérine 139), visibles en
+microscopie après immunomarquage fluorescent. Le double marquage fluorescent des
+foyers de dommages à l'ADN et des télomères permet de mettre en évidence
+l'activation illicite de la voie DDR aux extrémités des chromosomes. Ces foyers
+sont alors appelés des TIFs (*telomere dysfunction induced foci*).
 
-Deux mécanismes provoquent les fusions d'extrémités : le NHEJ (*non-homologous
-end joining* : jonction d'extrémités non homologues) et la recombinaison
-homologue, qui sont tous les deux des systèmes de réparation des cassures
-double-brin de l'ADN.
+Les fusions d'extrémités sont particulièrement délétères car elles conduisent
+à des défauts de ségrégation des chromosomes lors de la mitose ou de la méiose.
+Par conséquent elles sont à l'origine de caryotypes aberrants chez les cellules
+issues de la division, si celle-ci se termine, ou bien provoquent un arrêt du
+cycle cellulaire et potentiellement l'apoptose. Les fusions de chromosomes sont
+détectables dans des préparations de chromosomes métaphasiques dans lequelles
+l'ADN est coloré par le DAPI (ou un autre intercalant), et les séquences
+télomériques sont marquées par la technique de FISH (*fuorescence in situ
+hybridization*) avec une sonde fluorescente complémentaire des répétitions
+télomériques : un signal télomérique situé dans une région interne du chromosome
+trahit une fusion. Les fusions de chromosomes indiquent que les télomères ont
+été pris en charge "illégalement" par la voie de réparation des cassures
+double-brin NHEJ (*non-homologous end joining* : jonction d'extrémités non
+homologues), normalement réprimée aux télomères.
+
+Enfin, les événements de recombinaison peuvent être mis en évidence par une
+technique appelée CO-FISH [*chromosome orientation - fluorescence in situ
+hybridization* ; @williams2009]. Les cellules sont cultivées le temps d'un
+doublement en présence d'un nucléotide modifié, incorporé dans l'ADN par la
+réplication. Une préparation de chromosomes métaphasiques est réalisée, et les
+brins néo-synthétisés sont dégradés sélectivement grâce à la présence du
+nucléotide modifié. Les télomères sont enfin révélés avec deux sondes
+fluorescentes (de couleurs différentes) complémentaires des répétitions
+télomériques de chacun des deux brins. Les échanges de télomères entre
+chromatides soeurs (T-SCE pour *telomere sister chromatid exchange*) indiquent
+que les telomères subissent des événements de recombinaison.
+
+La voie de signalisation DDR, le NHEJ et la recombinaison homologue sont
+réprimés par les télomères fonctionnels. Ces processus se manifestent aux
+télomères présentant un défaut de protection.
+
+Les mécanismes du NHEJ et de la recombinaison homologue sont présentés
+brièvement dans les paragraphes suivants.
 
 
 ### Jonction d'extrémités non-homologues (NHEJ)
 
-Le déroulement de la réparation d'une cassure double-brin par la voie NHEJ est
-représenté schématiquement sur la figure ci-dessous :
+Le déroulement de la réparation d'une cassure double-brin par la voie NHEJ (chez
+les mammifères) est représenté schématiquement sur la figure ci-dessous :
 
 ![Figure : La voie NHEJ de réparation des cassures double-brin de l'ADN [inspiré de @grundy2014].](intro/figures/c-nhej.png)
 
@@ -407,17 +449,17 @@ recrute la kinase DNA-PK~cs~ (3) permettant d'initier la voie de signalisation
 de réponse aux dommages de l'ADN (DDR, pour *DNA damage response*).
 Le recrutement des protéines XRCC4, Cernunnos et Ligase IV forme le complexe
 basal du NHEJ et permet la synapse des deux extrémités générées par la cassure
-(4). Les extrémités sont alors traitées par divers facteurs accessoires dont des
-polymérases et des exonucléases (5) jusqu'à ce que des extrémités cohésives
-soient générées. La ligation s'opère alors sur ces extrémités cohésives (6).
+(4). Les extrémités sont alors modifiées par divers facteurs accessoires dont
+des polymérases et des exonucléases (5) jusqu'à ce que des extrémités cohésives
+soient générées. La ligature s'opère enfin sur ces extrémités cohésives (6).
 
 La machinerie du NHEJ est capable de lier deux extrémités d'ADN sans nécessiter
 une molécule de séquence similaire pour servir de matrice : pour cette raison
 cette voie est utilisée pendant la phase G1, au cours de laquelle les
 chromosomes ne sont pas encore répliqués (il n'existe donc pas encore de
-chromatide soeur pouvant servir de matrice pour la réparation). Les réparations
-effectuées par cette voie sont potentiellement mutagènes car les extrémités
-issues de la cassure sont traitées pour générer des extrémités cohésives.
+chromatide soeur pouvant servir de matrice pour la réparation). Du fait de
+l'absence de matrice pour guider la réparation, cette voie est
+potentiellement mutagène.
 
 
 ### Recombinaison homologue
@@ -425,36 +467,35 @@ issues de la cassure sont traitées pour générer des extrémités cohésives.
 L'autre voie majeure de réparation des cassures double-brin est la recombinaison
 homologue [@sanfilippo2008]. Cette voie est utilisée principalement pendant les
 phases S et G2, quand une chromatide soeur existe et peut donc servir de matrice
-pour la réparation. Contrairement au NHEJ, la recombinaison homologue produit
-donc des réparations très fidèles à la séquence d'origine. Le principe de la
+pour guider la réparation. Contrairement au NHEJ, la recombinaison homologue
+produit des réparations très fidèles à la séquence d'origine. Le principe de la
 recombinaison homologue est illustré dans la figure ci-dessous :
 
 ![Figure : La recombinaison homologue [inspiré de @sanfilippo2008; adapté à partir d'une [figure originale de Ewm sur Wikimedia Commons (CC BY-SA 3.0)](http://commons.wikimedia.org/wiki/File%3AHR_schematic_diagram.svg)]](intro/figures/hr-schema.png)
 
-Suite à une cassure double-brin (1), les extrémités sont traitées par des
-exonucléases 5'-3' qui dégradent l'extrémité 5' et génèrent donc une extrémité
-simple-brin sortante en 3' (2). Cette extrémité est liée par la protéine Rad51
-qui polymérise et forme un filament, permettant la recherche d'une région
-homologue dans une autre molécule d'ADN. Lorsque cette région est trouvée,
-l'extrémité simple-brin envahit la molécule d'ADN homologue, s'apparie au brin
-qui lui est complémentaire, et son groupement 3'-OH sert d'amorce pour la
-synthèse d'ADN (3). À partir de cette étape, deux voies principales sont
-possibles :
+Suite à une cassure double-brin (1), les extrémités 5' sont digérées par des
+exonucléases qui génèrent une extrémité simple-brin sortante en 3' (2).
+Cette extrémité est liée par la protéine Rad51 qui polymérise et forme un
+filament, permettant la recherche d'une région homologue dans une autre molécule
+d'ADN. Lorsque cette région est trouvée, l'extrémité simple-brin envahit la
+molécule d'ADN homologue, s'apparie au brin qui lui est complémentaire, et son
+groupement 3'-OH sert d'amorce pour la synthèse d'ADN (3). À partir de cette
+étape, deux voies principales sont possibles :
 
 - La voie DSBR (*double-strand break repair* : réparation de la cassure
   double-brin) implique la capture de la deuxième extrémité générée par la
   cassure, son appariement au niveau de la D-loop (*displacement loop* : le brin
   d'ADN déplacé suite à l'invasion de l'étape précédente) et la synthèse d'ADN.
-  Lorsque la synthèse a terminé de compléter les deux brins, une ligation est
-  opérée (4) et on obtient un intermédiaire à deux jonctions de Holliday
-  (structure branchée à 4 brins) qui est finalement résolu (5), le plus souvent
-  avec un échange de chromatides (*crossover product*).
+  Lorsque la synthèse a terminé de compléter les deux brins, une ligature est
+  opérée (4) et produit un intermédiaire à deux jonctions de Holliday (structure
+  branchée à 4 brins) qui est finalement résolu (5), le plus souvent avec un
+  échange de chromatides (*crossover product*).
 - La voie SDSA (*synthesis-dependant strand annealing* : appariement de brins
   après synthèse d'ADN) débute avec le désappariemment du brin qui avait envahi
   la molécule homologue. Ce brin, étendu après la synthèse, est capable de
   s'apparier à l'autre extrémité de la cassure double-brin (6). La réparation
   est finalement complétée par la synthèse du brin complémentaire et une
-  ligation des deux brins (7). Cette voie ne provoque jamais d'échanges
+  ligature des deux brins (7). Cette voie ne provoque jamais d'échange
   de chromatides.
 
 
