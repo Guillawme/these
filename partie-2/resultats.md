@@ -46,13 +46,13 @@ vivo* [@vanoverbeek2006; @lenain2006].
 L'interaction directe *in vitro* entre TRF2 et WRN est décrite dans la
 littérature [@opresko2002]. D'après cette étude, le fragment 949-1092 de WRN est
 suffisant pour lier TRF2 entière. Ce fragment contient un motif `KLLLP` aux
-positions 1073-1077, qui est très semblable aux motifs de liaison au domaine
-TRFH (TBM, pour *TRFH-binding motifs*) YxLxP et HxLxP déjà mis en évidence
-[partie 1 et @chen2008; @wan2013]. Les alignements deux à deux de ces motifs
-venant des séquences de WRN, Apollo, SLX4 et RAP1 sont représentés dans la
-figure ci-dessous :
+positions 1073 à 1077, qui est très semblable aux motifs TBM de liaison au
+domaine TRFH déjà mis en évidence [Partie 1 et @chen2008; @kim2009; @wan2013].
+L'alignement de ce motif de WRN aux motifs TBM des séquences d'Apollo et NBS1
+[@chen2008], de PNUTS et MCPH1 [@kim2009], de SLX4 [@wan2013], et de RAP1
+(Partie 1), est représenté dans la figure ci-dessous :
 
-![Figure : Alignements du motif KLLLP de WRN avec les motifs TBM d'Apollo, de SLX4 et de RAP1. Les motifs TBM d'Apollo, SLX4 et RAP1 sont d'abord alignés ensemble (panneau du haut, les triangles noirs indiquent les positions des résidus Y/H, L et P, le résidu R du motif consensus YRL défini par [@kim2009] est encadré en noir), puis le motif candidat de WRN est aligné à chacun d'eux. Les résidus identiques sont surlignés en rouge, les résidus similaires sont encadrés en bleu.](partie-2/figures/alignements-tbm-wrn.png)
+![Figure : Alignement du motif KLLLP de WRN avec les motifs TBM connus d'Apollo, NBS1, PNUTS, MCPH1, SLX4 et RAP1. Les résidus du motif sont indiqués par les triangles noirs, le résidu R du motif consensus défini par [@kim2009] est surligné en bleu, les résidus identiques sont surlignés en rouge et les résidus similaires sont encadrés en bleu. Les alignements deux à deux sont aussi présentés.](partie-2/figures/alignement-tbms-wrn.png)
 
 Une structure RMN du fragment 949-1092 montre que ce motif est situé dans une
 région non structurée de la protéine [@hu2005], ce qui en fait un candidat
