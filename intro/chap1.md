@@ -15,7 +15,8 @@ Parmi cette diversité d'organisation des génomes, deux groupes principaux se
 distinguent : d'une part la majorité des procaryotes possède un génome composé
 d'une ou plusieurs molécules d'ADN circulaires (chromosomes et plasmides), et
 d'autre part le génome nucléaire de tous les eucaryotes est constitué
-exclusivement de chromosomes linéaires.
+exclusivement de chromosomes linéaires. Nous nous intéresserons ici aux
+extrémités des chromosomes linéaires des eucaryotes.
 
 
 ## Les télomères
@@ -56,10 +57,74 @@ d'après la base de données <http://telomerase.asu.edu> [@podlevsky2008].
       *Arabidopsis thaliana*    TTTAGGG
               *Homo sapiens*    TTAGGG
 
-La linéarité des chromosome pose deux problèmes principaux : la réplication des
-extrémités, et la protection des extrémités contre la dégradation par des
-nucléases et contre les fusions. Dans les deux paragraphes suivants nous
-expliquerons les origines de ces deux problèmes.
+
+## Origine des chromosomes linéaires
+
+L'origine des chromosomes linéaires est liée à celle des eucaryotes, puisque le
+génome nucléaire de tous les eucaryotes est exclusivement constitué de
+chromosomes linéaires. Néanmoins, la linéarité a aussi émergé indépendamment
+chez quelques groupes de procaryotes. Les bactéries du genre *Borrelia* ont en
+effet une majorité de chromosomes et plasmides linéaires, aux télomères très
+différents des télomères canoniques : leurs molécules d'ADN linéaires sont
+fermées covalemment par une structure en épingle à cheveux liant les deux brins
+[@chaconas2010]. On trouve aussi ce type de télomères dans un plasmide linéaire
+de la bactérie *Agrobacterium tumefaciens* [@huang2012]. Le genre *Streptomyces*
+possède également des plasmides linéaires, avec des télomères non canoniques
+encore différents : ils ne sont pas fermés par une épingle à cheveux mais sont
+associés à une protéine terminale liée covalemment à l'extrémité 5' et
+permettant d'initier la réplication des extrémités [@chen2007].
+
+Les chromosomes linéaires semblent au premier abord défavorables car ils
+nécessitent des protéines spécialisées pour leur maintenance (protéines
+télomériques et télomérase), et la synthèse de ces protéines représente un coût
+énergétique important. Il a été proposé que les chromosomes linéaires ont été
+conservés au cours de l'évolution des eucaryotes car ils rendent possible la
+méiose, et car la diversité génétique qu'elle engendre confère un avantage qui
+compense le coût de la maintenance des télomères [@ishikawa1999]. La méiose est
+en effet physiquement plus difficile à réaliser avec des chromosomes
+circulaires : ces chromosomes ne peuvent pas regrouper leurs extrémités pour
+faciliter leur appariement (puisqu'ils n'ont pas d'extrémités), et dans le cas
+où un appariement aurait lieu par simple rencontre aléatoire, ils doivent
+nécessairement subir un nombre pair d'événements de recombinaison pour ségréger
+correctement dans les cellules filles [@ishikawa1999]. Ces deux événements ont
+des probabilités très faibles, et pour qu'une cellule possédant plusieurs
+chromosomes circulaires réalise une méiose avec succès, il faut que ces
+événements se produisent pour chaque paire de chromosomes : la probabilité
+totale qu'une méiose termine correctement avec des chromosomes circulaires est
+donc infime [@ishikawa1999]. D'autre part, le rôle important et conservé des
+télomères pour le bon appariement des chromosomes homologues lors de la méiose
+est bien reconnu [@hiraoka1998; @scherthan2007; @siderakis2007].
+
+La conservation des chromosomes linéaires chez les eucaryotes est une évidence
+et trouve une explication convaincante avec leur rôle dans la méiose et
+l'importance de cette dernière, puisqu'elle génère une diversité génétique
+favorable. En revanche expliquer leur apparition est plus difficile.
+Une hypothèse proposée [@garavis2013] est que les chromosomes linéaires
+pourraient être apparus lors du premier événement d'endosymbiose (celui qui
+a conduit à l'apparition des mitochondries par endocytose d'un organisme
+d'origine bactérienne) : le génome de l'ancêtre des eucaryotes aurait été envahi
+par des éléments mobiles venant du génome du symbionte, et ces éléments auraient
+été "capturés" à plusieurs reprises aux extrémités générées par des cassures
+double-brin dans l'ADN (auparavant circulaire). Ils auraient ainsi permis de
+stabiliser le génome sous une forme linéaire suite à ces cassures non réparées,
+en engendrant des répétitions télomériques primitives. Ces répétitions
+télomériques auraient favorisé le maintien de la longueur des télomères par un
+mode de réplication dépendant de la recombinaison homologue (la machinerie de
+recombinaison homologue existait déjà chez les bactéries avant l'apparition des
+eucaryotes), et la télomérase aurait pu émerger par la suite en évoluant
+à partir de rétro-transposons [@garavis2013]. Cette hypothèse de "domestication"
+d'éléments mobiles pour survivre suite à une linéarisation accidentelle est
+aussi formulée dans l'autre sens, à savoir qu'un élément mobile "égoïste" aurait
+forcé la linéarisation d'un génome ancestral circulaire en s'y intégrant
+[@nosek2006]. Cet élément aurait permis la maintenance des extrémités de l'ADN
+par la réplication en cercle roulant, jusqu'à être supplanté par la télomérase
+ou son ancêtre [@nosek2006].
+
+La linéarité des chromosomes confère un avantage en rendant possible la méiose,
+mais elle pose aussi deux problèmes principaux : la réplication des extrémités,
+et la protection des extrémités contre la dégradation par des nucléases et
+contre les fusions. Dans les deux paragraphes suivants nous expliquerons les
+principales causes de ces deux problèmes.
 
 
 ## Le problème de la réplication des extrémités
@@ -358,57 +423,6 @@ possibles :
   ligation des deux brins (7). Cette voie ne provoque jamais d'échanges
   de chromatides.
 
-
-## Origine des chromosomes linéaires
-
-L'origine des chromosomes linéaires est liée à celle des eucaryotes, puisque le
-génome nucléaire de tous les eucaryotes est exclusivement constitué de
-chromosomes linéaires. Néanmoins, la linéarité a aussi émergé indépendamment
-chez quelques groupes de procaryotes. Les bactéries du genre *Borrelia* ont en
-effet une majorité de chromosomes et plasmides linéaires, aux télomères très
-différents des télomères canoniques : leurs molécules d'ADN linéaires sont
-fermées covalemment par une structure en épingle à cheveux liant les deux brins
-[@chaconas2010]. On trouve aussi ce type de télomères dans un plasmide linéaire
-de la bactérie *Agrobacterium tumefaciens* [@huang2012]. Le genre *Streptomyces*
-possède également des plasmides linéaires, avec des télomères non canoniques
-encore différents : ils ne sont pas fermés par une épingle à cheveux mais sont
-associés à une protéine terminale liée covalemment à l'extrémité 5' et
-permettant d'initier la réplication des extrémités [@chen2007].
-
-Les chromosomes linéaires semblent au premier abord défavorables car ils
-nécessitent des protéines spécialisées pour leur maintenance (protéines
-télomériques et télomérase), et la synthèse de ces protéines représente un coût
-énergétique important. Il a été proposé que les chromosomes linéaires ont été
-conservés au cours de l'évolution des eucaryotes car ils rendent possible la
-méiose, et car la diversité génétique qu'elle engendre confère un avantage qui
-compense largement le coût de la maintenance des télomères [@ishikawa1999].
-La méiose est en effet physiquement plus difficile à réaliser avec des
-chromosomes circulaires : ces chromosomes ne peuvent pas regrouper leurs
-extrémités pour faciliter leur appariement (puisqu'ils n'ont pas d'extrémités),
-et dans le cas où un appariement aurait lieu par simple rencontre aléatoire, ils
-doivent nécessairement subir un nombre pair d'événements de recombinaison pour
-ségréger correctement dans les cellules filles [@ishikawa1999]. Ces deux
-événements ont des probabilités très faibles, et pour qu'une cellule possédant
-plusieurs chromosomes circulaires réalise une méiose avec succès, il faut que
-ces événements se produisent pour chaque paire de chromosomes : la probabilité
-totale qu'une méiose termine correctement avec des chromosomes circulaires est
-donc infime [@ishikawa1999].
-
-La conservation des chromosomes linéaires chez les eucaryotes est une évidence
-et trouve donc une explication convaincante, en revanche expliquer leur
-apparition est plus difficile. Une hypothèse proposée [@garavis2013] est que les
-chromosomes linéaires pourraient être apparus lors du premier événement
-d'endosymbiose (celui qui a conduit à l'apparition des mitochondries par
-endocytose d'un organisme d'origine bactérienne) : le génome de l'ancêtre des
-eucaryotes aurait été envahi par des éléments mobiles venant du génome du
-symbionte, et ces éléments auraient été "capturés" à plusieurs reprises aux
-extrémités générées par des cassures double-brin dans l'ADN, permettant de
-stabiliser le génome suite à ces cassures non réparées et engendrant des
-répétitions télomériques primitives. Ces répétitions télomériques auraient permi
-le maintien de la longueur des télomères par un mode de réplication dépendant de
-la recombinaison homologue (la machinerie de recombinaison homologue existait
-déjà chez les bactéries avant l'apparition des eucaryotes), et la télomérase
-aurait pu émerger par la suite en évoluant à partir de rétro-transposons.
 
 
 
