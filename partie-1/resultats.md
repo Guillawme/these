@@ -245,17 +245,18 @@ en liant un motif TBM (cf. Introduction), il est possible que ce domaine
 intervienne dans l'interaction avec RAP1 : nous avons donc cherché le motif
 consensus `[YH]RLxP` dans la séquence de RAP1 et l'avons trouvé dans la région
 N-terminale, aux résidus 99 à 103. La figure suivante montre l'alignement du
-motif `YRLGP` (TBM candidat) de RAP1 aux motifs TBM connus d'Apollo [@chen2008]
-et SLX4 [@wan2013] :
+motif `YRLGP` (TBM candidat) de RAP1 aux motifs TBM connus d'Apollo et NBS1
+[@chen2008], de PNUTS et MCPH1 [@kim2009], et de SLX4 [@wan2013] :
 
-![Figure : Alignement du motif YRLGP de RAP1 avec les motifs TBM connus d'Apollo et SLX4. Les résidus du motif sont indiqués par les triangles noirs, le résidu R du motif consensus défini par [@kim2009] est encadré en noir, les résidus identiques sont surlignés en rouge et les résidus similaires sont encadrés en bleu.](partie-1/figures/apollo-slx4-rap1-tbm.png)
+![Figure : Alignement du motif YRLGP de RAP1 avec les motifs TBM connus d'Apollo, NBS1, PNUTS, MCPH1 et SLX4. Les résidus du motif sont indiqués par les triangles noirs, le résidu R du motif consensus défini par [@kim2009] est surligné en bleu, les résidus identiques sont surlignés en rouge et les résidus similaires sont encadrés en bleu. Les alignements deux à deux sont aussi présentés.](partie-1/figures/alignement-tbms-rap1.png)
 
-Comme la séquence de RAP1 contient un motif très similaire à deux motifs TBM
-connus, nous avons voulu vérifier si ce motif était effectivement capable de
-lier le domaine TRFH. Nous avons testé par ITC l'interaction d'un peptide de
-RAP1 contenant ce motif `YRLGP` (résidus 89 à 106 de RAP1, appelés par la suite
-RAP1-TBM) avec le domaine TRFH de TRF2 (figure ci-dessous) : dans nos conditions
-expérimentales, nous obtenons un K~D~ ≃ 13 μM.
+Puisque la séquence de RAP1 contient un motif très similaire aux cinq motifs TBM
+validés expérimentalement déjà rapportés dans la littérature, nous avons voulu
+vérifier si ce motif était effectivement capable de lier le domaine TRFH.
+Nous avons testé par ITC l'interaction d'un peptide de RAP1 contenant ce motif
+`YRLGP` (résidus 89 à 106 de RAP1, appelés par la suite RAP1-TBM) avec le
+domaine TRFH de TRF2 (figure ci-dessous) : dans nos conditions expérimentales,
+nous obtenons un K~D~ ≃ 13 μM.
 
 ![Figure : Titration calorimétrique du domaine TRFH de TRF2 par le peptide RAP1-TBM.](partie-1/figures/itc-rap1-tbm-trfh.png)
 
