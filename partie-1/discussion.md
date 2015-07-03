@@ -42,7 +42,25 @@ ci-dessous) :
 Pour cette raison nous avons réalisé toutes nos expériences dans des conditions
 de température et de force ionique les plus proches possible de celles de notre
 titration calorimétrique. Les résultats obtenus par nos différentes approches
-convergent, ce qui démontre leur validité.
+convergent, ce qui démontre leur validité. Nos résultats sont également appuyés
+par la conservation du motif TBM de RAP1 : le consensus `YRL`
+[défini par @kim2009] est présent chez 12 des 14 espèces de vertébrés dont nous
+avons aligné les séquences. La conservation du motif TBM de RAP1 est présentée
+dans la figure suivante :
+
+![Figure : Région du motif TBM dans l'alignement des séquences de RAP1 de 14 espèces de vertébrés. Les motifs TBM connus sont rappelés dans le panneau du haut. Les résidus du motif sont indiqués par les triangles noirs, le résidu R du motif consensus défini par [@kim2009] est surligné en bleu et indiqué par une étoile. Les résidus identiques sont surlignés en rouge, les résidus similaires sont encadrés en bleu.](partie-1/figures/conservation-tbm-rap1.png)
+
+Certaines des lysines protégées dans le complexe TRF2/RAP1, mises en évidence
+par notre expérience d'empreinte, sont également bien conservées (voir les
+alignements complets en annexe). Chez RAP1, les lysines K114 (protégée chez RAP1
+sauvage et mutant ARAGA) et K186 (protégée uniquement chez RAP1 sauvage) dans la
+région N-terminale sont conservées respectivement chez 9 et 11 espèces parmi les
+14 considérées. Chez TRF2, les lysines K58 et K93 dans le domaine TRFH sont
+toutes les deux conservées chez 9 de ces 14 espèces. De façon encore plus
+intéressante, les lysines K184 et K190 du domaine TRFH, protégées uniquement par
+RAP1 sauvage, sont conservées respectivement chez 11 et 13 de ces 14 espèces.
+Les lysines K353, K327, K329 et K333 (situées dans le *linker*) sont elles aussi
+bien conservées (respectivement chez 12, 11, 11 et 7 espèces parmi les 14).
 
 L'interaction complexe que nous avons mise en évidence a été détectée pour la
 première fois avec les deux protéines entières, puis avec un peptide de RAP1 et
