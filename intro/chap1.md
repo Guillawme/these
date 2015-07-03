@@ -153,7 +153,7 @@ le sens opposé au sens de progression de la fourche de réplication.
 La réplication des extrémités d'un chromosome est présentée dans la figure
 ci-dessous :
 
-![Figure : Le problème de la réplication des extrémités. Les brins d'ADN d'origine sont représentés en traits épais rouge et bleu foncé et leur orientation est indiquée. Les brins néo-synthétisés sont représentés en traits plus fins orange (brin précoce) et bleu clair (brin tardif), avec une flèche indiquant le sens de progression de la polymérase. Les fragments d'Okazaki sont représentés en traits noirs épais. La flèche noire épaisse indique le sens de progression de la fourche de réplication. L'emplacement du dernier fragment d'Okazaki est indiqué en pointillés. Inspiré de [@gilson2007; @matot2010].](intro/figures/probleme-replication.png)
+![Figure : **Le problème de la réplication des extrémités** [inspiré de @gilson2007; @matot2010]. Les brins d'ADN d'origine sont représentés en traits épais rouge et bleu foncé et leur orientation est indiquée. Les brins néo-synthétisés sont représentés en traits plus fins orange (brin précoce) et bleu clair (brin tardif), avec une flèche indiquant le sens de progression de la polymérase. Les fragments d'Okazaki sont représentés en traits noirs épais. La flèche noire épaisse indique le sens de progression de la fourche de réplication. L'emplacement du dernier fragment d'Okazaki est indiqué en pointillés.](intro/figures/probleme-replication.png)
 
 Une première cause de raccourcissement vient du fait que le dernier fragment
 d'Okazaki est dégradé à la fin de la réplication, mais n'est pas remplacé par de
@@ -365,7 +365,7 @@ double-brin de l'ADN.
 Le déroulement de la réparation d'une cassure double-brin par la voie NHEJ est
 représenté schématiquement sur la figure ci-dessous :
 
-![Figure : La voie NHEJ de réparation des cassures double-brin de l'ADN. Inspiré de [@grundy2014].](intro/figures/c-nhej.png)
+![Figure : La voie NHEJ de réparation des cassures double-brin de l'ADN [inspiré de @grundy2014].](intro/figures/c-nhej.png)
 
 Une cassure double-brin (1) est reconnue par l'hétérodimère Ku70/Ku80 (2), qui
 recrute la kinase DNA-PK~cs~ (3) permettant d'initier la voie de signalisation
@@ -394,8 +394,7 @@ pour la réparation. Contrairement au NHEJ, la recombinaison homologue produit
 donc des réparations très fidèles à la séquence d'origine. Le principe de la
 recombinaison homologue est illustré dans la figure ci-dessous :
 
-![Figure : La recombinaison homologue. Inspiré de [@sanfilippo2008], adapté
- à partir d'une [figure originale de Ewm sur Wikimedia Commons (CC BY-SA 3.0)](http://commons.wikimedia.org/wiki/File%3AHR_schematic_diagram.svg)](intro/figures/hr-schema.png)
+![Figure : La recombinaison homologue [inspiré de @sanfilippo2008; adapté à partir d'une [figure originale de Ewm sur Wikimedia Commons (CC BY-SA 3.0)](http://commons.wikimedia.org/wiki/File%3AHR_schematic_diagram.svg)]](intro/figures/hr-schema.png)
 
 Suite à une cassure double-brin (1), les extrémités sont traitées par des
 exonucléases 5'-3' qui dégradent l'extrémité 5' et génèrent donc une extrémité
@@ -469,7 +468,7 @@ nucléases et également essentiel pour le recrutement de la télomérase lors d
 réplication [@kupiec2014]. L'organisation du complexe télomérique de *S.
 cerevisiae* est présentée schématiquement dans la figure ci-dessous :
 
-![Figure : Complexe télomérique de *S. cerevisiae*. D'après [@kupiec2014].](intro/figures/cplx-tel-cerevisiae-details.png)
+![Figure : Complexe télomérique de *S. cerevisiae* [@kupiec2014].](intro/figures/cplx-tel-cerevisiae-details.png)
 
 La levure *Schizosaccharomyces pombe* possède un complexe télomérique
 ressemblant plus au *shelterin* des vertébrés. La protéine Taz1, orthologue des
@@ -482,7 +481,7 @@ sont encore très peu décrites [voir le tableau 1 dans @giraud-panis2010].
 L'organisation du complexe télomérique de *S. pombe* est présentée
 schématiquement dans la figure ci-dessous :
 
-![Figure : Complexe télomérique de *S. pombe*. D'après [@linger2009].](intro/figures/shelterin-pombe.png)
+![Figure : Complexe télomérique de *S. pombe* [@linger2009].](intro/figures/shelterin-pombe.png)
 
 
 #### Chez les nématodes
