@@ -229,22 +229,38 @@ lengthening of telomeres*) a été découverte pour la première fois dans des
 cellules tumorales qui n'exprimaient pas la télomérase [@bryan1995; @bryan1997].
 On estime que 10 à 15 % des tumeurs maintiennent leurs télomères par cette voie
 indépendante de la télomérase [@pickett2009]. Un phénomène similaire peut être
-détecté chez *Saccharomyces cerevisiae* dans des souches chez lesquelles la
-télomérase est inactivée : la majorité des levures meurent, mais en prolongeant
-la culture on peut tout de même isoler des "survivants", et leur survie dépend
-du bon fonctionnement de la recombinaison homologue [@lundblad1993].
+détecté chez la levure *Saccharomyces cerevisiae* dans des souches chez
+lesquelles la télomérase est inactivée : la majorité des levures meurent, mais
+en prolongeant la culture on peut tout de même isoler des "survivants", et leur
+survie dépend du bon fonctionnement de la recombinaison homologue
+[@lundblad1993].
 
 Les télomères maintenus par la voie ALT ont une longueur moyenne plus grande que
 ceux maintenus par la télomérase (respectivement entre 12 et 48 kb, et autour de
-6kb), et présentent une plus grande hétérogénéité de longueur, comme le montre
-la figure suivante :
+6 kb), et présentent une plus grande hétérogénéité de longueur, comme le montre
+la figure suivante. La méthode de mesure de la longueur des télomères la plus
+couramment utilisée dans la littérature est appelée *terminal restriction
+fragment lenght analysis* [@kimura2010], et s'exécute avec les étapes
+suivantes : extraction et purification de l'ADN génomique, digestion par des
+enzymes de restriction, séparation des fragments de restriction par
+électrophorèse, transfert sur une membrane, hybridation d'une sonde
+complémentaire des répétitions télomériques et révélation. Elle permet de
+mesurer la longueur moyenne des télomères dans un échantillon et la dispersion
+autour de cette longueur moyenne (ce qui correspond à l'hétérogénéité de
+longueur).
 
-![Figure : Longueur moyenne des télomères maintenus par la voie ALT, à gauche, et par la télomérase, à droite [@pickett2009].](intro/figures/longueur-telo-alt-telomerase.png)
+![Figure : Longueur moyenne des télomères maintenus par la voie ALT, à gauche, et par la télomérase, à droite [@pickett2009]. Les télomères maintenus par la télomérase ont une longueur plus homogène que ceux maintenus par la voie ALT.](intro/figures/longueur-telo-alt-telomerase.png)
 
 Les modèles d'élongation des télomères par la voie ALT actuellement proposés
 sont schématisés dans la figure suivante :
 
 ![Figure : Modèles actuels de l'élongation des télomères par la voie ALT [adapté de @cesare2010].](intro/figures/modeles-alt.png)
+
+Ces deux modèles du mécanisme de la voie ALT impliquent des échanges de brins
+entre chromosomes homologues ou chromatides soeurs. Ceci signifie que des
+structures d'ADN similaires à des intermédiaires de la recombinaison homologue
+(comme la jonction de Holliday, une structure branchée à quatre brins) sont
+formées aux télomères allongés par cette voie.
 
 
 ### Les rétro-transposons de *Drosophila*
