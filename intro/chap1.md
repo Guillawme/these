@@ -289,7 +289,8 @@ résulte donc d'un équilibre dynamique entre ces deux phénomènes.
 
 ### Les chromosomes fermés covalemment de *Borrelia*
 
-Les bactéries du genre *Borrelia* possèdent des ADN linéaires et contournent le
+Les bactéries du genre *Borrelia* (dont *Borrelia burgdorferi*, l'agent
+pathogène de la maladie de Lyme) possèdent des ADN linéaires et contournent le
 problème de la réplication des extrémités d'une façon bien plus simple.
 Les extrémités sont fermées covalemment par une épingle à cheveux (*closed
 hairpin telomeres*), et une enzyme appelée résolvase de télomères [parfois
@@ -310,7 +311,9 @@ ATP, est capable de reconstituer *in vitro* la réaction de résolution.
 Les auteurs de cette étude ont pu montrer que l'enzyme agit selon un mécanisme
 similaire à celui des topoisomérases de type IB et des recombinases
 site-spécifiques : une tyrosine catalytique clive un des brins d'ADN et forme un
-intermédiaire covalent avec l'extrémité 3'-phosphate.
+intermédiaire covalent avec l'extrémité 3'-phosphate, et l'enzyme est finalement
+libérée par la formation d'une nouvelle liaison 3'-5' phosphodiester qui ferme
+l'épingle à cheveux.
 
 La structure tridimensionnelle d'une résolvase de télomères a été publiée pour
 la première fois en 2007 avec l'enzyme TelK d'un bactériophage [@aihara2007].
@@ -337,9 +340,10 @@ contourner le problème de la réplication des extrémités des ADN linéaires.
 
 ### La protéine terminale de *Streptomyces*
 
-Les bactéries du genre *Streptomyces* possèdent des ADN linéaires portant une
-protéine appelée TP (*terminal protein*) liée covalemment à chaque extrémité 5'
-et servant d'amorce pour terminer la synthèse du brin tardif à la fin de la
+Les bactéries du genre *Streptomyces* (qui produisent de nombreuses molécules
+utilisées comme antibiotiques) possèdent des ADN linéaires portant une protéine
+appelée TP (*terminal protein*) liée covalemment à chaque extrémité 5' et
+servant d'amorce pour terminer la synthèse du brin tardif à la fin de la
 réplication (un processus appelé *end patching*, soit "colmatage" des
 extrémités) [@chen2007].
 
@@ -363,10 +367,10 @@ ci-dessous.
 ![Figure : Mécanisme de synthèse de la fin du brin tardif chez *Streptomyces* [@chen2007].](intro/figures/streptomyces-end-patching.png)
 
 Dans ce système, comme dans celui des *Borrelia*, la longueur des chromosomes et
-des plasmides linéaires reste constante car ces organismes ne possèdent pas de
-télomérase et utilisent à la place des mécanismes qui évitent totalement (chez
-les *Borrelia*) ou compensent exactement (chez les *Streptomyces*) l'érosion des
-extrémités.
+des plasmides linéaires reste constante au fil des réplications car ces
+organismes ne possèdent pas de télomérase et utilisent à la place des mécanismes
+qui évitent totalement (chez les *Borrelia*) ou compensent exactement (chez les
+*Streptomyces*) l'érosion des extrémités.
 
 
 ## Le problème de la protection des extrémités
