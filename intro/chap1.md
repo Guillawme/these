@@ -191,13 +191,14 @@ chez l'organisme modèle *Tetrahymena thermophila* [@greider1985] ainsi que les
 autres travaux initiaux sur la biologie des télomères ont valu un prix Nobel en
 2009 à Elizabeth Blackburn, Carol Greider et Jack Szostak.
 
-La télomérase fonctionnelle est un complexe ribonucléoprotéique composé d'une
-sous-unité protéique appelée TERT (*telomerase reverse transcriptase*) et d'une
-sous-unité d'ARN appelée TERC (*telomerase RNA component*). TERC sert de matrice
-pour la synthèse des répétitions télomériques par TERT. La première structure
-tridimensionnelle d'une sous-unité TERT entière a montré que cette enzyme a un
-repliement similaire à celui de rétro-transcriptases virales telle que celle du
-VIH [@gillis2008]. La structure de la même enzyme en complexe avec un hybride
+La télomérase fonctionnelle est un complexe ribonucléoprotéique [@greider1987]
+composé d'une sous-unité protéique appelée TERT (*telomerase reverse
+transcriptase*), d'une sous-unité d'ARN appelée TERC (*telomerase RNA
+component*) et de protéines accessoires. TERC sert de matrice pour la synthèse
+des répétitions télomériques par TERT. La première structure tridimensionnelle
+d'une sous-unité TERT entière a montré que cette enzyme a un repliement
+similaire à celui de rétro-transcriptases virales telle que celle du VIH
+[@gillis2008]. La structure de la même enzyme en complexe avec un hybride
 ADN/ARN mimant le produit de synthèse a quant à elle fourni des informations sur
 le mécanisme de synthèse des répétitions télomériques [@mitchell2010].
 
@@ -205,6 +206,20 @@ Le mécanisme de synthèse des répétitions télomériques est représenté
 schématiquement dans la figure suivante :
 
 ![Figure : Synthèse des répétitions télomériques par la télomérase [@collins2011].](intro/figures/telomerase-synthese.png)
+
+L'enzyme apparie la matrice d'ARN à l'extrémité simple-brin du télomère et
+synthétise les répétitions télomériques jusqu'à la fin de la séquence matrice,
+tout en dissociant les deux brins au fil de la progression de la synthèse.
+Lorsque la fin de la séquence matrice est atteinte, les brins se dissocient et
+l'extrémité nouvellement synthétisée est éventuellement réappariée au début de
+la matrice pour démarrer la synthèse d'une nouvelle répétition.
+Contrairement aux autres rétro-transcriptases qui circulent le long de leur ARN
+matrice, TERT n'utilise qu'une petite région de TERC comme matrice, et cette
+dernière est maintenue à proximité du site actif. Ce mécanisme de synthèse
+répétition par répétition avec une étape de translocation du brin synthétisé et
+de la matrice entre chaque synthèse peut être modulé par des partenaires de la
+télomérase, la rendant plus ou moins processive en termes de répétitions (cette
+propriété unique de la télomérase est appelée *repeat addition processivity*).
 
 
 ### La voie alternative d'élongation des télomères
