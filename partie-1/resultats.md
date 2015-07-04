@@ -138,6 +138,28 @@ relative (il n'est pas nécessaire de mesurer la diffusion de l'eau pour calibre
 l'échelle d'intensité), $Q = \int_0^\infty I(q)q^2 \, \mathrm{d}q$ et *ρ* est la
 masse volumique de la protéine.
 
+Lors des acquisitions couplées à la chromatographie d'exclusion stérique (qui
+a été utilisée pour toutes les protéines et complexes, sauf RAP1, cf.
+Matériel et méthodes), plusieurs courbes de diffusion sont enregistrées tout le
+long du chromatogramme. L'analyse de Guinier est réalisée sur chacune de ces
+courbes pour déterminer R~g~ et I~0~. Nous pouvons ensuite tracer les valeurs de
+ces deux paramètres en fonction du numéro de la courbe : le profil de I~0~ suit
+celui du chromatogramme puisque cette grandeur est proportionnelle à la
+concentration de l'échantillon. Les profils de R~g~ et I~0~ le long du
+chromatogramme sont représentés dans la figure suivante :
+
+![Figure : Profils de R~g~ et I~0~ le long du chromatogramme de TRF2 (en haut à gauche), RAP1-RCT (en haut à droite), le complexe TRF2/RAP1 (en bas à gauche) et le complexe TRF2/RAP1-RCT (en bas à droite).](partie-1/figures/rg-profiles.png)
+
+La variation de R~g~ le long du chromatogramme nous renseigne sur l'homogénéité
+de l'échantillon, et permet de sélectionner uniquement les courbes donnant des
+valeurs de R~g~ sensiblement identiques. Par exemple pour TRF2, nous avons
+sélectionné les courbes 100 à 106. Pour tous nos échantillons, le R~g~ quasiment
+constant à travers tout le chromatogramme indique une homogénéité tout à fait
+satisfaisante (voir aussi les chromatogrammes d'exclusion stérique et les
+analyses par SDS-PAGE dans la partie Matériel et méthodes). Les courbes de
+diffusion finales présentées précédemment ont été obtenues en calculant la
+moyenne des courbes sélectionnées par cette procédure.
+
 La courbe expérimentale et les paramètres R~g~ et I~0~ permettent de représenter
 les données sous une forme modifiée comme $(qR_g)^2 I(q) / I_0 = f(qR_g)$,
 appelée la représentation de Kratky normalisée [@durand2010].
@@ -184,7 +206,12 @@ connectés par des régions flexibles.
 
 Les valeurs des masses moléculaires théoriques (calculées d'après la séquence
 des protéines) et expérimentales (calculées d'après la valeur de I~0~), et des
-paramètres R~g~ et D~max~ sont résumées dans le tableau suivant :
+paramètres R~g~ et D~max~ sont résumées dans le tableau suivant. Les valeurs de
+R~g~ présentées ici sont celles obtenues avec la fonction P(r) : elles sont plus
+grandes que celles obtenues par l'analyse de Guinier car cette dernière est
+basée sur l'approximation que les particules diffusant les rayons X sont
+globulaires [elle tend à sous-estimer le R~g~ pour des protéines flexibles, voir
+@receveur-brechot2012].
 
 Table: Tableau : R~g~, D~max~ et masses moléculaires des protéines et des complexes (nd : non déterminé).
 
