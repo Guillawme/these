@@ -1,5 +1,7 @@
 ## Résultats
 
+### L'interaction entre TRF2 et RAP1 entières est complexe
+
 Dans un premier temps, nous avons entrepris de mesurer l'interaction entre TRF2
 et RAP1 entières, car si cette interaction est déjà connue [@li2000] elle n'a en
 revanche été étudiée de façon quantitative qu'avec des domaines isolés
@@ -64,6 +66,9 @@ RAP1-RCT/TRF2/ADN, suggèrent quant à elles que la région N-terminale de RAP1 
 responsable des effets observés sur les propriétés de TRF2 (cf. introduction de
 la partie et article en annexe).
 
+
+### L'interaction est associées à des changements de conformation 
+
 Pour compléter cette information, nous avons voulu mieux comprendre
 l'interaction complète entre TRF2 et RAP1 d'un point de vue structural.
 La cristallographie n'est pas adaptée à l'étude de ces protéines entières car la
@@ -82,7 +87,7 @@ des protéines à étudier, contrairement à la RMN (la limite de taille
 actuellement admise est de 30 à 50 kDa ; le complexe TRF2/RAP1 a une masse
 d'environ 200 kDa).
 
-Un pré-requis indispensable à une expérience de SAXS est la préparation d'une
+Un prérequis indispensable à une expérience de SAXS est la préparation d'une
 solution de la macromolécule d'intérêt concentrée (de l'ordre de 1 mg/mL) et
 bien homogène. La diffusion des rayons X est en effet sensible à la taille des
 objets présents dans la solution, et augmente non linéairement avec la taille.
@@ -259,6 +264,9 @@ superposer à celle du complexe TRF2/RAP1 (figure ci-dessus, H : un exemple parm
 tous nos essais), ce qui indique que la formation du complexe fait intervenir un
 important changement de conformation des deux protéines.
 
+
+### L'interaction entre TRF2 et RAP1 implique un motif TBM
+
 À ce stade nous savons donc d'après les titrations calorimétriques que
 l'interaction entre TRF2 et RAP1 est plus complexe qu'un simple événement de
 liaison, et que cette interaction complexe dépend de la région N-terminale de
@@ -339,6 +347,9 @@ Comme attendu, nous retrouvons la transition majeure correspondant
 La transition mineure est quant à elle nettement réduite, à tel point qu'il
 n'est plus possible de calculer le K~D~ correspondant. Ceci démontre que le
 motif TBM de RAP1 participe bien à l'interaction complète avec TRF2.
+
+
+### Les surfaces d'interaction entre TRF2 et RAP1 ne sont pas limitées au motif TBM
 
 Nous connaissons maintenant la région minimale des deux protéines impliquée dans
 l'interaction complète : le motif TBM de RAP1 et la poche de liaison des motifs
