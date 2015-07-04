@@ -5,8 +5,8 @@
 Les résidus identiques sont surlignés en rouge, les résidus similaires sont
 écrits en rouge et encadrés en bleu. Les résidus du motif TBM sont signalés par
 les triangles et l'étoile. Les lysines protégées dans le complexe TRF2/RAP1 sont
-signalées par des cercles (plein : lysine protégée chez RAP1 sauvage et
-RAP1-ARAGA ; vide : lysine protégée uniquement chez RAP1 sauvage).
+signalées par des cercles (lysine protégée chez RAP1 sauvage et RAP1-ARAGA) et
+par un carré (lysine protégée uniquement chez RAP1 sauvage).
 
 
 ## Alignement des séquences de TRF2
@@ -63,8 +63,8 @@ TRF2-recombinant           MN	500
 
 Les résidus identiques sont surlignés en rouge, les résidus similaires sont
 écrits en rouge et encadrés en bleu. Les lysines protégées dans le complexe
-TRF2/RAP1 sont signalées par des cercles (plein : lysine protégée par RAP1
-sauvage et RAP1-ARAGA ; vide : lysine protégée uniquement par RAP1 sauvage).
+TRF2/RAP1 sont signalées par des cercles (lysine protégée par RAP1 sauvage et
+RAP1-ARAGA) et par des carrés (lysines protégées uniquement par RAP1 sauvage).
 
 
 ## Publication
