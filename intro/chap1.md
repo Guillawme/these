@@ -499,34 +499,61 @@ groupement 3'-OH sert d'amorce pour la synthèse d'ADN (3). À partir de cette
   de chromatides.
 
 
-
-
-## Quelles solutions à ces problèmes sont apparues au cours de l'évolution ?
+## Solutions moléculaires au problème de la protection apparues au cours de l'évolution
 
 Comme nous l'avons vu dans les paragraphes précédents, les molécules d'ADN
 linéaires sont confrontées aux problèmes de la réplication et de la protection
-des extrémités. Plusieurs stratégies pour contourner ce problème ont émergé au
-cours de l'évolution.
+des extrémités. Plusieurs stratégies pour contourner ces problèmes ont émergé au
+cours de l'évolution, et nous avons déjà présenté quelques solutions courantes
+au problème de la réplication.
 
-La première stratégie, la plus simple, consiste à utiliser des molécules d'ADN
-circulaires comme support du génome. Cette stratégie est la plus répandue parmi
-les procaryotes.
-
-Les organismes possédant des ADN linéaires ont quant à eux adopté trois types de
-stratégies pour protéger et répliquer leurs extrémités.
-
-
-### Extrémités protégées par un complexe nucléoprotéique
-
-#### Chez les ciliés
-
-Chez *Oxytricha nova*, les télomères sont protégés par un hétérodimère contenant
-les protéines TEBPα et TEBPβ (*telomere end binding proteins*). Ces protéines
-contiennent des motifs OB-fold (*oligonucleotide-binding*) leur permettant de
-lier l'extrémité simple-brin 3'-sortante du brin G [@gilson2007; @linger2009].
+Le problème de la protection des extrémités est résolu par l'existence de
+protéines spécifiques des télomères, qui s'associent aux répétitions
+télomériques et assurent la répression de la voie DDR, du NHEJ et de la
+recombinaison homologue. Dans les paragraphes qui suivent nous présenterons
+succintement l'organisation des complexes télomériques de quelques organismes
+modèles en précisant comment leur étude a contribué à établir les connaissances
+actuelles sur les télomères en général.
 
 
-#### Chez les levures
+### Chez les ciliés
+
+Les premières protéines télomériques ont été mises en évidence chez
+l'unicellulaire cilié *Oxytricha nova* [@gottschling1986]. Chez cet organisme
+les répétitions télomériques simple-brin sont liées spécifiquement par deux
+protéines appelées TEBP-α et TEBP-β (*telomere end binding proteins*),
+comprenant chacune deux domaines OB-fold (*oligonucleotide-binding fold*) et qui
+s'assemblent en un hétérodimère [@fang1993]. La structure cristallographique du
+complexe TEBP-α/TEBP-β/ADNsb [@horvath1998] montre que l'extrémité 3' de l'ADN
+est profondément enfouie dans le complexe (figure suivante), ce qui explique la
+forte affinité de ces protéines pour l'ADNsb et la protection efficace de cet
+ADNsb contre les nucléases *in vitro*. TEBP-α est aussi capable de former des
+homodimères [@peersen2002], ce qui suggère qu'elle pourrait être responsable du
+regroupement spatial des télomères observé dans la chromatine native extraite du
+noyau d'*O. nova* [@murti2002].
+
+Les structures tridimensionnelles des complexes TEBP-α/TEBP-β/ADNsb (entrée PDB
+1OTC) et (TEBP-α/ADNsb)~2~ (entrée PDB 1KIX) sont représentées dans la
+figure suivante :
+
+![Figure : Complexe télomérique d'*Oxytricha nova*. L'ADNsb est coloré en gris avec le nucléotide 3' en rouge. À gauche, l'hétérodimère TEBP-α (en vert) / TEBP-β (en bleu). À droite, l'homodimère (TEBP-α/ADNsb)~2~ avec le monomère TEBP-α vert dans la même orientation qu'à gauche.](intro/figures/o-nova-tebp.png)
+
+Ce complexe télomérique simple a conduit au premier modèle de protection des
+extrémités des chromosomes par la séquéstration physique de l'extrémité 3'-OH.
+Ce modèle a par la suite servi de base conceptuelle pour l'étude des télomères
+d'autres organismes, en effet la séquéstration de l'extrémité 3' est un thème
+récurrent en biologie des télomères.
+
+*Tetrahymena thermophila*, un autre unicellulaire cilié, est aussi un modèle
+ très utilisé en biologie des télomères. Cet organisme a surtout été étudié pour
+ comprendre le fonctionnement de la télomérase, puisque cette enzyme a été
+ découverte chez lui [@greider1985; -@greider1987]. En revanche son complexe
+ télomérique a été moins étudié que celui de *O. nova* (par exemple aucune
+ structure tridimensionnelle n'est disponible à ce jour), et semble plus élaboré
+ puisqu'il contient au moins quatre protéines [@premkumar2014].
+
+
+### Chez les levures
 
 Chez *Saccharomyces cerevisiae*, le complexe télomérique est organisé autour de
 la protéine Rap1 d'une part et autour du complexe CST d'autre part
@@ -560,12 +587,7 @@ schématiquement dans la figure ci-dessous :
 ![Figure : Complexe télomérique de *S. pombe* [@linger2009].](intro/figures/shelterin-pombe.png)
 
 
-#### Chez les nématodes
-
-*Caenorhabditis elegans*
-
-
-#### Chez la drosophile
+### Chez la drosophile
 
 Contrairement aux organismes à télomères canoniques, chez la drosophile les
 fonctions de régulation de la longueur et de protection des télomères sont
@@ -595,11 +617,7 @@ et donc la perte du *shelterin*, et ont favorisé l'émergence rapide de protéi
 liant les extrémités de l'ADN sans spécificité de séquence.
 
 
-#### Chez les plantes
+### Chez les vertébrés
 
-*Arabidopsis thaliana*
-
-
-#### Chez les vertébrés
-
+Prochaine partie...
 
