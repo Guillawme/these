@@ -512,29 +512,31 @@ protéines spécifiques des télomères, qui s'associent aux répétitions
 télomériques et assurent la répression de la voie DDR, du NHEJ et de la
 recombinaison homologue. Dans les paragraphes qui suivent nous présenterons
 succintement l'organisation des complexes télomériques de quelques organismes
-modèles en précisant comment leur étude a contribué à établir les connaissances
-actuelles sur les télomères en général.
+modèles, avec un exemple de télomères non canonique, et en précisant comment
+l'étude de ces complexes a contribué à établir les connaissances actuelles sur
+les télomères en général.
 
 
 ### Chez les ciliés
 
 Les premières protéines télomériques ont été mises en évidence chez
 l'unicellulaire cilié *Oxytricha nova* [@gottschling1986]. Chez cet organisme
-les répétitions télomériques simple-brin sont liées spécifiquement par deux
-protéines appelées TEBP-α et TEBP-β (*telomere end binding proteins*),
-comprenant chacune deux domaines OB-fold (*oligonucleotide-binding fold*) et qui
-s'assemblent en un hétérodimère [@fang1993]. La structure cristallographique du
-complexe TEBP-α/TEBP-β/ADNsb [@horvath1998] montre que l'extrémité 3' de l'ADN
-est profondément enfouie dans le complexe (figure suivante), ce qui explique la
-forte affinité de ces protéines pour l'ADNsb et la protection efficace de cet
-ADNsb contre les nucléases *in vitro*. TEBP-α est aussi capable de former des
-homodimères [@peersen2002], ce qui suggère qu'elle pourrait être responsable du
-regroupement spatial des télomères observé dans la chromatine native extraite du
-noyau d'*O. nova* [@murti2002].
+les répétitions télomériques simple-brin de l'extrémité 3' sortante sont liées
+spécifiquement par deux protéines appelées TEBP-α et TEBP-β (*telomere end
+binding proteins*), comprenant chacune deux domaines OB-fold
+(*oligonucleotide-binding fold*) et qui s'assemblent en un hétérodimère
+[@fang1993]. La structure cristallographique du complexe TEBP-α/TEBP-β/ADNsb
+[@horvath1998] montre que l'extrémité 3' de l'ADN est profondément enfouie dans
+le complexe (figure suivante), ce qui explique la forte affinité de ces
+protéines pour l'ADNsb et la protection efficace de cet ADNsb contre les
+nucléases *in vitro*. TEBP-α est aussi capable de former des homodimères
+[@peersen2002], ce qui suggère qu'elle pourrait être responsable du regroupement
+spatial des télomères observé dans la chromatine native extraite du noyau d'*O.
+nova* [@murti2002].
 
 Les structures tridimensionnelles des complexes TEBP-α/TEBP-β/ADNsb (entrée PDB
-1OTC) et (TEBP-α/ADNsb)~2~ (entrée PDB 1KIX) sont représentées dans la
-figure suivante :
+1OTC) et (TEBP-α/ADNsb)~2~ (entrée PDB 1KIX) sont représentées dans la figure
+suivante :
 
 ![Figure : Complexe télomérique d'*Oxytricha nova*. L'ADNsb est coloré en gris avec le nucléotide 3' en rouge. À gauche, l'hétérodimère TEBP-α (en vert) / TEBP-β (en bleu). À droite, l'homodimère (TEBP-α/ADNsb)~2~ avec le monomère TEBP-α vert dans la même orientation qu'à gauche.](intro/figures/o-nova-tebp.png)
 
@@ -545,79 +547,100 @@ d'autres organismes, en effet la séquéstration de l'extrémité 3' est un thè
 récurrent en biologie des télomères.
 
 *Tetrahymena thermophila*, un autre unicellulaire cilié, est aussi un modèle
- très utilisé en biologie des télomères. Cet organisme a surtout été étudié pour
- comprendre le fonctionnement de la télomérase, puisque cette enzyme a été
- découverte chez lui [@greider1985; -@greider1987]. En revanche son complexe
- télomérique a été moins étudié que celui de *O. nova* (par exemple aucune
- structure tridimensionnelle n'est disponible à ce jour), et semble plus élaboré
- puisqu'il contient au moins quatre protéines [@premkumar2014].
+très utilisé en biologie des télomères. Cet organisme a surtout été étudié pour
+comprendre le fonctionnement de la télomérase, puisque cette enzyme a été
+découverte chez lui [@greider1985; -@greider1987]. En revanche son complexe
+télomérique a été moins étudié que celui de *O. nova* (par exemple aucune
+structure tridimensionnelle n'est disponible à ce jour), et semble plus élaboré
+puisqu'il contient au moins quatre protéines [@premkumar2014] : Pot1a, Tpt1,
+Pat1 et Pat2.
 
+L'organisation des complexes télomériques de ces deux ciliés est schématisée
+dans la figure ci-dessous :
 
-### Chez les levures
-
-Chez *Saccharomyces cerevisiae*, le complexe télomérique est organisé autour de
-la protéine Rap1 d'une part et autour du complexe CST d'autre part
-[@kupiec2014].  
-Au niveau de l'ADN double-brin, on trouve la protéine Rap1 capable de lier
-directement l'ADN par un domaine composé de deux repliements de type Myb répétés
-en tandem [@koenig1996]. Par son domaine C-terminal, Rap1 recrute les protéines
-Rif1 et Rif2 impliquées dans la régulation de la longueur des télomères, ainsi
-que les protéines Sir3 et Sir4 responsables de l'établissement et du maintien de
-la répression de la transcription des gènes situés dans les régions proches des
-télomères (*telomere position effect*) [@feeser2008].  
-L'extrémité simple-brin 3'-sortante du brin G est quant à elle liée par le
-complexe CST (pour Cdc13, Stn1, Ten1), essentiel pour sa protection contre les
-nucléases et également essentiel pour le recrutement de la télomérase lors de la
-réplication [@kupiec2014]. L'organisation du complexe télomérique de *S.
-cerevisiae* est présentée schématiquement dans la figure ci-dessous :
-
-![Figure : Complexe télomérique de *S. cerevisiae* [@kupiec2014].](intro/figures/cplx-tel-cerevisiae-details.png)
-
-La levure *Schizosaccharomyces pombe* possède un complexe télomérique
-ressemblant plus au *shelterin* des vertébrés. La protéine Taz1, orthologue des
-TRF, lie l'ADN télomérique double-brin. La protéine Pot1 lie l'ADN télomérique
-simple-brin. Ces deux protéines sont reliées par un réseau d'interactions
-protéine-protéine faisant intervenir Rap1, Poz1, et Tpz1. *S. pombe* possède
-aussi les protéines Stn1 et Ten1, mais jusqu'à maintenant on ne connait pas
-d'homologue de Cdc13 chez cette levure et les fonctions de son complexe (C)ST
-sont encore très peu décrites [voir le tableau 1 dans @giraud-panis2010].
-L'organisation du complexe télomérique de *S. pombe* est présentée
-schématiquement dans la figure ci-dessous :
-
-![Figure : Complexe télomérique de *S. pombe* [@linger2009].](intro/figures/shelterin-pombe.png)
+![Figure : Complexes télomériques d'*O. nova* et *T. thermophila* [@giraud-panis2013]](intro/figures/cplx-telo-cilies.png)
 
 
 ### Chez la drosophile
 
-Contrairement aux organismes à télomères canoniques, chez la drosophile les
-fonctions de régulation de la longueur et de protection des télomères sont
-complètement indépendantes. Comme nous l'avons vu, la longueur est régulée par
-l'activité de trois rétrotransposons. La protection est quant à elle assurée par
-un complexe protéique appelé *terminin* [@raffa2013]. Les protéines de ce
-complexe ont été identifiées par mutagenèse aléatoire et recherche de phénotypes
-de dysfonction des télomères. Ces expériences ont permis d'identifier les
-protéines HOAP, HipHop, Moi et Ver dont la localisation télomérique a été
-démontrée par des expériences d'immunofluorescence et par la localisation de
-fusions avec la GFP. Ces protéines sont localisées exclusivement aux télomères
-pendant tout le cycle cellulaire, et les phénotypes associés à des mutations
-dans ces protéines sont exclusivement télomériques. Les protéines du *terminin*
-protègent les télomères en recrutant des facteurs accessoires dont la plupart
-sont impliqués dans les voies de réparation de l'ADN, comme MRN, ATM et ATR.
-Ces caractéristiques font de ce complexe l'homologue fonctionnel du *shelterin*
-des télomères canoniques.
+Comme nous l'avons vu précédemment, chez la drosophile la longueur des télomères
+est régulée par l'activité de trois rétrotransposons, et leur séquence n'est
+donc par faite de répétitions courtes mais des gènes de ces rétrotransposons.
+À cet égard, les télomères de la drosophile sont un exemple de télomères non
+canoniques, et leur complexe télomérique est également atypique.
 
-Les protéines du *terminin* n'ont pas d'orthologues connus en dehors du groupe
-des drosophilidae, et leur séquence mute rapidement [@raffa2013].
+La protection des télomères de la drosophile est assurée par un complexe
+protéique appelé *terminin* [@raffa2013]. Les protéines de ce complexe ont été
+identifiées par mutagenèse aléatoire et recherche de phénotypes de dysfonction
+des télomères. Ces expériences ont permis d'identifier les protéines HOAP,
+HipHop, Moi et Ver dont la localisation télomérique a été démontrée par des
+expériences d'immunofluorescence et par la localisation de fusions avec la GFP.
+Ces protéines sont localisées exclusivement aux télomères pendant tout le cycle
+cellulaire, et les phénotypes associés à des mutations dans ces protéines sont
+exclusivement télomériques. Les protéines du *terminin* protègent les télomères
+en recrutant des facteurs accessoires dont la plupart sont impliqués dans les
+voies de réparation de l'ADN, comme MRN, ATM et ATR. Ces caractéristiques font
+de ce complexe l'équivalent fonctionnel des complexes télomériques trouvés aux
+télomères canoniques d'autres organismes. Le complexe *terminin* de la
+drosophile est représenté schématiquement dans la figure suivante :
+
+![Figure : Comple *terminin* de *D. melanogaster* [@giraud-panis2013].](intro/figures/cplx-telo-droso.png)
+
+Cependant les protéines du *terminin* n'ont pas d'orthologues connus en dehors
+du groupe des drosophilidae, et leur séquence mute rapidement [@raffa2013].
 L'hypothèse évolutive suivante est actuellement proposée : les drosophiles
 auraient perdu la télomérase (présente chez l'ancêtre commun de tous les
 eucaryotes), ce qui aurait conduit à une "domestication" rapide des
 rétrotransposons permettant de compenser l'érosion réplicative des extrémités.
 Ces changements ont provoqué la perte des répétitions télomériques riches en G,
-et donc la perte du *shelterin*, et ont favorisé l'émergence rapide de protéines
-liant les extrémités de l'ADN sans spécificité de séquence.
+et donc la perte des protéines télomériques ancestrales, et ont favorisé
+l'émergence rapide des protéines du *terminin* liant les extrémités de l'ADN
+sans spécificité de séquence.
+
+
+### Chez les levures
+
+Les deux levures les plus utilisées comme organismes modèles en biologie des
+télomères sont *Saccharomyces cerevisiae* (levure bougeonnante) et
+*Schizosaccharomyces pombe* (levure fissipare). Leurs complexes télomériques
+sont décrits dans les paragraphes suivants.
+
+Chez *S. cerevisiae*, le complexe télomérique est organisé autour de la protéine
+Rap1 d'une part et autour du complexe CST d'autre part [@kupiec2014].  
+La protéine Rap1 est capable de lier directement les répétitions télomériques de
+l'ADN double-brin par un domaine composé de deux repliements de type Myb répétés
+en tandem [@koenig1996], à partir desquels les extrémités N- et C-terminales
+s'étendent de part et d'autre de l'axe de l'ADN [@matot2012]. Par son domaine
+C-terminal, Rap1 recrute les protéines Rif1 et Rif2 impliquées dans la
+régulation de la longueur des télomères, ainsi que les protéines Sir3 et Sir4
+responsables de l'établissement et du maintien de la répression de la
+transcription des gènes situés dans les régions proches des télomères [*telomere
+position effect* ; @feeser2008].  
+Le complexe CST (pour Cdc13, Stn1, Ten1) se lie à l'extrémité simple-brin
+3'-sortante du brin G et est essentiel pour sa protection contre les nucléases
+et également pour le recrutement de la télomérase lors de la réplication
+[@kupiec2014].  
+L'organisation du complexe télomérique de *S. cerevisiae* est présentée
+schématiquement dans la figure ci-dessous :
+
+![Figure : Complexe télomérique de *S. cerevisiae* [@giraud-panis2013].](intro/figures/cplx-telo-cerevisiae.png)
+
+Chez *S. pombe*, le complexe télomérique est organisé autour de la protéine Taz1
+qui lie l'ADN télomérique double-brin, et la protéine Pot1 qui lie l'ADN
+télomérique simple-brin (Pot1 est l'orthologue de la protéine TEBP-α d'*O.
+nova*). Ces deux protéines sont reliées par un réseau d'interactions
+protéine-protéine faisant intervenir Rap1, Poz1, et Tpz1. *S. pombe* possède
+aussi les protéines Stn1 et Ten1, mais à ce jour aucun orthologue de Cdc13 n'est
+connu chez cette levure et les fonctions de son complexe (C)ST sont encore très
+peu décrites [@giraud-panis2010]. Rap1 est conservée chez cette levure, mais
+n'interagit plus directement avec l'ADN et est recrutée aux télomères par son
+interaction avec Taz1. L'organisation du complexe télomérique de *S. pombe* est
+présentée schématiquement dans la figure ci-dessous :
+
+![Figure : Complexe télomérique de *S. pombe* [@giraud-panis2013].](intro/figures/cplx-telo-pombe.png)
 
 
 ### Chez les vertébrés
 
-Prochaine partie...
+Prochaine partie.
 
