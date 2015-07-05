@@ -471,7 +471,7 @@ pour guider la réparation. Contrairement au NHEJ, la recombinaison homologue
 produit des réparations très fidèles à la séquence d'origine. Le principe de la
 recombinaison homologue est illustré dans la figure ci-dessous :
 
-![Figure : La recombinaison homologue [inspiré de @sanfilippo2008; adapté à partir d'une [figure originale de Ewm sur Wikimedia Commons (CC BY-SA 3.0)](http://commons.wikimedia.org/wiki/File%3AHR_schematic_diagram.svg)]](intro/figures/hr-schema.png)
+![Figure : La recombinaison homologue [inspiré de @sanfilippo2008 et adapté à partir d'une figure originale de Ewm sur Wikimedia Commons, CC BY-SA 3.0 : <http://commons.wikimedia.org/wiki/File%3AHR_schematic_diagram.svg>]](intro/figures/hr-schema.png)
 
 Suite à une cassure double-brin (1), les extrémités 5' sont digérées par des
 exonucléases qui génèrent une extrémité simple-brin sortante en 3' (2).
