@@ -8,7 +8,7 @@ TRFH/RAP1-TBM avec celle du complexe TRFH/Apollo-TBM
 occupent le même site de liaison dans le domaine TRFH, comme attendu.
 La superposition est présentée dans la figure ci-dessous :
 
-![Figure : Superposition des structures TRFH/RAP1-TBM et TRFH/Apollo-TBM (RMSD = 1,225 Å sur 358 atomes).](partie-2/figures/tbm-apollo-rap1.png)
+![Figure : Superposition des structures TRFH/RAP1-TBM (jaune clair et cyan) et TRFH/Apollo-TBM (jaune foncé et gris). RMSD = 1,225 Å sur 358 atomes.](partie-2/figures/tbm-apollo-rap1.png)
 
 Ceci suggère une compétition possible entre RAP1 et Apollo, et plus généralement
 entre RAP1 et les autres partenaires de TRF2. L'affinité du motif TBM d'Apollo
@@ -28,12 +28,12 @@ Nous obtenons les K~D~ suivants :
 
 - Apollo-TBM contre TRFH : K~D~ ≃ 59 nM,
 - Apollo-TBM contre TRF2 : K~D~ ≃ 46 nM,
-- Apollo-TBM contre TRF2/RAP1 : K~D~ ≃ 47 nM,
-- RAP1 contre TRF2/Apollo-TBM : K~D~ ≃ 1 nM pour la transition majeure, la
+- Apollo-TBM contre TRF2/RAP1 préformé : K~D~ ≃ 47 nM,
+- RAP1 contre TRF2/Apollo-TBM préformé : K~D~ ≃ 1 nM pour la transition majeure, la
   transition mineure est plus faible et ne permet plus de calculer un K~D~.
 
-Dans le cas de la titration du complexe TRF2/Apollo-TBM par RAP1, nous
-observons toujours une courbe biphasique mais dont la transition mineure n'est
+Dans le cas de la titration du complexe TRF2/Apollo-TBM par RAP1, nous observons
+toujours une courbe à deux transitions, mais dont la transition mineure n'est
 plus suffisamment importante pour pouvoir calculer un K~D~.
 
 Ces données montrent qu'Apollo est capable d'interagir avec TRF2 même en
