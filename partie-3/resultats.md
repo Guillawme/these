@@ -1,33 +1,5 @@
 ## Résultats
 
-Comme nous l'avons vu dans l'introduction, le mode d'interaction de TRF2 avec
-l'ADN est complexe et ses propriétés ne s'expliquent pas uniquement par la
-liaison du domaine Myb à l'ADN. Notamment, une expérience d'empreinte protéique
-par acétylation des lysines réalisée par nos collaborateurs au laboratoire
-d'Eric Gilson montre que beaucoup d'autres régions de TRF2 sont engagées dans
-l'interaction avec l'ADN (communication personnelle de Marie-Josèphe
-Giraud-Panis). En particulier, plusieurs lysines situées dans la région
-destructurée précédant le domaine Myb semblent significativement protégées par
-la présence de l'ADN. Nous avons donc produit une construction du domaine Myb
-allongée de 46 résidus en N-terminal (appelée Myb-long) et la construction
-classique correspondant au domaine présent dans l'entrée PDB 1W0U (appelée
-Myb-court) afin de comparer leurs modes d'interaction avec l'ADN. Les séquences
-alignées de ces deux constructions sont indiquées ci-dessous :
-
-```
-Myb-court      ---------------------------------------------GKKQKWTVEESEWVK	460
-Myb-long       GEKNPKVPKGKWNSSNGVEEKETWVEEDELFQVQAAPDEDSTTNITKKQKWTVEESEWVK	460
-                                                             **************
-
-Myb-court      AGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN	500
-Myb-long       AGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN	500
-               *****************************************
-```
-
-Pour cette étude nous avons utilisé trois techniques : l'ITC, le SAXS et
-la cristallographie.
-
-
 ### Calorimétrie
 
 La titration calorimétrique des deux constructions Myb-court et Myb-long par un
