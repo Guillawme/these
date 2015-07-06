@@ -31,9 +31,16 @@ Nous avons démontré que l'interaction entre TRF2 et WRN, précédemment mise e
 évidence avec les protéines entières [@opresko2002], ne peut pas être détectée
 par calorimétrie en utilisant la région minimale de WRN supposée suffisante pour
 l'interaction. Ceci peut signifier que le motif `KLLLP` présent dans la séquence
-de WRN aux positions 1073-1077 n'est pas un motif TBM, ou bien qu'il n'est pas
-suffisant pour conférer une affinité détectable comme c'est le cas pour le motif
-TBM de RAP1.
+de WRN aux positions 1073-1077 n'est pas un motif TBM et que l'interaction est
+due à d'autres régions des protéines, ou bien que le motif n'est pas suffisant
+pour conférer une affinité détectable comme c'est le cas pour le motif TBM de
+RAP1 (voir la premère partie : nous ne pouvions pas détecter l'interaction entre
+les domaines isolés RAP1_1-208 et TRFH, alors que nous pouvions la détecter avec
+un peptide du motif TBM et avec les protéines entières). À cet égard, l'étude
+biophysique détaillée de l'interaction entre TRF2 et WRN entières serait
+intéressante et complémentaire de notre étude sur RAP1 : l'étude des facteurs
+télomériques accessoires est en effet la suite logique de l'étude des protéines
+du *shelterin*.
 
 Les protéines entières de l'étude [@opresko2002] ont été exprimées en cellules
 d'insectes, elles portent donc potentiellement des modifications
@@ -43,38 +50,41 @@ expliquer les résultats divergeants que nous obtenons. Il n'existe pas de site
 de modification dans la région 949-1079 de WRN (selon Uniprot), mais la
 modification nécessaire se trouve peut-être du côté de TRF2 puisque cette
 dernière possède de nombreux sites de modification [@walker2012].
-La phosphorylation de la thréonine 358 de TRF2 [@spengler2007], située dans le
-*linker* en C-terminal du site de liaison de RAP1, et de fonction encore
-inconnue, pourrait être impliquée dans la régulation de l'interaction avec WRN.
 
 Dans l'objectif d'identifier les déterminants structuraux de l'interaction entre
-TRF2 et WRN, il serait intéressant de réaliser les expériences suivantes :
+TRF2 et WRN, il serait intéressant de réaliser les expériences suivantes.
 
-- Tester la liaison du motif `KLLLP` de WRN (TBM putatif) au domaine TRFH, car
-  comme dans le cas de RAP1 il se peut que l'interaction soit détectable avec le
-  motif seul puisse interagir mais pas avec le domaine. En cas de résultat
-  positif, il serait de plus possible de cristalliser le complexe pour résoudre
-  sa structure tridimensionnelle. Ces expériences permettraient d'affiner notre
-  compréhension de la reconnaissance des motifs TBM par le domaine TRFH.
-- Tester l'interaction avec les protéines entières exprimées dans *E. coli*,
-  afin de déterminer si elle dépend ou non de modifications
-  post-traductionnelles. Il serait aussi intéressant de phosphoryler ces
-  protéines par leurs kinases spécifiques [dont certaines sont déjà connues,
-  voir par exemple @walker2012] pour tester l'interaction avec des
-  phosphorylations bien déterminées.
-- Tester l'interaction de WRN avec le complexe TRF2/RAP1 ou TRF2/RAP1-ARAGA
-  préformé, afin de déterminer si RAP1 module l'affinité de TRF2 pour WRN.
-- Réaliser des expériences de protéolyse ménagée avec le complexe des protéines
-  entières, afin d'isoler la région minimale d'interaction et potentiellement
-  générer un complexe tronqué cristallisable.
+Tester la liaison du motif `KLLLP` de WRN (TBM putatif) au domaine TRFH semble
+une première étape nécessaire pour déterminer si ce motif est engagé dans
+l'interaction, car comme dans le cas de RAP1 il se peut que l'interaction soit
+détectable uniquement avec le peptide ou les protéines entières. En cas de
+résultat positif, il serait de plus possible de cristalliser le complexe pour
+résoudre sa structure tridimensionnelle. Ces expériences permettraient d'affiner
+notre compréhension de la reconnaissance des motifs TBM par le domaine TRFH.
+
+Dans le cas où l'implication de ce motif TBM putatif serait réfutée, des
+expériences de protéolyse ménagée sur le complexe des protéines entières
+pourraient permettre d'isoler la région minimale d'interaction et
+potentiellement générer un complexe tronqué cristallisable.
+
+L'étude de l'interaction avec les protéines entières exprimées dans *E. coli*
+permettrait aussi de déterminer si elle dépend ou non de modifications
+post-traductionnelles. Il serait aussi intéressant de phosphoryler ces protéines
+par leurs kinases spécifiques
+[dont certaines sont déjà connues, voir par exemple @walker2012] pour tester
+l'interaction avec des phosphorylations bien déterminées.
+
+Il sera aussi important de tester l'interaction de WRN entière avec le complexe
+TRF2/RAP1 ou TRF2/RAP1-ARAGA préformé, afin de déterminer si RAP1 module
+l'affinité de TRF2 pour WRN.
 
 
 ### Ku
 
-Nous avons observé que dans nos conditions expérimentales aucune interaction n'a
-pu être détectée entre Ku et TRF2. Ce résultat est en désaccord avec des
-résultats précédents [@song2000; @ribes-zamora2013], et nous allons tenter d'y
-apporter une explication.
+Dans nos conditions expérimentales aucune interaction n'a pu être détectée entre
+Ku et TRF2. Ce résultat est en désaccord avec des résultats précédents
+[@song2000; @ribes-zamora2013], et nous allons tenter d'y apporter
+une explication.
 
 Concernant l'interaction de Ku70 avec le domaine TRFH [@song2000], il convient
 d'aborder ce résultat avec un regard critique. Les auteurs précisent qu'ils

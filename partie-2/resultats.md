@@ -48,7 +48,7 @@ littérature [@opresko2002]. D'après cette étude, le fragment 949-1092 de WRN 
 suffisant pour lier TRF2 entière. Ce fragment contient un motif `KLLLP` aux
 positions 1073 à 1077, qui est très semblable aux motifs TBM de liaison au
 domaine TRFH déjà mis en évidence [Partie 1 et @chen2008; @kim2009; @wan2013].
-L'alignement de ce motif de WRN aux motifs TBM des séquences d'Apollo et NBS1
+L'alignement de ce motif de WRN aux motifs TBM connus d'Apollo et NBS1
 [@chen2008], de PNUTS et MCPH1 [@kim2009], de SLX4 [@wan2013], et de RAP1
 (Partie 1), est représenté dans la figure ci-dessous :
 
@@ -58,14 +58,15 @@ Une structure RMN du fragment 949-1092 montre que ce motif est situé dans une
 région non structurée de la protéine [@hu2005], ce qui en fait un candidat
 pertinent pour être un motif TBM. Les auteurs de cette structure RMN indiquent
 que cette construction a été très difficile à produire de façon soluble, en
-revanche une étude plus récente a montré par protéolyse ménagée que le fragment
-949-1079 peut être purifié aisément et est bien soluble [@kitano2010].
-Ce dernier fragment contient toujours le motif TBM putatif. Nous avons donc
-exprimé et purifié cette construction appelée WRN-RQC (cf. Matériel et méthodes)
-afin de tester son interaction avec le domaine TRFH de TRF2. Nous avons
-privilégié cette approche plutôt que l'étude des protéines entières car en cas
-d'interaction nous obtiendrons un complexe potentiellement cristallisable, ce
-qui ne serait pas le cas avec les protéines entières.
+revanche une étude plus récente a montré que le fragment 949-1079 est stable
+dans une expérience de protéolyse ménagée, peut être produit et purifié
+aisément, et est bien soluble [@kitano2010]. Ce dernier fragment contient
+toujours le motif TBM putatif. Nous avons donc exprimé et purifié cette
+construction appelée WRN-RQC (cf. Matériel et méthodes) afin de tester son
+interaction avec le domaine TRFH de TRF2. Nous avons privilégié cette approche
+plutôt que l'étude des protéines entières car en cas d'interaction nous
+obtiendrons un complexe potentiellement cristallisable, ce qui ne serait pas le
+cas avec les protéines entières.
 
 La titration calorimétrique du domaine TRFH de TRF2 par WRN-RQC ne montre aucune
 interaction détectable entre ces deux protéines dans nos conditions
@@ -99,6 +100,10 @@ la littérature [@kitano2010]. Ce dernier thermogramme est présenté dans la
 figure ci-dessous :
 
 ![Figure : Titration calorimétrique de WRN-RQC par l'oligonucléotide T2-S5S6.](partie-2/figures/itc-wrn-adn.png)
+
+Ceci démontre que la protéine est correctement repliée, et écarte la possibilité
+que nous ne pouvions pas détecter l'interaction avec TRF2 à cause d'un problème
+de préparation de l'échantillon.
 
 
 ### Ku
