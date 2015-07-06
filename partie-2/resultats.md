@@ -137,7 +137,8 @@ ci-dessus), nous n'observons aucun pic dont le volume d'élution est inférieur
 qui signifie que dans ces conditions aucun complexe ne se forme. L'expérience de
 *pull down* ne montre pas non plus d'interaction puisque la quantité de TRFH
 élué est identique en absence ou en présence de Ku (comparer les pistes E1 et E2
-correspondant aux fractions d'élution, cf. Matériel et méthodes). Si TRFH
+correspondant aux fractions d'élution, cf. Matériel et méthodes) et correspond
+donc à la fraction de TRFH retenue non spécifiquement par la résine. Si TRFH
 interagissait avec Ku, il serait enrichi dans la fraction d'élution dans
 l'expérience où Ku est présent.
 

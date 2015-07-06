@@ -92,7 +92,7 @@ utilisent pour les expériences de double-hybride une construction tronquée de
 Ku70 contenant les résidus 200-385, pour éviter de détecter uniquement
 l'interaction avec Ku80. Il est important de remarquer que cette étude est
 antérieure à la publication de la structure tridimensionnelle de l'hétérodimère
-Ku [@walker2001]. Cette structure nous apprend que le repliement de chacun des
+Ku par @walker2001. Cette structure nous apprend que le repliement de chacun des
 deux monomères est très dépendant de la présence de l'autre. La figure suivante
 montre dans la structure de Ku (entrée PDB 1JEQ) la région correspondant à la
 construction Ku70_200-385 :
@@ -102,23 +102,30 @@ construction Ku70_200-385 :
 De façon évidente, les délimitations de cette construction ne correspondent pas
 aux délimitations naturelles entre les domaines de la protéine. Le repliement
 correct de cette construction n'a pas été vérifié par les auteurs de l'étude, et
-nous semble peu probable. Puisque cette construction ne correspond à aucune
-réalité biologique ni d'un point de vue structural (cf. figure ci-dessus), ni
-d'un point de vue fonctionnel (cette construction de Ku70 est incapable de
-s'associer avec Ku80), ce résultat nous semble être un faux positif.
+nous semble peu probable. Cette construction ne correspond à aucune réalité
+biologique ni d'un point de vue structural (cf. figure ci-dessus), ni d'un point
+de vue fonctionnel puisque cette construction de Ku70 est incapable de
+s'associer avec Ku80, or *in vivo* les deux sous-unités dépendent l'une de
+l'autre pour leur stabilité [@fell2015 et références associées]. Sur la base de
+ces considérations, l'interaction rapportée par @song2000 nous semble être un
+faux positif.
 
 L'interaction mise en évidence *in vivo* [@ribes-zamora2013] par des expériences
 de PCA semble plus plausible. Ce type d'expérience n'exclut pas la possibilité
 d'une interaction indirecte, et puisque TRF2 et Ku sont toutes les deux des
 protéines de liaison à l'ADN il est tout à fait possible que leur interaction
-dépende de la présence d'ADN. Il est également possible que Ku soit recruté par
-RAP1, comme le suggèrent des expériences de co-immunoprécipitation dans
-lesquelles Ku co-précipite avec RAP1 délété de son domaine RCT, donc
-indépendamment de TRF2 [@oconnor2004].Il serait donc intéressant de tester
-l'interaction de Ku avec TRF2 en présence d'ADN, par exemple en préformant un
-complexe Ku/ADN puis en le titrant par TRF2. Une autre expérience directement
-réalisable, puisque nous disposons déjà des constructions protéiques, est la
-titration de Ku par RAP1_1-208 et par RAP1 entière.
+dépende de la présence d'ADN. Il serait donc intéressant de tester l'interaction
+de Ku avec TRF2 en présence d'ADN, par exemple en préformant un complexe Ku/ADN
+puis en le titrant par TRF2. L'équipe de Jean-Baptiste Charbonnier a déjà mis au
+point des expériences de SPR (résonance plasmonique de surface) pour mesurer
+l'interaction de Ku avec des ADN immobilisés sur une puce, ce qui constitue un
+bon outil pour mesurer l'interaction de Ku fixé sur l'ADN avec ses partenaires
+protéiques. Il est également possible que Ku soit recruté par RAP1, comme le
+suggèrent des expériences de co-immunoprécipitation dans lesquelles Ku
+co-précipite avec RAP1 délété de son domaine RCT, donc indépendamment de TRF2
+[@oconnor2004]. Une autre expérience directement réalisable, puisque nous
+disposons déjà des constructions protéiques, est la titration de Ku par
+RAP1_1-208 et par RAP1 entière.
 
 D'autre part, l'interaction directe *in vitro* entre Ku et TRF1 a été mise en
 évidence par des expériences de SPR [@hsu2000], ce qui peut signifier deux
