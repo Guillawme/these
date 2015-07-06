@@ -141,23 +141,27 @@ Notre expérience de *pull down* confirme notre hypothèse selon laquelle TRF2 e
 le complexe TRF2/RAP1 recrutent des partenaires protéiques différents.
 Nous pouvons aussi observer que le complexe TRF2/RAP1-ARAGA a une spécificité de
 liaison intermédiaire entre celle de TRF2 et celle du complexe TRF2/RAP1, ce qui
-est en accord avec nos autres données relatives à ce mutant de RAP1.
+est en accord avec nos autres données relatives à ce mutant de RAP1 (voir la
+première partie).
 
 Nous avons tenté d'identifier par spectrométrie de masse les bandes
 intéressantes présentes dans les éluats TRF2 et TRF2/RAP1-ARAGA et absentes dans
 l'éluat TRF2/RAP1 (correspondant à des partenaires de TRF2 dont le recrutement
-est inhibé par RAP1), ou absentes dans les éluats TRF2 et TRF2/RAP1-ARAGA et
-présentes dans l'éluat TRF2/RAP1 (correspondant à des partenaires du complexe
-TRF2/RAP1 et dont le recrutement dépend de la présence de RAP1).
-Malheureusement le faible enrichissement de ces protéines et la complexité des
-mélanges nous ont empêché d'identifier ces protéines de façon fiable.
+est inhibé par RAP1), ou les bandes absentes dans les éluats TRF2 et
+TRF2/RAP1-ARAGA et présentes dans l'éluat TRF2/RAP1 (correspondant à des
+partenaires du complexe TRF2/RAP1 et dont le recrutement dépend de la présence
+de RAP1). Malheureusement le faible enrichissement de ces protéines et la
+complexité des mélanges nous ont empêché d'identifier ces protéines de
+façon fiable.
 
 Il serait intéressant de reproduire cette expérience en éluant avec un gradient
 de force ionique plutôt qu'avec une marche directement à 1 M en NaCl, ce qui
 pourrait permettre d'éliminer les protéines retenues non spécifiquement avant
 d'éluer les protéines d'intérêt (ces dernières se trouveraient alors plus
 enrichies). Une autre possibilité consisterait à réaliser l'expérience sur le
-même support chromatographique utilisé "en vrac" : ceci permet d'éluer avec un
-volume très faible et donc d'obtenir un éluat dans lequel les protéines
-d'intérêt sont plus concentrées.
+même support chromatographique utilisé directement dans des tubes plutôt que
+dans une colonne : ceci permet d'éluer avec un volume très faible et donc
+d'obtenir un éluat dans lequel les protéines d'intérêt sont plus concentrées (en
+revanche ce système ne permet par d'éluer par un gradient de concentration en
+sel, seuls des lavages à des concentrations définies seraient possibles).
 

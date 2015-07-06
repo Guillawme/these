@@ -156,9 +156,11 @@ propriétés d'interaction de TRF2 avec ses autres partenaires protéiques, nous
 avons réalisé des expériences de *pull down* (cf. Matériel et méthodes).
 Dans ces expériences un oligonucléotide contenant un site de liaison de TRF2 est
 immobilisé sur un support chromatographique par un système
-streptavidine/biotine. TRF2 ou le complexe TRF2/RAP1 ou TRF2/RAP1-ARAGA sont
-fixés sur cet oligonucléotide. Enfin, des extraits nucléaires de cellules HeLa
-sont ensuite incubés avec ces complexes pré-formés, et on analyse le contenu des
+streptavidine/biotine. L'oligonucléotide est incubé avec une quantité saturante
+de TRF2 ou de complexe TRF2/RAP1 ou TRF2/RAP1-ARAGA. Ce complexe immobilisé
+ADN/TRF2 ou ADN/TRF2/RAP1 ou ADN/TRF2/ARAGA est incubé avec des extraits
+nucléaires de cellules HeLa. Enfin, les protéines sont éluées par augmentation
+de la force ionique (qui dissocie TRF2 de l'ADN), et on analyse le contenu des
 éluats par SDS-PAGE.
 
 Nous observons de façon reproductible des chromatogrammes d'élution différents
@@ -167,7 +169,7 @@ TRF2/RAP1, le complexe TRF2/ARAGA ou l'ADN seul (figure-ci dessous), alors que
 les quantités de protéines et d'extraits nucléaires sont identiques dans tous
 les essais.
 
-![Figure : Chromatogrammes d'élution des *pull down*. ADN seul (en haut à gauche), ADN saturé en TRF2 (en haut à droite), ADN saturé en TRF2/RAP1 (en bas à gauche), ADN saturé en TRF2/RAP1-ARAGA (en bas à droite). Le premier pic autour de 1 mL correspond à la fraction non retenue des extraits nucléaires.](partie-2/figures/strep-pull-down-chromato.png)
+![Figure : Chromatogrammes d'élution des *pull down*. ADN seul (en haut à gauche), ADN saturé en TRF2 (en haut à droite), ADN saturé en TRF2/RAP1 (en bas à gauche), ADN saturé en TRF2/RAP1-ARAGA (en bas à droite). Le premier pic autour de 1 mL correspond à la fraction non retenue des extraits nucléaires, le pic d'élution se trouve dans la région où le tampon d'élution est à 100 % (courbe verte).](partie-2/figures/strep-pull-down-chromato.png)
 
 L'analyse par SDS-PAGE est présentée dans la figure ci-dessous :
 
@@ -177,4 +179,8 @@ Les éluats contiennent des protéines différentes (comparer les pistes 5, 8 et
 11), par exemple dans la région encadrée : une protéine retenue par TRF2 n'est
 pas retenue par le complexe TRF2/RAP1, et seulement peu retenue par le complexe
 TRF2/RAP1-ARAGA.
+
+Ce résultat montre que les spécificités d'interaction protéine/protéine du
+complexe TRF2/RAP1 et de TRF2 sont effectivement différentes, et de façon
+potentiellement dépendante de la région N-terminale de RAP1.
 
