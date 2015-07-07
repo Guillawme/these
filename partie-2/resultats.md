@@ -8,7 +8,7 @@ TRFH/RAP1-TBM avec celle du complexe TRFH/Apollo-TBM
 occupent le même site de liaison dans le domaine TRFH, comme attendu.
 La superposition est présentée dans la figure ci-dessous :
 
-![Figure : Superposition des structures TRFH/RAP1-TBM (jaune clair et cyan) et TRFH/Apollo-TBM (jaune foncé et gris). RMSD = 1,225 Å sur 358 atomes.](partie-2/figures/tbm-apollo-rap1.png)
+![Figure : Superposition des structures TRFH/RAP1-TBM (jaune et cyan) et TRFH/Apollo-TBM (jaune clair et violet).](partie-2/figures/tbm-apollo-rap1.png)
 
 Ceci suggère une compétition possible entre RAP1 et Apollo, et plus généralement
 entre RAP1 et les autres partenaires de TRF2. L'affinité du motif TBM d'Apollo
