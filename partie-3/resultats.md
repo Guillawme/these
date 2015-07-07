@@ -27,12 +27,12 @@ région du *linker* présente dans la construction Myb-long participe bien
 Nous avons également réalisé des mesures de SEC-SAXS [SAXS couplé à la
 chromatographie d'exclusion stérique, voir @david2009; @perez2015] sur ces deux
 complexes, cette fois avec l'oligonucléotide T2-S5S8. Deux réplicats ont été
-mesurés sur chaque complexe. Pour toutes les acquisitions le Rg est quasiment
+mesurés pour chaque complexe. Pour toutes les acquisitions le R~g~ est quasiment
 constant tout le long du chromatogramme, ce qui montre la très bonne homogénéité
 des échantillons (un des deux réplicats de chaque complexe est présenté dans la
 figure ci-dessous) :
 
-![Figure : Variation des paramètres Rg et I0 au cours de l'élution des complexes Myb-court/ADN (à gauche) et Myb-long/ADN (à droite).](partie-3/figures/profils-rg-mybs.png)
+![Figure : Variation des paramètres R~g~ et I~0~ au cours de l'élution des complexes Myb-court/ADN (à gauche) et Myb-long/ADN (à droite).](partie-3/figures/profils-rg-mybs.png)
 
 Les courbes finales correspondant à ces acquisitions ont été obtenues en
 calculant la moyenne des courbes 100 à 116 pour le complexe Myb-court/ADN
@@ -45,23 +45,40 @@ la même région du chromatogramme.
 ![Figure : Courbes de SAXS des complexes Myb-court/ADN (deux réplicats en rouge et orange) et Myb-long/ADN (deux réplicats en bleu foncé et clair).](partie-3/figures/courbes-saxs-mybs.png)
 
 L'analyse de Guinier montre que les complexes Myb-court/ADN et Myb-long/ADN ont
-respectivement des Rg de 20 et 28 Å. La différence de Rg de 8 Å est clairement
-trop petite pour correspondre à 46 résidus supplémentaires complètement
-désordonnés (qui représenteraient environ 80 Å de long dans une conformation
-complètement étendue), ce qui suggère également que la portion de *linker* du
-Myb-long interagit avec l'ADN.
+respectivement des R~g~ de 20 et 28 Å. La différence de R~g~ de 8 Å est
+clairement trop petite pour correspondre à 46 résidus supplémentaires
+complètement désordonnés (qui représenteraient environ 80 Å de long dans une
+conformation complètement étendue), ce qui suggère également que la portion de
+*linker* du Myb-long interagit avec l'ADN.
 
 La représentation de Kratky normalisée [@durand2010] des courbes de diffusion
 des complexes Myb-court/ADN et Myb-long/ADN est montrée dans la figure
 ci-dessous :
 
-![Figure : Représentation de Kratky normalisée des courbes de diffusion des complexes Myb-court/ADN (rouge et orange) et Myb-long/ADN (bleu foncé et bleu clair). Le panneau de droite indique les courbes théoriques pour une chaine repliée compacte et une chaine complètement dépliée [d'après @durand2010].](partie-3/figures/kratky-plots-mybs-th.png)
+![Figure : Représentation de Kratky normalisée des courbes de diffusion des complexes Myb-court/ADN (rouge et orange) et Myb-long/ADN (bleu foncé et bleu clair). Le panneau de droite indique les courbes typiques de différents types de structuration [@receveur-brechot2012] : globulaire compacte (bleu), multi-domaines compacte (vert), multi-domaines flexible (rouge) et dépliée (gris et violet).](partie-3/figures/kratky-plots-mybs-th.png)
 
 Ces réprésentations indiquent que les deux complexes sont relativement compacts.
 Pour le complexe Myb-long/ADN, ceci signifie que le *linker* adopte une
 conformation non aléatoire et suggère donc qu'il interagit avec l'ADN.
 
-QUE PEUT-ON CONCLURE AVEC LES P(r) ?
+Les fonctions de distribution des distances des deux complexes (deuxième
+réplicat) sont présentées dans la figure ci-dessous :
+
+![Figure : Fonctions de distribution des distances des complexes Myb-court/ADN (orange) et Myb-long/ADN (bleu). Le panneau de droite rappelle les formes caractéristiques que peut prendre cette fonction [@receveur-brechot2012].](partie-3/figures/p-r-mybs-th.png)
+
+Ces courbes nous confirment que le *linker* du Myb-long est bien toujours
+présent dans l'échantillon analysé, ce qui est un contrôle nécessaire car ce
+type de région non repliée a souvent une propension à se dégrader. En revanche
+ces courbes ne donnent pas d'indication sur la flexibilité des objets.
+Les paramètres R~g~ et D~max~ calculés à partir des fonctions P(r) sont
+présentés dans le tableau suivant :
+
+Table: Tableau : R~g~ et D~max~ des complexes Myb-court/ADN et Myb-long/ADN.
+
+ **Complexe**     **R~g~ (Å)**    **D~max~ (Å)**
+---------------  --------------  ----------------
+ Myb-court/ADN      20,58           68,48
+ Myb-long/ADN       30,20           149,23
 
 
 ### Cristallographie
