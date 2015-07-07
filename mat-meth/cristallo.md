@@ -94,12 +94,15 @@ SOLEIL, sur les lignes de lumière PROXIMA 1 et 2. Les images de diffraction ont
 Les phases sont déterminées par remplacement moléculaire avec le logiciel PHASER
 [@mccoy2007] utilisé à travers l'interface de PHENIX [@adams2010]. Le modèle
 a été préparé à partir de l'entrée PDB 1W0U et contient un "mini-complexe" fait
-d'un Myb-court lié à un motif TAGGG (avec le brin complémentaire présent).
-Ce modèle a 100 % d'identité de séquence avec notre complexe. Le coefficient de
-Matthews est calculé avec l'outil `Matthews` [@matthews1968; @kantardjieff2003]
-de la suite CCP4 [@winn2011] et suggère que l'unité asymétrique contient deux
-copies du complexe entier. Nous cherchons donc quatre copies de ce modèle à un
-Myb dans l'unité asymétrique.
+d'un Myb-court lié à un motif TAGGG. Ce modèle a 100 % d'identité de séquence
+avec notre complexe, et est représenté dans la figure suivante :
+
+![Figure : Modèle de remplacement moléculaire utilisé pour résoudre la structure du complexe Myb-long/ADN. La protéine est colorée en jaune et l'ADN en gris.](mat-meth/figures/mr-model.png)
+
+Le coefficient de Matthews [@matthews1968; @kantardjieff2003] est calculé avec
+l'outil `Matthews` de la suite CCP4 [@winn2011] et suggère que l'unité
+asymétrique contient deux copies du complexe entier. Nous cherchons donc quatre
+copies de ce modèle à un Myb dans l'unité asymétrique.
 
 
 ## Affinement des modèles

@@ -83,9 +83,9 @@ Table: Tableau : R~g~ et D~max~ des complexes Myb-court/ADN et Myb-long/ADN.
 
 ### Cristallographie
 
-Afin de caractériser à l'échelle moléculaire le mode d'interaction avec l'ADN du
-Myb-long, nous avons étudié par cristallographie la structure tridimensionnelle
-du complexe qu'il forme avec l'ADN.
+Afin de caractériser à l'échelle moléculaire le mode d'interaction du Myb-long
+avec l'ADN, nous avons étudié par cristallographie la structure
+tridimensionnelle de ce complexe.
 
 
 #### Cristallisation
@@ -117,8 +117,8 @@ les oligonucléotides pour faire correspondre leur longueur et leurs extrémité
 (nombre et nature des bases sortantes) à celles qui sont le plus souvent
 observées dans les complexes protéine/ADN disponibles dans la PDB
 [@hol2011; @brown1996]. Cette démarche nous a conduit à concevoir des
-oligonucléotides de 20 pb avec une seule base sortante : T2-S5S6, T2-S5S7 et
-T2-S5S8 (cf. Matériel et méthodes).
+oligonucléotides de 20 pb avec une seule base sortante (A ou T) : T2-S5S6,
+T2-S5S7 et T2-S5S8 (cf. Matériel et méthodes).
 
 Afin de tester uniquement l'effet de l'oligonucléotide dans un premier temps,
 nous avons commencé par tester la meilleure condition dont nous disposions alors
@@ -126,11 +126,13 @@ nous avons commencé par tester la meilleure condition dont nous disposions alor
 que les cristaux les plus réguliers se forment avec l'oligonucléotide comportant
 des extrémités sortantes en 3' (T2-S5S7), et à 17 °C, mais le pouvoir de
 diffraction de ces cristaux n'était pas amélioré. Nous avons donc réalisé un
-nouveau crible plus restreint de 2x 48 conditions avec uniquement
-l'oligonucléotide T2-S5S7 et à 17 °C, en utilisant les conditions décrites dans
-[@pryor2012; @lebihan2013]. Une seule condition, la n° 48 de [@pryor2012],
-a permis d'obtenir des cristaux, mais à l'apparence meilleure que les précédents
-et de façon bien reproductible :
+nouveau crible plus restreint, uniquement avec l'oligonucléotide T2-S5S7 et à 17
+°C, en utilisant les 2x 48 conditions décrites par @pryor2012 et @lebihan2013
+comme étant optimisées pour la cristallisation de complexes protéine/ADN et
+domaines Myb/ADN, respectivement. Parmi ces conditions, seule la n° 48 du crible
+décrit par @pryor2012 nous a permis d'obtenir des cristaux. Ces cristaux ont une
+apparence meilleure que les précédents et apparaissent de façon bien
+reproductible :
 
 - extrémités 3'-sortantes (oligonucléotide T2-S5S7),
 - 17 °C,
@@ -148,33 +150,85 @@ L'apparence typique de ces cristaux est montrée dans la photo ci-dessous :
 #### Collecte et traitement des données
 
 Ces derniers cristaux nous ont permis d'obtenir plusieurs jeux de données à des
-résolutions allant de 1,8 à 2,2 Å de résolution, tous du groupe d'espace
-P 1 21 1. Ces jeux de données sont présentés dans le tableau ci-dessous, avec
-les statistiques de traitement des données :
+résolutions allant de 1,8 à 2,2 Å, tous du groupe d'espace P 1 21 1. Ces jeux de
+données sont présentés dans le tableau ci-dessous, avec les statistiques de
+traitement des données :
 
 Table: Tableau : Jeux de données cristallographiques et statistiques de
-traitement des données.
+traitement des données (les informations entre parenthèses concernent la tranche
+de plus haute résolution).
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- **Cristal**    **Maille (a, b, c Å et α, β, γ °)**    **Résolution (Å)**              **Nombre de réflexions**    **Complétude (%)**    **Rmeas (%)**    **CC1/2 (%)**
--------------  -------------------------------------  ------------------------------  --------------------------  --------------------  ---------------  ---------------
- Myb2           87.87 27.21 108.74 90 98.29 90         49.024 – 2.146 (2.28 – 2.15)    28718                       99.49                 8.5 (96.9)       99.9 (67.7)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Cristal**                           **Myb2**             **Myb9**             **Myb10**            **Myb31**            **Myb32**           **Myb34**
+------------------------------------ -------------------- -------------------  -------------------- -------------------- ------------------- --------------------
+**Maille**
+a, b, c Å                             87.87 27.21 108.74   89.23 28.43 110.6    89.12 28.47 110.44   89.07 28.22 110.71   89.0 28.37 110.62   89.16 28.45 110.42
+α, β, γ °                             90 98.29 90          90 99.5 90           90 99.42 90          90 99.49 90          90 99.479 90        90 99.36 90
 
- Myb9           89.23 28.43 110.6 90 99.5 90           44.003 – 1.991 (2.12 – 2.00)    38419                       99.35                 6.5 (119.1)      99.9 (81.6)
+**Résolution (Å)**                    49.024 – 2.146       44.003 – 1.991       43.959 – 2.093       43.926 – 2.198       43.89 – 1.789       43.986 – 1.788
+                                      (2.28 – 2.15)        (2.12 – 2.00)        (2.22 – 2.09)        (2.33 – 2.20)        (1.91 – 1.80)       (1.90 – 1.79)
 
- Myb10          89.12 28.47 110.44 90 99.42 90         43.959 – 2.093 (2.22 – 2.09)    32274                       96.79                 9.9 (108.8)      99.9 (70.0)
+**Nombre de réflexions uniques**      28718                38419                32274                28222                52467               51069
 
- Myb31          89.07 28.22 110.71 90 99.49 90         43.926 – 2.198 (2.33 – 2.20)    28222                       98.60                 12.8 (154.7)     99.7 (53.2)
+**Complétude (%)**                    99.49                99.35                96.79                98.60                99.44               96.42
 
- Myb32          89.0 28.37 110.62 90 99.479 90         43.89 – 1.789 (1.91 – 1.80)     52467                       99.44                 5.9 (176.7)      99.9 (63.0)
+**I/σ(I)**                            13.79 (1.77)         15.76 (1.60)         12.35 (1.72)         8.00 (1.12)          12.78 (0.95)        11.02 (0.93)
 
- Myb34          89.16 28.45 110.42 90 99.36 90         43.986 – 1.788 (1.90 – 1.79)    51069                       96.42                 5.3 (116.4)      99.8 (54.3)
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**R~meas~ (%)**                       8.5 (96.9)           6.5 (119.1)          9.9 (108.8)          12.8 (154.7)         5.9 (176.7)         5.3 (116.4)
 
-Le calcul du coefficient de Matthews [@matthews1968] suggère que l'unité
-asymétrique de ces cristaux contient deux copies du complexe. Les coefficients
-calculés pour le cristal Myb10 en supposant 1, 2 et 3 copies du complexe dans
-l'unité asymétrique sont présentés ci-dessous :
+**CC1/2 (%)**                         99.9 (67.7)          99.9 (81.6)          99.9 (70.0)          99.7 (53.2)          99.9 (63.0)         99.8 (54.3)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Les paramètres de maille proches (écart de moins de 2 % environ) indiquent que
+tous ces cristaux sont isomorphes.
+
+Le facteur *I/σ(I)* est le rapport signal sur bruit moyen de l'ensemble
+des réflexions.
+
+Le facteur R~meas~ mesure pour chaque réflexion l'écart entre son intensité et
+la moyenne des intensités obtenue avec toutes les mesures indépendantes de cette
+même réflexion, et ce de façon normalisée par rapport à la redondance des
+données [@diederichs1997]. Il se calcule par la formule suivante :
+
+$R_{meas} = \frac{\sum_{000}^{hkl} \sqrt{\frac{n}{n-1}} \sum_{i=1}^{n} |I_{i}(hkl) - \bar{I}(hkl)|}{\sum_{000}^{hkl} \sum_{i=1}^{n} I_{i}(hkl)}$
+
+où *I~i~(hkl)* est l'intensité mesurée pour la *i*-ème fois pour la réflexion
+d'indices (hkl), $\bar{I}(hkl)$ est la moyenne des intensités mesurées pour la
+réflexion d'indices (hkl) et *n* est la multiplicité (ou redondance) du jeu de
+données. Ce facteur est donc une mesure de la cohérence interne d'un jeu
+de données.
+
+Le facteur CC1/2 est le coefficient de corrélation entre deux demi-jeux de
+données sélectionnés au hasard depuis le jeu de données analysé [@karplus2012].
+À ce titre il est également une mesure de la cohérence interne d'un jeu de
+données. Il vaut 1 (100 %) à basse résolution où le rapport signal sur bruit est
+grand, et décroit vers la haute résolution.
+
+Puisque l'intensité diffractée diminue avec la résolution, les réflexions de
+haute résolution sont habituellement abandonnées à partir d'un des seuils
+suivants [@evans2011] :
+
+- R~meas~ dépasse 60-80 %,
+- le rapport signal sur bruit I/σ(I) tombe en dessous de 2 (pour des données non
+fusionnées) ou 1 (pour des données fusionnées),
+- le coefficient CC1/2 tombe en dessous de 50 %.
+
+Selon ces critères, les limites de résolution de nos jeux de données semblent
+raisonnables. Le coefficient CC1/2 dans la tranche de plus haute résolution
+suggère même que nous aurions pu choisir une limite plus haute pour les jeux de
+données Myb2, Myb9, Myb10 et Myb32.
+
+
+#### Résolution de la structure et affinement
+
+La structure 1W0U disponible dans la PDB a 100 % d'identité avec notre complexe,
+nous avons donc utilisé la méthode du remplacement moléculaire pour déterminer
+les phases (la préparation du modèle est décrite dans la partie Matériel et
+méthodes).
+
+Les coefficients de Matthews [@matthews1968] calculés pour le cristal Myb10 en
+supposant 1, 2 et 3 copies du complexe dans l'unité asymétrique sont présentés
+ci-dessous (les résultats pour les autres cristaux sont similaires) :
 
 ```
 Cell volume:        276434.844
@@ -187,34 +241,57 @@ ________________________________________________
 ________________________________________________
 ```
 
-
-#### Résolution de la structure et affinement
-
-La structure 1W0U disponible dans la PDB a 100 % d'identité avec notre complexe,
-nous avons donc choisi la méthode du remplacement moléculaire pour déterminer
-les phases (la préparation du modèle est décrite dans la partie Matériel et
-méthodes).
+Ces valeurs suggèrent que l'unité asymétrique du cristal contient deux copies du
+complexe, ce qui indique le nombre de copies à chercher dans la procédure de
+remplacement moléculaire (voir la partie Matériel et méthodes).
 
 Les résultats du remplacement moléculaire et du premier affinement (en corps
 rigide) sont présentés dans le tableau suivant.
 
-Table: Tableau : Résultats du remplacement moléculaire et premier affinement.
+Table: Tableau : Résultats du remplacement moléculaire et du premier affinement.
 
----------------------------------------------------------------------------------------------------------------------------------------
- **Cristal**    **Nombre de solutions**    **Groupe d'espace**    **Top LLG**     **Top TFZ (>8)**    **R-work (%)**    **R-free (%)**
--------------  -------------------------  ---------------------  -------------  -------------------  ----------------  ----------------
- Myb2            1                          P 1 21 1              2755.010        8.1                  34.58             40.40
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+**Cristal**               **Myb2**             **Myb9**             **Myb10**            **Myb31**            **Myb32**           **Myb34**
+------------------------ -------------------- -------------------  -------------------- -------------------- ------------------- --------------------
+**Nombre de solutions**     1                    1                    1                    1                    1                    1
 
- Myb9            1                          P 1 21 1              3841.366        21.1                 36.26             40.02
+**Groupe d'espace**         P 1 21 1             P 1 21 1             P 1 21 1             P 1 21 1             P 1 21 1             P 1 21 1
 
- Myb10           1                          P 1 21 1              3565.377        20.1                 34.22             38.38
+**Top LLG**                 2755.010             3841.366             3565.377             2989.351             4686.503             4706.498
 
- Myb31           1                          P 1 21 1              2989.351        20.0                 33.65             37.23
+**Top TFZ (>8)**            8.1                  21.1                 20.1                 20.0                 35.9                 20.5
 
- Myb32           1                          P 1 21 1              4686.503        35.9                 36.12             38.94
+**R~work~ (%)**             34.58                36.26                34.22                33.65                36.12                34.48
 
- Myb34           1                          P 1 21 1              4706.498        20.5                 34.48             38.17
----------------------------------------------------------------------------------------------------------------------------------------
+**R~free~ (%)**             40.40                40.02                38.38                37.23                38.94                38.17
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Le score LLG (*Log Likelihood Gain*) est une mesure de l'accord entre le modèle
+et les données expérimentales relativement à un modèle de même composition en
+atomes mais aux coordonnées aléatoires. Sa valeur augmente au cours de la
+procédure de remplacement moléculaire dans le cas d'une solution correcte (la
+valeur minimale visée par Phaser est 120).
+
+Le score TFZ (*translation function Z-score*) est un indicateur du résultat de
+la recherche par translation. Ce score compare la valeur de LLG obtenue après
+une translation donnée avec la valeur moyenne des LLG obtenus après des
+translations aléatoires. La documentation de Phaser indique qu'un score TFZ
+supérieur ou égal à 8 est fin de remplacement moléculaire désigne une
+solution certaine.
+
+Le facteur R est une mesure de l'accord entre les amplitudes des facteurs de
+structure calculés à partir du modèle (appelés F~calc~) et celles des facteurs
+de structure expérimentaux (appelés F~obs~), calculé selon la formule suivante :
+
+$R = \frac{\sum_{000}^{hkl} \sum_{000}^{hkl} ||F_{obs}|_{hkl} - |F_{calc}|_{hkl}|}{\sum_{000}^{hkl} \sum_{000}^{hkl} |F_{obs}|_{hkl}}$
+
+R~free~ est calculé avec 5 % des réflexions prises aléatoirement dans le jeu de
+données avant l'affinement, et qui par la suite ne sont jamais utilisées pour
+l'affinement. R~free~ est ainsi une mesure non biaisée de l'accord entre le
+modèle et les données expérimentales. R~work~ est calculé selon la même formule,
+avec le reste du jeu de données (c'est-à-dire les réflexions utilisées pour
+l'affinement). La valeur des facteurs R est d'autant plus petite que l'accord
+entre le modèle et les données expérimentales est bon.
 
 À ce stade, les quatre copies du modèle utilisé pour le remplacement moléculaire
 semblent correctement positionnées les unes par rapport aux autres. Les cartes
@@ -222,10 +299,15 @@ de densité électronique sont suffisamment interprétables pour permettre la
 construction complète de l'oligonucléotide, ce qui confirme que les positions
 relatives des modèles de départ sont correctes.
 
-Malheureusement, malgré tous nos efforts, nous n'observons aucune densité
-positive dans la région N-terminale de la protéine dans la carte de différence
-mFo-DFc. Nous avons pu au mieux ajouter quatre résidus en N-terminal du modèle
-affiné contre le jeu de données Myb10.
-
-COMPARER LES DIFFÉRENTES SOLUTIONS DE REMPLACEMENT MOLÉCULAIRE (?)
+Malheureusement, malgré tous nos efforts d'affinement, nous n'observons aucune
+densité positive dans la région N-terminale de la protéine dans la carte de
+différence mFo-DFc. Une explication possible vient du fait que les cristaux
+utilisés pour collecter ces données ont été obtenus plusieurs jours après la
+préparation du complexe (le temps nécessaire pour obtenir les premiers cristaux
+et affiner les conditions de cristallisation), ainsi il se peut que le *linker*
+se soit dégradé pendant la conservation à 4 °C du complexe en solution, et que
+nos cristaux ne contiennent que la forme courte du domaine Myb. Maintenant que
+la condition de cristallisation est bien définie, une nouvelle préparation de
+cristaux est en cours pour laquelle nous préparerons les gouttes de
+cristallisation dans l'heure qui suit la préparation du complexe.
 
