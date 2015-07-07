@@ -283,7 +283,7 @@ Le facteur R est une mesure de l'accord entre les amplitudes des facteurs de
 structure calculés à partir du modèle (appelés F~calc~) et celles des facteurs
 de structure expérimentaux (appelés F~obs~), calculé selon la formule suivante :
 
-$R = \frac{\sum_{000}^{hkl} \sum_{000}^{hkl} ||F_{obs}|_{hkl} - |F_{calc}|_{hkl}|}{\sum_{000}^{hkl} \sum_{000}^{hkl} |F_{obs}|_{hkl}}$
+$R = \frac{\sum_{000}^{hkl} ||F_{obs}|_{hkl} - |F_{calc}|_{hkl}|}{\sum_{000}^{hkl} |F_{obs}|_{hkl}}$
 
 R~free~ est calculé avec 5 % des réflexions prises aléatoirement dans le jeu de
 données avant l'affinement, et qui par la suite ne sont jamais utilisées pour

@@ -1,4 +1,4 @@
-# Mode d'interaction de TRF2 avec l'ADN
+# Partie 3 : Mode d'interaction de TRF2 avec l'ADN
 
 Comme nous l'avons vu dans l'introduction, le mode d'interaction de TRF2 avec
 l'ADN est complexe et ses propriétés ne s'expliquent pas uniquement par la
