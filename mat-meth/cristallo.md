@@ -23,13 +23,13 @@ probablement du complexe à une seule protéine, et les fractions 9, 10 et 11
 contiennent l'excès d'oligonucléotide libre).
 
 
-###Propriétés du complexe et de ses composants
+### Propriétés du complexe et de ses composants
 
 Pour la protéine, M~W~ et ε~280\ nm~ sont obtenus avec l'outil ProtParam
 (<http://web.expasy.org/protparam/>) et ε~260\ nm~ est estimé par la mesure d'un
 spectre d'absorption UV au Nanodrop. Il s'obtient comme suit avec les valeurs
 d'absorbance lues :
-$ε_{260 nm} = \frac{ε_{280 nm}}{A_{280 nm}} \times A_{260 nm}$.
+$ε_{260 nm} = ε_{280 nm} \times \frac{A_{260 nm}}{A_{280 nm}}$.
 
 Pour l'oligonucléotide, M~W~ est connue car on connait les masses molaires des
 deux brins hybridés (ces masses sont données par le fournisseur, ici
