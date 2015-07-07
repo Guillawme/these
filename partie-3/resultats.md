@@ -55,9 +55,9 @@ La représentation de Kratky normalisée [@durand2010] des courbes de diffusion
 des complexes Myb-court/ADN et Myb-long/ADN est montrée dans la figure
 ci-dessous :
 
-![Figure : Représentation de Kratky normalisée des courbes de diffusion des complexes Myb-court/ADN (rouge et orange) et Myb-long/ADN (bleu foncé et bleu clair). Le panneau de droite indique les courbes typiques de différents types de structuration [@receveur-brechot2012] : globulaire compacte (bleu), multi-domaines compacte (vert), multi-domaines flexible (rouge) et dépliée (gris et violet).](partie-3/figures/kratky-plots-mybs-th.png)
+![Figure : Représentation de Kratky normalisée des courbes de diffusion des complexes Myb-court/ADN (rouge et orange) et Myb-long/ADN (bleu foncé et bleu clair). Le panneau de droite indique les courbes typiques de différents niveaux de structuration [@receveur-brechot2012] : globulaire compacte (bleu), multi-domaines compacte (vert), multi-domaines flexible (rouge) et dépliée (gris et violet).](partie-3/figures/kratky-plots-mybs-th.png)
 
-Ces réprésentations indiquent que les deux complexes sont relativement compacts.
+Ces représentations indiquent que les deux complexes sont relativement compacts.
 Pour le complexe Myb-long/ADN, ceci signifie que le *linker* adopte une
 conformation non aléatoire et suggère donc qu'il interagit avec l'ADN.
 
