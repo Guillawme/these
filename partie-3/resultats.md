@@ -2,9 +2,9 @@
 
 ### Calorimétrie
 
-La titration calorimétrique des deux constructions Myb-court et Myb-long par un
-oligonucléotide double-brin contenant deux sites TAGGG (T2-S5S7) montre des
-profils très différents (figure ci-dessous) :
+La titration calorimétrique des deux constructions Myb-court et Myb-long par
+l'oligonucléotide double-brin T2-S5S7 (voir Matériel et méthodes) contenant deux
+sites TAGGG montre des profils très différents (figure ci-dessous) :
 
 ![Figure : Titration calorimétrique des constructions Myb-court (à gauche) et Myb-long (à droite) par l'oligonuclétoide T2-S5S7.](partie-3/figures/itc-mybs.png)
 
