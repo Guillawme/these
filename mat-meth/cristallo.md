@@ -17,7 +17,7 @@ présenté dans la figure ci-dessous :
 
 ![Figure : Chromatogramme d'exclusion stérique du complexe Myb-long/ADN. Absorbance à 280 nm en bleu, absorbance à 260 nm en rouge.](mat-meth/figures/myb-long_adn-sup75.png)
 
-Les fractions 3, 4 et 5 sont réunies et concentrées à environ 22 mg/mL en
+Les fractions 3, 4 et 5 sont réunies et concentrées à environ 23 mg/mL en
 complexe pour obtenir l'échantillon final (les fractions 7 et 8 contiennent
 probablement du complexe à une seule protéine, et les fractions 9, 10 et 11
 contiennent l'excès d'oligonucléotide libre).
