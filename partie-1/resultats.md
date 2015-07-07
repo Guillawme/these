@@ -200,6 +200,14 @@ Kratky, la fonction P(r) contient des informations structurales intéressantes :
 
 ![Figure : Formes caractéristiques de la fonction P(r) [@receveur-brechot2012].](partie-1/figures/pr-theoriques.png)
 
+La fonction de distribution des distances nous renseigne moins sur la
+flexibilité des objets (contrairement au graphe de Kratky), mais elle prend des
+formes caractéristiques de la forme de l'objet. La fonction P(r) d'une protéine
+globulaire est une gaussienne quasi-parfaite. Pour une protéine de forme plus
+allongée, la P(r) est asymétrique et présente un épaulement du côté des grandes
+distances. Cet épaulement devient même un second pic dans le cas où la protéine
+comporte deux domaines distincts séparés par une région rigide.
+
 Les fonctions de distribution des distances de nos protéines et complexes sont
 présentées dans la figure-ci dessous :
 
@@ -220,13 +228,13 @@ globulaires [elle tend à sous-estimer le R~g~ pour des protéines flexibles, vo
 
 Table: Tableau : R~g~, D~max~ et masses moléculaires des protéines et des complexes (nd : non déterminé).
 
- **Protéine ou complexe**     **Masse moléculaire théorique (kDa)**     **Masse moléculaire expérimentale (kDa)**     **Rg (Å)**    **Dmax (Å)**
---------------------------   ---------------------------------------   -------------------------------------------   ------------  --------------
-   TRF2                         56,6 x2                                   117                                           70,2          290
-   RAP1                         44,5                                      42,5                                          53,1          190
-   RAP1-RCT                     15,2                                      nd                                            32,0          130
-   TRF2/RAP1                    56,6 x2 + 44,5 x2                         200                                           85,4          345
-   TRF2/RAP1-RCT                56,6 x2 + 15,2 x2                         nd                                            67,8          265
+ **Protéine ou complexe**     **Masse moléculaire théorique (kDa)**     **Masse moléculaire expérimentale (kDa)**     **R~g~ (Å)**    **D~max~ (Å)**
+--------------------------   ---------------------------------------   -------------------------------------------   --------------  ----------------
+   TRF2                         56,6 x2                                   117                                           70,2            290
+   RAP1                         44,5                                      42,5                                          53,1            190
+   RAP1-RCT                     15,2                                      nd                                            32,0            130
+   TRF2/RAP1                    56,6 x2 + 44,5 x2                         200                                           85,4            345
+   TRF2/RAP1-RCT                56,6 x2 + 15,2 x2                         nd                                            67,8            265
 
 La fonction de distribution des distances sert ensuite de contrainte pour
 construire des modèles *ab inito* représentant la conformation moyenne
