@@ -91,7 +91,8 @@ dont on calcule l'enveloppe. Nous n'imposons pas de symétrie pour ces calculs.
 Le programme utilise une approche *ab initio* pour construire l'enveloppe : il
 agence les pseudo-résidus dans l'espace de façon à minimiser l'écart entre la
 P(r) calculée à partir du modèle et la P(r) obtenue à partir de la courbe de
-diffusion expérimentale.
+diffusion expérimentale, tout en conservant autant que possible un agencement
+en chaine des pseudo-résidus.
 
 Une fois que les 100 enveloppes issues de calculs indépendants sont prêtes, nous
 sélectionnons les meilleures selon les deux critères suivants :

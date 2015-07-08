@@ -49,14 +49,14 @@ RAP1, et que d'autres régions de RAP1 et de TRF2 sont certainement impliquées.
 Par ces deux approches nos collaborateurs ont pu ainsi mettre en évidence que
 RAP1 modifie les propriétés de TRF2, et que cet effet de RAP1 dépend de la
 présence de sa région N-terminale (communication personnelle de Marie-Josèphe
-Giraud-Panis et figure ci-dessous).
+Giraud-Panis, figure ci-dessous et article en annexe).
 
 ![Figure : **Effets de RAP1 sur les propriétés d'interaction de TRF2 avec l'ADN.** **À gauche** : la condensation de l'ADN par TRF2 est affectée par RAP1 (comparer le panneau central au panneau du haut) mais pas par RAP1-RCT (comparer le panneau du bas au panneau du haut). L'axe vertical représente la longueur apparente de l'ADN (en nm, la ligne pointillée jaune situe la longueur de l'ADN libre), l'axe horizontal représente le volume du complexe (en nm^3^), et le code couleur représente la fréquence d'observation d'un complexe de longueur apparente d'ADN et de volume donnés. **À droite** : TRF2 protège la jonction de Holliday contre le clivage par les enzymes GEN1 (comparer les pistes 2 et 4) et CCE1 (comparer les pistes 12 et 14), l'interaction de RAP1 avec TRF2 abolit cette protection (pistes 5 à 9). RAP1 abolit aussi la protection d'un mutant de TRF2 délété du motif RBM (pistes 16 à 20).](partie-1/figures/afm-et-protection-hj.png)
 
-Pour tenter de comprendre au niveau structural comment RAP1 interagit avec TRF2
-et module ainsi ses propriétés, dans cette première partie nous avons étudié en
-détails l'interaction entre TRF2 et RAP1 par des méthodes de biochimie et de
-biophysique, ce qui nous a permis de mettre en évidence un mode d'interaction
-entre les deux protéines plus complexe que celui décrit précédemment
-[@chen2011; @janoukova2015].
+Pour tenter de comprendre à l'échelle moléculaire comment RAP1 interagit avec
+TRF2 et module ainsi ses propriétés, dans cette première partie nous avons
+étudié en détails l'interaction entre TRF2 et RAP1 par des méthodes de
+biochimie, de biophysique et de biologie structurale, ce qui nous a permis de
+mettre en évidence un mode d'interaction entre les deux protéines plus complexe
+que ce que les données disponibles décrivaient [@chen2011; @janoukova2015].
 

@@ -1,26 +1,27 @@
 ## Discussion
 
-Notre étude poussée de l'interaction entre TRF2 et RAP1 entières a révélé un
-mode d'interaction complexe qui n'était pas anticipé d'après les données
-disponibles sur les domaines isolés [@chen2011]. Au cours de cette étude nous
-avons dû mettre en oeuvre des approches complémentaires sans lesquelles la
-compréhension de l'interaction entre les protéines entières aurait été très
-difficile. Ces approches sont discutées dans les paragraphes suivants, ainsi que
-quelques voies de recherche potentiellement ouvertes par nos résultats.
+Notre étude de l'interaction entre TRF2 et RAP1 entières a révélé un mode
+d'interaction complexe qui n'était pas anticipé d'après les données disponibles
+sur les domaines isolés [@chen2011]. Au cours de cette étude nous avons mis en
+oeuvre des approches complémentaires sans lesquelles la compréhension de
+l'interaction entre les protéines entières aurait été très difficile.
+Ces approches sont discutées dans les paragraphes suivants, ainsi que quelques
+voies de recherche potentiellement ouvertes par nos résultats.
 
 
 ### Mise en évidence de la transition mineure dans la courbe de titration
 
 Un article récemment publié [@janoukova2015] rapporte l'étude de l'interaction
-entre TRF2 et RAP1 entière et montre une courbe de titration calorimétrique
+entre TRF2 et RAP1 entières et montre une courbe de titration calorimétrique
 à une seule transition, typique d'une interaction à un seul site de liaison.
-Cependant cette mesure a été réalisée dans des conditions très différentes des
-nôtres. Ces différences sont résumées dans le tableau suivant :
+Il est intéressant de remarquer les différences entre les conditions
+expérimentales de cette titration et de notre titration, résumées dans le
+tableau suivant :
 
 Table: Tableau : Conditions expérimentales de la titration calorimétrique de TRF2 par RAP1.
 
 ---------------------------------------------------------------------------------
- **Condition**           **[@janoukova2015]**           **Notre étude**
+ **Condition**           **@janoukova2015**             **Notre étude**
 ----------------------  -----------------------------  --------------------------
    [TRF2] (monomères)      5 μM (cuve)                    13 μM (cuve)
 
@@ -48,7 +49,14 @@ ci-dessous) :
 
 Pour cette raison nous avons réalisé toutes nos expériences dans des conditions
 de température et de force ionique les plus proches possible de celles de notre
-titration calorimétrique.
+titration calorimétrique. Les concentrations en protéines plus élevées dans nos
+conditions sont aussi plus favorables à la détection d'une interaction
+secondaire de basse affinité.
+
+Ces différences montrent clairement que l'étude d'assemblages protéiques
+complexes par calorimétrie nécessite d'évaluer systématiquement les effets de la
+température et des concentrations en protéines pour pouvoir détecter toutes les
+transitions associées au mode d'assemblage.
 
 
 ### Convergence des résultats et corrélation avec la conservation des protéines
@@ -56,7 +64,7 @@ titration calorimétrique.
 Les résultats obtenus par nos différentes approches dans des conditions
 expérimentales proches convergent, ce qui démontre leur validité. Nos résultats
 sont également appuyés par la conservation du motif TBM de RAP1 : le consensus
-`YRL` [défini par @kim2009] est présent chez 12 des 14 espèces de vertébrés dont
+`YRL` défini par @kim2009 est présent chez 12 des 14 espèces de vertébrés dont
 nous avons aligné les séquences (conservé chez les mammifères et les amphibiens,
 absent chez les poissons et les oiseaux). La conservation du motif TBM de RAP1
 est présentée dans la figure suivante :
@@ -188,7 +196,7 @@ s'avère trop soluble (les cribles de conditions de cristallisation contiennent
 majoritairement des gouttes claires, même à une concentration en protéine
 d'environ 100 mg/mL). En revanche cette grande solubilité fait de cette
 construction un outil bien adapté à une étude par RMN, d'autant plus que la
-structure du domaine Myb (résidus 132 à 191) a été résolue par RMN
+structure du domaine Myb (résidus 132 à 191) a déjà été résolue par RMN
 [@hanaoka2001] et son attribution est disponible.
 
 Ces considérations sur le domaine BRCT de RAP1 et sur son rôle à travers
