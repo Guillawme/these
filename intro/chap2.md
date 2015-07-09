@@ -14,18 +14,18 @@ L'extrémité simple-brin et la nature répétée des séquences télomériques 
 possible la formation d'une structure en boucle appelée la *t-loop*, représentée
 dans la figure ci-dessous :
 
-![Figure : La *t-loop*. Panneau en haut à gauche de [@griffith1999] ; panneau en haut à droite de [@doksani2013], la barre équivaut à 0,4 μm ;  panneau du bas de [@palm2008].](intro/figures/t-loop.jpg)
+![Figure : La *t-loop*. En haut à gauche, cliché de microscopie électronique [@griffith1999]. En haut à droite, cliché de microscopie STORM [*stochastic optical reconstruction microscopy* ; @doksani2013], la barre d'échelle équivaut à 400 nm. En bas, le modèle de la *t-loop* [@palm2008].](intro/figures/t-loop.jpg)
 
 Cette structure a été mise en évidence pour la première fois par microscopie
 électronique [@griffith1999], purifiée à partir de cellules HeLa fixées par un
 traitement au psoralène et aux UV (le psoralène est un intercalant de l'ADN qui
 induit des pontages covalents inter-brins lorsqu'il est irradié aux UV).
-Le modèle actuel de formation de la *t-loop* propose que la molécule d'ADN se
-replie vers l'arrière et que l'extrémité simple-brin envahit la région
-double-brin et s'apparie au brin C (panneau du bas dans la figure). Ce modèle
-suggère également que la *t-loop* est une solution pour la protection des
-extrémités contre les systèmes de réparation des cassures double-brin : elle
-bloque physiquement l'accès à l'extrémité de la molécule d'ADN [@griffith1999].
+Selon le modèle actuel de formation de la *t-loop*, la molécule d'ADN se replie
+vers l'arrière et l'extrémité simple-brin envahit la région double-brin et
+s'apparie au brin C (panneau du bas dans la figure). Ce modèle suggère également
+que la *t-loop* est une solution pour la protection des extrémités contre les
+systèmes de réparation des cassures double-brin : elle bloque physiquement
+l'accès à l'extrémité de la molécule d'ADN [@griffith1999].
 
 Plus récemment, la *t-loop* a pu être visualisée dans des cellules de souris
 sans extraction ni purification, par une technique de microscopie de
@@ -33,40 +33,41 @@ fluorescence dite à "super-résolution" avec laquelle le mode d'acquisition et 
 traitement des images résultantes permet d'observer des objets plus petits que
 la limite due à la diffraction [@doksani2013]. Il est donc clair que la *t-loop*
 existe *in vivo*, en revanche son temps de vie et sa dynamique d'ouverture et de
-fermeture sont encore mal caractérisés. Ces questions sont importantes pour
-comprendre comment la *t-loop* peut réguler l'accès à l'extrémité de la molécule
-d'ADN pour permettre l'élongation par la télomérase.
+fermeture au cours du cycle cellulaire sont encore mal caractérisés.
+Ces questions sont importantes pour comprendre comment la *t-loop* peut réguler
+l'accès à l'extrémité de la molécule d'ADN pour permettre l'élongation par
+la télomérase.
 
 
 ## Les protéines télomériques forment le complexe *shelterin*
 
 Chez les vertébrés, en plus des nucléosomes, l'ADN télomérique est lié par un
-complexe de protéines spécifiques appelé le *shelterin* [@delange2005].
-Ces protéines sont associées aux télomères pendant toutes les phases du cycle
-cellulaire, elles sont absentes ou très peu abondantes dans les autres régions
-du noyau, et leurs fonctions principales connues sont télomériques (c'est-à-dire
-que le phénotype observé suite à leur délétion ou mutation est essentiellement
-télomérique).
+complexe de protéines spécifiques appelé le complexe *shelterin* [@delange2005]
+ou télosome [@liu2004]. Ces protéines sont associées aux télomères pendant
+toutes les phases du cycle cellulaire, elles sont absentes ou très peu
+abondantes dans les autres régions du noyau, et leurs fonctions principales
+connues sont télomériques (c'est-à-dire que le phénotype observé suite à leur
+délétion ou mutation est essentiellement télomérique).
 
 Les 6 protéines qui forment ce complexe sont (dans l'ordre de leur découverte) :
 
-- TRF1 : *telomere repeat-binding factor 1*, identifié initialement par son
+- TRF1 : *telomere repeat-binding factor 1*, identifiée initialement par son
   affinité et sa spécificité *in vitro* pour les répétitions télomériques
   double-brin [@zhong1992], et dont la localisation télomérique a été confirmée
   peu de temps après par immunofluorescence [@chong1995] ;
-- TRF2 : *telomere repeat-binding factor 2*, identifié initialement par sa
+- TRF2 : *telomere repeat-binding factor 2*, identifiée initialement par sa
   similarité de séquence avec TRF1 et ses propriétés similaires de liaison
   à l'ADN [@bilaud1996], et dont la localisation télomérique a été confirmée de
   la même façon [@bilaud1997] ;
-- TIN2 : *TRF1-interacting factor 2*, identifié initialement comme un partenaire
+- TIN2 : *TRF1-interacting factor 2*, identifiée initialement comme un partenaire
   de TRF1 dans un crible de double-hybride, localisé aux télomères et dont les
   mutations provoquent des phénotypes télomériques [@kim1999] ;
-- RAP1 : *repressor/activator protein 1*, identifié initialement comme un
+- RAP1 : *repressor/activator protein 1*, identifiée initialement comme un
   partenaire de TRF2 dans un crible de double-hybride, et par sa similarité de
   séquence avec scRap1 [@li2000] ;
-- POT1 : *protection of telomeres 1*, identifié initialement par sa similarité
+- POT1 : *protection of telomeres 1*, identifiée initialement par sa similarité
   de séquence avec les protéines TEBP des ciliés [@baumann2001] ;
-- TPP1 : *POT1-binding partner*, identifié indépendamment dans trois études
+- TPP1 : *POT1-binding partner*, identifiée indépendamment dans trois études
   comme un partenaire de TIN2 et POT1 et nécessaire pour le recrutement de POT1
   aux télomères [@liu2004; @ye2004; @houghtaling2004].
 
@@ -74,7 +75,7 @@ Toutes ces protéines sont organisées en domaines multiples connectés par des
 régions flexibles. La figure suivante donne un aperçu des domaines dont une
 structure tridimensionnelle est disponible à ce jour :
 
-![Figure : (A) Domaines structuraux des protéines du *shelterin* [modifié à partir de @palm2008]. Les hélices sont colorées en vert, les feuillets en bleu et les boucles en rouge ; l'ADN est coloré en gris. Les représentations des domaines ont été produites à partir des entrées PDB 3BUA, 1W0U, 3K6G, 1FEX, 2I46 et 1XJV. (B) Représentation schématique du complexe *shelterin* d'après les connaissances actuelles [@palm2008].](intro/figures/domaines-prots-shelterin.png)
+![Figure : (A) Domaines structuraux des protéines du *shelterin* [adapté de @palm2008]. Les hélices sont colorées en vert, les feuillets en bleu et les boucles en rouge ; l'ADN est coloré en gris. Les représentations des domaines ont été produites à partir des entrées PDB 3BUA, 1W0U, 3K6G, 1FEX, 2I46 et 1XJV. (B) Représentation schématique du complexe *shelterin* d'après les connaissances actuelles [@giraud-panis2013].](intro/figures/domaines-prots-shelterin.png)
 
 TRF1 et TRF2 s'assemblent en homodimères par leur domaine TRFH (*TRF homology*)
 et lient les répétitions télomériques double-brin par leur domaine Myb.
@@ -101,8 +102,9 @@ facteur 10 est sans impact sur les quantités de TRF1, TIN2, TPP1 et POT1 aux
 télomères, ce qui suggère l'existence de sous-complexes plus ou moins
 indépendants du *shelterin*. Cette déplétion de TRF2 diminue notablement la
 quantité de RAP1 télomérique, mais n'affecte que peu la quantité de RAP1
-cytosolique, ce qui suggère des fonctions extra-télomériques pour RAP1
-[@kabir2010; @martinez2011; @ghosh2012].
+cytosolique, ce qui suggère pour RAP1 des fonctions extra-télomériques
+indépendantes de son interaction avec TRF2 [@kabir2010; @martinez2011;
+@ghosh2012].
 
 Il a été montré que le complexe *shelterin* se lie préférentiellement aux
 régions contenant une jonction double-brin/simple-brin, c'est-à-dire avec un
@@ -112,10 +114,10 @@ possèdent cette spécificité de liaison : un complexe contenant les six proté
 du *shelterin*, et un autre qui ne contient pas TRF1. Puisque les télomères
 contiennent peu de ces sites de haute affinité, et bien plus de sites de plus
 faible affinité (répétitions télomériques double-brin éloignées des sites de
-liaison de POT1), on suppose que les sites de haute affinité permettent de
-positionner le complexe aux endroits critiques du télomère où il peut ainsi lier
-et rapprocher physiquement l'extrémité simple-brin et la région double-brin et
-ainsi favoriser la formation de la *t-loop* [@choi2011].
+liaison de POT1), les auteurs supposent que les sites de haute affinité
+permettent de positionner le complexe aux endroits critiques du télomère où il
+peut ainsi lier et rapprocher physiquement l'extrémité simple-brin et la région
+double-brin et ainsi favoriser la formation de la *t-loop* [@choi2011].
 
 
 ## Les facteurs télomériques accessoires
@@ -145,13 +147,15 @@ motif appelé TBM (*TRFH-binding motif*) de séquence consensus `FxLxP` pour le
 domaine TRFH de TRF1 [@chen2008] et `YxLxP` [@chen2008] ou `YRL` [@kim2009] pour
 le domaine TRFH de TRF2. D'autres modes de recrutement existent très
 probablement puisque de nombreux facteurs accessoires sont recrutés par les
-autres protéines télomériques qui ne possèdent pas de domaine TRFH.
+autres protéines télomériques qui ne possèdent pas de domaine TRFH, et au niveau
+des *linkers* de TRF1 et TRF2 qui sont également des régions d'interaction
+protéine-protéine.
 
 
 ## Régulation de la télomérase par les protéines télomériques
 
 La télomérase agit préférentiellement sur les télomères courts. Cette propriété
-a été mise en évidence pour la première fois chez la levue *Saccharomyces
+a été mise en évidence pour la première fois chez la levure *Saccharomyces
 cerevisiae* et a conduit au modèle du "comptage protéique" [*protein counting
 model of telomere length regulation* ; @marcand1997]. Selon ce modèle, le
 télomère est enrichi en répresseurs de la télomérase et un télomère long possède
@@ -193,6 +197,19 @@ autres phénotypes provoqués par l'absence du *shelterin*, les auteurs ont étu
 des cellules chez lesquelles la ligase 4 est inactivée (Lig4^-/-^) : dans ce
 contexte génétique les fusions de chromosomes sont plus rares mais tout de même
 possibles, ce qui suggère que la voie NHEJ alternative est aussi active (a-NHEJ,
-dépendant de PARP1 et la ligase 3), et qui est confirmé par l'augmentation de la
-fréquence des fusions dans des cellules délétées de Ku80 (qui réprime le
-a-NHEJ). 
+dépendant de PARP1 et la ligase 3). L'ensemble de leurs résultats leur permet
+d'identifier quelles protéines du *shelterin* répriment chaque voie menaçant
+l'intégrité des télomères :
+
+- la voie DDR initiée par ATM est réprimée par TRF2,
+- la voie DDR initiée par ATR est réprimée par POT1,
+- la voie NHEJ classique est réprimée par TRF2 et POT1,
+- la recombinaison homologue est réprimée par RAP1 et POT1,
+- la voie NHEJ alternative et la dégradation de l'extrémité 5' par des
+  exonucléases sont réprimées de façon redondante par plusieurs des protéines du
+  *shelterin*.
+
+TRF2 et RAP1 sont critiques pour la répression de la signalisation DDR par ATM,
+de la voie NHEJ et de la recombinaison homologue. Le chapitre suivant résume les
+connaissances actuelles sur ces deux protéines.
+
