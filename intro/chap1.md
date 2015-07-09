@@ -123,7 +123,7 @@ ou son ancêtre [@nosek2006].
 La linéarité des chromosomes confère un avantage en rendant possible la méiose,
 mais elle pose aussi deux problèmes principaux : la réplication des extrémités,
 et la protection des extrémités contre la dégradation par des nucléases et
-contre les fusions. Dans les deux paragraphes suivants nous expliquerons les
+contre les fusions. Dans les paragraphes suivants nous expliquerons les
 principales causes de ces deux problèmes.
 
 
@@ -147,7 +147,7 @@ en effet parcourir tout le brin une fois la synthèse initiée), et elle est en
 avance par rapport à celle de l'autre nouveau brin qui est appelé quant à lui le
 brin "tardif" (aussi appelé le "brin anti-sens"). La synthèse du brin tardif
 nécessite plusieurs amorces car le brin servant de matrice est orienté de 5'
-vers 3' et la polymèrase chargée de la synthèse de ce brin doit progresser dans
+vers 3' et la polymérase chargée de la synthèse de ce brin doit progresser dans
 le sens opposé au sens de progression de la fourche de réplication.
 
 La réplication des extrémités d'un chromosome est présentée dans la figure
@@ -193,16 +193,19 @@ autres travaux initiaux sur la biologie des télomères ont valu un prix Nobel e
 
 La télomérase fonctionnelle est un complexe ribonucléoprotéique [@greider1987]
 composé d'une sous-unité protéique appelée TERT (*telomerase reverse
-transcriptase*), d'une sous-unité d'ARN appelée TERC (*telomerase RNA
-component*) et de protéines accessoires. TERC sert de matrice pour la synthèse
-des répétitions télomériques par TERT. La première structure tridimensionnelle
-d'une sous-unité TERT entière a montré que cette enzyme a un repliement
-similaire à celui de rétro-transcriptases virales telle que celle du VIH
-[@gillis2008]. La structure de la même enzyme en complexe avec un hybride
-ADN/ARN mimant le produit de synthèse a quant à elle fourni des informations sur
-le mécanisme de synthèse des répétitions télomériques [@mitchell2010].
+transcriptase*), d'une sous-unité d'ARN appelée TR (*telomerase RNA*) ou TERC
+(*telomerase RNA component*) et de protéines accessoires. La télomérase humaine
+est représentée schématiquement dans la figure suivante :
 
-Le mécanisme de synthèse des répétitions télomériques est représenté
+![Figure : Représentation schématique de la télomérase humaine [@gomez2012].](intro/figures/telomerase.png)
+
+TERC sert de matrice pour la synthèse des répétitions télomériques par TERT.
+La première structure tridimensionnelle d'une sous-unité TERT entière a montré
+que cette enzyme a un repliement similaire à celui de rétro-transcriptases
+virales telle que celle du VIH [@gillis2008]. La structure de la même enzyme en
+complexe avec un hybride ADN/ARN mimant le produit de synthèse a quant à elle
+fourni des informations sur le mécanisme de synthèse des répétitions
+télomériques [@mitchell2010]. Ce mécanisme de synthèse est représenté
 schématiquement dans la figure suivante :
 
 ![Figure : Synthèse des répétitions télomériques par la télomérase [@collins2011].](intro/figures/telomerase-synthese.png)
@@ -240,7 +243,7 @@ ceux maintenus par la télomérase (respectivement entre 12 et 48 kb, et autour 
 6 kb), et présentent une plus grande hétérogénéité de longueur, comme le montre
 la figure suivante. La méthode de mesure de la longueur des télomères la plus
 couramment utilisée dans la littérature est appelée *terminal restriction
-fragment lenght analysis* [@kimura2010], et s'exécute avec les étapes
+fragment length analysis* [@kimura2010], et s'exécute avec les étapes
 suivantes : extraction et purification de l'ADN génomique, digestion par des
 enzymes de restriction, séparation des fragments de restriction par
 électrophorèse, transfert sur une membrane, hybridation d'une sonde
@@ -256,12 +259,24 @@ sont schématisés dans la figure suivante :
 
 ![Figure : Modèles actuels de l'élongation des télomères par la voie ALT [adapté de @cesare2010].](intro/figures/modeles-alt.png)
 
-Ces deux modèles du mécanisme de la voie ALT impliquent des échanges de brins
-entre chromosomes homologues ou chromatides soeurs. Ceci signifie que des
-structures d'ADN similaires à des intermédiaires de la recombinaison homologue
-(comme la jonction de Holliday, une structure branchée à quatre brins) sont
-formées aux télomères allongés par cette voie.
+Le premier modèle fait intervenir un échange inégal de chromatides soeurs (A) :
+en phase G2 les chromosomes sont entièrement répliqués et des événements de
+recombinaison peuvent se produire entre chromatides soeurs (indiqués par la
+croix entre les deux chromatides). Des jonctions de Holliday sont formées entre
+les deux chromatides, et leur résolution conduit à des échanges de portions
+d'ADN de longueurs potentiellement différentes. La cellule fille qui reçoit les
+chromosomes aux telomères long conserve donc une grande capacité à proliférer,
+contrairement à celle qui hérite les télomères courts.
 
+Dans le deuxième modèle, dit de réplication dépendante de la recombinaison (B),
+l'extrémité simple-brin 3'-sortante d'un télomère envahit la région double-brin
+d'un autre télomère en formant une jonction de Holliday, et utilise cet autre
+télomère comme matrice pour la machinerie de réplication. Le brin complémentaire
+est ensuite complété pour reconstituer la région double-brin du télomère.
+Cette voie conduit à un allongement net des télomères.
+
+
+## Autres solutions évolutives au problème de la réplication
 
 ### Les rétro-transposons de *Drosophila*
 
