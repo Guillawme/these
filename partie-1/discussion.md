@@ -23,9 +23,9 @@ Table: Tableau : Conditions expérimentales de la titration calorimétrique de T
 ---------------------------------------------------------------------------------
  **Condition**           **@janoukova2015**             **Notre étude**
 ----------------------  -----------------------------  --------------------------
-   [TRF2] (monomères)      5 μM (cuve)                    13 μM (cuve)
+ \[TRF2\] (monomères)      5 μM (cuve)                    13 μM (cuve)
 
-   [RAP1]                  44 μM (seringue)               130 μM (seringue)
+ \[RAP1\]                  44 μM (seringue)               130 μM (seringue)
 
    Injections              10 μL                          10 μL
    
