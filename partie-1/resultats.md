@@ -487,7 +487,7 @@ dans la figure suivante :
 
 Sur la base des résultats des expériences d'empreinte et de l'interaction du
 motif TBM de RAP1 avec le domaine TRFH de TRF2, nous avons construit
-manuellement [avec le logiciel PyMOL ; @schroedinger2010] un modèle du
+manuellement [avec le logiciel PyMOL ; @schroedingerllc2010] un modèle du
 positionnement relatif du domaine TRFH de TRF2 et de la région N-terminale de
 RAP1 dans le complexe formé par les protéines entières. Ce modèle est présenté
 dans la figure suivante :
