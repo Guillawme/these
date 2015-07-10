@@ -654,8 +654,3 @@ présentée schématiquement dans la figure ci-dessous :
 
 ![Figure : Complexe télomérique de *S. pombe* [@giraud-panis2013].](intro/figures/cplx-telo-pombe.png)
 
-
-### Chez les vertébrés
-
-Prochaine partie.
-
