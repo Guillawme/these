@@ -145,11 +145,12 @@ domaine d'homodimérisation mais aussi d'interactions protéine-protéine.
 Le domaine TRFH est en effet capable de recruter des partenaires contenant un
 motif appelé TBM (*TRFH-binding motif*) de séquence consensus `FxLxP` pour le
 domaine TRFH de TRF1 [@chen2008] et `YxLxP` [@chen2008] ou `YRL` [@kim2009] pour
-le domaine TRFH de TRF2. D'autres modes de recrutement existent très
-probablement puisque de nombreux facteurs accessoires sont recrutés par les
-autres protéines télomériques qui ne possèdent pas de domaine TRFH, et au niveau
-des *linkers* de TRF1 et TRF2 qui sont également des régions d'interaction
-protéine-protéine.
+le domaine TRFH de TRF2. D'autres modes de recrutement existent puisque de
+nombreux facteurs accessoires sont recrutés par les autres protéines
+télomériques qui ne possèdent pas de domaine TRFH, et au niveau des *linkers* de
+TRF1 et TRF2 qui sont également des régions d'interaction protéine-protéine.
+En revanche ces modes de recrutement ne sont pas encore décrits au
+niveau moléculaire.
 
 
 ## Régulation de la télomérase par les protéines télomériques
