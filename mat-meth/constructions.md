@@ -223,3 +223,7 @@ Les peptides proviennent tous du fournisseur Eurogentec.
 
 > **RAP1-TBM** (89-106)
 > ENRERLELEAYRLGPASA
+
+> **TIN2-TBM** (248-265)
+> THPEPLAGRHFNLAPLGR
+

@@ -25,21 +25,19 @@ Table: Tableau : Conditions expérimentales des titrations calorimétriques.
 
  TRF2 13 μM             RAP1-ARAGA 130 μM     A             283                    10
 
- TRF2 13 μM             Apollo-YLP 130 μM     A             283                    10
+ TRF2 13 μM             Apollo-TBM 130 μM     A             283                    10
 
- TRFH 25 μM             RAP1-YLP 250 μM       B             279, 283, 293          10
+ TRFH 25 μM             RAP1-TBM 250 μM       B             279, 283, 293          10
 
- TRF2/RAP1 13 μM        Apollo-YLP 130 μM     A             283                    10
+ TRF2/RAP1 13 μM        Apollo-TBM 130 μM     A             283                    10
 
- Apollo-YLP 25 μM       TRFH 250 μM           B             293                    10
+ Apollo-TBM 25 μM       TRFH 250 μM           B             293                    10
 
- TRF2 27 μM             TIN2-YLP 270 μM       A             283                    1,5 (iTC200)
+ TRF2 27 μM             TIN2-TBM 270 μM       A             283                    1,5 (iTC200)
 
- TRF2/RAP1 27 μM        TIN2-YLP 270 μM       A             283                    1,5 (iTC200)
+ TRF2/RAP1 27 μM        TIN2-TBM 270 μM       A             283                    1,5 (iTC200)
 
  B-TRFH 30 μM           RAP1_1-208 300 μM     C             283, 293, 303          10
-
- TRF2/RAP1 30 μM        CtIP-Phos 300 μM      C             283, 293               10
 
  WRN-RQC 9 μM           T2-S5S6 148 μM        C             293                    10
 
