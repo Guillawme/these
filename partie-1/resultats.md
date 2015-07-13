@@ -55,7 +55,30 @@ disponibles dans la littérature [@chen2011; @janoukova2015].
 
 ![Figure : Titration calorimétrique de TRF2 par RAP1 (panneau de gauche) et par RAP1-RCT (panneau de droite).](partie-1/figures/itc-t2-r1-rct.png)
 
-Nous obtenons les affinités suivantes :
+La comparaison des différents paramètres thermodynamiques de ces interactions
+(tableau suivant) nous permet de confirmer que la transition majeure correspond
+bien à la liaison du domaine RCT de RAP1 à la région RBM de TRF2.
+
+Table: Tableau : Comparaison des paramètres thermodynamiques des interactions
+TRF2/RAP1-RCT et TRF2/RAP1 (a : transition majeure ; b : transition mineure).
+
+--------------------------------------------------------
+ **Paramètre**      **TRF2/RAP1-RCT**    **TRF2/RAP1**
+-----------------  -------------------  ----------------
+  K~A~ (M^-1^)        2.10^10^             2.10^10^ (a)
+                                           2.10^6^  (b)
+
+ ΔG (kcal/mol)        -13,2                -13,2    (a)
+                                           -8,1     (b)
+
+ ΔH (kcal/mol)        -7,4                 -6,2     (a)
+                                            1       (b)
+
+ T.ΔS (kcal/mol)       6,1                  7,07    (a)
+                                            9,1     (b)
+--------------------------------------------------------
+
+Nous obtenons les K~D~ suivants :
 
 - TRF2/RAP1-RCT : K~D~ ≃ 1 nM (la valeur est approximative car il y a peu de
   points dans la région d'inflexion de la sigmoïde),
