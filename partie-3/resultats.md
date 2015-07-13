@@ -10,8 +10,11 @@ sites TAGGG montre des profils très différents (figure ci-dessous) :
 
 Du fait d'une grande incertitude sur la concentration du lot d'oligonucléotide
 utilisé pour cette expérience, nous n'avons pas pu calculer les constantes
-d'équilibre de dissociation de façon fiable. Ces titrations seront reproduites
-très prochainement avec un lot d'oligonucléotide précisément dosé.
+d'équilibre de dissociation de façon fiable. Le thermogramme de la titration du
+Myb-court contient aussi des artéfacts de dilution probablement dus à une
+différence de composition entre le tampon de la seringue et celui de la cuve.
+Ces titrations seront reproduites très prochainement avec un lot
+d'oligonucléotide précisément dosé.
 
 Il est toutefois intéressant de noter que les thermogrammes montrent des pics
 positifs dans le cas du Myb-court (la variation d'enthalpie ΔH est positive,
@@ -32,7 +35,7 @@ constant tout le long du chromatogramme, ce qui montre la très bonne homogéné
 des échantillons (un des deux réplicats de chaque complexe est présenté dans la
 figure ci-dessous) :
 
-![Figure : Variation des paramètres R~g~ et I~0~ au cours de l'élution des complexes Myb-court/ADN (à gauche) et Myb-long/ADN (à droite).](partie-3/figures/profils-rg-mybs.png)
+![Figure : Variation des paramètres R~g~ et I~0~ au cours de l'élution des complexes Myb-court/ADN (en haut) et Myb-long/ADN (en bas).](partie-3/figures/profils-rg-mybs.png)
 
 Les courbes finales correspondant à ces acquisitions ont été obtenues en
 calculant la moyenne des courbes 100 à 116 pour le complexe Myb-court/ADN
@@ -204,19 +207,21 @@ données sélectionnés au hasard depuis le jeu de données analysé [@karplus20
 données. Il vaut 1 (100 %) à basse résolution où le rapport signal sur bruit est
 grand, et décroit vers la haute résolution.
 
-Puisque l'intensité diffractée diminue avec la résolution, les réflexions de
-haute résolution sont habituellement abandonnées à partir d'un des seuils
+Puisque l'intensité diffractée diminue avec la résolution, la limite de
+résolution exploitable est habituellement déterminée à partir des seuils
 suivants [@evans2011] :
 
-- R~meas~ dépasse 60-80 %,
-- le rapport signal sur bruit I/σ(I) tombe en dessous de 2 (pour des données non
-fusionnées) ou 1 (pour des données fusionnées),
-- le coefficient CC1/2 tombe en dessous de 50 %.
+- la résolution à partir de laquelle R~meas~ dépasse 60-80 %,
+- la résolution à partir de laquelle le rapport signal sur bruit I/σ(I) tombe en
+  dessous de 2 (pour des données non fusionnées) ou 1 (pour des données
+  fusionnées),
+- la résolution à partir de laquelle le coefficient CC1/2 tombe en dessous de
+  50 %.
 
 Selon ces critères, les limites de résolution de nos jeux de données semblent
 raisonnables. Le coefficient CC1/2 dans la tranche de plus haute résolution
-suggère même que nous aurions pu choisir une limite plus haute pour les jeux de
-données Myb2, Myb9, Myb10 et Myb32.
+suggère même que nous avons été conservateurs pour le choix de la limite de
+résolution exploitable des jeux de données Myb2, Myb9, Myb10 et Myb32.
 
 
 #### Résolution de la structure et affinement
@@ -245,8 +250,9 @@ Ces valeurs suggèrent que l'unité asymétrique du cristal contient deux copies
 complexe, ce qui indique le nombre de copies à chercher dans la procédure de
 remplacement moléculaire (voir la partie Matériel et méthodes).
 
-Les résultats du remplacement moléculaire et du premier affinement (en corps
-rigide) sont présentés dans le tableau suivant.
+Les résultats du remplacement moléculaire [réalisé avec le logiciel Phaser ;
+@mccoy2007] et du premier affinement en corps rigide sont présentés dans le
+tableau suivant.
 
 Table: Tableau : Résultats du remplacement moléculaire et du premier affinement.
 
@@ -276,22 +282,23 @@ Le score TFZ (*translation function Z-score*) est un indicateur du résultat de
 la recherche par translation. Ce score compare la valeur de LLG obtenue après
 une translation donnée avec la valeur moyenne des LLG obtenus après des
 translations aléatoires. La documentation de Phaser indique qu'un score TFZ
-supérieur ou égal à 8 est fin de remplacement moléculaire désigne une
+supérieur ou égal à 8 en fin de remplacement moléculaire désigne une
 solution certaine.
 
 Le facteur R est une mesure de l'accord entre les amplitudes des facteurs de
 structure calculés à partir du modèle (appelés F~calc~) et celles des facteurs
-de structure expérimentaux (appelés F~obs~), calculé selon la formule suivante :
+de structure expérimentaux (appelés F~obs~). Il est calculé selon la formule
+suivante :
 
 $R = \frac{\sum_{000}^{hkl} ||F_{obs}|_{hkl} - |F_{calc}|_{hkl}|}{\sum_{000}^{hkl} |F_{obs}|_{hkl}}$
 
-R~free~ est calculé avec 5 % des réflexions prises aléatoirement dans le jeu de
-données avant l'affinement, et qui par la suite ne sont jamais utilisées pour
-l'affinement. R~free~ est ainsi une mesure non biaisée de l'accord entre le
-modèle et les données expérimentales. R~work~ est calculé selon la même formule,
-avec le reste du jeu de données (c'est-à-dire les réflexions utilisées pour
-l'affinement). La valeur des facteurs R est d'autant plus petite que l'accord
-entre le modèle et les données expérimentales est bon.
+R~free~ est calculé avec une petite fraction (≤ 5 %) des réflexions prises
+aléatoirement dans le jeu de données avant l'affinement, et qui par la suite ne
+sont pas utilisées pour l'affinement. R~free~ est ainsi une mesure non biaisée
+de l'accord entre le modèle et les données expérimentales. R~work~ est calculé
+selon la même formule, avec le reste du jeu de données (c'est-à-dire les
+réflexions utilisées pour l'affinement). La valeur des facteurs R est d'autant
+plus petite que l'accord entre le modèle et les données expérimentales est bon.
 
 À ce stade, les quatre copies du modèle utilisé pour le remplacement moléculaire
 semblent correctement positionnées les unes par rapport aux autres. Les cartes
