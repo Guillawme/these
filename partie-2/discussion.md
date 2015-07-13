@@ -8,21 +8,22 @@ interagissent ensemble *in vivo* [@vanoverbeek2006; @lenain2006]. Nous pouvons
 donc raisonnablement supposer que la protéine Apollo entière est également
 capable de se lier au complexe TRF2/RAP1 *in vitro*, bien que cette expérience
 reste à réaliser. Les mêmes considérations s'appliquent à la protéine SLX4, qui
-interagit elle aussi avec TRF2 par un motif TBM [@wan2013].
+interagit elle aussi avec TRF2 par un motif TBM [@wan2013]. L'affinité du
+domaine TRFH de TRF2 pour le motif TBM de SLX4 est environ 6 fois plus faible
+que pour le motif TBM d'Apollo, ainsi l'influence de RAP1 sur l'interaction
+entre TRF2 et SLX4 reste encore à déterminer.
 
 La protéine TRF1 recrute elle aussi des partenaires possédant un motif TBM
 légèrement différent, de séquence consensus `FxLxP`. Il a été montré qu'un motif
 TBM de ce type est présent dans la séquence de la protéine TIN2 et est
-spécifique de TRF1 (K~D~ ≃ 0,3 μM), mais peut également se lier non
-spécifiquement au domaine TRFH de TRF2 avec un K~D~ ≃ 6 μM [@chen2008]. Un des
-rôles fonctionnels du motif TBM de RAP1 pourrait ainsi être d'empêcher la
-liaison non spécifique des motifs `FxLxP` au domaine TRFH de TRF2. Pour vérifier
-cette hypothèse, il serait intéressant de réaliser une variante de l'expérience
-de co-immunoprécipitation réalisée par [@chen2008] qui montrait que TIN2 ne
-coprécipite pas avec TRF2 délété de la région 352-367 (région du *linker*
-à laquelle se lie TIN2) : la même expérience faite à partir de cellules KO pour
-RAP1, si notre hypothèse est vraie, devrait montrer que TIN2 peut co-précipiter
-avec TRF2 même lorsque la région 352-367 du *linker* est délétée.
+spécifique de TRF1 [K~D~ ≃ 0,3 μM ; @chen2008], mais peut également se lier non
+spécifiquement au domaine TRFH de TRF2 avec un K~D~ ≃ 6 μM [@chen2008] ou 3,5 μM
+[@kim2009]. Un des rôles fonctionnels du motif TBM de RAP1 pourrait ainsi être
+d'empêcher la liaison non spécifique des motifs `FxLxP` au domaine TRFH de TRF2.
+Pour vérifier cette hypothèse, nous avons mesuré l'interaction entre le motif
+TBM de TIN2 (peptide TIN2-TBM) et TRF2 d'une part, et entre TIN2-TBM et le
+complexe TRF2/RAP1 préformé d'autre part.
+**QUELS RÉSULTATS ???**
 
 
 ### WRN
@@ -34,8 +35,8 @@ l'interaction. Ceci peut signifier que le motif `KLLLP` présent dans la séquen
 de WRN aux positions 1073-1077 n'est pas un motif TBM et que l'interaction est
 due à d'autres régions des protéines, ou bien que le motif n'est pas suffisant
 pour conférer une affinité détectable comme c'est le cas pour le motif TBM de
-RAP1 (voir la premère partie : nous ne pouvions pas détecter l'interaction entre
-les domaines isolés RAP1_1-208 et TRFH, alors que nous pouvions la détecter avec
+RAP1 (voir la première partie : nous ne pouvons pas détecter l'interaction entre
+les domaines isolés RAP1_1-208 et TRFH, alors que nous pouvons la détecter avec
 un peptide du motif TBM et avec les protéines entières). À cet égard, l'étude
 biophysique détaillée de l'interaction entre TRF2 et WRN entières serait
 intéressante et complémentaire de notre étude sur RAP1 : l'étude des facteurs
@@ -46,8 +47,8 @@ Les protéines entières de l'étude [@opresko2002] ont été exprimées en cell
 d'insectes, elles portent donc potentiellement des modifications
 post-traductionnelles. Au contraire, toutes nos constructions sont exprimées
 dans *E. coli* et ne peuvent donc porter aucune modification. Ceci peut
-expliquer les résultats divergeants que nous obtenons. Il n'existe pas de site
-de modification dans la région 949-1079 de WRN (selon Uniprot), mais la
+expliquer les résultats divergents que nous obtenons. Il n'existe pas de site de
+modification dans la région 949-1079 de WRN (selon Uniprot), mais la
 modification nécessaire se trouve peut-être du côté de TRF2 puisque cette
 dernière possède de nombreux sites de modification [@walker2012].
 
@@ -76,7 +77,7 @@ l'interaction avec des phosphorylations bien déterminées.
 
 Il sera aussi important de tester l'interaction de WRN entière avec le complexe
 TRF2/RAP1 ou TRF2/RAP1-ARAGA préformé, afin de déterminer si RAP1 module
-l'affinité de TRF2 pour WRN.
+l'interaction de TRF2 avec WRN.
 
 
 ### Ku
@@ -102,30 +103,29 @@ construction Ku70_200-385 :
 De façon évidente, les délimitations de cette construction ne correspondent pas
 aux délimitations naturelles entre les domaines de la protéine. Le repliement
 correct de cette construction n'a pas été vérifié par les auteurs de l'étude, et
-nous semble peu probable. Cette construction ne correspond à aucune réalité
+nous semble peu probable. Cette construction ne correspond donc à aucune réalité
 biologique ni d'un point de vue structural (cf. figure ci-dessus), ni d'un point
 de vue fonctionnel puisque cette construction de Ku70 est incapable de
 s'associer avec Ku80, or *in vivo* les deux sous-unités dépendent l'une de
-l'autre pour leur stabilité [@fell2015 et références associées]. Sur la base de
+l'autre pour leur stabilité [@fell2015, et références associées]. Sur la base de
 ces considérations, l'interaction rapportée par @song2000 nous semble être un
 faux positif.
 
 L'interaction mise en évidence *in vivo* [@ribes-zamora2013] par des expériences
 de PCA semble plus plausible. Ce type d'expérience n'exclut pas la possibilité
 d'une interaction indirecte, et puisque TRF2 et Ku sont toutes les deux des
-protéines de liaison à l'ADN il est tout à fait possible que leur interaction
-dépende de la présence d'ADN. Il serait donc intéressant de tester l'interaction
-de Ku avec TRF2 en présence d'ADN, par exemple en préformant un complexe Ku/ADN
-puis en le titrant par TRF2. L'équipe de Jean-Baptiste Charbonnier a déjà mis au
-point des expériences de SPR (résonance plasmonique de surface) pour mesurer
-l'interaction de Ku avec des ADN immobilisés sur une puce, ce qui constitue un
-bon outil pour mesurer l'interaction de Ku fixé sur l'ADN avec ses partenaires
-protéiques. Il est également possible que Ku soit recruté par RAP1, comme le
-suggèrent des expériences de co-immunoprécipitation dans lesquelles Ku
-co-précipite avec RAP1 délété de son domaine RCT, donc indépendamment de TRF2
-[@oconnor2004]. Une autre expérience directement réalisable, puisque nous
-disposons déjà des constructions protéiques, est la titration de Ku par
-RAP1_1-208 et par RAP1 entière.
+protéines de liaison à l'ADN il est possible que leur interaction dépende de la
+présence d'ADN. Il serait donc intéressant de tester l'interaction de Ku avec
+TRF2 en présence d'ADN, par exemple en préformant un complexe Ku/ADN puis en le
+titrant par TRF2. L'équipe de Jean-Baptiste Charbonnier a déjà mis au point des
+expériences de SPR (résonance plasmonique de surface) pour mesurer l'interaction
+de Ku avec des ADN immobilisés sur une puce, ce qui constitue un bon outil pour
+mesurer l'interaction de Ku fixé sur l'ADN avec ses partenaires protéiques.
+Il est également possible que Ku soit recruté par RAP1, comme le suggèrent des
+expériences de co-immunoprécipitation dans lesquelles Ku co-précipite avec RAP1
+délété de son domaine RCT, donc indépendamment de TRF2 [@oconnor2004]. Une autre
+expérience directement réalisable, puisque nous disposons déjà des constructions
+protéiques, est la titration de Ku par RAP1_1-208 et par RAP1 entière.
 
 D'autre part, l'interaction directe *in vitro* entre Ku et TRF1 a été mise en
 évidence par des expériences de SPR [@hsu2000], ce qui peut signifier deux
@@ -162,6 +162,6 @@ enrichies). Une autre possibilité consisterait à réaliser l'expérience sur l
 même support chromatographique utilisé directement dans des tubes plutôt que
 dans une colonne : ceci permet d'éluer avec un volume très faible et donc
 d'obtenir un éluat dans lequel les protéines d'intérêt sont plus concentrées (en
-revanche ce système ne permet par d'éluer par un gradient de concentration en
+revanche ce système ne permet pas d'éluer par un gradient de concentration en
 sel, seuls des lavages à des concentrations définies seraient possibles).
 

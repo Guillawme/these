@@ -2,8 +2,8 @@
 
 Afin de compléter l'étude de l'interaction entre TRF2 et RAP1 présentée dans la
 première partie et pour évaluer l'effet de RAP1 sur les propriétés d'interaction
-de TRF2, nous avons ensuite cherché à caractériser les interactions de TRF2 et
-du complexe TRF2/RAP1 avec des partenaires connus ou supposés.
+de TRF2, nous avons cherché à caractériser les interactions de TRF2 et du
+complexe TRF2/RAP1 avec des partenaires connus ou supposés.
 
 Nous avons commencé par déterminer si la présence de RAP1 pouvait empêcher la
 liaison du motif TBM de la protéine Apollo, un partenaire connu de TRF2 dont le

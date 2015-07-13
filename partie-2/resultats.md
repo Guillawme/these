@@ -8,19 +8,23 @@ TRFH/RAP1-TBM avec celle du complexe TRFH/Apollo-TBM
 occupent le même site de liaison dans le domaine TRFH, comme attendu.
 La superposition est présentée dans la figure ci-dessous :
 
-![Figure : Superposition des structures TRFH/RAP1-TBM (jaune et cyan) et TRFH/Apollo-TBM (jaune clair et violet).](partie-2/figures/tbm-apollo-rap1.png)
+![Figure : Superposition des structures TRFH/RAP1-TBM et TRFH/Apollo-TBM. Le peptide RAP1-TBM est coloré en cyan, le peptide Apollo-TBM est coloré en violet, le domaine TRFH est coloré en jaune (ses résidus engagés dans l'interaction avec les motifs TBM sont colorés de la même couleur que les motifs).](partie-2/figures/tbm-apollo-rap1.png)
 
 Ceci suggère une compétition possible entre RAP1 et Apollo, et plus généralement
-entre RAP1 et les autres partenaires de TRF2. L'affinité du motif TBM d'Apollo
-pour le domaine TRFH est bien meilleure que celle du motif TBM de RAP1 : 120 nM
-[@chen2008] ou 59 nM lorsque nous avons reproduit cette mesure, contre 13 μM
-pour le motif de RAP1 (cf. première partie). Néanmoins, la liaison de RAP1 par
-son domaine RCT à TRF2 a une affinité très forte (de l'ordre de 1 nM, cf.
-première partie) et peut potentiellement favoriser la liaison de son motif TBM
-du fait du rapprochement spatial de ce motif et du domaine TRFH. Nous avons donc
-mesuré l'affinité du motif TBM d'Apollo pour le complexe TRF2/RAP1 préformé, et
-réciproquement l'affinité de RAP1 pour le complexe TRF2/Apollo-TBM préformé
-(figure ci-dessous).
+entre RAP1 et les autres partenaires de TRF2 qui interagissent *via* un motif
+TBM. L'affinité du motif TBM d'Apollo pour le domaine TRFH est bien meilleure
+que celle du motif TBM de RAP1 : leurs constantes d'équilibre de dissociation
+sont respectivement de 120 nM [@chen2008] pour le motif d'Apollo, ou 59 nM
+lorsque nous avons reproduit cette mesure, contre 13 μM pour le motif de RAP1
+(cf. première partie). Néanmoins, la liaison de RAP1 par son domaine RCT à TRF2
+a une affinité très forte (son K~D~ est de l'ordre de 1 nM, cf. première partie)
+et favorise probablement la liaison du motif TBM du fait de son rapprochement
+spatial de son site de liaison, comme le suggère le K~D~ d'environ 0,5 μM obtenu
+pour cette interaction secondaire avec les protéines entières. Pour déterminer
+si la proximité du motif TBM de RAP1 pourrait compromettre la liaison d'Apollo,
+nous avons mesuré l'affinité du motif TBM d'Apollo pour le complexe TRF2/RAP1
+préformé, et réciproquement l'affinité de RAP1 pour le complexe TRF2/Apollo-TBM
+préformé (figure ci-dessous).
 
 ![Figure : Titrations calorimétriques de TRFH par Apollo-TBM (en haut à gauche), de TRF2 par Apollo-TBM (en haut à droite), du complexe TRF2/RAP1 préformé par Apollo-TBM (en bas à gauche) et du complexe TRF2/Apollo-TBM préformé par RAP1 (en bas à droite).](partie-2/figures/itc-apollo-trf2-rap1.png)
 
@@ -34,7 +38,7 @@ Nous obtenons les K~D~ suivants :
 
 Dans le cas de la titration du complexe TRF2/Apollo-TBM par RAP1, nous observons
 toujours une courbe à deux transitions, mais dont la transition mineure n'est
-plus suffisamment importante pour pouvoir calculer un K~D~.
+plus suffisamment marquée pour calculer un K~D~.
 
 Ces données montrent qu'Apollo est capable d'interagir avec TRF2 même en
 présence de RAP1, en accord avec son recrutement aux télomères par TRF2 *in
@@ -65,8 +69,8 @@ toujours le motif TBM putatif. Nous avons donc exprimé et purifié cette
 construction appelée WRN-RQC (cf. Matériel et méthodes) afin de tester son
 interaction avec le domaine TRFH de TRF2. Nous avons privilégié cette approche
 plutôt que l'étude des protéines entières car en cas d'interaction nous
-obtiendrons un complexe potentiellement cristallisable, ce qui ne serait pas le
-cas avec les protéines entières.
+obtiendrons un complexe compact, compatible avec une étude cristallographique,
+ce qui ne serait pas le cas avec les protéines entières.
 
 La titration calorimétrique du domaine TRFH de TRF2 par WRN-RQC ne montre aucune
 interaction détectable entre ces deux protéines dans nos conditions
@@ -123,11 +127,11 @@ d'interagir l'un avec l'autre et n'émettent donc aucune fluorescence.
 Puisque l'hétérodimère Ku70/80 (appelé simplement Ku par la suite, pour parler
 du dimère entier) est produit par une autre équipe du laboratoire (équipe de
 Jean-Baptiste Charbonnier), nous avons cherché à vérifier cette interaction avec
-l'objectif de produire un complexe minimal potentiellement cristallisable.
-Nous avons donc dans un premier temps testé l'interaction de Ku avec le domaine
-TRFH de TRF2, par chromatographie d'exclusion stérique et par *pull down* sur
-résine de nickel. Nous n'avons pas pu confirmer l'interaction dans ces
-conditions (figure ci-dessous) :
+l'objectif de produire un complexe minimal compatible avec une étude
+cristallographique. Nous avons donc dans un premier temps testé l'interaction de
+Ku avec le domaine TRFH de TRF2, par chromatographie d'exclusion stérique et par
+*pull down* sur résine de nickel. Nous n'avons pas pu confirmer l'interaction
+dans ces conditions (figure ci-dessous) :
 
 ![Figure : Tests d'interaction entre Ku et TRFH. Chromatogrammes d'exclusion stérique (gauche) et analyse SDS-PAGE du *pull down* (droite).](partie-2/figures/tests-ku-trfh.png)
 
@@ -156,12 +160,14 @@ propriétés d'interaction de TRF2 avec ses autres partenaires protéiques, nous
 avons réalisé des expériences de *pull down* (cf. Matériel et méthodes).
 Dans ces expériences un oligonucléotide contenant un site de liaison de TRF2 est
 immobilisé sur un support chromatographique par un système
-streptavidine/biotine. L'oligonucléotide est incubé avec une quantité saturante
-de TRF2 ou de complexe TRF2/RAP1 ou TRF2/RAP1-ARAGA. Ce complexe immobilisé
-ADN/TRF2 ou ADN/TRF2/RAP1 ou ADN/TRF2/ARAGA est incubé avec des extraits
-nucléaires de cellules HeLa. Enfin, les protéines sont éluées par augmentation
-de la force ionique (qui dissocie TRF2 de l'ADN), et on analyse le contenu des
-éluats par SDS-PAGE.
+streptavidine/biotine. Une quantité saturante de TRF2 ou de complexe TRF2/RAP1
+ou TRF2/RAP1-ARAGA est alors injectée à travers la colonne. Nous injectons
+ensuite des extraits nucléaires de cellules HeLa dans la colonne contenant le
+complexe immobilisé ADN/TRF2 ou ADN/TRF2/RAP1 ou ADN/TRF2/ARAGA. Enfin, les
+protéines sont éluées par augmentation de la force ionique (pour dissocier TRF2
+de l'ADN), et nous analysons le contenu des éluats par SDS-PAGE pour déterminer
+quelles protéines des extraits nucléaires sont retenues par les
+différents complexes.
 
 Nous observons de façon reproductible des chromatogrammes d'élution différents
 selon que les extraits nucléaires ont été incubés avec TRF2 seul, le complexe
