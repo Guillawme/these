@@ -59,7 +59,7 @@ Nous obtenons les affinités suivantes :
 
 - TRF2/RAP1-RCT : K~D~ ≃ 1 nM (la valeur est approximative car il y a peu de
   points dans la région d'inflexion de la sigmoïde),
-- TRF2/RAP1 : K~D~ ≃ 1 nM pour la transition majeure, et K~D~ ≃ 0,5 mM pour la
+- TRF2/RAP1 : K~D~ ≃ 1 nM pour la transition majeure, et K~D~ ≃ 0,5 μM pour la
   transition mineure (la valeur est approximative car la transition mineure est
   en partie masquée par la transition majeure).
 
