@@ -17,13 +17,32 @@ La protéine TRF1 recrute elle aussi des partenaires possédant un motif TBM
 légèrement différent, de séquence consensus `FxLxP`. Il a été montré qu'un motif
 TBM de ce type est présent dans la séquence de la protéine TIN2 et est
 spécifique de TRF1 [K~D~ ≃ 0,3 μM ; @chen2008], mais peut également se lier non
-spécifiquement au domaine TRFH de TRF2 avec un K~D~ ≃ 6 μM [@chen2008] ou 3,5 μM
-[@kim2009]. Un des rôles fonctionnels du motif TBM de RAP1 pourrait ainsi être
-d'empêcher la liaison non spécifique des motifs `FxLxP` au domaine TRFH de TRF2.
-Pour vérifier cette hypothèse, nous avons mesuré l'interaction entre le motif
-TBM de TIN2 (peptide TIN2-TBM) et TRF2 d'une part, et entre TIN2-TBM et le
-complexe TRF2/RAP1 préformé d'autre part.
-**QUELS RÉSULTATS ???**
+spécifiquement au domaine TRFH de TRF2 [K~D~ ≃ 6 μM selon @chen2008, ou 3,5 μM
+selon @kim2009]. Un des rôles fonctionnels du motif TBM de RAP1 pourrait ainsi
+être d'empêcher la liaison non spécifique des motifs `FxLxP` au domaine TRFH de
+TRF2. Pour vérifier cette hypothèse, nous avons mesuré l'interaction entre le
+motif TBM de TIN2 (peptide TIN2-TBM) et TRF2 d'une part, et entre TIN2-TBM et le
+complexe TRF2/RAP1 préformé d'autre part. Les thermogrammes et courbes de
+titration sont présentés dans la figure suivante :
+
+![Figure : Titration de TRF2 (à gauche) et du complexe TRF2/RAP1 préformé (à droite) par TIN2-TBM.](partie-2/figures/itc-tin2-t2r1.png)
+
+Nous obtenons les K~D~ suivants :
+
+- TIN2-TBM contre TRF2 : K~D~ ≃ 6,5 μM
+  [en accord avec le résultat de @chen2008],
+- TIN2-TBM contre TRF2/RAP1 préformé : K~D~ ≃ 123,9 μM.
+
+L'affinité de TRF2 pour le motif TBM de TIN2 est donc réduite d'un facteur
+environ 19 en présence de RAP1. Ceci nous conforte dans notre hypothèse selon
+laquelle une des fonctions de RAP1 est d'empêcher la liaison non spécifique
+à TRF2 de protéines contenant un motif TBM spécifique de TRF1, ou contenant
+simplement un motif ressemblant au TBM mais sans rapport avec la fonction de
+recrutement aux télomères (de tels motifs courts sont fréquents : par exemple le
+motif `FxLxP` est présent dans plus de 7700 séquences de protéines humaines de
+la base de données Uniprot). Cette expérience serait intéressante à réaliser
+avec RAP1-ARAGA, afin de déterminer si le motif TBM de RAP1 est critique pour
+cette fonction.
 
 
 ### WRN
