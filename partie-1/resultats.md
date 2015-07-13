@@ -100,11 +100,12 @@ avec la taille. Ainsi une espèce de grande taille, comme par exemple un agréga
 de la protéine étudiée, affecte fortement la diffusion même si cette espèce
 représente une population minoritaire dans la solution. La ligne de lumière
 SWING du synchrotron SOLEIL, où nous avons réalisé les acquisitions, dispose
-d'un système de chromatographie d'exclusion stérique couplé à la mesure de
-diffusion [@david2009] afin d'optimiser l'homogénéité de l'échantillon juste
-avant la mesure. Nous avons tiré parti de cette installation, et nous nous
-sommes aussi assurés au préalable de la haute pureté de nos préparations de TRF2
-et RAP1 (cf. Matériel et méthodes, purification des protéines recombinantes).
+d'un système de SEC-SAXS [chromatographie d'exclusion stérique couplée à la
+mesure de diffusion des rayons X aux petits angles, voir @david2009; @perez2015]
+afin d'optimiser l'homogénéité de l'échantillon juste avant la mesure.
+Nous avons tiré parti de cette installation, et nous nous sommes aussi assurés
+au préalable de la haute pureté de nos préparations de TRF2 et RAP1 (cf.
+Matériel et méthodes, purification des protéines recombinantes).
 
 Les courbes de SAXS des protéines TRF2, RAP1, RAP1-RCT et des complexes
 TRF2/RAP1 et TRF2/RAP1-RCT sont présentées dans la figure ci-dessous :
@@ -149,11 +150,11 @@ l'échelle d'intensité), $Q = \int_0^\infty I(q)q^2 \, \mathrm{d}q$ et *ρ* est
 masse volumique de la protéine.
 
 Lors des acquisitions couplées à la chromatographie d'exclusion stérique (qui
-a été utilisée pour toutes les protéines et complexes, sauf RAP1, cf.
-Matériel et méthodes), plusieurs courbes de diffusion sont enregistrées tout le
-long du chromatogramme. L'analyse de Guinier est réalisée sur chacune de ces
-courbes pour déterminer R~g~ et I~0~. Nous pouvons ensuite tracer les valeurs de
-ces deux paramètres en fonction du numéro de la courbe : le profil de I~0~ suit
+a été utilisée pour toutes les protéines et complexes sauf RAP1, cf. Matériel et
+méthodes), plusieurs courbes de diffusion sont enregistrées tout le long du
+chromatogramme. L'analyse de Guinier est réalisée sur chacune de ces courbes
+pour déterminer R~g~ et I~0~. Nous pouvons ensuite tracer les valeurs de ces
+deux paramètres en fonction du numéro de la courbe : le profil de I~0~ suit
 celui du chromatogramme puisque cette grandeur est proportionnelle à la
 concentration de l'échantillon. Les profils de R~g~ et I~0~ le long du
 chromatogramme sont représentés dans la figure suivante :
