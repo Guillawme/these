@@ -52,10 +52,8 @@ d'après la base de données <http://telomerase.asu.edu> [@podlevsky2008].
             *Oxytricha nova*    TTTTGGGG
   *Saccharomyces cerevisiae*    T(G)~2-3~(TG)~1-6~
  *Schizosaccharomyces pombe*    G~2-8~TTAC(A)
-    *Caenorhabditis elegans*    TTAGGC
    *Drosophila melanogaster*    rétrotransposons
-      *Arabidopsis thaliana*    TTTAGGG
-              *Homo sapiens*    TTAGGG
+                   vertébrés    TTAGGG
 
 
 ## Origine des chromosomes linéaires
