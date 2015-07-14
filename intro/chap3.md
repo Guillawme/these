@@ -49,6 +49,10 @@ schématiquement comme suit :
 
 ![Figure : Représentation schématique du complexe TRF2/RAP1 d'après les connaissances actuelles.](intro/figures/cplx-t2r1-schema.png)
 
+Remarquons que la conformation globale des deux protéines et du complexe est
+complètement hypothétique, car les informations disponibles ne nous renseignent
+pas sur ces aspects.
+
 
 ## Fonctions de TRF2 et RAP1
 
@@ -112,13 +116,13 @@ partenaires pour TRF2 et 131 pour RAP1.
 
 Les partenaires de RAP1 ont été principalement identifiés par
 co-immunoprécipitation et spectrométrie de masse [@oconnor2004], et par PCA en
-cellules vivantes et validation par GST pull down en extraits cellulaires
+cellules vivantes et validation par GST *pull down* en extraits cellulaires
 [@lee2011]. De façon intéressante, RAP1 recrute Ku80, MRE11 et RAD50 (toutes des
 protéines impliquées dans la réparation des cassures double-brin de l'ADN)
 indépendamment de son interaction avec TRF2 [@oconnor2004]. Cependant, à ce jour
 aucune étude ciblée de partenaires de RAP1 n'est publiée et nous n'avons donc
 pas d'informations sur la nature directe ou indirecte des interactions mises en
-évidence par les cribles à haut débit, ni sur les détails des interactions
+évidence par les cribles à haut débit, ni sur les détails de ces interactions
 à l'échelle moléculaire.
 
 Concernant TRF2, un des modes de recrutement de ses partenaires a été bien
@@ -133,8 +137,10 @@ domaine TRFH, et a déterminé le motif consensus `YRL` [@kim2009]. Les auteurs 
 cette étude ont aussi découvert ce motif dans les protéines PNUTS et MCPH1, et
 ont confirmé leur interaction avec TRF2 *in vitro* avec un peptide contenant le
 motif, et *in vivo* en montrant leur localisation télomérique dépendante de TRF2
-[@kim2009]. Enfin, une étude ciblée de la protéine SLX4 a démontré son
-interaction avec TRF2 par un motif TBM de séquence `HxLxP` [@wan2013].
+et en observant des phénotypes télomériques lorsque l'interaction est rompue en
+mutant le motif TBM [@kim2009]. Enfin, une étude ciblée de la protéine SLX4
+a démontré son interaction avec TRF2 par un motif TBM de séquence `HxLxP`
+[@wan2013].
 
 La figure suivante montre le site conservé de liaison des motifs TBM du domaine
 TRFH de TRF2 :
@@ -163,4 +169,9 @@ complètement l'interaction pour Apollo [@chen2008].
 @kim2009 proposent que l'affinité variable du domaine TRFH de TRF2 pour les
 différents motifs TBM de ses partenaires serait un moyen de réguler leur
 recrutement aux télomères, en plus des niveaux d'expression de ces partenaires.
+De plus, la présence de nombreux dimères de TRF2 aux télomères [environ 1000
+dimères en moyenne sont disponibles pour chaque télomère, voir @takai2010]
+permet le recrutement simultané à un même télomère de nombreux facteurs
+accessoires différents, permettant d'assurer les nombreuses fonctions contrôlées
+par TRF2.
 
