@@ -167,7 +167,7 @@ Ce raccourcissement des extrémités à chaque réplication est à l'origine de 
 sénescence observée dans une culture *in vitro* de cellules somatiques humaines
 après une cinquantaine de doublements [@hayflick1965]. Cette limitation du
 nombre de mitoses avant la sénescence est appelée la "limite de Hayflick", et
-constitue un mécanisme répresseur de tumeur important. Les seules cellules qui
+constitue un mécanisme suppresseur de tumeur important. Les seules cellules qui
 y échappent sont les lignées germinales et certaines cellules tumorales
 hautement prolifératives, ainsi que les organismes unicellulaires.
 
@@ -476,7 +476,7 @@ les mammifères) est représenté schématiquement sur la figure ci-dessous :
 Une cassure double-brin (1) est reconnue par l'hétérodimère Ku70/Ku80 (2), qui
 recrute la kinase DNA-PK~cs~ (3) permettant d'initier la voie de signalisation
 de réponse aux dommages de l'ADN (DDR, pour *DNA damage response*).
-Le recrutement des protéines XRCC4, Cernunnos et Ligase IV forme le complexe
+Le recrutement des protéines XRCC4, Cernunnos et Ligase 4 forme le complexe
 basal du NHEJ et permet la synapse des deux extrémités générées par la cassure
 (4). Les extrémités sont alors "nettoyées" par divers facteurs accessoires dont
 des polymérases et des exonucléases (5) jusqu'à ce que des extrémités cohésives
