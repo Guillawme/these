@@ -77,11 +77,12 @@ structure tridimensionnelle est disponible à ce jour :
 
 ![Figure : (A) Domaines structuraux des protéines du *shelterin* [adapté de @palm2008]. Dans les représentations des structures tridimensionnelles, les hélices sont colorées en vert, les feuillets en bleu et les boucles en rouge, et l'ADN est coloré en gris. Ces représentations ont été produites à partir des entrées PDB 3BUA, 1W0U, 3K6G, 1FEX, 2I46 et 1XJV. (B) Représentation schématique du complexe *shelterin* d'après les connaissances actuelles [@giraud-panis2013].](intro/figures/domaines-prots-shelterin.png)
 
-TRF1 et TRF2 s'assemblent en homodimères par leur domaine TRFH (*TRF homology*)
-et lient les répétitions télomériques double-brin par leur domaine Myb.
-RAP1 interagit spécifiquement avec TRF2 par son domaine RCT (*RAP1 C-terminus*).
-POT1 lie les répétitions télomériques simple-brin avec son tandem de deux
-domaines OB-fold. TPP1 interagit avec POT1 et TIN2, et TIN2 interagit avec TRF1,
+TRF1 et TRF2 (les orthologues de Taz1 de *S. pombe*) s'assemblent en homodimères
+par leur domaine TRFH (*TRF homology*) et lient les répétitions télomériques
+double-brin par leur domaine Myb. RAP1 interagit spécifiquement avec TRF2 par
+son domaine RCT (*RAP1 C-terminus*). POT1 lie les répétitions télomériques
+simple-brin avec son tandem de deux domaines OB-fold. TPP1 interagit avec POT1
+et TIN2, et TIN2 interagit avec TRF1,
 TRF2 et TPP1.  
 Les 6 protéines du *shelterin* peuvent être co-purifiées [@liu2004], ce qui
 démontre les interactions multiples qui existent entre elles.

@@ -9,12 +9,14 @@ structurée, un domaine de dimérisation appelé TRFH, une longue région égale
 prédite non structurée (*linker*) contenant le motif de liaison à RAP1 (RBM pour
 *RAP1-binding motif*), le motif de liaison à TIN2 et un signal de localisation
 nucléaire (NLS), et en C-terminal un domaine Myb de liaison à l'ADN.  
-RAP1 comporte un domaine BRCT en N-terminal, un domaine pseudo-Myb [au
-repliement en trois hélices α similaire à celui du domaine Myb de TRF2, mais
-dont les résidus de surface ne permettent pas la liaison à l'ADN ;
+RAP1 comporte un domaine BRCT en N-terminal, un domaine pseudo-Myb
+[au repliement en trois hélices α similaire à celui du domaine Myb de TRF2,
+mais dont les résidus de surface ne permettent pas la liaison à l'ADN ; voir
 @hanaoka2001], une longue région prédite non structurée (*linker*) riche en
 résidus acides, et un domaine C-terminal par lequel elle interagit avec TRF2
-[@li2000; @chen2011].
+[@li2000; @chen2011]. Comme chez *S. pombe*, RAP1 n'interagit pas avec l'ADN et
+dépend de son interaction avec une protéine de la famille des TRF pour son
+recrutement aux télomères.
 
 L'organisation des domaines de TRF2 et RAP1 est présentée dans la figure
 ci-dessous, avec une représentation des structures tridimensionnelles
