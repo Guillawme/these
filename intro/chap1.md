@@ -425,7 +425,7 @@ microscopie après immunomarquage fluorescent. Le double marquage fluorescent de
 ces foyers de dommages à l'ADN et des télomères permet de mettre en évidence
 l'activation illicite de la voie DDR aux extrémités des chromosomes. Ces foyers
 de dommages à l'ADN localisés aux télomères sont alors appelés des TIFs
-(*telomere dysfunction induced foci*).
+[*telomere dysfunction induced foci* ; voir @takai2003].
 
 Les fusions d'extrémités sont particulièrement délétères car elles conduisent
 à des défauts de ségrégation des chromosomes lors de la mitose ou de la méiose.
