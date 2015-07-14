@@ -55,35 +55,34 @@ Les 6 protéines qui forment ce complexe sont (dans l'ordre de leur découverte)
   affinité et sa spécificité *in vitro* pour les répétitions télomériques
   double-brin [@zhong1992], et dont la localisation télomérique a été confirmée
   peu de temps après par immunofluorescence [@chong1995] ;
-- TRF2 : *telomere repeat-binding factor 2*, identifiée initialement par sa
-  similarité de séquence avec TRF1 et ses propriétés similaires de liaison
-  à l'ADN [@bilaud1996], et dont la localisation télomérique a été confirmée de
-  la même façon [@bilaud1997] ;
-- TIN2 : *TRF1-interacting factor 2*, identifiée initialement comme un partenaire
-  de TRF1 dans un crible de double-hybride, localisé aux télomères et dont les
+- TRF2 : *telomere repeat-binding factor 2*, identifiée par sa similarité de
+  séquence avec TRF1 et ses propriétés similaires de liaison à l'ADN
+  [@bilaud1996], et dont la localisation télomérique a été confirmée de la même
+  façon [@bilaud1997] ;
+- TIN2 : *TRF1-interacting factor 2*, identifiée comme un partenaire de TRF1
+  dans un crible de double-hybride, localisée aux télomères et dont les
   mutations provoquent des phénotypes télomériques [@kim1999] ;
-- RAP1 : *repressor/activator protein 1*, identifiée initialement comme un
-  partenaire de TRF2 dans un crible de double-hybride, et par sa similarité de
-  séquence avec scRap1 [@li2000] ;
-- POT1 : *protection of telomeres 1*, identifiée initialement par sa similarité
-  de séquence avec les protéines TEBP des ciliés [@baumann2001] ;
+- RAP1 : *repressor/activator protein 1*, identifiée comme un partenaire de TRF2
+  dans un crible de double-hybride, et par sa similarité de séquence avec scRap1
+  [@li2000] ;
+- POT1 : *protection of telomeres 1*, identifiée par sa similarité de séquence
+  avec les protéines TEBP des ciliés [@baumann2001] ;
 - TPP1 : *POT1-binding partner*, identifiée indépendamment dans trois études
-  comme un partenaire de TIN2 et POT1 et nécessaire pour le recrutement de POT1
-  aux télomères [@liu2004; @ye2004; @houghtaling2004].
+  comme un partenaire de TIN2 et POT1, et comme nécessaire pour le recrutement
+  de POT1 aux télomères [@liu2004; @ye2004; @houghtaling2004].
 
 Toutes ces protéines sont organisées en domaines multiples connectés par des
 régions flexibles. La figure suivante donne un aperçu des domaines dont une
 structure tridimensionnelle est disponible à ce jour :
 
-![Figure : (A) Domaines structuraux des protéines du *shelterin* [adapté de @palm2008]. Les hélices sont colorées en vert, les feuillets en bleu et les boucles en rouge ; l'ADN est coloré en gris. Les représentations des domaines ont été produites à partir des entrées PDB 3BUA, 1W0U, 3K6G, 1FEX, 2I46 et 1XJV. (B) Représentation schématique du complexe *shelterin* d'après les connaissances actuelles [@giraud-panis2013].](intro/figures/domaines-prots-shelterin.png)
+![Figure : (A) Domaines structuraux des protéines du *shelterin* [adapté de @palm2008]. Dans les représentations des structures tridimensionnelles, les hélices sont colorées en vert, les feuillets en bleu et les boucles en rouge, et l'ADN est coloré en gris. Ces représentations ont été produites à partir des entrées PDB 3BUA, 1W0U, 3K6G, 1FEX, 2I46 et 1XJV. (B) Représentation schématique du complexe *shelterin* d'après les connaissances actuelles [@giraud-panis2013].](intro/figures/domaines-prots-shelterin.png)
 
 TRF1 et TRF2 s'assemblent en homodimères par leur domaine TRFH (*TRF homology*)
 et lient les répétitions télomériques double-brin par leur domaine Myb.
 RAP1 interagit spécifiquement avec TRF2 par son domaine RCT (*RAP1 C-terminus*).
 POT1 lie les répétitions télomériques simple-brin avec son tandem de deux
-domaines OB-fold (*oligonucleotide-binding fold*). TPP1 interagit avec POT1 et
-TIN2, et TIN2 interagit avec TRF1, TRF2 et TPP1.
-
+domaines OB-fold. TPP1 interagit avec POT1 et TIN2, et TIN2 interagit avec TRF1,
+TRF2 et TPP1.  
 Les 6 protéines du *shelterin* peuvent être co-purifiées [@liu2004], ce qui
 démontre les interactions multiples qui existent entre elles.
 
@@ -97,13 +96,13 @@ rapport à l'autre. Il en est de même pour TPP1 et POT1. TRF1 est deux à quatr
 fois moins abondant que TRF2 aux télomères. TIN2 est présent en quantité
 suffisante pour lier l'ensemble de TRF1 et TRF2. TPP1 et POT1 sont environ 10
 fois moins abondants que TIN2. De façon notable, un réservoir de RAP1 est
-également présent dans le cytosol. La déplétion de TRF2 par un shRNA d'un
-facteur 10 est sans impact sur les quantités de TRF1, TIN2, TPP1 et POT1 aux
+également présent dans le cytosol. La déplétion de TRF2 d'un facteur 10 par un
+shRNA est sans impact sur les quantités de TRF1, TIN2, TPP1 et POT1 aux
 télomères, ce qui suggère l'existence de sous-complexes plus ou moins
 indépendants du *shelterin*. Cette déplétion de TRF2 diminue notablement la
 quantité de RAP1 télomérique, mais n'affecte que peu la quantité de RAP1
 cytosolique, ce qui suggère pour RAP1 des fonctions extra-télomériques
-indépendantes de son interaction avec TRF2 [@kabir2010; @martinez2011;
+indépendantes de son interaction avec TRF2 [voir @kabir2010; @martinez2011;
 @ghosh2012].
 
 Il a été montré que le complexe *shelterin* se lie préférentiellement aux
@@ -127,7 +126,7 @@ phases du cycle cellulaire, et dont les fonctions connues sont essentiellement
 télomériques, on trouve également aux télomères un grand nombre de facteurs
 accessoires. La base de données TeloPIN
 [*telomeric proteins interaction network* ; @luo2015] recense un très grand
-nombre de partenaires des protéines du shelterin : 300 partenaires pour TRF1,
+nombre de partenaires des protéines du *shelterin* : 300 partenaires pour TRF1,
 248 pour TRF2, 131 pour RAP1, 167 pour TIN2, 65 pour TPP1 et 184 pour POT1
 (certaines de ces protéines sont probablement des partenaires communs
 à plusieurs des protéines du *shelterin*). Ces facteurs accessoires,
@@ -148,8 +147,8 @@ domaine TRFH de TRF1 [@chen2008] et `YxLxP` [@chen2008] ou `YRL` [@kim2009] pour
 le domaine TRFH de TRF2. D'autres modes de recrutement existent puisque de
 nombreux facteurs accessoires sont recrutés par les autres protéines
 télomériques qui ne possèdent pas de domaine TRFH, et au niveau des *linkers* de
-TRF1 et TRF2 qui sont également des régions d'interaction protéine-protéine.
-En revanche ces modes de recrutement ne sont pas encore décrits au
+TRF1 et TRF2 qui sont également des régions d'interactions protéine-protéine.
+En revanche ces autres modes de recrutement ne sont pas encore décrits au
 niveau moléculaire.
 
 
@@ -210,7 +209,9 @@ l'intégrité des télomères :
   exonucléases sont réprimées de façon redondante par plusieurs des protéines du
   *shelterin*.
 
-TRF2 et RAP1 sont critiques pour la répression de la signalisation DDR par ATM,
-de la voie NHEJ et de la recombinaison homologue. Le chapitre suivant résume les
-connaissances actuelles sur ces deux protéines.
+TRF2 et RAP1 sont les protéines les plus abondantes aux télomères, et sont les
+principales responsables de la protection des extrémités. Elles sont en effet
+critiques pour la répression de la signalisation DDR par ATM, la répression de
+la voie NHEJ et la répression de la recombinaison homologue. Dans le chapitre
+suivant nous décrirons plus en détails ces deux protéines au niveau moléculaire.
 
