@@ -75,10 +75,10 @@ associés à une protéine terminale liée covalemment à l'extrémité 5' et
 permettant d'initier la réplication des extrémités [@chen2007].
 
 Les chromosomes linéaires semblent au premier abord défavorables car ils
-nécessitent des protéines spécialisées pour leur maintenance (protéines
-télomériques et télomérase), et la synthèse de ces protéines représente un coût
-énergétique important. Il a été proposé que les chromosomes linéaires ont été
-conservés au cours de l'évolution des eucaryotes car ils rendent possible la
+nécessitent des protéines spécialisées pour leur maintenance (les protéines
+télomériques et la télomérase), et la synthèse de ces protéines représente un
+coût énergétique important. Il a été proposé que les chromosomes linéaires ont
+été conservés au cours de l'évolution des eucaryotes car ils rendent possible la
 méiose, et car la diversité génétique qu'elle engendre confère un avantage qui
 compense le coût de la maintenance des télomères [@ishikawa1999]. La méiose est
 en effet physiquement plus difficile à réaliser avec des chromosomes
@@ -144,8 +144,8 @@ Lors de la réplication, le brin orienté 3'-5' de la molécule d'ADN initiale s
 de matrice pour la synthèse du nouveau brin dit "précoce" (aussi appelé le "brin
 sens", car sa synthèse ne nécessite qu'une seule amorce (l'ADN polymérase peut
 en effet parcourir tout le brin une fois la synthèse initiée), et elle est en
-avance par rapport à celle de l'autre nouveau brin qui est appelé quant à lui le
-brin "tardif" (aussi appelé le "brin anti-sens"). La synthèse du brin tardif
+avance par rapport à celle de l'autre nouveau brin qui est appelé par conséquent
+le brin "tardif" (aussi appelé le "brin anti-sens"). La synthèse du brin tardif
 nécessite plusieurs amorces car le brin servant de matrice est orienté de 5'
 vers 3' et la polymérase chargée de la synthèse de ce brin doit progresser dans
 le sens opposé au sens de progression de la fourche de réplication.
@@ -157,7 +157,7 @@ ci-dessous :
 
 Une première cause de raccourcissement vient du fait que le dernier fragment
 d'Okazaki est dégradé à la fin de la réplication, mais n'est pas remplacé par de
-l'ADN. Ceci a pour conséquence le raccourcissement du brin retardé (longueur L1
+l'ADN. Ceci a pour conséquence le raccourcissement du brin tardif (longueur L1
 dans la figure).
 
 La deuxième cause du raccourcissement est due à l'extrémité simple-brin sortante
@@ -169,19 +169,19 @@ Ce raccourcissement des extrémités à chaque réplication est à l'origine de 
 sénescence observée dans une culture *in vitro* de cellules somatiques humaines
 après une cinquantaine de doublements [@hayflick1965]. Cette limitation du
 nombre de mitoses avant la sénescence est appelée la "limite de Hayflick", et
-les seules cellules qui y échappent sont les lignées germinales et certaines
-cellules tumorales hautement prolifératives, ainsi que les
-organismes unicellulaires.
+constitue un mécanisme répresseur de tumeur important. Les seules cellules qui
+y échappent sont les lignées germinales et certaines cellules tumorales
+hautement prolifératives, ainsi que les organismes unicellulaires.
 
 Chez les eucaryotes, deux mécanismes principaux compensent l'érosion des
 télomères et permettent donc de contourner le problème de la réplication :
 l'activité de la télomérase, et une voie alternative appelée ALT (*alternative
 lengthening of telomeres*) utilisant la recombinaison homologue. Il est
-intéressant de noter que d'autres systèmes existent dans la nature, comme chez
-la drosophile qui a perdu la télomérase ou chez les quelques procaryotes qui
-possèdent des chromosomes linéaires mais ne possèdent pas de télomérase.
-Ces systèmes de réplication des télomères sont présentés dans les
-paragraphes suivants.
+intéressant de remarquer ici la diversité des solutions au problème de la
+réplication qui ont émergé au cours de l'évolution, comme chez la drosophile qui
+a perdu la télomérase ou chez les quelques procaryotes qui possèdent des
+chromosomes linéaires mais ne possèdent pas de télomérase. Ces systèmes de
+réplication des télomères sont présentés dans les paragraphes suivants.
 
 
 ### L'addition de répétitions télomériques par la télomérase
@@ -203,10 +203,10 @@ TERC sert de matrice pour la synthèse des répétitions télomériques par TERT
 La première structure tridimensionnelle d'une sous-unité TERT entière a montré
 que cette enzyme a un repliement similaire à celui de rétro-transcriptases
 virales telle que celle du VIH [@gillis2008]. La structure de la même enzyme en
-complexe avec un hybride ADN/ARN mimant le produit de synthèse a quant à elle
-fourni des informations sur le mécanisme de synthèse des répétitions
-télomériques [@mitchell2010]. Ce mécanisme de synthèse est représenté
-schématiquement dans la figure suivante :
+complexe avec un hybride ADN/ARN mimant le produit de synthèse a fourni des
+informations sur le mécanisme de synthèse des répétitions télomériques
+[@mitchell2010]. Ce mécanisme de synthèse est représenté schématiquement dans la
+figure suivante :
 
 ![Figure : Synthèse des répétitions télomériques par la télomérase [@collins2011].](intro/figures/telomerase-synthese.png)
 
@@ -223,6 +223,15 @@ répétition par répétition avec une étape de translocation du brin synthéti
 de la matrice entre chaque synthèse peut être modulé par des partenaires de la
 télomérase, la rendant plus ou moins processive en termes de répétitions (cette
 propriété unique de la télomérase est appelée *repeat addition processivity*).
+
+L'activité de la télomérase est régulée globalement par le niveau d'expression
+de TERT [@cong2002, et références associées]. L'expression de cette sous-unité
+s'arrête dans les cellules somatiques au cours du développement embryonnaire, et
+sa ré-expression suffit à conférer aux cellules un potentiel de prolifération
+illimité. L'expression de la télomérase est détectée dans environ 90 % des
+cancers [@cong2002, et références associées]. Les cellules cancéreuses chez
+lesquelles l'expression de TERT n'est pas détectée utilisent une voie
+alternative d'élongation des télomères.
 
 
 ### La voie alternative d'élongation des télomères
@@ -241,16 +250,16 @@ survie dépend du bon fonctionnement de la recombinaison homologue
 Les télomères maintenus par la voie ALT ont une longueur moyenne plus grande que
 ceux maintenus par la télomérase (respectivement entre 12 et 48 kb, et autour de
 6 kb), et présentent une plus grande hétérogénéité de longueur, comme le montre
-la figure suivante. La méthode de mesure de la longueur des télomères la plus
-couramment utilisée dans la littérature est appelée *terminal restriction
-fragment length analysis* [@kimura2010], et s'exécute avec les étapes
-suivantes : extraction et purification de l'ADN génomique, digestion par des
-enzymes de restriction, séparation des fragments de restriction par
-électrophorèse, transfert sur une membrane, hybridation d'une sonde
-complémentaire des répétitions télomériques et révélation. Elle permet de
-mesurer la longueur moyenne des télomères dans un échantillon et la dispersion
-autour de cette longueur moyenne (ce qui correspond à l'hétérogénéité de
-longueur).
+la méthode de *terminal restriction fragment length analysis* [@kimura2010].
+Cette méthode de mesure de la longueur des télomères est la plus couramment
+utilisée dans la littérature, et s'exécute avec les étapes suivantes :
+extraction et purification de l'ADN génomique, digestion par des enzymes de
+restriction, séparation des fragments de restriction par électrophorèse,
+transfert sur une membrane, hybridation d'une sonde complémentaire des
+répétitions télomériques et révélation. Elle permet de mesurer la longueur
+moyenne des télomères dans un échantillon de cellules et la dispersion autour de
+cette longueur moyenne (ce qui correspond à l'hétérogénéité de longueur des
+télomères au sein de l'échantillon).
 
 ![Figure : Longueur moyenne des télomères maintenus par la voie ALT, à gauche, et par la télomérase, à droite [@pickett2009]. Les télomères maintenus par la télomérase ont une longueur plus homogène que ceux maintenus par la voie ALT.](intro/figures/longueur-telo-alt-telomerase.png)
 
@@ -264,12 +273,12 @@ en phase G2 les chromosomes sont entièrement répliqués et des événements de
 recombinaison peuvent se produire entre chromatides soeurs (indiqués par la
 croix entre les deux chromatides). Des jonctions de Holliday sont formées entre
 les deux chromatides, et leur résolution conduit à des échanges de portions
-d'ADN de longueurs potentiellement différentes. La cellule fille qui reçoit les
-chromosomes aux telomères long conserve donc une grande capacité à proliférer,
-contrairement à celle qui hérite les télomères courts.
+d'ADN de longueurs différentes. La cellule fille qui reçoit les chromosomes aux
+telomères longs conserve donc une grande capacité à proliférer, contrairement
+à celle qui hérite les télomères courts.
 
 Dans le deuxième modèle, dit de réplication dépendante de la recombinaison (B),
-l'extrémité simple-brin 3'-sortante d'un télomère envahit la région double-brin
+l'extrémité simple-brin sortante en 3' d'un télomère envahit la région double-brin
 d'un autre télomère en formant une jonction de Holliday, et utilise cet autre
 télomère comme matrice pour la machinerie de réplication. Le brin complémentaire
 est ensuite complété pour reconstituer la région double-brin du télomère.
@@ -310,7 +319,7 @@ problème de la réplication des extrémités d'une façon bien plus simple.
 Les extrémités sont fermées covalemment par une épingle à cheveux (*closed
 hairpin telomeres*), et une enzyme appelée résolvase de télomères [parfois
 appelée protélomérase bien qu'elle n'ait rien en commun avec la télomérase des
-eucaryotes, voir @chaconas2010] permet de séparer les deux molécules filles,
+eucaryotes ; voir @chaconas2010] permet de séparer les deux molécules filles,
 concaténées en un dimère circulaire suite à la réplication [@chaconas2010].
 La figure ci-dessous illustre le mode de réplication des ADN linéaires
 à télomères en épingles à cheveux avec une initiation centrale et une étape de
@@ -359,8 +368,8 @@ Les bactéries du genre *Streptomyces* (qui produisent de nombreuses molécules
 utilisées comme antibiotiques) possèdent des ADN linéaires portant une protéine
 appelée TP (*terminal protein*) liée covalemment à chaque extrémité 5' et
 servant d'amorce pour terminer la synthèse du brin tardif à la fin de la
-réplication (un processus appelé *end patching*, soit "colmatage" des
-extrémités) [@chen2007].
+réplication, un processus appelé *end patching*, soit "colmatage" des extrémités
+[@chen2007].
 
 Les séquences télomériques de ces bactéries sont composées de six palindromes
 couvrant environ 140 pb. Lors de la réplication, la synthèse incomplète du brin
@@ -379,13 +388,15 @@ jour, ainsi le mécanisme de synthèse de la fin du brin tardif n'est pas encore
 complètement élucidé. Le mécanisme le plus probable est présenté dans la figure
 ci-dessous.
 
-![Figure : Mécanisme de synthèse de la fin du brin tardif chez *Streptomyces* [@chen2007].](intro/figures/streptomyces-end-patching.png)
+![Figure : Mécanisme de synthèse de la fin du brin tardif chez *Streptomyces* [@chen2007]. La protéine TP est représentée par le disque gris.](intro/figures/streptomyces-end-patching.png)
 
 Dans ce système, comme dans celui des *Borrelia*, la longueur des chromosomes et
 des plasmides linéaires reste constante au fil des réplications car ces
-organismes ne possèdent pas de télomérase et utilisent à la place des mécanismes
-qui évitent totalement (chez les *Borrelia*) ou compensent exactement (chez les
-*Streptomyces*) l'érosion des extrémités.
+organismes utilisent à la place des mécanismes qui évitent totalement (chez les
+*Borrelia*) ou compensent exactement (chez les *Streptomyces*) l'érosion des
+extrémités. Il est intéressant de remarquer que les systèmes de réplication des
+télomères des eucaryotes génèrent nécessairement une certaine hétérogénéité de
+longueur, contrairement à ces systèmes évolutivement distants.
 
 
 ## Le problème de la protection des extrémités
@@ -412,10 +423,11 @@ de réparation appropriées [voir les revues @palm2008; @lamarche2010;
 @gobbini2013]. L'activation de la voie DDR par ces deux kinases est détectable
 par la formation de foyers enrichis en protéines cibles de ces kinases (comme
 par exemple l'histone H2AX phosphorylé sur la sérine 139), visibles en
-microscopie après immunomarquage fluorescent. Le double marquage fluorescent des
-foyers de dommages à l'ADN et des télomères permet de mettre en évidence
+microscopie après immunomarquage fluorescent. Le double marquage fluorescent de
+ces foyers de dommages à l'ADN et des télomères permet de mettre en évidence
 l'activation illicite de la voie DDR aux extrémités des chromosomes. Ces foyers
-sont alors appelés des TIFs (*telomere dysfunction induced foci*).
+de dommages à l'ADN localisés aux télomères sont alors appelés des TIFs
+(*telomere dysfunction induced foci*).
 
 Les fusions d'extrémités sont particulièrement délétères car elles conduisent
 à des défauts de ségrégation des chromosomes lors de la mitose ou de la méiose.
@@ -432,21 +444,25 @@ trahit une fusion. Les fusions de chromosomes indiquent que les télomères ont
 double-brin NHEJ (*non-homologous end joining* : jonction d'extrémités non
 homologues), normalement réprimée aux télomères.
 
-Enfin, les événements de recombinaison peuvent être mis en évidence par une
-technique appelée CO-FISH [*chromosome orientation - fluorescence in situ
-hybridization* ; @williams2009]. Les cellules sont cultivées le temps d'un
-doublement en présence d'un nucléotide modifié, incorporé dans l'ADN par la
-réplication. Une préparation de chromosomes métaphasiques est réalisée, et les
-brins néo-synthétisés sont dégradés sélectivement grâce à la présence du
-nucléotide modifié. Les télomères sont enfin révélés avec deux sondes
-fluorescentes (de couleurs différentes) complémentaires des répétitions
-télomériques de chacun des deux brins. Les échanges de télomères entre
-chromatides soeurs (T-SCE pour *telomere sister chromatid exchange*) indiquent
-que les telomères subissent des événements de recombinaison.
+Enfin, les événements de recombinaison sont aussi délétères car ils conduisent
+à des variations brutales de la longueur des télomères, qui sont associées à une
+prolifération tumorale facilitée dans le cas d'un allongement (voie ALT) ou
+à une sénescence précoce dans le cas d'un raccourcissement. Ces événements
+peuvent être mis en évidence par une technique appelée CO-FISH
+[*chromosome orientation - fluorescence in situ hybridization* ; @williams2009].
+Les cellules sont cultivées le temps d'un doublement en présence d'un nucléotide
+modifié, incorporé dans l'ADN par la réplication. Une préparation de chromosomes
+métaphasiques est réalisée, et les brins néo-synthétisés sont dégradés
+sélectivement grâce à la présence du nucléotide modifié. Les télomères sont
+enfin révélés avec deux sondes fluorescentes (de couleurs différentes)
+complémentaires des répétitions télomériques de chacun des deux brins.
+Les échanges de télomères entre chromatides soeurs (T-SCE pour *telomere sister
+chromatid exchange*) indiquent que les telomères subissent des événements
+de recombinaison.
 
 La voie de signalisation DDR, le NHEJ et la recombinaison homologue sont
-réprimés par les télomères fonctionnels. Ces processus se manifestent aux
-télomères présentant un défaut de protection.
+réprimés par les télomères fonctionnels, et se manifestent aux télomères
+présentant un défaut de protection.
 
 Les mécanismes du NHEJ et de la recombinaison homologue sont présentés
 brièvement dans les paragraphes suivants.
@@ -464,7 +480,7 @@ recrute la kinase DNA-PK~cs~ (3) permettant d'initier la voie de signalisation
 de réponse aux dommages de l'ADN (DDR, pour *DNA damage response*).
 Le recrutement des protéines XRCC4, Cernunnos et Ligase IV forme le complexe
 basal du NHEJ et permet la synapse des deux extrémités générées par la cassure
-(4). Les extrémités sont alors modifiées par divers facteurs accessoires dont
+(4). Les extrémités sont alors "nettoyées" par divers facteurs accessoires dont
 des polymérases et des exonucléases (5) jusqu'à ce que des extrémités cohésives
 soient générées. La ligature s'opère enfin sur ces extrémités cohésives (6).
 
@@ -479,32 +495,33 @@ potentiellement mutagène.
 
 ### Recombinaison homologue
 
-L'autre voie majeure de réparation des cassures double-brin est la recombinaison
+L'autre voie de réparation des cassures double-brin est la recombinaison
 homologue [@sanfilippo2008]. Cette voie est utilisée principalement pendant les
 phases S et G2, quand une chromatide soeur existe et peut donc servir de matrice
 pour guider la réparation. Contrairement au NHEJ, la recombinaison homologue
 produit des réparations très fidèles à la séquence d'origine. Le principe de la
 recombinaison homologue est illustré dans la figure ci-dessous :
 
-![Figure : La recombinaison homologue [inspiré de @sanfilippo2008 et adapté à partir d'une figure originale de Ewm sur Wikimedia Commons, CC BY-SA 3.0 : <http://commons.wikimedia.org/wiki/File%3AHR_schematic_diagram.svg>]](intro/figures/hr-schema.png)
+![Figure : La recombinaison homologue [inspiré de @sanfilippo2008, et adapté à partir d'une figure originale de Ewm sur Wikimedia Commons, CC BY-SA 3.0 : <http://commons.wikimedia.org/wiki/File%3AHR_schematic_diagram.svg>]](intro/figures/hr-schema.png)
 
 Suite à une cassure double-brin (1), les extrémités 5' sont digérées par des
 exonucléases qui génèrent une extrémité simple-brin sortante en 3' (2).
-Cette extrémité est liée par la protéine Rad51 qui polymérise et forme un
+Cette extrémité est liée par la protéine RAD51 qui polymérise et forme un
 filament, permettant la recherche d'une région homologue dans une autre molécule
 d'ADN. Lorsque cette région est trouvée, l'extrémité simple-brin envahit la
-molécule d'ADN homologue, s'apparie au brin qui lui est complémentaire, et son
-groupement 3'-OH sert d'amorce pour la synthèse d'ADN (3). À partir de cette
-étape, deux voies principales sont possibles :
+molécule d'ADN homologue en formant une jonction de Holliday (structure branchée
+à 4 brins), s'apparie au brin qui lui est complémentaire, et son groupement
+3'-OH sert d'amorce pour la synthèse d'ADN (3). À partir de cette étape, deux
+voies principales sont possibles :
 
 - La voie DSBR (*double-strand break repair* : réparation de la cassure
   double-brin) implique la capture de la deuxième extrémité générée par la
-  cassure, son appariement au niveau de la D-loop (*displacement loop* : le brin
-  d'ADN déplacé suite à l'invasion de l'étape précédente) et la synthèse d'ADN.
-  Lorsque la synthèse a terminé de compléter les deux brins, une ligature est
-  opérée (4) et produit un intermédiaire à deux jonctions de Holliday (structure
-  branchée à 4 brins) qui est finalement résolu (5), le plus souvent avec un
-  échange de chromatides (*crossover product*).
+  cassure, son appariement au niveau de la *D-loop* (*displacement loop* : le
+  brin d'ADN déplacé suite à l'invasion de l'étape précédente) et la synthèse
+  d'ADN. Lorsque la synthèse a terminé de compléter les deux brins, une ligature
+  est opérée (4) et produit un intermédiaire à deux jonctions de Holliday qui
+  est finalement résolu (5), le plus souvent avec un échange de chromatides
+  (*crossover product*).
 - La voie SDSA (*synthesis-dependant strand annealing* : appariement de brins
   après synthèse d'ADN) débute avec le désappariemment du brin qui avait envahi
   la molécule homologue. Ce brin, étendu après la synthèse, est capable de
@@ -513,21 +530,24 @@ groupement 3'-OH sert d'amorce pour la synthèse d'ADN (3). À partir de cette
   ligature des deux brins (7). Cette voie ne provoque jamais d'échange
   de chromatides.
 
+Comme dans la voie ALT, la jonction de Holliday est un intermédiaire omniprésent
+dans les mécanismes de la recombinaison homologue.
+
 
 ## Solutions moléculaires au problème de la protection apparues au cours de l'évolution
 
 Comme nous l'avons vu dans les paragraphes précédents, les molécules d'ADN
 linéaires sont confrontées aux problèmes de la réplication et de la protection
 des extrémités. Plusieurs stratégies pour contourner ces problèmes ont émergé au
-cours de l'évolution, et nous avons déjà présenté quelques solutions courantes
-au problème de la réplication.
+cours de l'évolution, et nous avons déjà présenté quelques solutions au problème
+de la réplication.
 
 Le problème de la protection des extrémités est résolu par l'existence de
 protéines spécifiques des télomères, qui s'associent aux répétitions
 télomériques et assurent la répression de la voie DDR, du NHEJ et de la
 recombinaison homologue. Dans les paragraphes qui suivent nous présenterons
 succintement l'organisation des complexes télomériques de quelques organismes
-modèles, avec un exemple de télomères non canonique, et en précisant comment
+modèles, avec un exemple de télomères non canoniques, et en précisant comment
 l'étude de ces complexes a contribué à établir les connaissances actuelles sur
 les télomères en général.
 
@@ -536,9 +556,9 @@ les télomères en général.
 
 Les premières protéines télomériques ont été mises en évidence chez
 l'unicellulaire cilié *Oxytricha nova* [@gottschling1986]. Chez cet organisme
-les répétitions télomériques simple-brin de l'extrémité 3' sortante sont liées
-spécifiquement par deux protéines appelées TEBP-α et TEBP-β (*telomere end
-binding proteins*), comprenant chacune deux domaines OB-fold
+les répétitions télomériques simple-brin de l'extrémité sortante en 3' sont
+liées spécifiquement par deux protéines appelées TEBP-α et TEBP-β (*telomere end
+binding proteins*), comprenant chacune deux domaines *OB-fold*
 (*oligonucleotide-binding fold*) et qui s'assemblent en un hétérodimère
 [@fang1993]. La structure cristallographique du complexe TEBP-α/TEBP-β/ADNsb
 [@horvath1998] montre que l'extrémité 3' de l'ADN est profondément enfouie dans
@@ -565,7 +585,7 @@ récurrent en biologie des télomères.
 très utilisé en biologie des télomères. Cet organisme a surtout été étudié pour
 comprendre le fonctionnement de la télomérase, puisque cette enzyme a été
 découverte chez lui [@greider1985; -@greider1987]. En revanche son complexe
-télomérique a été moins étudié que celui de *O. nova* (par exemple aucune
+télomérique a été moins étudié que celui d'*O. nova* (par exemple aucune
 structure tridimensionnelle n'est disponible à ce jour), et semble plus élaboré
 puisqu'il contient au moins quatre protéines [@premkumar2014] : Pot1a, Tpt1,
 Pat1 et Pat2.
@@ -580,9 +600,9 @@ dans la figure ci-dessous :
 
 Comme nous l'avons vu précédemment, chez la drosophile la longueur des télomères
 est régulée par l'activité de trois rétrotransposons, et leur séquence n'est
-donc par faite de répétitions courtes mais des gènes de ces rétrotransposons.
-À cet égard, les télomères de la drosophile sont un exemple de télomères non
-canoniques, et leur complexe télomérique est également atypique.
+donc pas faite de répétitions d'un motif court mais des gènes de ces
+rétrotransposons. À cet égard, les télomères de la drosophile sont un exemple de
+télomères non canoniques, et leur complexe télomérique est également atypique.
 
 La protection des télomères de la drosophile est assurée par un complexe
 protéique appelé *terminin* [@raffa2013]. Les protéines de ce complexe ont été
@@ -591,34 +611,39 @@ des télomères. Ces expériences ont permis d'identifier les protéines HOAP,
 HipHop, Moi et Ver dont la localisation télomérique a été démontrée par des
 expériences d'immunofluorescence et par la localisation de fusions avec la GFP.
 Ces protéines sont localisées exclusivement aux télomères pendant tout le cycle
-cellulaire, et les phénotypes associés à des mutations dans ces protéines sont
-exclusivement télomériques. Les protéines du *terminin* protègent les télomères
-en recrutant des facteurs accessoires dont la plupart sont impliqués dans les
-voies de réparation de l'ADN, comme MRN, ATM et ATR. Ces caractéristiques font
-de ce complexe l'équivalent fonctionnel des complexes télomériques trouvés aux
-télomères canoniques d'autres organismes. Le complexe *terminin* de la
-drosophile est représenté schématiquement dans la figure suivante :
+cellulaire, et les phénotypes associés à des mutations dans les gènes codant
+pour ces protéines sont exclusivement télomériques. Les protéines du *terminin*
+protègent les télomères en recrutant des facteurs accessoires dont la plupart
+sont impliqués dans les voies de réparation de l'ADN, comme MRN, ATM et ATR.
+Ces caractéristiques font de ce complexe l'équivalent fonctionnel des complexes
+télomériques trouvés aux télomères canoniques d'autres organismes. Le complexe
+*terminin* de la drosophile est représenté schématiquement dans la figure
+suivante :
 
-![Figure : Comple *terminin* de *D. melanogaster* [@giraud-panis2013].](intro/figures/cplx-telo-droso.png)
+![Figure : Complexe *terminin* de *D. melanogaster* [@giraud-panis2013].](intro/figures/cplx-telo-droso.png)
 
 Cependant les protéines du *terminin* n'ont pas d'orthologues connus en dehors
 du groupe des drosophilidae, et leur séquence mute rapidement [@raffa2013].
 L'hypothèse évolutive suivante est actuellement proposée : les drosophiles
 auraient perdu la télomérase (présente chez l'ancêtre commun de tous les
 eucaryotes), ce qui aurait conduit à une "domestication" rapide des
-rétrotransposons permettant de compenser l'érosion réplicative des extrémités.
-Ces changements ont provoqué la perte des répétitions télomériques riches en G,
-et donc la perte des protéines télomériques ancestrales, et ont favorisé
-l'émergence rapide des protéines du *terminin* liant les extrémités de l'ADN
-sans spécificité de séquence.
+rétrotransposons (en quelques générations) permettant de compenser l'érosion
+réplicative des extrémités. Ces changements ont provoqué la perte des
+répétitions télomériques riches en G, et donc la perte des protéines
+télomériques ancestrales, et ont favorisé l'émergence rapide des protéines du
+*terminin* liant les extrémités de l'ADN sans spécificité de séquence.
 
 
 ### Chez les levures
 
 Les deux levures les plus utilisées comme organismes modèles en biologie des
 télomères sont *Saccharomyces cerevisiae* (levure bougeonnante) et
-*Schizosaccharomyces pombe* (levure fissipare). Leurs complexes télomériques
-sont décrits dans les paragraphes suivants.
+*Schizosaccharomyces pombe* (levure fissipare). Ces levures sont de bons modèles
+car elles possèdent des télomères canoniques évolutivement proches de ceux des
+vertébrés (notamment, la protéine RAP1 est conservée), car leur culture est
+facile, et car les techniques de biologie moléculaire et de modification
+génétique de ces levures sont bien établies. Leurs complexes télomériques sont
+décrits dans les paragraphes suivants.
 
 Chez *S. cerevisiae*, le complexe télomérique est organisé autour de la protéine
 Rap1 d'une part et autour du complexe CST d'autre part [@kupiec2014].  
@@ -627,14 +652,14 @@ l'ADN double-brin par un domaine composé de deux repliements de type Myb répé
 en tandem [@koenig1996], à partir desquels les extrémités N- et C-terminales
 s'étendent de part et d'autre de l'axe de l'ADN [@matot2012]. Par son domaine
 C-terminal, Rap1 recrute les protéines Rif1 et Rif2 impliquées dans la
-régulation de la longueur des télomères, ainsi que les protéines Sir3 et Sir4
-responsables de l'établissement et du maintien de la répression de la
-transcription des gènes situés dans les régions proches des télomères [*telomere
-position effect* ; @feeser2008].  
+régulation de la longueur des télomères [@feeser2008], ainsi que les protéines
+Sir3 et Sir4 responsables de l'établissement et du maintien de la répression de
+la transcription des gènes situés dans les régions proches des télomères
+[*telomere position effect* ; @feeser2008].  
 Le complexe CST (pour Cdc13, Stn1, Ten1) se lie à l'extrémité simple-brin
-3'-sortante du brin G et est essentiel pour sa protection contre les nucléases
-et également pour le recrutement de la télomérase lors de la réplication
-[@kupiec2014].  
+sortante en 3' du brin G et est essentiel pour sa protection contre les
+nucléases et également pour le recrutement de la télomérase lors de la
+réplication [@kupiec2014].  
 L'organisation du complexe télomérique de *S. cerevisiae* est présentée
 schématiquement dans la figure ci-dessous :
 
@@ -644,13 +669,18 @@ Chez *S. pombe*, le complexe télomérique est organisé autour de la protéine 
 qui lie l'ADN télomérique double-brin, et la protéine Pot1 qui lie l'ADN
 télomérique simple-brin (Pot1 est l'orthologue de la protéine TEBP-α d'*O.
 nova*). Ces deux protéines sont reliées par un réseau d'interactions
-protéine-protéine faisant intervenir Rap1, Poz1, et Tpz1. *S. pombe* possède
-aussi les protéines Stn1 et Ten1, mais à ce jour aucun orthologue de Cdc13 n'est
-connu chez cette levure et les fonctions de son complexe (C)ST sont encore très
-peu décrites [@giraud-panis2010]. Rap1 est conservée chez cette levure, mais
-n'interagit plus directement avec l'ADN et est recrutée aux télomères par son
-interaction avec Taz1. L'organisation du complexe télomérique de *S. pombe* est
-présentée schématiquement dans la figure ci-dessous :
+protéine-protéine faisant intervenir Rap1, Poz1, et Tpz1, et permettant au
+complexe de lier à la fois les répétitions télomériques double-brin et
+simple-brin. Rap1 est conservée chez cette levure, mais n'interagit plus
+directement avec l'ADN et est recrutée aux télomères par son interaction avec
+Taz1. *S. pombe* possède aussi les protéines Stn1 et Ten1, mais à ce jour aucun
+orthologue de Cdc13 n'est connu chez cette levure et les fonctions de son
+complexe (C)ST sont encore très peu décrites [@giraud-panis2010].
+L'organisation du complexe télomérique de *S. pombe* est présentée
+schématiquement dans la figure ci-dessous :
 
 ![Figure : Complexe télomérique de *S. pombe* [@giraud-panis2013].](intro/figures/cplx-telo-pombe.png)
+
+Comme nous le verrons dans le chapitre suivant, le complexe télomérique de *S.
+pombe* ressemble beaucoup à celui des vertébrés.
 
