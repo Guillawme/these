@@ -377,7 +377,7 @@ RMSD chiralité                          15.25
 
 Le modèle final est représenté dans la figure suivante :
 
-![Figure : **Structure cristallographique du complexe TRFH/RAP1-TBM.** Vue d'ensemble du complexe (à gauche). Vue détaillée du site de liaison du motif TBM (à droite), en superposition avec la structure du complexe contenant le TBM d'Apollo. Le domaine TRFH est représenté en jaune, le peptide RAP1-TBM est représenté en cyan, le peptide Apollo-TBM est représenté en violet.](partie-1/figures/structure-trfh-rap1-tbm.png)
+![Figure : **Structure cristallographique du complexe TRFH/RAP1-TBM.** Vue d'ensemble du complexe (à gauche). Vue détaillée du site de liaison du motif TBM (à droite), en superposition avec la structure du complexe contenant le TBM d'Apollo. Le peptide RAP1-TBM est coloré en cyan, le peptide Apollo-TBM est coloré en violet, le domaine TRFH est coloré en jaune (ses résidus engagés dans l'interaction avec les motifs TBM sont colorés de la même couleur que les motifs).](partie-1/figures/structure-trfh-rap1-tbm.png)
 
 Afin de confirmer que ce motif TBM est bien engagé dans l'interaction entre RAP1
 et TRF2, nous avons muté en alanine les trois résidus Y, L et P dans la séquence
