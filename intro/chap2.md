@@ -33,7 +33,7 @@ fluorescence dite à "super-résolution" avec laquelle le mode d'acquisition et 
 traitement des images résultantes permet d'observer des objets plus petits que
 la limite due à la diffraction [@doksani2013]. Il est donc clair que la *t-loop*
 existe *in vivo*, en revanche son temps de vie et sa dynamique d'ouverture et de
-fermeture au cours du cycle cellulaire sont encore mal caractérisés.
+fermeture au cours du cycle cellulaire ne sont pas encore caractérisés.
 Ces questions sont importantes pour comprendre comment la *t-loop* peut réguler
 l'accès à l'extrémité de la molécule d'ADN pour permettre l'élongation par
 la télomérase.
@@ -103,11 +103,11 @@ télomères, ce qui suggère l'existence de sous-complexes plus ou moins
 indépendants du *shelterin*. Cette déplétion de TRF2 diminue notablement la
 quantité de RAP1 télomérique, mais n'affecte que peu la quantité de RAP1
 cytosolique, ce qui suggère pour RAP1 des fonctions extra-télomériques
-indépendantes de son interaction avec TRF2 [voir @kabir2010; @martinez2011;
-@ghosh2012].
+indépendantes de son interaction avec TRF2 [voir @kabir2010; @teo2010;
+@martinez2011; @ghosh2012].
 
-Il a été montré que le complexe *shelterin* se lie préférentiellement aux
-régions contenant une jonction double-brin/simple-brin, c'est-à-dire avec un
+Il a été montré que le complexe *shelterin* complet se lie préférentiellement
+aux régions contenant une jonction double-brin/simple-brin, c'est-à-dire avec un
 site de liaison de POT1 et au moins un site de liaison du domaine Myb de TRF2 ou
 TRF1 [@choi2011]. Cette étude a également montré que deux complexes majoritaires
 possèdent cette spécificité de liaison : un complexe contenant les six protéines
@@ -118,19 +118,20 @@ liaison de POT1), les auteurs supposent que les sites de haute affinité
 permettent de positionner le complexe aux endroits critiques du télomère où il
 peut ainsi lier et rapprocher physiquement l'extrémité simple-brin et la région
 double-brin et ainsi favoriser la formation de la *t-loop* [@choi2011].
+La région double-brin serait occupée par des sous-complexes ne contenant pas
+forcément TPP1 et POT1.
 
 
 ## Les facteurs télomériques accessoires
 
-En plus des protéines du *shelterin*, présentes aux télomères pendant toutes les
-phases du cycle cellulaire, et dont les fonctions connues sont essentiellement
-télomériques, on trouve également aux télomères un grand nombre de facteurs
-accessoires. La base de données TeloPIN
-[*telomeric proteins interaction network* ; @luo2015] recense un très grand
-nombre de partenaires des protéines du *shelterin* : 300 partenaires pour TRF1,
-248 pour TRF2, 131 pour RAP1, 167 pour TIN2, 65 pour TPP1 et 184 pour POT1
-(certaines de ces protéines sont probablement des partenaires communs
-à plusieurs des protéines du *shelterin*). Ces facteurs accessoires,
+En plus des protéines du *shelterin*, présentes aux pendant toutes les phases du
+cycle cellulaire, et dont les fonctions connues sont essentiellement
+télomériques, on trouve aux télomères un grand nombre de facteurs accessoires.
+La base de données TeloPIN [*telomeric proteins interaction network* ; @luo2015]
+recense un très grand nombre de partenaires des protéines du *shelterin* : 300
+partenaires pour TRF1, 248 pour TRF2, 131 pour RAP1, 167 pour TIN2, 65 pour TPP1
+et 184 pour POT1 (certaines de ces protéines étant probablement des partenaires
+communs à plusieurs des protéines du *shelterin*). Ces facteurs accessoires,
 contrairement aux protéines télomériques, ne sont pas présents uniquement aux
 télomères, et n'y sont pas présents pendant toutes les phases du cycle
 cellulaire. Leurs fonctions sont essentiellement non télomériques : ces facteurs
@@ -168,16 +169,16 @@ c'est-à-dire lorsque le télomère devient suffisamment court, la répression e
 levée et la télomérase peut allonger le télomère. Chez *S. cerevisiae*, ces
 répresseurs de la télomérase sont les protéines Rif1 et Rif2 recrutées par
 scRap1 [@bianchi2008]. Chez l'humain, TRF1 est principalement responsable de
-l'inhibition de la télomérase [@vansteensel1997; @ancelin2002], et agit avec
-POT1 [@loayza2003; @ye2004]. POT1 semble avoir un double rôle dans le contrôle
-de l'activité de la télomérase : en masquant l'extrémité 3', cette protéine
-empêche physiquement l'élongation du bin G [@lei2005] ; mais lorsqu'elle glisse
-le long du brin d'ADN en s'éloignant de l'extrémité 3' elle augmente la
-processivité de la télomérase [@lei2005] probablement en maintenant son
-association avec l'ADN avec l'aide de TPP1 [@wang2007; @xin2007]. Le mécanisme
-précis de passage de l'état extensible à l'état non extensible n'est pas
-encore compris, au même titre que le rôle possible de la *t-loop* dans la
-régulation de l'accessibilité de l'extrémité 3'.
+l'inhibition de la télomérase [@vansteensel1997; @ancelin2002], et agit de
+concert avec POT1 [@loayza2003; @ye2004]. POT1 semble avoir un double rôle dans
+le contrôle de l'activité de la télomérase : en masquant l'extrémité 3', cette
+protéine empêche physiquement l'élongation du bin G [@lei2005] ; mais
+lorsqu'elle glisse le long du brin d'ADN en s'éloignant de l'extrémité 3' elle
+augmente la processivité de la télomérase [@lei2005] probablement en maintenant
+son association avec l'ADN avec l'aide de TPP1 [@wang2007; @xin2007].
+Le mécanisme précis de passage de l'état extensible à l'état non extensible
+n'est pas encore complètement compris, de même que le rôle possible de la
+*t-loop* dans la régulation de l'accessibilité de l'extrémité 3'.
 
 
 ## Protection de l'extrémité du chromosome par le complexe *shelterin*
