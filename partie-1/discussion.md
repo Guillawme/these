@@ -62,12 +62,12 @@ transitions associées au mode d'assemblage.
 ### Convergence des résultats et corrélation avec la conservation des protéines
 
 Les résultats obtenus par nos différentes approches dans des conditions
-expérimentales proches convergent, ce qui démontre leur validité. Nos résultats
-sont également appuyés par la conservation du motif TBM de RAP1 : le consensus
-`YRL` défini par @kim2009 est présent chez 12 des 14 espèces de vertébrés dont
-nous avons aligné les séquences (conservé chez les mammifères et les amphibiens,
-absent chez les poissons et les oiseaux). La conservation du motif TBM de RAP1
-est présentée dans la figure suivante :
+expérimentales proches convergent, ce qui augmente leur robustesse.
+Nos résultats sont également appuyés par la conservation du motif TBM de RAP1 :
+le consensus `YRL` défini par @kim2009 est présent chez 12 des 14 espèces de
+vertébrés dont nous avons aligné les séquences (conservé chez les mammifères et
+les amphibiens, absent chez les poissons et les oiseaux). La conservation du
+motif TBM de RAP1 est présentée dans la figure suivante :
 
 ![Figure : Région du motif TBM dans l'alignement des séquences de RAP1 de 14 espèces de vertébrés. Les motifs TBM connus sont rappelés dans le panneau du haut. Les résidus du motif sont indiqués par les triangles noirs, le résidu R du motif consensus défini par [@kim2009] est surligné en bleu et indiqué par une étoile. Les résidus identiques sont surlignés en rouge, les résidus similaires sont encadrés en bleu.](partie-1/figures/conservation-tbm-rap1.png)
 
@@ -108,14 +108,19 @@ construction B-TRFH ; les résultats sont identiques avec la construction TRFH).
 
 ![Figure : Titration calorimétrique de B-TRFH par RAP1_1-208 à 30 °C (panneau de gauche), 20 °C (panneau central) et 10 °C (panneau de droite).](partie-1/figures/itc-rap1-208-b-trfh.png)
 
-L'explication que nous proposons est que l'interaction de basse affinité entre
-la région N-terminale de RAP1 et le domaine TRFH de TRF2 est dépendante du
-rapprochement spatial permis par l'interaction de haute affinité entre le
-domaine RCT de RAP1 et la région RBM de TRF2.
+Une explication possible est que l'interaction de basse affinité entre la région
+N-terminale de RAP1 et le domaine TRFH de TRF2 est dépendante du rapprochement
+spatial permis par l'interaction de haute affinité entre le domaine RCT de RAP1
+et la région RBM de TRF2. D'autre part, la liaison de TRF2 à l'ADN semble
+modifier la capacité de la région N-terminale de RAP1 à interagir avec TRF2.
+En effet nos collaborateurs au laboratoire d'Eric Gilson ont vérifié que la
+construction RAP1_1-208 ajoutée à TRF2 a un effet équivalent sur la protection
+de la jonction de Holliday comparé à RAP1 entière ajoutée au mutant de TRF2
+délété de la région RBM (voir article en annexe).
 
 Plus généralement, l'expérience acquise par l'étude du complexe TRF2/RAP1
-souligne bien la nécessité d'employer des méthodes complémentaires pour l'étude
-de telles protéines multi-domaines, et l'importance d'analyser les protéines
+souligne bien l'intérêt de combiner des approches expérimentales pour l'étude de
+telles protéines multi-domaines, et l'importance d'analyser les protéines
 entières plutôt que leurs domaines isolés. Il est en effet probable que de
 telles interactions faibles favorisées par un rapprochement spatial au sein d'un
 complexe (assemblé par d'autres interactions plus fortes) soient fréquentes dans
@@ -153,9 +158,8 @@ Notre expérience d'empreinte peut s'envisager en présence d'un ADN long comme
 celui des expériences d'AFM (650 pb) mais nécessiterait une mise au point
 importante et de nombreux contrôles, le premier étant de s'assurer que le
 complexe condensé d'intérêt est bien formé. Le contrôle idéal serait
-l'observation directe par AFM de l'échantillon juste avant la réaction
-d'empreinte, ce qui nécessiterait de réaliser l'expérience dans le laboratoire
-de nos collaborateurs.
+l'observation directe par AFM de l'échantillon juste avant la
+réaction d'empreinte.
 
 L'étude des complexes TRF2/ADN et RAP1/TRF2/ADN par microscopie électronique
 pourrait aussi permettre d'obtenir des informations complémentaires de celles
@@ -168,33 +172,41 @@ en évidence entre TRF2 et RAP1 module la capacité de TRF2 à condenser l'ADN.
 
 Notre modèle de l'interaction complète entre TRF2 et RAP1 suggère un
 rapprochement spatial important des domaines BRCT des deux molécules de RAP1
-liées à un dimère de TRF2. Il a été démontré que des domaines BRCT répétés en
+liées à un dimère de TRF2. Il a été montré que des domaines BRCT répétés en
 tandem sont capables de lier des motifs phosphorylés [@manke2003; @yu2003;
 @rodriguez2003], en revanche la capacité d'un domaine BRCT isolé à lier ces
 motifs est encore mal caractérisée. L'hypothèse que des dimères de domaines BRCT
 (et non des domaines répétés en tandem dans la même chaine polypeptidique)
 pourraient également lier des motifs phosphorylés a été émise [@rodriguez2003]
-et nous semble pertinente dans le cas du complexe TRF2/RAP1 à la lumière des
-résultats exposés dans cette partie.
+et nous semble pertinente dans le cas de la dimérisation induite du domaine BRCT
+de RAP1 dans le complexe TRF2/RAP1.
 
 Il est aussi intéressant de remarquer que le domaine BRCT de RAP1 est le plus
 conservé dans toute sa séquence, même plus conservé que son domaine RCT
 nécessaire à l'interaction avec TRF2 (voir en annexes l'alignement des séquences
 de RAP1 de 14 espèces de vertébrés possédant un complexe TRF2/RAP1).
-D'autre part, la présence même de ce domaine est conservée chez des RAP1
-appartenant à des espèces évolutivement plus distantes comme les levures *S.
+D'autre part, au cours de l'évolution jusqu'aux levures, le domaine Myb de RAP1
+a subi une duplication et un changement radical de propriétés d'interaction, en
+acquérant la capacité d'interagir avec l'ADN (chez *S. cerevisiae*). Le domaine
+RCT a aussi complètement changé de propriétés d'interaction chez *S.
+cerevisiae*, en perdant la capacité à lier Tbf1 (l'orthologue de TRF2) et en
+gagnant la capacité à recruter d'autres protéines (les protéines Rif et Sir).
+Le domaine RCT a aussi été complètement perdu, par exemple chez *Candida
+albicans* [@yu2010]. Au contraire, le domaine BRCT est conservé chez des RAP1
+appartenant à des espèces évolutivement distantes comme les levures *S.
 cerevisiae* et *S. pombe*. Cette conservation extrême, alors même que les
-domaines BRCT entre eux semblent relativement variables [@callebaut1997],
-suggère des fonctions importantes.
+domaines BRCT entre eux sont relativement variables [@callebaut1997], suggère
+des fonctions importantes possiblement associées à la phosphorylation des
+protéines partenaires de RAP1.
 
 La résolution de la structure tridimensionnelle du domaine BRCT de RAP1 nous
 semble une étape importante dans la compréhension de ses fonctions (en
 permettant de le comparer aux autres domaines BRCT dont une structure est
 disponible), et des fonctions de l'interaction complète entre TRF2 et RAP1.
 Nous avons tenté sans succès de cristalliser la construction 1-208 de RAP1, qui
-s'avère trop soluble (les cribles de conditions de cristallisation contiennent
-majoritairement des gouttes claires, même à une concentration en protéine
-d'environ 100 mg/mL). En revanche cette grande solubilité fait de cette
+s'avère extrêmement soluble (les cribles de conditions de cristallisation
+contiennent majoritairement des gouttes claires, même à une concentration en
+protéine d'environ 100 mg/mL). En revanche cette grande solubilité fait de cette
 construction un outil bien adapté à une étude par RMN, d'autant plus que la
 structure du domaine Myb (résidus 132 à 191) a déjà été résolue par RMN
 [@hanaoka2001] et son attribution est disponible.

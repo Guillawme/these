@@ -43,7 +43,7 @@ constante d'équilibre d'association ; K~A~ = 1 / K~D~), ΔS (la variation
 d'entropie) et n (la stoechiométrie) associées à l'interaction. La variation
 d'enthalpie libre associée à l'interaction (ΔG) peut finalement être calculée
 avec l'équation ΔG = ΔH - T ΔS. La titration calorimétrique est la seule
-technique qui puisse fournir tous ces paramètres thermodynamiques en
+technique à ce jour qui puisse fournir tous ces paramètres thermodynamiques en
 une expérience.
 
 Dans nos conditions expérimentales (cf. Matériel et méthodes), la titration
@@ -182,18 +182,23 @@ celui du chromatogramme puisque cette grandeur est proportionnelle à la
 concentration de l'échantillon. Les profils de R~g~ et I~0~ le long du
 chromatogramme sont représentés dans la figure suivante :
 
-![Figure : Profils de R~g~ et I~0~ le long du chromatogramme de TRF2 (en haut à gauche), RAP1-RCT (en haut à droite), le complexe TRF2/RAP1 (en bas à gauche) et le complexe TRF2/RAP1-RCT (en bas à droite).](partie-1/figures/rg-profiles.png)
+![Figure : Profils de R~g~ (en rouge) et I~0~ (en noir) le long du chromatogramme de TRF2 (en haut à gauche), RAP1-RCT (en haut à droite), le complexe TRF2/RAP1 (en bas à gauche) et le complexe TRF2/RAP1-RCT (en bas à droite).](partie-1/figures/rg-profiles.png)
 
 La variation de R~g~ le long du chromatogramme nous renseigne sur l'homogénéité
 de l'échantillon, et permet de sélectionner uniquement les courbes donnant des
-valeurs de R~g~ sensiblement identiques. Par exemple pour TRF2, nous avons
-sélectionné les courbes 100 à 106. Le R~g~ quasiment constant à travers tout le
-chromatogramme indique une grande homogénéité des échantillons, et confirme
-l'absence d'agrégation et le haut degré de pureté que nous avons vérifiés lors
-des purifications (voir les chromatogrammes d'exclusion stérique et les analyses
-par SDS-PAGE dans la partie Matériel et méthodes). Les courbes de diffusion
-finales présentées précédemment ont été obtenues en calculant la moyenne des
-courbes sélectionnées par cette procédure.
+valeurs de R~g~ sensiblement identiques. L'acquisition couplée à la
+chromatographie d'exclusion stérique apporte une grande redondance de données,
+ainsi nous pouvons sélectionner les courbes de façon très stringente.
+Par exemple pour TRF2 nous avons sélectionné les courbes 100 à 106, car la
+comparaison de toutes les courbes a révélé une très légère tendance
+à l'agrégation dans le début du pic chromatographique. Le R~g~ quasiment
+constant à travers tout le chromatogramme indique néanmoins une grande
+homogénéité des échantillons, et confirme la quasi absence d'agrégation et le
+haut degré de pureté que nous avons vérifiés lors des purifications (voir les
+chromatogrammes d'exclusion stérique et les analyses par SDS-PAGE dans la partie
+Matériel et méthodes). Les courbes de diffusion finales présentées précédemment
+ont été obtenues en calculant la moyenne des courbes sélectionnées par
+cette procédure.
 
 La courbe expérimentale et les paramètres R~g~ et I~0~ permettent de représenter
 les données sous une forme modifiée comme $(qR_g)^2 I(q) / I_0 = f(qR_g)$,
@@ -235,8 +240,8 @@ fonction P(r) contient des informations structurales intéressantes :
 ![Figure : Formes caractéristiques de la fonction P(r) [@receveur-brechot2012].](partie-1/figures/pr-theoriques.png)
 
 La fonction de distribution des distances nous renseigne moins sur la
-flexibilité des objets (contrairement au graphe de Kratky), mais elle prend des
-formes caractéristiques de la forme de l'objet. La fonction P(r) d'une protéine
+flexibilité des objets (contrairement au graphe de Kratky), mais son allure est
+caractéristique de la forme de l'objet. La fonction P(r) d'une protéine
 globulaire est une gaussienne quasi-parfaite. Pour une protéine de forme plus
 allongée, la P(r) est asymétrique et présente un épaulement du côté des grandes
 distances. Cet épaulement devient même un second pic dans le cas où la protéine
@@ -271,10 +276,10 @@ Table: Tableau : R~g~, D~max~ et masses moléculaires des protéines et des comp
    TRF2/RAP1-RCT                56,6 x2 + 15,2 x2                         nd                                            67,8            265
 
 La fonction de distribution des distances sert ensuite de contrainte pour
-construire *ab inito*, pour les protéines seules et les complexes, des
-enveloppes représentant la distribution statistique de la conformation
-tridimensionnelle en solution. Les enveloppes de TRF2, RAP1, RAP1-RCT et des
-complexes TRF2/RAP1 et TRF2/RAP1-RCT sont présentées dans la figure suivante :
+construire *ab inito* des enveloppes représentant la distribution statistique de
+la conformation tridimensionnelle en solution des protéines seules et des
+complexes. Les enveloppes de TRF2, RAP1, RAP1-RCT et des complexes TRF2/RAP1 et
+TRF2/RAP1-RCT sont présentées dans la figure suivante :
 
 ![Figure : Enveloppes de TRF2 (A), de RAP1 (B), de RAP1-RCT (C), du complexe TRF2/RAP1 (D) et du complexe TRF2/RAP1-RCT (E). Superpositions des enveloppes du complexe TRF2/RAP1-RCT et de TRF2 (F), du complexe TRF2/RAP1 et de TRF2 (G), et du complexe TRF2/RAP1, de TRF2 et de deux RAP1 (H). Les domaines ont été positionnés manuellement dans les enveloppes et sont présentés comme simple repère de taille et proportions ; les superpositions d'enveloppes ont aussi été effectuées manuellement [avec le logiciel PyMOL ; @schroedingerllc2010].](partie-1/figures/enveloppes-t2r1.png)
 
@@ -327,15 +332,16 @@ motif `YRLGP` (TBM candidat) de RAP1 aux motifs TBM connus d'Apollo et NBS1
 
 ![Figure : Alignement du motif YRLGP de RAP1 avec les motifs TBM connus d'Apollo, NBS1, PNUTS, MCPH1 et SLX4. Les résidus du motif sont indiqués par les triangles noirs, le résidu R du motif consensus défini par @kim2009 est surligné en bleu, les résidus identiques sont surlignés en rouge et les résidus similaires sont encadrés en bleu. Les alignements deux à deux sont aussi présentés.](partie-1/figures/alignement-tbms-rap1.png)
 
-Ce motif de RAP1 est très similaire aux cinq motifs TBM validés
-expérimentalement déjà rapportés dans la littérature. Il est situé en C-terminal
-du domaine BRCT au début du *linker*, ce qui suggère qu'il est suffisamment
-accessible pour être engagé dans une interaction. Nous avons voulu vérifier si
-ce motif était effectivement capable de lier le domaine TRFH. Pour cela nous
-avons testé par ITC l'interaction d'un peptide de RAP1 contenant ce motif
-`YRLGP` (résidus 89 à 106 de RAP1, appelés par la suite RAP1-TBM) avec le
-domaine TRFH de TRF2 (figure ci-dessous) : dans nos conditions expérimentales,
-nous obtenons un K~D~ ≃ 13 μM.
+Ce motif de RAP1 est non seulement très similaire aux cinq motifs TBM validés
+expérimentalement déjà rapportés dans la littérature, mais sa séquence est
+également la plus proche de la séquence consensus. Il est situé en C-terminal du
+domaine BRCT au début d'une région prédite comme non structurée, ce qui suggère
+qu'il est suffisamment accessible pour être engagé dans une interaction.
+Nous avons voulu vérifier si ce motif était effectivement capable de lier le
+domaine TRFH. Pour cela nous avons testé par ITC l'interaction d'un peptide de
+RAP1 contenant ce motif `YRLGP` (résidus 89 à 106 de RAP1, appelés par la suite
+RAP1-TBM) avec le domaine TRFH de TRF2 (figure ci-dessous) : dans nos conditions
+expérimentales, nous obtenons un K~D~ ≃ 13 μM.
 
 ![Figure : Titration calorimétrique du domaine TRFH de TRF2 par le peptide RAP1-TBM.](partie-1/figures/itc-rap1-tbm-trfh.png)
 
@@ -343,39 +349,8 @@ La structure cristallographique à 2,44 Å du complexe TRFH/RAP1-TBM a par
 ailleurs été résolue au laboratoire, par remplacement moléculaire avec comme
 modèle un monomère du domaine TRFH (entrée PDB 3BUA). Les statistiques de
 collecte des données, de résolution de la structure et d'affinement du modèle
-sont présentées dans le tableau suivant :
-
-Table: Tableau : Statistiques de collecte des données, de résolution de la structure et d'affinement du modèle du complexe TRFH/RAP1-TBM.
-
--------------------------------------   -----------------------------
-**Collecte des données**                -
-Longueur d'onde (Å)                     0.98
-Groupe d'espace                         P2~1~
-Résolution (Å) (dernière tranche)       2.44 (2.63 - 2.44)
-Maille (a, b, c en Å ; α, β, γ en °)    58.8 104.8 85.3 ; 90 94.4 90
-R-merge (%)                             6.8 (66.4)
-Réflexions uniques                      33979 (5718)
-I/σ                                     14.29 (2.26)
-Complétude (%)                          96.5 (79.4)
-Wilson B-factor (Å^2^)                  51.6
-**Remplacement moléculaire**            -
-Modèle                                  entrée PDB 3BUA
-LLG                                     1391
-**Affinement**                          -
-Résolution (Å)                          2.44
-R-work (%)                              19.3
-R-free (%)                              23.7
-Nombre d'atomes (protéine)              6938
-Nombre de molécules d'eau               94
-Figure de mérite                        0.7813
-RMSD longueurs de liaison               0.004
-RMSD angles de liaison                  0.976
-RMSD chiralité                          15.25
-**Entrée PDB**                          4RQI
--------------------------------------   -----------------------------
-
-
-Le modèle final est représenté dans la figure suivante :
+sont disponibles dans l'article présenté en annexe. Le modèle final est
+représenté dans la figure suivante :
 
 ![Figure : **Structure cristallographique du complexe TRFH/RAP1-TBM.** Vue d'ensemble du complexe (à gauche). Vue détaillée du site de liaison du motif TBM (à droite), en superposition avec la structure du complexe contenant le TBM d'Apollo. Le peptide RAP1-TBM est coloré en cyan, le peptide Apollo-TBM est coloré en violet, le domaine TRFH est coloré en jaune (ses résidus engagés dans l'interaction avec les motifs TBM sont colorés de la même couleur que les motifs).](partie-1/figures/structure-trfh-rap1-tbm.png)
 
@@ -414,8 +389,8 @@ les lysines acétylées, c'est-à-dire celles qui sont accessibles au réactif, 
 exposées en surface de la protéine. Le même traitement est ensuite réalisé sur
 la protéine en complexe avec son partenaire, et permet d'identifier les lysines
 non acétylées (ou moins acétylées) en présence du partenaire, c'est-à-dire
-celles qui sont protégées par la présence du partenaire, donc engagées
-dans l'interaction.
+celles qui sont protégées par la présence du partenaire, donc engagées dans
+l'interaction (figure ci-dessus).
 
 Cette méthode a été utilisée avec succès sur des complexes protéine/ADN
 [voir par exemple @kvaratskhelia2002] et est complémentaire des techniques
@@ -428,10 +403,10 @@ réciproque en présence d'un excès de TRF2 pour analyser RAP1 en étant certai
 qu'elle est engagée dans le complexe à 100 %. Du fait du nombre de lysines
 différent dans les deux protéines, ces excès de l'une ou l'autre protéine
 conduisent à des nombres de lysines différents dans les différentes expériences.
-Pour en tenir compte, nous avons donc dû également ajuster la concentration en
-réactif d'une expérience à l'autre (le réactif doit toujours être en excès par
-rapport au nombre total de lysines). Les détails de ces ajustements sont
-indiqués dans la partie Matériel et méthodes.
+Pour en tenir compte, nous avons donc dû ajuster la concentration en réactif
+d'une expérience à l'autre (le réactif doit toujours être en excès par rapport
+au nombre total de lysines). Les détails de ces ajustements sont indiqués dans
+la partie Matériel et méthodes.
 
 Les lysines présentes dans TRF2 (44 par monomère) et RAP1 (25) sont indiquées
 dans la figure suivante, avec leur localisation spatiale pour celles situées
@@ -440,8 +415,8 @@ dans les domaines dont une structure tridimensionnelle est disponible.
 ![Figure : Positions des lysines dans les séquences et structures de TRF2 et RAP1 (les lysines sont indiquées en rouge).](partie-1/figures/positions-lysines.png)
 
 Pour chacune des deux protéines, les lysines sont réparties dans toute la
-séquence et sont globalement exposées en surface des domaines repliés, ce qui
-les rend bien adaptées à notre expérience.
+séquence (sauf dans le domaine B de TRF2) et sont globalement exposées en
+surface des domaines repliés, ce qui les rend bien adaptées à notre expérience.
 
 Nous avons comparé les profils d'acétylation des lysines des complexes TRF2/RAP1
 et TRF2/RAP1-ARAGA avec ceux des protéines libres TRF2, RAP1 et RAP1-ARAGA.
@@ -461,7 +436,7 @@ Nous détectons plusieurs types de lysines :
 
 La figure suivante indique comment nous avons interprété les spectres de masse :
 
-![Figure : **Interprétation des spectres de masse.** Les spectres orange et rouge (deux réplicats) correspondent à la protéine libre ; les spectres bleu clair et foncé (deux réplicats) correspondent à la protéine dans le complexe. Les fragments des protéines à l'origine des pics présentés sont indiqués au dessus des spectres, avec le nombre d'acétylations. **À gauche, exemple de lysines protégées dans le complexe** : le fragment acétylé est environ 4 fois moins abondant dans l'échantillon obtenu à partir de la protéine en complexe que dans celui obtenu à partir de la protéine libre. **À droite, exemple d'une lysine plus accessible dans le complexe** : le fragment acétylé est environ 3 fois plus abondant dans l'échantillon obtenu à partir de le protéine en complexe que dans celui obtenu à partir de la protéine libre.](partie-1/figures/lecture-spectres-ms.png)
+![Figure : **Interprétation des spectres de masse.** Les spectres orange et rouge (deux réplicats) correspondent à la protéine libre ; les spectres bleu clair et foncé (deux réplicats) correspondent à la protéine dans le complexe. Les fragments des protéines à l'origine des pics présentés sont indiqués au dessus des spectres, avec le nombre d'acétylations. **À gauche, exemple de lysines protégées dans le complexe** : le fragment acétylé est environ 4 fois moins abondant dans l'échantillon obtenu à partir de la protéine en complexe que dans celui obtenu à partir de la protéine libre. **À droite, exemple d'une lysine plus accessible dans le complexe** : le fragment acétylé est environ 3 fois plus abondant dans l'échantillon obtenu à partir de la protéine en complexe que dans celui obtenu à partir de la protéine libre.](partie-1/figures/lecture-spectres-ms.png)
 
 Comme attendu, nous pouvons détecter l'interaction de haute affinité déjà
 décrite entre le domaine RAP1-RCT et la région TRF2-RBM, ce qui valide notre
@@ -471,7 +446,7 @@ complexe. Du côté de RAP1, les lysines K383 et K384 sont protégées dans le
 complexe, tandis que la lysine K324 est plus accessible dans le complexe.
 Ces résultats sont résumés dans la figure suivante :
 
-![Figure : **Empreinte de TRF2 sur RAP1 et de RAP1 sur TRF2 dans la région de l'interaction de haute affinité (TRF2-RBM et RAP1-RCT).** TRF2 est représenté en jaune, RAP1 en cyan. Les lysines sont représentées en sphères, celles qui sont protégées dans le complexe sont colorées en bleu, celles qui sont plus accessibles dans le complexe sont colorées en rouge. La figure a été réalisée avec l'entrée PDB 3K6G. Les pics issus des spectres de masse (deux réplicats) sont indiqués pour chaque lysine (spectres orange et rouge : protéine libre ; spectres bleus : protéine dans le complexe). Le fragment de la protéine correspondant à chaque pic est indiqué au dessus avec le nombre d'acétylations et les lysines représentées avec le même code couleur que dans la structure.](partie-1/figures/empreinte-rct-rbm-spectres.png)
+![Figure : **Empreintes de TRF2 sur RAP1 et de RAP1 sur TRF2 dans la région de l'interaction de haute affinité (TRF2-RBM et RAP1-RCT).** TRF2 est représenté en jaune, RAP1 en cyan. Les lysines sont représentées en sphères, celles qui sont protégées dans le complexe sont colorées en bleu, celles qui sont plus accessibles dans le complexe sont colorées en rouge. La figure a été réalisée avec l'entrée PDB 3K6G. Les pics issus des spectres de masse (deux réplicats) sont indiqués pour chaque lysine (spectres orange et rouge : protéine libre ; spectres bleus : protéine dans le complexe). Le fragment de la protéine correspondant à chaque pic est indiqué au dessus avec le nombre d'acétylations et les lysines représentées avec le même code couleur que dans la structure.](partie-1/figures/empreinte-rct-rbm-spectres.png)
 
 Les lysines K327 et K329 de TRF2 sont aussi protégées dans le complexe (cf.
 figure suivante), ce qui suggère que le motif RBM de TRF2 dans le contexte des
@@ -498,7 +473,7 @@ RAP1. L'analyse détaillée des spectres de masse est présentée dans les figur
 supplémentaires de l'article en annexe. L'empreinte de RAP1 sur le domaine TRFH
 est représentée dans la figure suivante :
 
-![Figure : **Empreinte de RAP1 sur le domaine TRFH de TRF2.** La position du motif TBM de RAP1 est représentée en cyan et violet. Les lysines sont représentées en sphères, celles qui sont protégées sont colorées en bleu (bleu clair lorsqu'il existe une ambiguïté sur la position de l'acétylation due à la présence de plusieurs lysines dans le peptide analysé), celles qui sont non affectées sont colorées en gris. Les lysines colorées en vert sont protégées uniquement en présence de RAP1 sauvage, mais pas en présence de RAP1-ARAGA.](partie-1/figures/footprint-t2-trfh.png)
+![Figure : **Empreinte de RAP1 sur le domaine TRFH de TRF2.** Le motif TBM de RAP1 est représenté à sa position dans le complexe, coloré en cyan avec les résidus Y, L et P en sphères violettes. Les lysines sont représentées en sphères, celles qui sont protégées sont colorées en bleu (bleu clair lorsqu'il existe une ambiguïté sur la position de l'acétylation due à la présence de plusieurs lysines dans le peptide analysé), celles qui sont non affectées sont colorées en gris. Les lysines colorées en vert sont protégées en présence de RAP1 sauvage, mais pas en présence de RAP1-ARAGA.](partie-1/figures/footprint-t2-trfh.png)
 
 La région N-terminale de RAP1 (résidus 1 à 230) contient 13 lysines dont 6 pour
 lesquelles nous pouvons détecter une acétylation. Pour trois d'entre elles

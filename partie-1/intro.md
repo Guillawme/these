@@ -16,21 +16,21 @@ conservation nous ont encouragé à chercher à comprendre comment s'assemble le
 complexe formé par ces deux protéines.
 
 Nos collaborateurs au laboratoire d'Eric Gilson ont commencé à étudier l'effet
-de RAP1 sur les propriétés d'interaction avec l'ADN de TRF2. Ils utilisent l'AFM
-(*atomic force microscopy*, soit microscopie à force atomique) pour mesurer la
-capacité de TRF2 à condenser l'ADN, et une expérience de protection de la
-jonction de Holliday contre le clivage par une résolvase.
+de RAP1 sur les propriétés de TRF2 d'interaction et de condensation de l'ADN.
+Ils utilisent l'AFM (*atomic force microscopy*, soit microscopie à force
+atomique) pour mesurer la capacité de TRF2 à condenser l'ADN, et une expérience
+de protection de la jonction de Holliday contre le clivage par une résolvase.
 
-L'AFM leur permet de visualiser les complexes individuellement et de mesurer
-pour chacun des complexes la longueur apparente de l'ADN et le volume du
-complexe (figure ci-dessous, panneau de gauche). Ils ont tout d'abord observé
-que TRF2 est capable de former des complexes ayant une longueur apparente d'ADN
-courte et un grand volume, c'est-à-dire des oligomères hautement condensés
-[@poulet2012]. Plus récemment, ils ont observé que RAP1 diminue fortement cette
-capacité de TRF2 à condenser l'ADN télomérique et que cet effet de RAP1 dépend
-de la présence de sa région N-terminale puisque le domaine RCT isolé de RAP1
-(pourtant suffisant pour lier TRF2 avec une forte affinité) n'affecte pas cette
-propriété de TRF2.
+L'AFM leur permet de visualiser individuellement les complexes TRF2/ADN et de
+mesurer pour chacun la longueur apparente de l'ADN et le volume du complexe.
+Ils ont tout d'abord observé que TRF2 est capable de former des complexes ayant
+une longueur apparente d'ADN courte et un grand volume, c'est-à-dire des
+oligomères hautement condensés [@poulet2012]. Plus récemment, ils ont observé
+que RAP1 diminue fortement cette capacité de TRF2 à condenser l'ADN télomérique
+et que cet effet de RAP1 dépend de la présence de sa région N-terminale puisque
+le domaine RCT isolé de RAP1 (pourtant suffisant pour lier TRF2 avec une forte
+affinité) n'affecte pas cette propriété de TRF2 (figure ci-dessous, panneau de
+gauche).
 
 L'expérience de protection de la jonction de Holliday consiste à traiter la
 jonction par une résolvase (une endonucléase reconnaissant spécifiquement la
