@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="194.64586mm"
-   height="147.27931mm"
-   viewBox="0 0 689.69005 521.85583"
+   width="194.14563mm"
+   height="150.93504mm"
+   viewBox="0 0 687.91759 534.80921"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="probleme-replication.svg">
+   sodipodi:docname="probleme-replication.svg"
+   inkscape:export-filename="/Users/Guillaume/Labo/redac/these/intro/figures/probleme-replication.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100">
   <title
      id="title3586">End-replication problem</title>
   <defs
@@ -89,9 +92,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="353.48815"
-     inkscape:cy="271.04923"
+     inkscape:zoom="1"
+     inkscape:cx="363.02197"
+     inkscape:cy="167.95339"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -109,8 +112,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid3336"
-       originx="-50.478665"
-       originy="-310.07207" />
+       originx="-50.456692"
+       originy="-297.11868" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -135,7 +138,7 @@
         <dc:description>Illustration of the DNA end-replication problem.</dc:description>
         <dc:date>May 13th 2015</dc:date>
         <cc:license
-           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
       </cc:Work>
       <cc:License
          rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
@@ -158,7 +161,7 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-50.478666,-220.43428)">
+     transform="translate(-50.456693,-220.43428)">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 75.700001,244.3622 279.999999,0 120,70 238,0"
@@ -350,7 +353,7 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path10736"
-       d="m 76,714.4872 568,-0.125"
+       d="m 76,714.4872 484,-0.125"
        style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-xdpi="100"
        inkscape:export-ydpi="100" />
@@ -478,5 +481,31 @@
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="100"
        inkscape:export-ydpi="100" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path10736-5"
+       d="m 561.04987,714.30353 82.70065,0.084"
+       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:8.05099964;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:8.05099964, 8.05099964;stroke-dashoffset:11.2713995;stroke-opacity:1"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 560,722.36218 0,10 80,0 0,-10"
+       id="path4243"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="150%"
+       id="text10762-1"
+       y="751.48779"
+       x="589.8999"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:150%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100"><tspan
+         id="tspan10764-0"
+         y="751.48779"
+         x="589.8999"
+         sodipodi:role="line">L3</tspan></text>
   </g>
 </svg>
