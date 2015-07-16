@@ -41,13 +41,13 @@ Après TEV : 101 résidus ; pI = 8,12 ; MW = 11691,1 Da ; ε~280\ nm~ = 35980 M^
 Comparaison des constructions Myb-court et Myb-long :
 
 ```
-Myb-court  445  ---------------------------------------------GKKQKWTVEESEWVK  459
-Myb-long   400  GEKNPKVPKGKWNSSNGVEEKETWVEEDELFQVQAAPDEDSTTNITKKQKWTVEESEWVK  459
-                                                              **************
+Myb-court 445 ---------------------------------------------GKKQKWTVEESEWVK 459
+Myb-long  400 GEKNPKVPKGKWNSSNGVEEKETWVEEDELFQVQAAPDEDSTTNITKKQKWTVEESEWVK 459
+                                                            **************
 
-Myb-court  460  AGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN  500
-Myb-long   460  AGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN  500
-                *****************************************
+Myb-court 460 AGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN 500
+Myb-long  460 AGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN 500
+              *****************************************
 ```
 
 

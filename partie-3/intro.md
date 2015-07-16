@@ -32,13 +32,13 @@ Myb-court) afin de comparer leurs modes d'interaction avec l'ADN. Les séquences
 alignées de ces deux constructions sont indiquées ci-dessous :
 
 ```
-Myb-court  445  ---------------------------------------------GKKQKWTVEESEWVK  459
-Myb-long   400  GEKNPKVPKGKWNSSNGVEEKETWVEEDELFQVQAAPDEDSTTNITKKQKWTVEESEWVK  459
-                                                              **************
+Myb-court 445 ---------------------------------------------GKKQKWTVEESEWVK 459
+Myb-long  400 GEKNPKVPKGKWNSSNGVEEKETWVEEDELFQVQAAPDEDSTTNITKKQKWTVEESEWVK 459
+                                                            **************
 
-Myb-court  460  AGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN  500
-Myb-long   460  AGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN  500
-                *****************************************
+Myb-court 460 AGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN 500
+Myb-long  460 AGVQKYGEGNWAAISKNYPFVNRTAVMIKDRWRTMKRLGMN 500
+              *****************************************
 ```
 
 Pour cette étude nous avons utilisé trois techniques : l'ITC, le SAXS et
