@@ -27,13 +27,13 @@ région du *linker* présente dans la construction Myb-long participe bien
 
 ### SAXS
 
-Nous avons également réalisé des mesures de SEC-SAXS [SAXS couplé à la
-chromatographie d'exclusion stérique, voir @david2009; @perez2015] sur ces deux
-complexes, cette fois avec l'oligonucléotide T2-S5S8. Deux réplicats ont été
-mesurés pour chaque complexe. Pour toutes les acquisitions le R~g~ est quasiment
-constant tout le long du chromatogramme, ce qui montre la très bonne homogénéité
-des échantillons (un des deux réplicats de chaque complexe est présenté dans la
-figure ci-dessous) :
+Nous avons réalisé des mesures de SEC-SAXS [SAXS couplé à la chromatographie
+d'exclusion stérique, voir @david2009; @perez2015] sur les deux complexes
+Myb-court/ADN et Myb-long/ADN (cette fois avec l'oligonucléotide double-brin
+T2-S5S8, voir Matériel et méthodes). Deux réplicats ont été mesurés pour chaque
+complexe. Pour toutes les acquisitions le R~g~ est constant tout le long du
+chromatogramme, ce qui montre la bonne homogénéité des échantillons (un des deux
+réplicats de chaque complexe est présenté dans la figure ci-dessous) :
 
 ![Figure : Variation des paramètres R~g~ (en rouge) et I~0~ (en noir) au cours de l'élution des complexes Myb-court/ADN (en haut) et Myb-long/ADN (en bas).](partie-3/figures/profils-rg-mybs.png)
 
@@ -49,10 +49,11 @@ la même région du chromatogramme.
 
 L'analyse de Guinier montre que les complexes Myb-court/ADN et Myb-long/ADN ont
 respectivement des R~g~ de 20 et 28 Å. La différence de R~g~ de 8 Å est
-clairement trop petite pour correspondre à 46 résidus supplémentaires
-complètement désordonnés (qui représenteraient environ 80 Å de long dans une
-conformation complètement étendue), ce qui suggère également que la portion de
-*linker* du Myb-long interagit avec l'ADN.
+clairement trop faible pour correspondre aux 46 résidus supplémentaires dans un
+état désordonné (qui représenteraient environ 80 Å de long dans une conformation
+complètement étendue). Nous supposons donc à ce stade que le *linker* est au
+moins partiellement stabilisé, soit par un repliement plus important que les
+prédictions, soit par une interaction avec l'ADN.
 
 La représentation de Kratky normalisée [@durand2010] des courbes de diffusion
 des complexes Myb-court/ADN et Myb-long/ADN est montrée dans la figure
@@ -61,18 +62,20 @@ ci-dessous :
 ![Figure : Représentation de Kratky normalisée des courbes de diffusion des complexes Myb-court/ADN (rouge et orange) et Myb-long/ADN (bleu foncé et bleu clair). Le panneau de droite indique les courbes typiques de différents niveaux de structuration [@receveur-brechot2012] : globulaire compacte (bleu), multi-domaines compacte (vert), multi-domaines flexible (rouge) et dépliée (gris et violet).](partie-3/figures/kratky-plots-mybs-th.png)
 
 Ces représentations indiquent que les deux complexes sont relativement compacts.
-Pour le complexe Myb-long/ADN, ceci signifie que le *linker* adopte une
-conformation non aléatoire et suggère donc qu'il interagit avec l'ADN.
+En particulier, si nous comparons les graphes de Kratky des complexes
+Myb-long/ADN et Myb-court/ADN à celui que nous obtenions avec le domaine RCT de
+RAP1 (présentant une grande flexibilité, voir partie 1), nous n'observons pas
+une flexibilité notablement plus importante pour le complexe Myb-long/ADN.
+Ceci conforte l'interprétation selon laquelle le *linker* adopte une
+conformation non aléatoire, en accord avec son interaction avec l'ADN montrée
+par l'expérience d'empreinte de nos collaborateurs.
 
 Les fonctions de distribution des distances des deux complexes (deuxième
 réplicat) sont présentées dans la figure ci-dessous :
 
 ![Figure : Fonctions de distribution des distances des complexes Myb-court/ADN (orange) et Myb-long/ADN (bleu). Le panneau de droite rappelle les formes caractéristiques que peut prendre cette fonction : en rouge pour un domaine globulaire, en bleu pour le domaine globulaire connecté à une extrémité dépliée, en vert pour la protéine à deux domaines connectés par une région flexible, en noir la même protéine à deux domaines avec un *linker* plus rigide [@receveur-brechot2012].](partie-3/figures/p-r-mybs-th.png)
 
-Ces courbes nous confirment que le *linker* du Myb-long est bien toujours
-présent dans l'échantillon analysé, ce qui est un contrôle nécessaire car ce
-type de région non repliée a souvent une propension à se dégrader. En revanche
-ces courbes ne donnent pas d'indication sur la flexibilité des objets.
+Ces courbes ne donnent pas d'indication sur la flexibilité des objets.
 Les paramètres R~g~ et D~max~ calculés à partir des fonctions P(r) sont
 présentés dans le tableau suivant :
 
@@ -82,6 +85,13 @@ Table: Tableau : R~g~ et D~max~ des complexes Myb-court/ADN et Myb-long/ADN.
 ---------------  --------------  ----------------
  Myb-court/ADN      20,58           68,48
  Myb-long/ADN       28,31           96,50
+
+L'allure de la fonction P(r) du complexe Myb-court/ADN est caractéristique d'un
+objet globulaire légèrement allongé, avec un rapport R~g~/D~max~ proche de 1/3.
+Dans le cas du complexe Myb-long/ADN, le rapport R~g~/D~max~ est compris entre
+1/4 et 1/3, mais sa fonction P(r) a globalement elle aussi une allure
+caractéristique d'un objet globulaire allongé car les grandes distances sont
+très faiblement représentées.
 
 
 ### Cristallographie
@@ -130,10 +140,10 @@ que les cristaux les plus réguliers se forment avec l'oligonucléotide comporta
 des extrémités sortantes en 3' (T2-S5S7), et à 17 °C, mais le pouvoir de
 diffraction de ces cristaux n'était pas amélioré. Nous avons donc réalisé un
 nouveau crible plus restreint, uniquement avec l'oligonucléotide T2-S5S7 et à 17
-°C, en utilisant les 2x 48 conditions décrites par @pryor2012 et @lebihan2013
-comme étant optimisées pour la cristallisation de complexes protéine/ADN et
-domaines Myb/ADN, respectivement. Parmi ces conditions, seule la n° 48 du crible
-décrit par @pryor2012 nous a permis d'obtenir des cristaux. Ces cristaux ont une
+°C, en utilisant les 2x 48 conditions décrites par @pryor2012 et @lebihan2013 et
+optimisées pour la cristallisation de complexes protéine/ADN et domaines
+Myb/ADN, respectivement. Parmi ces conditions, seule la n° 48 du crible décrit
+par @pryor2012 nous a permis d'obtenir des cristaux. Ces cristaux ont une
 apparence meilleure que les précédents et apparaissent de façon bien
 reproductible :
 
@@ -153,7 +163,7 @@ L'apparence typique de ces cristaux est montrée dans la photo ci-dessous :
 #### Collecte et traitement des données
 
 Ces derniers cristaux nous ont permis d'obtenir plusieurs jeux de données à des
-résolutions allant de 1,8 à 2,2 Å, tous du groupe d'espace P 1 21 1. Ces jeux de
+résolutions allant de 1,8 à 2,2 Å, tous du groupe d'espace P 1 2~1~ 1. Ces jeux de
 données sont présentés dans le tableau ci-dessous, avec les statistiques de
 traitement des données :
 
@@ -165,21 +175,21 @@ de plus haute résolution).
 **Cristal**                           **Myb2**             **Myb9**             **Myb10**            **Myb31**            **Myb32**           **Myb34**
 ------------------------------------ -------------------- -------------------  -------------------- -------------------- ------------------- --------------------
 **Maille**
-a, b, c Å                             87.87 27.21 108.74   89.23 28.43 110.6    89.12 28.47 110.44   89.07 28.22 110.71   89.0 28.37 110.62   89.16 28.45 110.42
-α, β, γ °                             90 98.29 90          90 99.5 90           90 99.42 90          90 99.49 90          90 99.479 90        90 99.36 90
+a, b, c (Å)                           87,87 27,21 108,74   89,23 28,43 110,6    89,12 28,47 110,44   89,07 28,22 110,71   89,0 28,37 110,62   89,16 28,45 110,42
+α, β, γ (°)                           90 98,29 90          90 99,5 90           90 99,42 90          90 99,49 90          90 99,479 90        90 99,36 90
 
-**Résolution (Å)**                    49.024 – 2.146       44.003 – 1.991       43.959 – 2.093       43.926 – 2.198       43.89 – 1.789       43.986 – 1.788
-                                      (2.28 – 2.15)        (2.12 – 2.00)        (2.22 – 2.09)        (2.33 – 2.20)        (1.91 – 1.80)       (1.90 – 1.79)
+**Résolution (Å)**                    49,024 – 2,146       44,003 – 1,991       43,959 – 2,093       43,926 – 2,198       43,89 – 1,789       43,986 – 1,788
+                                      (2,28 – 2,15)        (2,12 – 2,00)        (2,22 – 2,09)        (2,33 – 2,20)        (1,91 – 1,80)       (1,90 – 1,79)
 
 **Nombre de réflexions uniques**      28718                38419                32274                28222                52467               51069
 
-**Complétude (%)**                    99.49                99.35                96.79                98.60                99.44               96.42
+**Complétude (%)**                    99,49                99,35                96,79                98,60                99,44               96,42
 
-**I/σ(I)**                            13.79 (1.77)         15.76 (1.60)         12.35 (1.72)         8.00 (1.12)          12.78 (0.95)        11.02 (0.93)
+**I/σ(I)**                            13,79 (1,77)         15,76 (1,60)         12,35 (1,72)         8,00 (1,12)          12,78 (0,95)        11,02 (0,93)
 
-**R~meas~ (%)**                       8.5 (96.9)           6.5 (119.1)          9.9 (108.8)          12.8 (154.7)         5.9 (176.7)         5.3 (116.4)
+**R~meas~ (%)**                       8,5 (96,9)           6,5 (119,1)          9,9 (108,8)          12,8 (154,7)         5,9 (176,7)         5,3 (116,4)
 
-**CC1/2 (%)**                         99.9 (67.7)          99.9 (81.6)          99.9 (70.0)          99.7 (53.2)          99.9 (63.0)         99.8 (54.3)
+**CC1/2 (%)**                         99,9 (67,7)          99,9 (81,6)          99,9 (70,0)          99,7 (53,2)          99,9 (63,0)         99,8 (54,3)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Les paramètres de maille proches (écart de moins de 2 % environ) indiquent que
@@ -226,10 +236,11 @@ résolution exploitable des jeux de données Myb2, Myb9, Myb10 et Myb32.
 
 #### Résolution de la structure et affinement
 
-La structure 1W0U disponible dans la PDB a 100 % d'identité avec notre complexe,
-nous avons donc utilisé la méthode du remplacement moléculaire pour déterminer
-les phases (la préparation du modèle est décrite dans la partie Matériel et
-méthodes).
+La structure du complexe Myb-court/ADN est disponible dans la PDB (entrée 1W0U),
+a 100 % d'identité avec notre complexe, mais cristallise dans un groupe d'espace
+différent (P 2~1~ 2~1~ 2~1~). Nous avons donc utilisé la méthode du remplacement
+moléculaire pour déterminer les phases. La préparation du modèle à partir de
+l'entrée PDB 1W0U est décrite dans la partie Matériel et méthodes.
 
 Les coefficients de Matthews [@matthews1968] calculés pour le cristal Myb10 en
 supposant 1, 2 et 3 copies du complexe dans l'unité asymétrique sont présentés
@@ -247,8 +258,10 @@ ________________________________________________
 ```
 
 Ces valeurs suggèrent que l'unité asymétrique du cristal contient deux copies du
-complexe, ce qui indique le nombre de copies à chercher dans la procédure de
-remplacement moléculaire (voir la partie Matériel et méthodes).
+complexe. Sachant que le complexe est constitué d'un oligonucléotide à deux
+sites lié par deux molécules de Myb-long (une par site), ceci nous indique le
+nombre de copies du modèle à chercher dans l'unité asymétrique par la procédure
+de remplacement moléculaire (voir la partie Matériel et méthodes).
 
 Les résultats du remplacement moléculaire [réalisé avec le logiciel Phaser ;
 @mccoy2007] et du premier affinement en corps rigide sont présentés dans le
@@ -261,15 +274,15 @@ Table: Tableau : Résultats du remplacement moléculaire et du premier affinemen
 ------------------------ -------------------- -------------------  -------------------- -------------------- ------------------- --------------------
 **Nombre de solutions**     1                    1                    1                    1                    1                    1
 
-**Groupe d'espace**         P 1 21 1             P 1 21 1             P 1 21 1             P 1 21 1             P 1 21 1             P 1 21 1
+**Groupe d'espace**         P 1 2~1~ 1           P 1 2~1~ 1           P 1 2~1~ 1           P 1 2~1~ 1           P 1 2~1~ 1           P 1 2~1~ 1
 
-**Top LLG**                 2755.010             3841.366             3565.377             2989.351             4686.503             4706.498
+**Top LLG**                 2755,010             3841,366             3565,377             2989,351             4686,503             4706,498
 
-**Top TFZ (>8)**            8.1                  21.1                 20.1                 20.0                 35.9                 20.5
+**Top TFZ (>8)**            8,1                  21,1                 20,1                 20,0                 35,9                 20,5
 
-**R~work~ (%)**             34.58                36.26                34.22                33.65                36.12                34.48
+**R~work~ (%)**             34,58                36,26                34,22                33,65                36,12                34,48
 
-**R~free~ (%)**             40.40                40.02                38.38                37.23                38.94                38.17
+**R~free~ (%)**             40,40                40,02                38,38                37,23                38,94                38,17
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 Le score LLG (*Log Likelihood Gain*) est une mesure de l'accord entre le modèle
