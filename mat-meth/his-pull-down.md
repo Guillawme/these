@@ -1,10 +1,11 @@
-# Test d'interaction entre TRFH et Ku par *His pull down*
+# Test d'interaction entre TRFH et Ku par rétention sur résine de nickel
 
 L'expérience est réalisée en tampon Tris-HCl 20 mM, pH = 7,5, NaCl 150 mM,
 imidazole 10 mM, 2-mercaptoethanol 5 mM. Le tampon d'élution a la même
 composition sauf pour l'imidazole qui est à 700 mM. Toutes les étapes sont
 réalisées à 4 °C. Deux expériences sont réalisées en parrallèle : une en
-présence et une en absence de Ku immobilisé sur la résine.
+présence et une en absence de Ku (comportant une étiquette 10 His) immobilisé
+sur la résine.
 
 1. Placer 150 μL de résine Ni-NTA neuve dans une tube micro-spin.
 2. Laver avec 2x 500 μL de tampon : **fraction L1** pour l'analyse.

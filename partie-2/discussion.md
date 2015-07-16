@@ -4,26 +4,31 @@
 
 Nous avons montré que la présence de RAP1 n'empêche pas la liaison du motif TBM
 d'Apollo au domaine TRFH de TRF2, en accord avec le fait que TRF2 et Apollo
-interagissent ensemble *in vivo* [@vanoverbeek2006; @lenain2006]. Nous pouvons
-donc raisonnablement supposer que la protéine Apollo entière est également
-capable de se lier au complexe TRF2/RAP1 *in vitro*, bien que cette expérience
-reste à réaliser. Les mêmes considérations s'appliquent à la protéine SLX4, qui
-interagit elle aussi avec TRF2 par un motif TBM [@wan2013]. L'affinité du
-domaine TRFH de TRF2 pour le motif TBM de SLX4 est environ 6 fois plus faible
-que pour le motif TBM d'Apollo, ainsi l'influence de RAP1 sur l'interaction
-entre TRF2 et SLX4 reste encore à déterminer.
+interagissent ensemble *in vivo* [@vanoverbeek2006; @lenain2006]. Ceci est
+également en accord avec la meilleure affinité du domaine TRFH pour le motif TBM
+d'Apollo [K~D~ ≃ 0,12 μM, @chen2008 ; ou 0,059 μM dans nos mains] que pour celui
+de RAP1 (K~D~ ≃ 0,5 μM pour la transition mineure, cf. partie 1, figure XX).
+Nous pouvons donc raisonnablement supposer que la protéine Apollo entière est
+également capable de se lier au complexe TRF2/RAP1 *in vitro*, bien que cette
+expérience reste à réaliser. Les mêmes considérations s'appliquent à la protéine
+SLX4, qui interagit elle aussi avec TRF2 par un motif TBM [@wan2013].
+L'affinité du domaine TRFH pour le motif TBM de SLX4 [K~D~ ≃ 0,75 μM, @wan2013]
+est du même ordre de grandeur que son affinité pour le motif TBM de RAP1, ainsi
+l'influence de RAP1 sur l'interaction entre TRF2 et SLX4 reste encore
+à déterminer.
 
 La protéine TRF1 recrute elle aussi des partenaires possédant un motif TBM
 légèrement différent, de séquence consensus `FxLxP`. Il a été montré qu'un motif
 TBM de ce type est présent dans la séquence de la protéine TIN2 et est
-spécifique de TRF1 [K~D~ ≃ 0,3 μM ; @chen2008], mais peut également se lier non
-spécifiquement au domaine TRFH de TRF2 [K~D~ ≃ 6 μM selon @chen2008, ou 3,5 μM
-selon @kim2009]. Un des rôles fonctionnels du motif TBM de RAP1 pourrait ainsi
-être d'empêcher la liaison non spécifique des motifs `FxLxP` au domaine TRFH de
-TRF2. Pour vérifier cette hypothèse, nous avons mesuré l'interaction entre le
-motif TBM de TIN2 (peptide TIN2-TBM) et TRF2 d'une part, et entre TIN2-TBM et le
-complexe TRF2/RAP1 préformé d'autre part. Les thermogrammes et courbes de
-titration sont présentés dans la figure suivante :
+spécifique du domaine TRFH de TRF1 [K~D~ ≃ 0,3 μM ; @chen2008], mais peut
+également se lier non spécifiquement au domaine TRFH de TRF2
+[K~D~ ≃ 6 μM selon @chen2008; ou 3,5 μM selon @kim2009]. Un des rôles
+fonctionnels du motif TBM de RAP1 pourrait ainsi être d'empêcher la liaison non
+spécifique des motifs `FxLxP` au domaine TRFH de TRF2. Pour tester cette
+hypothèse, nous avons mesuré l'interaction entre le motif TBM de TIN2 (peptide
+TIN2-TBM) et TRF2 d'une part, et entre TIN2-TBM et le complexe TRF2/RAP1
+préformé d'autre part. Les thermogrammes et courbes de titration sont présentés
+dans la figure suivante :
 
 ![Figure : Titration de TRF2 (à gauche) et du complexe TRF2/RAP1 préformé (à droite) par TIN2-TBM.](partie-2/figures/itc-tin2-t2r1.png)
 
@@ -34,14 +39,15 @@ Nous obtenons les K~D~ suivants :
 - TIN2-TBM contre TRF2/RAP1 préformé : K~D~ ≃ 123,9 μM.
 
 L'affinité de TRF2 pour le motif TBM de TIN2 est donc réduite d'un facteur
-environ 19 en présence de RAP1. Ceci nous conforte dans notre hypothèse selon
-laquelle une des fonctions de RAP1 est d'empêcher la liaison non spécifique
-à TRF2 de protéines contenant un motif TBM spécifique de TRF1, ou contenant
-simplement un motif ressemblant au TBM mais sans rapport avec la fonction de
-recrutement aux télomères (de tels motifs courts sont fréquents : par exemple le
-motif `FxLxP` est présent dans plus de 7700 séquences de protéines humaines de
-la base de données Uniprot). Cette expérience serait intéressante à réaliser
-avec RAP1-ARAGA, afin de déterminer si le motif TBM de RAP1 est critique pour
+environ 19 en présence de RAP1. Même si la mesure est moins précise dans cette
+gamme d'affinités, ceci nous conforte dans notre hypothèse selon laquelle une
+des fonctions de RAP1 serait d'empêcher la liaison non spécifique à TRF2 de
+protéines contenant un motif TBM spécifique de TRF1, ou contenant simplement un
+motif ressemblant au TBM mais sans rapport avec la fonction de recrutement aux
+télomères (de tels motifs courts sont fréquents : par exemple le motif `FxLxP`
+est présent dans plus de 7700 séquences de protéines humaines de la base de
+données Uniprot). Cette expérience serait intéressante à réaliser avec
+RAP1-ARAGA, afin de déterminer si le motif TBM de RAP1 est critique pour
 cette fonction.
 
 
@@ -59,10 +65,10 @@ les domaines isolés RAP1_1-208 et TRFH, alors que nous pouvons la détecter ave
 un peptide du motif TBM et avec les protéines entières). À cet égard, l'étude
 biophysique détaillée de l'interaction entre TRF2 et WRN entières serait
 intéressante et complémentaire de notre étude sur RAP1 : l'étude des facteurs
-télomériques accessoires est en effet la suite logique de l'étude des protéines
+télomériques accessoires est en effet une suite logique de l'étude des protéines
 du *shelterin*.
 
-Les protéines entières de l'étude [@opresko2002] ont été exprimées en cellules
+Les protéines entières de l'étude d'@opresko2002 ont été exprimées en cellules
 d'insectes, elles portent donc potentiellement des modifications
 post-traductionnelles. Au contraire, toutes nos constructions sont exprimées
 dans *E. coli* et ne peuvent donc porter aucune modification. Ceci peut
@@ -72,29 +78,31 @@ modification nécessaire se trouve peut-être du côté de TRF2 puisque cette
 dernière possède de nombreux sites de modification [@walker2012].
 
 Dans l'objectif d'identifier les déterminants structuraux de l'interaction entre
-TRF2 et WRN, il serait intéressant de réaliser les expériences suivantes.
+TRF2 et WRN, il serait intéressant de réaliser les expériences suivantes :
 
-Tester la liaison du motif `KLLLP` de WRN (TBM putatif) au domaine TRFH semble
-une première étape nécessaire pour déterminer si ce motif est engagé dans
-l'interaction, car comme dans le cas de RAP1 il se peut que l'interaction soit
-détectable uniquement avec le peptide ou les protéines entières. En cas de
-résultat positif, il serait de plus possible de cristalliser le complexe pour
-résoudre sa structure tridimensionnelle. Ces expériences permettraient d'affiner
-notre compréhension de la reconnaissance des motifs TBM par le domaine TRFH.
+Afin de déterminer si le motif `KLLLP` de WRN (TBM putatif) est engagé dans
+l'interaction, il faudrait tester sa liaison au domaine TRFH, et la liaison
+à TRF2 entière de WRN entière mutée au niveau de ce motif. Comme dans le cas de
+RAP1 il se peut que l'interaction soit détectable uniquement avec le peptide ou
+les protéines entières, mais pas avec des domaines isolés. En cas de résultat
+positif pour l'interaction TRFH/TBM-putatif, il serait de plus possible de
+cristalliser le complexe pour résoudre sa structure tridimensionnelle, ce qui
+permettrait d'affiner notre compréhension de la reconnaissance des motifs TBM
+par le domaine TRFH.
 
 Dans le cas où l'implication de ce motif TBM putatif serait réfutée, des
 expériences de protéolyse ménagée sur le complexe des protéines entières
 pourraient permettre d'isoler la région minimale d'interaction et
 potentiellement générer un complexe tronqué cristallisable.
 
-L'étude de l'interaction avec les protéines entières exprimées dans *E. coli*
-permettrait aussi de déterminer si elle dépend ou non de modifications
-post-traductionnelles. Il serait aussi intéressant de phosphoryler ces protéines
-par leurs kinases spécifiques
+Que l'interaction soit médiée ou non par ce motif TBM, il est important de
+l'aborder avec les protéines entières. L'étude de l'interaction avec les
+protéines entières exprimées dans *E. coli* permettrait ainsi de déterminer si
+elle dépend ou non de modifications post-traductionnelles. Il serait aussi
+intéressant de phosphoryler ces protéines par leurs kinases spécifiques
 [dont certaines sont déjà connues, voir par exemple @walker2012] pour tester
-l'interaction avec des phosphorylations bien déterminées.
-
-Il sera aussi important de tester l'interaction de WRN entière avec le complexe
+l'interaction avec des phosphorylations bien déterminées. Enfin, il nous semble
+aussi important de tester l'interaction de WRN entière avec le complexe
 TRF2/RAP1 ou TRF2/RAP1-ARAGA préformé, afin de déterminer si RAP1 module
 l'interaction de TRF2 avec WRN.
 
@@ -119,8 +127,8 @@ construction Ku70_200-385 :
 
 ![Figure : Structure tridimensionnelle de l'hétérodimère Ku. Ku80 en vert, Ku70 en orange, Ku70_200-385 en rouge.](partie-2/figures/ku70-song2000-construct.png)
 
-De façon évidente, les délimitations de cette construction ne correspondent pas
-aux délimitations naturelles entre les domaines de la protéine. Le repliement
+Les délimitations de cette construction ne correspondent clairement pas aux
+délimitations naturelles entre les domaines de la protéine. Le repliement
 correct de cette construction n'a pas été vérifié par les auteurs de l'étude, et
 nous semble peu probable. Cette construction ne correspond donc à aucune réalité
 biologique ni d'un point de vue structural (cf. figure ci-dessus), ni d'un point
@@ -163,10 +171,10 @@ liaison intermédiaire entre celle de TRF2 et celle du complexe TRF2/RAP1, ce qu
 est en accord avec nos autres données relatives à ce mutant de RAP1 (voir la
 première partie).
 
-Nous avons tenté d'identifier par spectrométrie de masse les bandes
+Nous avons tenté d'identifier par spectrométrie de masse des bandes
 intéressantes présentes dans les éluats TRF2 et TRF2/RAP1-ARAGA et absentes dans
 l'éluat TRF2/RAP1 (correspondant à des partenaires de TRF2 dont le recrutement
-est inhibé par RAP1), ou les bandes absentes dans les éluats TRF2 et
+est inhibé par RAP1), ou des bandes absentes dans les éluats TRF2 et
 TRF2/RAP1-ARAGA et présentes dans l'éluat TRF2/RAP1 (correspondant à des
 partenaires du complexe TRF2/RAP1 et dont le recrutement dépend de la présence
 de RAP1). Malheureusement le faible enrichissement de ces protéines et la
@@ -183,4 +191,23 @@ dans une colonne : ceci permet d'éluer avec un volume très faible et donc
 d'obtenir un éluat dans lequel les protéines d'intérêt sont plus concentrées (en
 revanche ce système ne permet pas d'éluer par un gradient de concentration en
 sel, seuls des lavages à des concentrations définies seraient possibles).
+
+
+### Perspectives sur l'étude des partenaires de TRF2 et RAP1
+
+L'ensemble de ces études nous montre que la plasticité du complexe TRF2/RAP1
+rend délicate la caractérisation *in vitro* des interactions mises en évidence
+*in vivo*. Le cas de l'interaction avec Ku en est un bon exemple : elle a été
+démontrée *in vivo* avec TRF2 [@ribes-zamora2013] et RAP1 [@oconnor2004].
+Nos résultats montrent cependant que TRF2 seule n'est pas suffisante pour
+recruter Ku directement, et suggèrent que l'interaction dépend de la fixation de
+TRF2 et/ou de Ku sur l'ADN, et de la présence de RAP1 en complexe avec TRF2.
+
+De façon plus générale, la caractérisation des interactions de TRF2 avec ses
+partenaires doit donc s'envisager dans un contexte plus complet, c'est-à-dire
+non seulement en présence de RAP1 (son partenaire constitutif), mais aussi dans
+la situation où TRF2 se trouve lié à l'ADN. Il apparaît alors important de
+comprendre finement le mode d'interaction de TRF2 avec l'ADN. La partie suivante
+présente les premiers résultats d'une étude en cours visant à compléter la
+description de ce mode d'interaction avec l'ADN au niveau moléculaire.
 

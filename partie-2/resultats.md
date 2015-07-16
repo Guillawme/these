@@ -38,7 +38,11 @@ Nous obtenons les K~D~ suivants :
 
 Dans le cas de la titration du complexe TRF2/Apollo-TBM par RAP1, nous observons
 toujours une courbe à deux transitions, mais dont la transition mineure n'est
-plus suffisamment marquée pour calculer un K~D~.
+plus suffisamment marquée pour calculer un K~D~. De façon remarquable, cette
+courbe de titration est très similaire à celle que nous obtenions avec la
+titration de TRF2 par RAP1-ARAGA (partie 1, figure XX), ce qui identifie
+clairement le motif TBM de RAP1 comme le déterminant principal de l'interaction
+secondaire à l'origine de la transition mineure dans la courbe.
 
 Ces données montrent qu'Apollo est capable d'interagir avec TRF2 même en
 présence de RAP1, en accord avec son recrutement aux télomères par TRF2 *in
@@ -51,7 +55,7 @@ L'interaction directe *in vitro* entre TRF2 et WRN est décrite dans la
 littérature [@opresko2002]. D'après cette étude, le fragment 949-1092 de WRN est
 suffisant pour lier TRF2 entière. Ce fragment contient un motif `KLLLP` aux
 positions 1073 à 1077, qui est très semblable aux motifs TBM de liaison au
-domaine TRFH déjà mis en évidence [Partie 1 et @chen2008; @kim2009; @wan2013].
+domaine TRFH déjà mis en évidence [partie 1 et @chen2008; @kim2009; @wan2013].
 L'alignement de ce motif de WRN aux motifs TBM connus d'Apollo et NBS1
 [@chen2008], de PNUTS et MCPH1 [@kim2009], de SLX4 [@wan2013], et de RAP1
 (Partie 1), est représenté dans la figure ci-dessous :
@@ -61,16 +65,16 @@ L'alignement de ce motif de WRN aux motifs TBM connus d'Apollo et NBS1
 Une structure RMN du fragment 949-1092 montre que ce motif est situé dans une
 région non structurée de la protéine [@hu2005], ce qui en fait un candidat
 pertinent pour être un motif TBM. Les auteurs de cette structure RMN indiquent
-que cette construction a été très difficile à produire de façon soluble, en
-revanche une étude plus récente a montré que le fragment 949-1079 est stable
-dans une expérience de protéolyse ménagée, peut être produit et purifié
-aisément, et est bien soluble [@kitano2010]. Ce dernier fragment contient
-toujours le motif TBM putatif. Nous avons donc exprimé et purifié cette
-construction appelée WRN-RQC (cf. Matériel et méthodes) afin de tester son
-interaction avec le domaine TRFH de TRF2. Nous avons privilégié cette approche
-plutôt que l'étude des protéines entières car en cas d'interaction nous
-obtiendrons un complexe compact, compatible avec une étude cristallographique,
-ce qui ne serait pas le cas avec les protéines entières.
+que cette construction a été difficile à produire de façon soluble, en revanche
+une étude plus récente a montré que le fragment 949-1079 est stable dans une
+expérience de protéolyse ménagée, peut être produit et purifié aisément, et est
+bien soluble [@kitano2010]. Ce dernier fragment contient toujours le motif TBM
+putatif. Nous avons donc exprimé et purifié cette construction appelée WRN-RQC
+(cf. Matériel et méthodes) afin de tester son interaction avec le domaine TRFH
+de TRF2. Nous avons privilégié cette approche plutôt que l'étude des protéines
+entières car en cas d'interaction nous obtiendrons un complexe compact,
+compatible avec une étude cristallographique, ce qui ne serait pas le cas avec
+les protéines entières.
 
 La titration calorimétrique du domaine TRFH de TRF2 par WRN-RQC ne montre aucune
 interaction détectable entre ces deux protéines dans nos conditions
@@ -98,10 +102,10 @@ ci-dessous).
 ![Figure : Titration calorimétrique du complexe TRF2/RAP1 (gauche) et de RAP1 (droite) par WRN-RQC.](partie-2/figures/itc-wrn-t2r1-rap1.png)
 
 Afin de vérifier le bon repliement du domaine WRN-RQC, nous avons finalement
-testé son interaction avec l'ADN (cf. Matériel et méthodes) et avons retrouvé
-une affinité d'environ 2,15 μM, de l'ordre de grandeur de celle rapportée dans
-la littérature [@kitano2010]. Ce dernier thermogramme est présenté dans la
-figure ci-dessous :
+testé son interaction avec l'ADN (cf. Matériel et méthodes) et avons retrouvé un
+K~D~ d'environ 2,15 μM, de l'ordre de grandeur de celle rapportée dans la
+littérature [@kitano2010]. Ce dernier thermogramme est présenté dans la figure
+ci-dessous :
 
 ![Figure : Titration calorimétrique de WRN-RQC par l'oligonucléotide T2-S5S6.](partie-2/figures/itc-wrn-adn.png)
 
@@ -130,21 +134,22 @@ Jean-Baptiste Charbonnier), nous avons cherché à vérifier cette interaction a
 l'objectif de produire un complexe minimal compatible avec une étude
 cristallographique. Nous avons donc dans un premier temps testé l'interaction de
 Ku avec le domaine TRFH de TRF2, par chromatographie d'exclusion stérique et par
-*pull down* sur résine de nickel. Nous n'avons pas pu confirmer l'interaction
-dans ces conditions (figure ci-dessous) :
+rétention sur résine de nickel. Nous n'avons pas pu confirmer l'interaction dans
+ces conditions (figure ci-dessous) :
 
-![Figure : Tests d'interaction entre Ku et TRFH. Chromatogrammes d'exclusion stérique (gauche) et analyse SDS-PAGE du *pull down* (droite).](partie-2/figures/tests-ku-trfh.png)
+![Figure : Tests d'interaction entre Ku et TRFH. En haut, chromatogrammes d'exclusion stérique (Ku seul en bleu, mélange Ku + TRFH en rouge). En bas, analyse SDS-PAGE de la rétention sur résine de nickel.](partie-2/figures/tests-ku-trfh.png)
 
 En présence du domaine TRFH de TRF2 (chromatogramme rouge dans la figure
 ci-dessus), nous n'observons aucun pic dont le volume d'élution est inférieur
-à celui de Ku (11 mL, cf. le chromatogramme bleu dans la figure ci-dessus) ce
-qui signifie que dans ces conditions aucun complexe ne se forme. L'expérience de
-*pull down* ne montre pas non plus d'interaction puisque la quantité de TRFH
-élué est identique en absence ou en présence de Ku (comparer les pistes E1 et E2
-correspondant aux fractions d'élution, cf. Matériel et méthodes) et correspond
-donc à la fraction de TRFH retenue non spécifiquement par la résine. Si TRFH
-interagissait avec Ku, il serait enrichi dans la fraction d'élution dans
-l'expérience où Ku est présent.
+à celui de Ku (11 mL, chromatogramme bleu dans la figure ci-dessus) ce qui
+signifie que dans ces conditions aucun complexe ne se forme. L'expérience de
+rétention sur résine de nickel ne montre pas non plus d'interaction puisque la
+quantité de TRFH élué est identique en absence ou en présence de Ku immobilisé
+sur la résine (comparer les pistes E1 et E2 correspondant aux fractions
+d'élution, voir la partie Matériel et méthodes pour les détails de l'expérience)
+et correspond donc à la fraction de TRFH retenue non spécifiquement par la
+résine. Si TRFH interagissait avec Ku, il serait enrichi dans la fraction
+d'élution dans l'expérience où Ku est présent.
 
 Nous avons également réalisé la titration calorimétrique de Ku par TRFH et par
 TRF2, et nous confirmons que dans nos conditions expérimentales *in vitro*
@@ -161,9 +166,9 @@ avons réalisé des expériences de *pull down* (cf. Matériel et méthodes).
 Dans ces expériences un oligonucléotide contenant un site de liaison de TRF2 est
 immobilisé sur un support chromatographique par un système
 streptavidine/biotine. Une quantité saturante de TRF2 ou de complexe TRF2/RAP1
-ou TRF2/RAP1-ARAGA est alors injectée à travers la colonne. Nous injectons
-ensuite des extraits nucléaires de cellules HeLa dans la colonne contenant le
-complexe immobilisé ADN/TRF2 ou ADN/TRF2/RAP1 ou ADN/TRF2/ARAGA. Enfin, les
+ou TRF2/RAP1-ARAGA est alors injectée à travers la colonne. Puis nous injectons
+des extraits nucléaires de cellules HeLa dans la colonne contenant le complexe
+immobilisé ADN/TRF2 ou ADN/TRF2/RAP1 ou ADN/TRF2/RAP1-ARAGA. Enfin, les
 protéines sont éluées par augmentation de la force ionique (pour dissocier TRF2
 de l'ADN), et nous analysons le contenu des éluats par SDS-PAGE pour déterminer
 quelles protéines des extraits nucléaires sont retenues par les
@@ -171,15 +176,15 @@ différents complexes.
 
 Nous observons de façon reproductible des chromatogrammes d'élution différents
 selon que les extraits nucléaires ont été incubés avec TRF2 seul, le complexe
-TRF2/RAP1, le complexe TRF2/ARAGA ou l'ADN seul (figure-ci dessous), alors que
-les quantités de protéines et d'extraits nucléaires sont identiques dans tous
-les essais.
+TRF2/RAP1, le complexe TRF2/RAP1-ARAGA ou l'ADN seul (figure-ci dessous), alors
+que les quantités de protéines et d'extraits nucléaires sont identiques dans
+tous les essais.
 
-![Figure : Chromatogrammes d'élution des *pull down*. ADN seul (en haut à gauche), ADN saturé en TRF2 (en haut à droite), ADN saturé en TRF2/RAP1 (en bas à gauche), ADN saturé en TRF2/RAP1-ARAGA (en bas à droite). Le premier pic autour de 1 mL correspond à la fraction non retenue des extraits nucléaires, le pic d'élution se trouve dans la région où le tampon d'élution est à 100 % (courbe verte).](partie-2/figures/strep-pull-down-chromato.png)
+![Figure : Chromatogrammes d'élution des *pull down* (courbes bleues). ADN seul (en haut à gauche), ADN saturé en TRF2 (en haut à droite), ADN saturé en TRF2/RAP1 (en bas à gauche), ADN saturé en TRF2/RAP1-ARAGA (en bas à droite). Le premier pic autour de 1 mL correspond à la fraction non retenue des extraits nucléaires, le pic d'élution se trouve dans la région où le tampon d'élution est à 100 % (courbe verte).](partie-2/figures/strep-pull-down-chromato.png)
 
 L'analyse par SDS-PAGE est présentée dans la figure ci-dessous :
 
-![Figure : Analyse SDS-PAGE des éluats des *pull down*. 1 : extrait nucléaire (en entrée), 2 : marqueur de masse moléculaire, 3 : excès de TRF2 non fixé sur la colonne, 4 : excès d'extraits nucléaires non retenus par TRF2, 5 : éluat TRF2, 6 : excès de TRF2/RAP1 non fixé sur la colonne, 7 : excès d'extraits nucléaires non retenus par TRF2/RAP1, 8 : éluat TRF2/RAP1, 9 : excès de TRF2/RAP1-ARAGA non fixé sur la colonne, 10 : excès d'extraits nucléaires non retenus par TRF2/RAP1-ARAGA, 11 : éluat TRF2/RAP1-ARAGA, 12 : extrait nucléaires non retenus sur l'ADN, 13 : extraits nucléaires retenus sur l'ADN.](partie-2/figures/strep-pull-down-gel.png)
+![Figure : Analyse SDS-PAGE des éluats de la figure précédente. 1 : extrait nucléaire (en entrée), 2 : marqueur de masse moléculaire, 3 : excès de TRF2 non fixé sur la colonne, 4 : excès d'extraits nucléaires non retenus par TRF2, 5 : éluat TRF2, 6 : excès de TRF2/RAP1 non fixé sur la colonne, 7 : excès d'extraits nucléaires non retenus par TRF2/RAP1, 8 : éluat TRF2/RAP1, 9 : excès de TRF2/RAP1-ARAGA non fixé sur la colonne, 10 : excès d'extraits nucléaires non retenus par TRF2/RAP1-ARAGA, 11 : éluat TRF2/RAP1-ARAGA, 12 : extrait nucléaires non retenus sur l'ADN, 13 : extraits nucléaires retenus sur l'ADN.](partie-2/figures/strep-pull-down-gel.png)
 
 Les éluats contiennent des protéines différentes (comparer les pistes 5, 8 et
 11), par exemple dans la région encadrée : une protéine retenue par TRF2 n'est
