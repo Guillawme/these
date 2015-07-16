@@ -450,10 +450,10 @@ l'ADN est coloré par le DAPI (ou un autre intercalant), et les séquences
 télomériques sont marquées par la technique de FISH (*fuorescence in situ
 hybridization*) avec une sonde fluorescente complémentaire des répétitions
 télomériques : un signal télomérique situé dans une région interne du chromosome
-trahit une fusion. Les fusions de chromosomes indiquent que les télomères ont
-été pris en charge "illégalement" par la voie de réparation des cassures
-double-brin NHEJ (*non-homologous end joining* : jonction d'extrémités non
-homologues), normalement réprimée aux télomères.
+trahit une fusion [voir @celli2005]. Les fusions de chromosomes indiquent que
+les télomères ont été pris en charge "illégalement" par la voie de réparation
+des cassures double-brin NHEJ (*non-homologous end joining* : jonction
+d'extrémités non homologues), normalement réprimée aux télomères.
 
 Enfin, les événements de recombinaison sont aussi délétères car ils conduisent
 à des variations brutales de la longueur des télomères, qui sont associées à une
