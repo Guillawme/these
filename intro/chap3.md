@@ -1,5 +1,57 @@
 # TRF2 et RAP1 : deux protéines centrales
 
+## Fonctions de TRF2 et RAP1
+
+TRF2 a fait l'objet de nombreuses études *in vitro*, et ses propriétés
+d'interaction avec l'ADN sont maintenant bien décrites.
+Par son domaine Myb, TRF2 se lie spécifiquement aux répétitions télomériques
+TTAGGG [@bilaud1997]. Son extrémité N-terminale basique lui permet de lier des
+structures d'ADN branchées sans spécificité de séquence mais avec une préférence
+pour les structures à quatre branches comme la jonction de Holliday
+[@fouche2006]. La liaison de TRF2 à ces jonctions accélère leur formation et les
+protège contre le clivage par des résolvases [@poulet2009], et contre la
+séparation de brins par l'hélicase WRN [@nora2010]. TRF2 favorise aussi
+l'invasion d'un duplex télomérique par un simple-brin télomérique, en induisant
+des super-tours négatifs dans l'ADN qui facilitent la dissociation locale des
+deux brins du duplex et donc facilitent l'invasion du duplex par le simple-brin
+[@amiard2007]. Cette propriété topologique de TRF2 semble s'expliquer par le
+fait que TRF2 condense l'ADN en l'enroulant autour de lui en tours positifs, ce
+qui est compensé dans le reste de la molécule d'ADN par des tours négatifs.
+La condensation est dépendante du domaine B de TRF2, en effet des protéines
+chimériques dans lesquelles les domaines A et B de TRF1 et TRF2 ont été inversés
+ont des propriétés de condensation de l'ADN elles aussi inversées [@poulet2012].
+Ces propriétés de TRF2 lui permettent de favoriser la formation de la *t-loop*
+comme cela a été démontré *in vitro* [TRF2 forme des boucles à partir d'un ADN
+télomérique modèle, voir @griffith1999] et *in vivo* [les *t-loops* ne sont pas
+détectées dans des cellules délétées de TRF2, voir @doksani2013].
+
+TRF2 et RAP1 sont responsables de la protection des extrémités contre le NHEJ.
+Elles inhibent *in vitro* la machinerie du NHEJ présente dans des extraits
+nucléaires de cellules humaines [@bae2007]. Dans ces expériences les deux
+protéines sont nécessaires pour réprimer le NHEJ. Dans des cellules en culture,
+la délétion de TRF2 suffit à induire des fusions de chromosomes [@celli2005],
+tandis que le rétablissement de RAP1 aux télomères indépendamment de TRF2 (sous
+forme d'une protéine chimérique comportant un domaine de liaison aux répétitions
+TTAGGG) est suffisant pour réprimer les fusions de chromosomes [@sarthy2009].
+
+RAP1 semble également avoir un rôle dans la régulation de la longueur des
+télomères, puisque sa déplétion par un shRNA [@oconnor2004] ou la surexpression
+de variants tronqués [@li2003] dans des cellules humaines en culture provoquent
+un allongement des télomères. Une étude récente des fonctions de RAP1 par sa
+délétion par une technique d'édition de génome [@kabir2014] montre cependant que
+son absence complète dans des cellules humaines en culture ne provoque aucun
+phénotype télomérique. Cette étude montre que les résultats des expériences de
+surexpression et de déplétion sont difficiles à interpréter, car les effets de
+ces manipulations peuvent être variés. Les auteurs s'interrogent sur la grande
+conservation de RAP1 malgré son rôle télomérique apparemment limité.
+Ils suggèrent que les rôles extra-télomériques de RAP1 [voir @crabbe2010, et
+références associées] expliqueraient sa conservation chez les eucaryotes
+supérieurs. Une autre possibilité pourrait être que les fonctions télomériques
+de RAP1 sont critiques et donc assurées de façon redondante par plusieurs
+protéines, ce qui expliquerait l'absence de phénotype télomérique dans les
+cellules où RAP1 est délétée.
+
+
 ## TRF2 et RAP1 sont des protéines multi-domaines
 
 TRF2 et RAP1 contiennent chacune plusieurs domaines connectés par des régions
@@ -54,60 +106,6 @@ complètement hypothétique, car les informations disponibles ne nous renseignen
 pas sur ces aspects.
 
 
-## Fonctions de TRF2 et RAP1
-
-TRF2 a fait l'objet de nombreuses études *in vitro*, et ses propriétés
-d'interaction avec l'ADN sont maintenant bien décrites.
-
-Par son domaine Myb, TRF2 se lie spécifiquement aux répétitions télomériques
-TTAGGG [@bilaud1997]. Son extrémité N-terminale basique lui permet de lier des
-structures d'ADN branchées sans spécificité de séquence mais avec une préférence
-pour les structures à quatre branches comme la jonction de Holliday
-[@fouche2006]. La liaison de TRF2 à ces jonctions accélère leur formation et les
-protège contre le clivage par des résolvases [@poulet2009], et contre la
-séparation de brins par l'hélicase WRN [@nora2010]. TRF2 favorise aussi
-l'invasion d'un duplex télomérique par un simple-brin télomérique, en induisant
-des super-tours négatifs dans l'ADN qui facilitent la dissociation locale des
-deux brins du duplex et donc facilitent l'invasion du duplex par le simple-brin
-[@amiard2007]. Cette propriété topologique de TRF2 semble s'expliquer par le
-fait que TRF2 condense l'ADN en l'enroulant autour de lui en tours positifs, ce
-qui est compensé dans le reste de la molécule d'ADN par des tours négatifs.
-La condensation est dépendante du domaine B de TRF2, en effet des protéines
-chimériques dans lesquelles les domaines A et B de TRF1 et TRF2 ont été inversés
-ont des propriétés de condensation de l'ADN elles aussi inversées [@poulet2012].
-
-Ces propriétés de TRF2 lui permettent de favoriser la formation de la *t-loop*
-comme cela a été démontré *in vitro* [TRF2 forme des boucles à partir d'un ADN
-télomérique modèle, voir @griffith1999] et *in vivo* [les *t-loops* ne sont pas
-détectées dans des cellules délétées de TRF2, voir @doksani2013].
-
-TRF2 et RAP1 sont responsables de la protection des extrémités contre le NHEJ.
-Elles inhibent *in vitro* la machinerie du NHEJ présente dans des extraits
-nucléaires de cellules humaines [@bae2007]. Dans ces expériences les deux
-protéines sont nécessaires pour réprimer le NHEJ. Dans des cellules en culture,
-leur déplétion ou la surexpression d'un dominant négatif de TRF2 induisent des
-fusions de chromosomes, tandis que le rétablissement de RAP1 aux télomères
-indépendamment de TRF2 (sous forme d'une protéine chimérique comportant un
-domaine de liaison aux répétitions TTAGGG) est suffisant pour réprimer les
-fusions de chromosomes [@sarthy2009].
-
-RAP1 semble également avoir un rôle dans la régulation de la longueur des
-télomères, puisque sa déplétion par un shRNA [@oconnor2004] ou la surexpression
-de variants tronqués [@li2003] dans des cellules humaines en culture provoquent
-un allongement des télomères.
-
-Une étude récente des fonctions de RAP1 par sa délétion par une technique
-d'édition de génome [@kabir2014] montre cependant que son absence complète dans
-des cellules humaines en culture ne provoque aucun phénotype télomérique.
-Ceci soulève la question d'artefacts expérimentaux dans les expériences de
-surexpression et de déplétion, rendant leurs résultats difficiles à interpréter.
-Les auteurs de cette étude s'interrogent sur la grande conservation de RAP1
-malgré son rôle télomérique apparemment limité. Selon eux, les rôles
-extra-télomériques de RAP1 expliqueraient sa conservation chez les eucaryotes
-supérieurs. Une autre possibilité est que les fonctions télomériques de RAP1
-sont critiques et donc assurées de façon redondante par plusieurs protéines.
-
-
 ## Partenaires de TRF2 et RAP1
 
 TRF2 et RAP1 recrutent de nombreux partenaires aux télomères. La base de données
@@ -120,14 +118,14 @@ cellules vivantes et validation par GST *pull down* en extraits cellulaires
 [@lee2011]. De façon intéressante, RAP1 recrute Ku80, MRE11 et RAD50 (toutes des
 protéines impliquées dans la réparation des cassures double-brin de l'ADN)
 indépendamment de son interaction avec TRF2 [@oconnor2004]. Cependant, à ce jour
-aucune étude ciblée de partenaires de RAP1 n'est publiée et nous n'avons donc
-pas d'informations sur la nature directe ou indirecte des interactions mises en
+aucune étude ciblée de partenaires de RAP1 n'est publiée et nous n'avons pas
+d'informations sur la nature directe ou indirecte des interactions mises en
 évidence par les cribles à haut débit, ni sur les détails de ces interactions
 à l'échelle moléculaire.
 
 Concernant TRF2, un des modes de recrutement de ses partenaires a été bien
 caractérisé au niveau moléculaire. Son domaine TRFH contient un site conservé de
-liaison d'un motif appelé TBM (*TRFH-binding motif*) de séquence consensus
+liaison par un motif appelé TBM (*TRFH-binding motif*) de séquence consensus
 `YxLxP`, initialement mis en évidence par une étude ciblée de son interaction
 avec la protéine Apollo [@chen2008], et également découvert dans la protéine
 NBS1 [mais pour laquelle l'interaction a seulement été vérifiée *in vitro* avec
@@ -139,8 +137,8 @@ ont confirmé leur interaction avec TRF2 *in vitro* avec un peptide contenant le
 motif, et *in vivo* en montrant leur localisation télomérique dépendante de TRF2
 et en observant des phénotypes télomériques lorsque l'interaction est rompue en
 mutant le motif TBM [@kim2009]. Enfin, une étude ciblée de la protéine SLX4
-a démontré son interaction avec TRF2 par un motif TBM de séquence `HxLxP`
-[@wan2013].
+a démontré son interaction avec TRF2 par un motif de séquence `HxLxP`
+[@wan2013], ce qui élargit la séquence consensus des motifs TBM.
 
 La figure suivante montre le site conservé de liaison des motifs TBM du domaine
 TRFH de TRF2 :
