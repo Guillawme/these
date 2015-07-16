@@ -35,7 +35,7 @@ constant tout le long du chromatogramme, ce qui montre la très bonne homogéné
 des échantillons (un des deux réplicats de chaque complexe est présenté dans la
 figure ci-dessous) :
 
-![Figure : Variation des paramètres R~g~ et I~0~ au cours de l'élution des complexes Myb-court/ADN (en haut) et Myb-long/ADN (en bas).](partie-3/figures/profils-rg-mybs.png)
+![Figure : Variation des paramètres R~g~ (en rouge) et I~0~ (en noir) au cours de l'élution des complexes Myb-court/ADN (en haut) et Myb-long/ADN (en bas).](partie-3/figures/profils-rg-mybs.png)
 
 Les courbes finales correspondant à ces acquisitions ont été obtenues en
 calculant la moyenne des courbes 100 à 116 pour le complexe Myb-court/ADN
