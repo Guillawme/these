@@ -30,7 +30,8 @@ détectable, mais modeste à la fois dans la titration calorimétrique et dans
 l'expérience d'empreinte). Ainsi pour comprendre le rôle biologique de cette
 région N-terminale, nous supposons qu'il sera plus informatif de comparer RAP1
 entière sauvage avec un mutant tronqué du domaine BRCT ou des deux domaines BRCT
-et Myb, plutôt qu'avec RAP1-ARAGA comme nous avons commencé à le faire.  
+et Myb, plutôt qu'avec RAP1-ARAGA comme nous avons commencé à le faire dans la
+deuxième partie.  
 Cette comparaison serait pertinente dans des études *in vitro* mesurant
 l'interaction de TRF2 avec ses divers partenaires, en présence de RAP1 entière
 ou tronquée. Les progrès des techniques d'édition de génome permettront
@@ -44,7 +45,17 @@ complète entre TRF2 et RAP1 sans nécessiter de surexpression ou de déplétion
 Du point de vue méthodologique, nos résultats sur l'assemblage du complexe
 TRF2/RAP1 démontrent l'importance d'étudier des protéines entières, et par
 conséquent la nécessité de combiner des approches expérimentales
-complémentaires. L'intérêt d'études intégratives telle que celle présentée ici
-est renforcé par le fait que les protéines multi-domaines sont fréquentes chez
-les eucaryotes (REFS !!).
+complémentaires. Les protéines multi-domaines sont fréquentes chez les
+eucaryotes (REF !!), et il est clair que la compréhension de leurs fonctions
+à l'échelle moléculaire fait nécessairement appel à des combinaisons de
+techniques expérimentales telle que celle présentée ici. Il est important de
+remarquer que notre stratégie a été constamment adaptée aux nouvelles questions
+qui émergeaient au cours de l'étude, et qu'il nous aurait été difficile de
+prévoir à l'avance quelles techniques nous allions employer. Pour répondre aux
+problématiques actuelles en biologie structurale, une veille scientifique et
+technique assidue nous apparaît donc essentielle afin de cultiver une
+connaissance large de méthodes expérimentales, d'entretenir une expertise dans
+l'une de ces méthodes (au moins) et d'entretenir un niveau d'utilisateur averti
+dans les autres pour connaître leurs avantages et leurs limites et être capable
+de les mettre en oeuvre.
 
