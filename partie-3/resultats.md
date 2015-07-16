@@ -67,7 +67,7 @@ conformation non aléatoire et suggère donc qu'il interagit avec l'ADN.
 Les fonctions de distribution des distances des deux complexes (deuxième
 réplicat) sont présentées dans la figure ci-dessous :
 
-![Figure : Fonctions de distribution des distances des complexes Myb-court/ADN (orange) et Myb-long/ADN (bleu). Le panneau de droite rappelle les formes caractéristiques que peut prendre cette fonction [@receveur-brechot2012].](partie-3/figures/p-r-mybs-th.png)
+![Figure : Fonctions de distribution des distances des complexes Myb-court/ADN (orange) et Myb-long/ADN (bleu). Le panneau de droite rappelle les formes caractéristiques que peut prendre cette fonction : en rouge pour un domaine globulaire, en bleu pour le domaine globulaire connecté à une extrémité dépliée, en vert pour la protéine à deux domaines connectés par une région flexible, en noir la même protéine à deux domaines avec un *linker* plus rigide [@receveur-brechot2012].](partie-3/figures/p-r-mybs-th.png)
 
 Ces courbes nous confirment que le *linker* du Myb-long est bien toujours
 présent dans l'échantillon analysé, ce qui est un contrôle nécessaire car ce
@@ -81,7 +81,7 @@ Table: Tableau : R~g~ et D~max~ des complexes Myb-court/ADN et Myb-long/ADN.
  **Complexe**     **R~g~ (Å)**    **D~max~ (Å)**
 ---------------  --------------  ----------------
  Myb-court/ADN      20,58           68,48
- Myb-long/ADN       30,20           149,23
+ Myb-long/ADN       28,31           96,50
 
 
 ### Cristallographie
