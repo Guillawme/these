@@ -1,7 +1,7 @@
 # Préparation des extraits nucléaires
 
-Les extraits nucléaires sont préparés selon le protocole décrit dans
-[@abmayr2001] avec les modifications mineures suivantes :
+Les extraits nucléaires sont préparés selon le protocole décrit par @abmayr2001
+avec les modifications mineures suivantes :
 
 - tous les tampons contiennent du 2-mercaptoethanol à 5 mM à la place du DTT ;
 - la concentration en PMSF dans tous les tampons est de 1 mM au lieu de 0,2 mM ;
