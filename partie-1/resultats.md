@@ -237,7 +237,7 @@ maximale de r pour laquelle P(r) > 0 correspond au paramètre D~max~ : la plus
 grande distance présente dans la macromolécule. Comme le graphe de Kratky, la
 fonction P(r) contient des informations structurales intéressantes :
 
-![Figure : Formes caractéristiques de la fonction P(r) [@receveur-brechot2012].](partie-1/figures/pr-theoriques.png)
+![Figure : Formes caractéristiques de la fonction P(r) : en rouge pour un domaine globulaire, en bleu pour le domaine globulaire connecté à une extrémité dépliée, en vert pour la protéine à deux domaines connectés par une région flexible, en noir la même protéine à deux domaines avec un *linker* plus rigide [@receveur-brechot2012].](partie-1/figures/pr-theoriques.png)
 
 La fonction de distribution des distances nous renseigne moins sur la
 flexibilité des objets (contrairement au graphe de Kratky), mais son allure est
