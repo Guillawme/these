@@ -587,7 +587,7 @@ Les structures tridimensionnelles des complexes TEBP-α/TEBP-β/ADNsb (entrée P
 1OTC) et (TEBP-α/ADNsb)~2~ (entrée PDB 1KIX) sont représentées dans la figure
 suivante :
 
-![Figure : Complexe télomérique d'*Oxytricha nova*. L'ADNsb est coloré en gris avec le nucléotide 3' en rouge. À gauche, l'hétérodimère TEBP-α (en vert) / TEBP-β (en bleu). À droite, l'homodimère (TEBP-α/ADNsb)~2~ avec le monomère TEBP-α vert dans la même orientation qu'à gauche.](intro/figures/o-nova-tebp.png)
+![Figure : Complexe télomérique d'*Oxytricha nova*. L'ADNsb est coloré en rouge. À gauche, l'hétérodimère TEBP-α (en vert) / TEBP-β (en bleu). À droite, l'homodimère (TEBP-α/ADNsb)~2~ avec le monomère TEBP-α vert dans la même orientation qu'à gauche.](intro/figures/o-nova-tebp.png)
 
 Ce complexe télomérique simple a conduit au premier modèle de protection des
 extrémités des chromosomes par la séquestration physique de l'extrémité 3'-OH.
