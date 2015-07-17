@@ -1,10 +1,16 @@
-# Alignements de séquences
+## Alignements de séquences
 
 Les alignements présentés sont réalisés à l'aide du serveur Clustal Omega
 [<http://www.ebi.ac.uk/Tools/msa/clustalo> ; @sievers2011; @li2015] ou
 manuellement dans le cas des motifs TBM courts. La coloration et l'annotation
 des alignements est réalisée avec le serveur ESPript
 [<http://espript.ibcp.fr/ESPript/ESPript/> ; @robert2014].
+
+Pour l'analyse de conservation de TRF2 et RAP1, nous avons construit les
+alignements en utilisant les séquences issues des mêmes espèces de vertébrés
+pour les deux protéines. Selon ce critère, et en privilégiant également les
+entrées bien annotées de la base de données Uniprot, nous avons retenu
+14 espèces.
 
 Les séquences de TRF2 utilisées pour l'alignement sont les suivantes
 (identifiants Uniprot) :

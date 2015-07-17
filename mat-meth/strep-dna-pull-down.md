@@ -1,6 +1,6 @@
-# *Pull down* streptavidine-ADN
+## *Pull down* streptavidine-ADN
 
-## Principe
+### Principe
 
 Afin de tester les propriétés de liaison de TRF2 comparées à celles des
 complexes TRF2-RAP1 et TRF2-ARAGA dans un contexte où TRF2 est lié à l'ADN, nous
@@ -15,7 +15,7 @@ TRF2-RAP1 ou TRF2-ARAGA, ou d'identifier des protéines du mélange retenues par
 le système.
 
 
-## Protocole
+### Protocole
 
 Les oligonucléotides T2-S5-biotinylé et T2-S8 sont hybridés pour obtenir un ADN
 db biotinylé avec une base sortante en 5' à chaque extrémité et contenant un

@@ -1,4 +1,4 @@
-# Tests d'interaction par chromatographie d'exclusion stérique
+## Tests d'interaction par chromatographie d'exclusion stérique
 
 Les tests d'interaction par chromatographie d'exclusion stérique sont réalisés
 sur une colonne BIO SEC-3 (Agilent) ou Superdex 200 10/300 GL (GE Healthcare).
@@ -32,4 +32,9 @@ Table: Tableau : Tests d'interaction par chromatographie d'exclusion stérique.
  TRFH 116,7 μM + Ku 86,1 μM      100                        Sup200        0,5
 --------------------------------------------------------------------------------------------
 
+
+Les chromatogrammes des tests d'interaction entre TRF2 et RAP1 et TRF2 et
+RAP1-RCT sont présentés dans la figure suivante :
+
+![Figure : Chromatogrammes des tests d'interaction entre TRF2 et RAP1 et TRF2 et RAP1-RCT (en haut). Analyse par SDS-PAGE des contenus des pics des chromatogrammes (en bas).](mat-meth/figures/sec3-trf2-rap1.png)
 

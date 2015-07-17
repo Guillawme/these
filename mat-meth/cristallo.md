@@ -1,6 +1,6 @@
-# Résolution de la structure du complexe Myb-long/ADN
+## Résolution de la structure du complexe Myb-long/ADN
 
-## Préparation du complexe
+### Préparation du complexe
 
 La préparation du complexe Myb-long/ADN est réalisée en mélangeant la protéine
 avec un excès molaire en sites de liaison de 1,2. Ce mélange est concentré
@@ -23,7 +23,7 @@ probablement du complexe à une seule protéine, et les fractions 9, 10 et 11
 contiennent l'excès d'oligonucléotide libre).
 
 
-### Propriétés du complexe et de ses composants
+#### Propriétés du complexe et de ses composants
 
 Pour la protéine, M~W~ et ε~280\ nm~ sont obtenus avec l'outil ProtParam
 (<http://web.expasy.org/protparam/>) et ε~260\ nm~ est estimé par la mesure d'un
@@ -56,13 +56,14 @@ oligonucléotide).
     + ε~260\ nm~ ≃ 365223,7 M^-1^.cm^-1^
 
 
-## Cristallogenèse
+### Cristallogenèse
 
 Toutes les expériences de cristallogenèse sont réalisées par la méthode de
 diffusion de vapeur. Les premiers essais de cristallisation sont réalisés par
 des cribles de 7x 96 conditions en gouttes assises de 0,2 μL préparées par un
-robot Mosquito à la plateforme de cristallogenèse de l'Institut Pasteur (Paris).
-Ces conditions de cristallisation viennent des kits commerciaux suivants :
+robot Mosquito à la plateforme de cristallogenèse "PF6" de l'Institut Pasteur
+(Paris). Ces conditions de cristallisation viennent des kits commerciaux
+suivants :
 
 - Crystal Screen 1 & 2 (Hampton Research)
 - Wizard 1 & 2 (Emerald Biosystems)
@@ -82,30 +83,32 @@ l'Institut Pasteur. Ces solutions ont ensuite été utilisées pour préparer
 manuellement des gouttes suspendues en plaques de 24 puits.
 
 
-## Collecte et traitement des données de diffraction
+### Collecte et traitement des données de diffraction
 
 Toutes les expériences de diffraction des rayons X ont été faites au synchrotron
 SOLEIL, sur les lignes de lumière PROXIMA 1 et 2. Les images de diffraction ont
 été indexées et intégrées à l'aide du logiciel XDS [@kabsch2010].
 
 
-## Détermination des phases
+### Détermination des phases
 
 Les phases sont déterminées par remplacement moléculaire avec le logiciel PHASER
 [@mccoy2007] utilisé à travers l'interface de PHENIX [@adams2010]. Le modèle
-a été préparé à partir de l'entrée PDB 1W0U et contient un "mini-complexe" fait
-d'un Myb-court lié à un motif TAGGG. Ce modèle a 100 % d'identité de séquence
-avec notre complexe, et est représenté dans la figure suivante :
+a été préparé avec le logiciel PyMOL [@schroedingerllc2010] à partir de l'entrée
+PDB 1W0U et contient un "mini-complexe" composé d'un Myb-court lié à un motif
+TAGGG double-brin. Ce modèle a 100 % d'identité de séquence avec notre complexe,
+et est représenté dans la figure suivante :
 
 ![Figure : Modèle de remplacement moléculaire utilisé pour résoudre la structure du complexe Myb-long/ADN. La protéine est colorée en jaune et l'ADN en gris.](mat-meth/figures/mr-model.png)
 
 Le coefficient de Matthews [@matthews1968; @kantardjieff2003] est calculé avec
 l'outil `Matthews` de la suite CCP4 [@winn2011] et suggère que l'unité
-asymétrique contient deux copies du complexe entier. Nous cherchons donc quatre
-copies de ce modèle à un Myb dans l'unité asymétrique.
+asymétrique contient deux copies du complexe entier (constitué d'un
+oligonucléotide à deux sites lié par deux molécules de Myb-long). Nous cherchons
+donc quatre copies de ce modèle à un Myb dans l'unité asymétrique.
 
 
-## Affinement des modèles
+### Affinement des modèles
 
 Les affinements sont réalisés avec le logiciel phenix.refine
 [@afonine2012; @adams2010]. Le premier tour d'affinement est toujours effectué

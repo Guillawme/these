@@ -1,6 +1,6 @@
-# SAXS
+## SAXS
 
-## Préparation des échantillons
+### Préparation des échantillons
 
 Les protéines (les complexes préformés dans le cas des Mybs/ADN) sont tout
 d'abord injectées sur une colonne Superdex 200 10/300 GL (GE Healthcare) pour
@@ -18,7 +18,7 @@ sont ensuite concentrées et les échantillons suivants sont préparés
 - Myb-court + ADN T2S5S8.
 
 
-## Acquisition des courbes de diffusion
+### Acquisition des courbes de diffusion
 
 Les acquisitions sont réalisées sur la ligne de lumière SWING du synchrotron
 SOLEIL, en utilisant le passeur d'échantillons pour RAP1 et la chromatographie
@@ -36,12 +36,13 @@ Les restes des échantillons sont analysés par SDS-PAGE pour s'assurer qu'aucun
 dégradation ne s'est produite pendant le temps des acquisitions.
 
 
-## Analyse des données
+### Analyse des données
 
-### Traitement des données brutes
+#### Traitement des données brutes
 
 Les courbes de diffusion sont obtenues directement à la ligne de lumière, par
-les opérations suivantes à l'aide du logiciel FoxTrot :
+les opérations suivantes à l'aide du logiciel FoxTrot (développé par les
+scientifiques de la ligne de lumière SWING) :
 
 1. on dessine un masque pour délimiter la région utile du détecteur (il faut
    masquer le *beam stop* et son ombre),
@@ -70,13 +71,16 @@ les opérations suivantes à l'aide du logiciel FoxTrot :
    de l'échantillon.
 
 En utilisant l'HPLC, la courbe finale de l'échantillon est typiquement obtenue
-à partir d'une moyenne de 10 à 15 courbes. En utilisant le passeur
-d'échantillon, le nombre de courbes exploitables est limité par le nombre de
-réplicats que l'on peut mesurer avec la quantité d'échantillon disponible, et on
-utilise typiquement moins de courbes.
+à partir d'une moyenne de 10 à 15 courbes. Les courbes finales obtenues sont
+ainsi plus représentatives puisque la molécule est soumise à une dernière étape
+de purification sur place. D'autre part le rapport signal sur bruit aux grands
+angles est meilleur grâce à la redondance des données permise par ce mode
+d'acquisition. En utilisant le passeur d'échantillons, le nombre de courbes
+exploitables est limité par le nombre de réplicats que l'on peut mesurer avec la
+quantité d'échantillon disponible, et on utilise typiquement moins de courbes.
 
 
-### Calcul des enveloppes
+#### Calcul des enveloppes
 
 Une fois en possession de la courbe de diffusion finale, nous utilisons le
 logiciel GNOM [@semenyuk1991] pour calculer la fonction de distribution des

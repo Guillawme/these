@@ -1,4 +1,4 @@
-# Préparation des extraits nucléaires
+## Préparation des extraits nucléaires
 
 Les extraits nucléaires sont préparés selon le protocole décrit par @abmayr2001
 avec les modifications mineures suivantes :

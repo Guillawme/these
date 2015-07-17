@@ -1,6 +1,6 @@
-# Culture de cellules HeLa
+## Culture de cellules HeLa
 
-## Matériel
+### Matériel
 
 - milieu DMEM
 - sérum de veau fétal (SVF)
@@ -22,12 +22,12 @@
   final
 
 
-## Protocoles
+### Protocoles
 
 **Toutes les solutions doivent être préparées en milieu stérile.**
 
 
-### Démarrer une nouvelle culture
+#### Démarrer une nouvelle culture
 
 1. Préchauffer le *working medium* dans le bain à 37 °C
 2. Sortir un tube de cellules congelées, dévisser légèrement le bouchon pour
@@ -45,7 +45,7 @@
     - 20 mL dans une boite de 15 cm de diamètre
 
 
-### Passage des cellules
+#### Passage des cellules
 
 Les cellules ont besoin d'être diluées quand elles atteignent 80-90% de
 confluence (contrôler au microscope). Il faut veiller à ne pas diluer trop car
@@ -78,7 +78,7 @@ de diamètre.
 11. Remettre les boites dans l'incubateur
 
 
-### Stockage d'aliquots de cellules
+#### Stockage d'aliquots de cellules
 
 La procédure suivante suppose que la culture est dans une boite de 15 cm de
 diamètre et à quasi-confluence.

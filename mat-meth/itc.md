@@ -1,4 +1,4 @@
-# Titrations calorimétriques
+## Titrations calorimétriques
 
 Les titrations calorimétriques ont été réalisées avec un appareil VP-ITC ou
 iTC200 (au laboratoire, ou à la plateforme de calorimétrie de l'IBBMC à Orsay).

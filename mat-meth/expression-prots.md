@@ -1,4 +1,4 @@
-# Expression des protéines
+## Expression des protéines
 
 Les protéines étudiées sont surexprimées de façon recombinante dans *E. coli*
 selon le protocole suivant (les détails spécifiques à chaque protéine sont
@@ -7,7 +7,7 @@ détaillés par la suite).
 stériles.**
 
 
-## Transformation
+### Transformation
 
 La transformation des bactéries chimiocompétentes est réalisée selon le
 protocole suivant :
@@ -29,7 +29,7 @@ Les transformations faites selon ce protocole produisent typiquement quelques
 colonies à quelques dizaines de colonies pour un étalement de 20 µL.
 
 
-## Culture des bactéries et induction de l'expression
+### Culture des bactéries et induction de l'expression
 
 Une colonie obtenue à l'étape précédente est mise en culture dans 100 mL de
 milieu LB additionné de l'antibiotique approprié, cette pré-culture est incubée
@@ -51,9 +51,9 @@ les culots finaux. Ces culots sont alors congelés rapidement dans l'azote
 liquide et stockés à -80 °C.
 
 
-## Détails spécifiques aux protéines
+### Détails spécifiques aux protéines
 
-### TRF2, B-TRFH, WRN_949-1079, Myb-court, Myb-long
+#### TRF2, B-TRFH, WRN_949-1079, Myb-court, Myb-long
 
 Ces protéines sont exprimées dans la souche *E. coli* BL21 DE3 star, à partir
 d'un plasmide pETM-13 contenant une séquence optimisée pour l'expression dans
@@ -65,7 +65,7 @@ décrites ci-dessus qui mentionnent un antibiotique, c'est la kanamycine à 30
 ces plasmides.
 
 
-### RAP1, RAP1-ARAGA, RAP1_1-208
+#### RAP1, RAP1-ARAGA, RAP1_1-208
 
 Ces protéines sont exprimées dans la souche *E. coli* Rosetta, à partir d'un
 plasmide pET-16b contenant une séquence sauvage ou mutée (la mutation ARAGA et
@@ -83,7 +83,7 @@ le plasmide pRARE. Le chloramphénicol a été utilisé à une concentration de 
 µg/mL.
 
 
-## Résultats des expressions
+### Résultats des expressions
 
 Les résultats typiques obtenus pour les expressions des protéines sont indiqués
 ci-dessous. Les pistes des gels sont, de gauche à droite : un marqueur de masse
@@ -92,37 +92,37 @@ total après induction (les quantités de matériel déposées sont identiques e
 ces deux pistes).
 
 
-### TRF2
+#### TRF2
 
 ![Figure : Expression de TRF2.](mat-meth/figures/expression-trf2.png)
 
 
-### RAP1
+#### RAP1
 
 ![Figure : Expression de RAP1.](mat-meth/figures/expression-rap1.png)
 
 
-### RAP1-ARAGA
+#### RAP1-ARAGA
 
 ![Figure : Expression de RAP1-ARAGA.](mat-meth/figures/expression-araga.png)
 
 
-### RAP1_1-208
+#### RAP1_1-208
 
 ![Figure : Expression de RAP1_1-208.](mat-meth/figures/expression-rap1-208.png)
 
 
-### B-TRFH
+#### B-TRFH
 
 ![Figure : Expression de B-TRFH.](mat-meth/figures/expression-b-trfh.png)
 
 
-### WRN_949-1079
+#### WRN_949-1079
 
 ![Figure : Expression de WRN_949-1079.](mat-meth/figures/expression-wrn.png)
 
 
-### Myb-court
+#### Myb-court
 
 ![Figure : Expression du Myb-court.](mat-meth/figures/expression-myb-court.png)
 

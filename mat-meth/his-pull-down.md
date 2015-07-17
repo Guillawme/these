@@ -1,4 +1,4 @@
-# Test d'interaction entre TRFH et Ku par rétention sur résine de nickel
+## Test d'interaction entre TRFH et Ku par rétention sur résine de nickel
 
 L'expérience est réalisée en tampon Tris-HCl 20 mM, pH = 7,5, NaCl 150 mM,
 imidazole 10 mM, 2-mercaptoethanol 5 mM. Le tampon d'élution a la même

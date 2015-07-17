@@ -1,6 +1,6 @@
-# Empreinte protéique
+## Empreinte protéique
 
-## Principe et mise au point
+### Principe et mise au point
 
 Une expérience d'empreinte protéique (*protein footprinting*) consiste à mettre
 une protéine en présence d'un réactif capable de produire un adduit covalent sur
@@ -39,8 +39,8 @@ mettre au point le protocole en tenant compte de deux contraintes :
 
 1. pour s'assurer que la protéine que nous étudions est bien engagée à 100
    % dans des complexes, il faut un léger excès de l'autre protéine (un excès
-   molaire de 1,5 est suffisant car l'affinité de RAP1 pour TRF2 est très
-   forte) ;
+   molaire de 1,5 est suffisant du fait de la forte affinité de RAP1 pour TRF2
+   et des concentrations auxquelles nous travaillons) ;
 2. le nombre total de lysines dans la réaction n'est pas constant d'une
    condition à une autre, puisque dans un cas nous avons un excès de TRF2 et
    dans l'autre un excès de RAP1 (et les deux protéines ne contiennent pas le
@@ -51,9 +51,9 @@ mettre au point le protocole en tenant compte de deux contraintes :
    bien que tout le réactif disponible a déjà été consommé).
 
 
-## Protocole
+### Protocole
 
-### Réaction
+#### Réaction
 
 Les protéines, initialement stockées à -80 °C en tampon Tris (voir le protocole
 de purification), sont décongelées puis passées en tampon HEPES 20 mM pH = 7,5,
@@ -97,7 +97,7 @@ sulfo-NHS-acetate). Les produits d'acétylation sont enfin analysés par SDS-PAG
 et spectrométrie de masse.
 
 
-### Spectrométrie de masse
+#### Spectrométrie de masse
 
 Les bandes protéiques découpées dans les gels SDS-PAGE sont rincées deux fois
 avec 500 μL de bicarbonate d'ammonium 100 mM pH = 8, puis deux fois avec 500 μL
@@ -130,7 +130,7 @@ L'identité des fragments contenant des lysines a été confirmée expérimental
 par MS/MS.
 
 
-### Analyse
+#### Analyse
 
 À l'aide du logiciel mMass [@strohalm2010], les spectres sont normalisés
 relativement au pic le plus haut :

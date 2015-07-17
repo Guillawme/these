@@ -1,6 +1,6 @@
-# Dichroïsme circulaire
+## Dichroïsme circulaire
 
-## Protocole
+### Protocole
 
 Les protéines sont dialysées dans un tampon Tris-HCl 9 mM pH = 7,5, NaF 300 mM.
 Pour chaque protéine, l'acquisition des spectres de dichroïsme circulaire est
@@ -37,7 +37,7 @@ logiciel SciDAVis (<http://scidavis.sourceforge.net>) afin d'estimer la valeur
 de la température de demi-dénaturation T~m~.
 
 
-## Résultats
+### Résultats
 
 Les spectres de dichroïsme circulaire de TRF2 et de RAP1 et RAP1-ARAGA sont
 présentés dans la figure ci-dessous :
@@ -59,5 +59,5 @@ indique les températures de demi-dénaturation suivantes :
 
 Ceci indique que la structure de RAP1-ARAGA est légèrement moins stable que
 celle de RAP1, néanmoins cette faible différence indique que la mutation
-n'affecte que très peu la stabilité du repliement.
+n'affecte pas la stabilité du repliement de façon significative.
 

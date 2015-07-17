@@ -1,13 +1,13 @@
-# Purification des protéines recombinantes
+## Purification des protéines recombinantes
 
 Le protocole suivant est suivi pour toutes les purifications de
 protéines recombinantes. Les détails spécifiques de chaque protéine sont
 indiqués par la suite.
 
 
-## Protocole
+### Protocole
 
-### Tampons
+#### Tampons
 
 - **tampon NiA**
     + NaH~2~PO~4~ / Na~2~HPO~4~ 20 mM pH = 8
@@ -29,7 +29,7 @@ indiqués par la suite.
     + 2-mercaptoethanol 5 mM
 
 
-### Lyse des bactéries
+#### Lyse des bactéries
 
 Chaque culot bactérien est resuspendu dans 40 mL de tampon NiA additionné de
 PMSF qsp 1 mM final et de Triton-X-100 qsp O,5 % v/v final. La suspension
@@ -43,7 +43,7 @@ Le lysat est finalement clarifié par centrifugation à 48 000 g et filtration
 0,45 µm.
 
 
-### Purification des protéines
+#### Purification des protéines
 
 Les protéines sont purifiées par chromatographie d'affinité pour le nickel sur
 une colonne HisTrap FF 5 mL (GE Healthcare). L'extrait brut est chargé
@@ -85,9 +85,9 @@ chromatographie d'exclusion stérique sur une colonne Superdex 200 10/300 GL (GE
 Healthcare) à 0,5 mL/min.
 
 
-## Détails spécifiques à RAP1 et RAP1-ARAGA
+### Détails spécifiques à RAP1 et RAP1-ARAGA
 
-### Tampons
+#### Tampons
 
 Le tampon NiB a une concentration en NaCl de 1 M pour RAP1 et RAP1-ARAGA. Ceci permet
 d'éluer complètement la protéine, qui est aussi retenue aux ions Ni~2+~ par une
@@ -111,7 +111,7 @@ Pour la même raison, le tampon Ni ap TEV a une concentration en NaCl de 400 mM.
     + 2-mercaptoethanol 5 mM 
 
 
-### Protocole
+#### Protocole
 
 Après analyse par SDS-PAGE de l'étape d'HisTrap "inverse", les fractions
 d'intérêt sont réunies et la solution protéique est diluée avec le tampon sans
@@ -124,9 +124,9 @@ Après une dernière analyse par SDS-PAGE, les fractions d'intérêt finales
 sont réunies et stockées.
 
 
-## Détails spécifiques à TRF2, WRN_979-1049 et le domaine Myb-court de TRF2
+### Détails spécifiques à TRF2, WRN_979-1049 et le domaine Myb-court de TRF2
 
-### Tampons
+#### Tampons
 
 - **tampon sans sel**
     + Tris-HCl 20 mM pH = 7,5
@@ -143,7 +143,7 @@ sont réunies et stockées.
     + 2-mercaptoethanol 5 mM 
 
 
-### Protocole
+#### Protocole
 
 Après analyse par SDS-PAGE de l'étape d'HisTrap "inverse", les fractions
 d'intérêt sont réunies et la solution protéique est diluée avec le tampon sans
@@ -156,13 +156,13 @@ Après une dernière analyse par SDS-PAGE, les fractions d'intérêt finales
 sont réunies et stockées.
 
 
-## Résultats des purifications
+### Résultats des purifications
 
 Les résultats obtenus pour les purifications des protéines sont détaillés
 ci-dessous.
 
 
-### TRF2
+#### TRF2
 
 La purification de TRF2 est réalisée en quatre étapes : chromatographie
 d'affinité pour le nickel, clivage de l'étiquette histidine et séparation par
@@ -177,7 +177,7 @@ de TRF2 sont présentés dans la figure ci-dessous :
 Le rendement est d'environ 7,5 mg de protéine par culot bactérien.
 
 
-### RAP1
+#### RAP1
 
 La purification de RAP1 est réalisée en quatre étapes : chromatographie
 d'affinité pour le nickel, clivage de l'étiquette histidine et séparation par
@@ -192,7 +192,7 @@ de RAP1 sont présentés dans la figure ci-dessous :
 Le rendement est d'environ 8 mg de protéine par culot bactérien.
 
 
-### RAP1-ARAGA
+#### RAP1-ARAGA
 
 La purification de RAP1-ARAGA est réalisée en quatre étapes : chromatographie
 d'affinité pour le nickel, clivage de l'étiquette histidine et séparation par
@@ -207,7 +207,7 @@ de RAP1-ARAGA sont présentés dans la figure ci-dessous :
 Le rendement est d'environ 6 mg de protéine par culot bactérien.
 
 
-### RAP1_1-208
+#### RAP1_1-208
 
 La purification de RAP1_1-208 est réalisée en deux étapes : chromatographie
 d'affinité pour le nickel, clivage de l'étiquette histidine et séparation par
@@ -221,7 +221,7 @@ de RAP1_1-208 sont présentés dans la figure ci-dessous :
 Le rendement est d'environ 20,9 mg de protéine par culot bactérien.
 
 
-### B-TRFH
+#### B-TRFH
 
 La purification de B-TRFH est réalisée en deux étapes : chromatographie
 d'affinité pour le nickel, clivage de l'étiquette histidine et séparation par
@@ -235,7 +235,7 @@ de B-TRFH sont présentés dans la figure ci-dessous :
 Le rendement est d'environ 6 mg de protéine par culot bactérien.
 
 
-### WRN_949-1079
+#### WRN_949-1079
 
 La purification de WRN_949-1079 est réalisée en trois étapes : chromatographie
 d'affinité pour le nickel, clivage de l'étiquette histidine et séparation par
@@ -250,7 +250,7 @@ de WRN_949-1079 sont présentés dans la figure ci-dessous :
 Le rendement est d'environ 3,2 mg de protéine par culot bactérien.
 
 
-### Myb-court
+#### Myb-court
 
 La purification du Myb-court est réalisée en trois étapes : chromatographie
 d'affinité pour le nickel, clivage de l'étiquette histidine et séparation par
@@ -265,7 +265,7 @@ du Myb-court sont présentés dans la figure ci-dessous :
 Le rendement est d'environ 13,8 mg de protéine par culot bactérien.
 
 
-### Myb-long
+#### Myb-long
 
 La purification du Myb-long est réalisée en deux étapes : chromatographie
 d'affinité pour le nickel, clivage de l'étiquette histidine et séparation par

@@ -1,6 +1,6 @@
-# Hybridation des oligonucléotides 
+## Hybridation des oligonucléotides 
 
-## Matériel
+### Matériel
 
 - Deux oligonucléotides simple-brin complémentaires
 - Un grand bécher (2 à 5 L)
@@ -11,11 +11,11 @@
 - Tampon d'hybridation : cacodylate de sodium 10 mM, pH=7.0; NaCl 150 mM
 - Tubes de 1 mL avec un bouchon vissable étanche
 - Agarose
-- Tampon TAE 0,5 X
+- Tampon TAE 0,5 X (Tris-acétate 20 mM, EDTA 0,5 mM)
 - Appareil d'électrophorèse
 
 
-## Protocole
+### Protocole
 
 1. Mettre les oligonucléotides simple-brin en solution dans l'eau ultrapure
    selon le protocole du fournisseur (viser une concentration finale d'environ
@@ -59,7 +59,7 @@ car le domaine Myb de TRF2 n'interagit qu'avec les répétitions TTAGGG
 double-brin.
 
 
-## Remarques
+### Remarques
 
 La détermination précise de la concentration des oligonucléotides simple-brin
 est critique pour pouvoir réaliser un mélange le plus proche possible d'un
