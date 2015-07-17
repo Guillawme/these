@@ -55,9 +55,9 @@ certaine que je viendrai à ta soutenance. :-)
 Je remercie également les scientifiques des lignes de lumière du synchrotron
 SOLEIL pour leur assistance durant les collectes et le traitement initial des
 données : Beatriz Guimarães et Pierre Legrand (PROXIMA 1), Martin Savko (PROXIMA
-2) et Adrien Thureau (SWING). Ils n'hésitent jamais à sacrifier des nuits et des
-week-ends pour s'assurer du bon fonctionnement de l'instrumentation complexe des
-lignes de lumière, et méritent donc des remerciements particuliers.
+2), et Adrien Thureau (SWING). Ils n'hésitent jamais à sacrifier des nuits et
+des week-ends pour s'assurer du bon fonctionnement de l'instrumentation complexe
+des lignes de lumière, et méritent donc des remerciements particuliers.
 
 Au cours de la deuxième année, j'ai eu l'opportunité de passer une semaine au
 laboratoire de l'équipe d'Eric Gilson à l'IRCAN à Nice. Je remercie
@@ -97,6 +97,8 @@ Anne-Sophie, Béatrice & Kévin, Claire, Guillaume, Adrien, Mikaël, Quentin,
 Virgile & Lenka (merci pour ces excellents souvenirs en Slovaquie), Elsa.
 Merci à tous de m'avoir aidé à me changer les idées régulièrement, c'était
 très important.  
+Merci aussi Diyendo et Maud, je suis content d'avoir pu garder le contact avec
+vous alors que nous avons tous les trois commencé une thèse au même moment.  
 Merci à mes amis musiciens, tous présents pendant la thèse mais surtout dès mon
 arrivée à Paris il y a 5 ans pour la plupart. Merci Léo, Sonia, Sarah, Isabelle,
 Jean-Yves (ton humour décapant !!), Manu violoniste (si curieux de la biologie,
