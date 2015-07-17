@@ -1,6 +1,6 @@
-# Fonctions des télomères
+## Fonctions des télomères
 
-## Le support de l'information génétique
+### Le support de l'information génétique
 
 Tous les organismes cellulaires utilisent l'ADN comme support de leur
 information génétique. Grâce aux propriétés de complémentarité des bases
@@ -19,7 +19,7 @@ exclusivement de chromosomes linéaires. Nous nous intéresserons ici aux
 extrémités des chromosomes linéaires des eucaryotes.
 
 
-## Les télomères
+### Les télomères
 
 Les extrémités des chromosomes linéaires sont appelées les télomères, du grec
 τέλος signifiant "fin" et μέρος signifiant "partie". Chez la majorité des
@@ -56,7 +56,7 @@ d'après la base de données <http://telomerase.asu.edu> [@podlevsky2008].
                    vertébrés    TTAGGG
 
 
-## Origine des chromosomes linéaires
+### Origine des chromosomes linéaires
 
 L'origine des chromosomes linéaires est liée à celle des eucaryotes, puisque le
 génome nucléaire de tous les eucaryotes est exclusivement constitué de
@@ -125,9 +125,9 @@ contre les fusions. Dans les paragraphes suivants nous expliquerons les
 principales causes de ces deux problèmes.
 
 
-## Le problème de la réplication des extrémités
+### Le problème de la réplication des extrémités
 
-### Aperçu du problème de la réplication
+#### Aperçu du problème de la réplication
 
 La réplication nécessite une machinerie complexe que nous ne détaillerons pas
 ici. Pour comprendre le problème de la réplication des extrémités, il suffit de
@@ -188,7 +188,7 @@ pas de télomérase. Ces systèmes de réplication des télomères sont présent
 les paragraphes suivants.
 
 
-### L'addition de répétitions télomériques par la télomérase
+#### L'addition de répétitions télomériques par la télomérase
 
 La télomérase est l'enzyme qui allonge le brin G des télomères. Sa découverte
 chez l'organisme modèle *Tetrahymena thermophila* [@greider1985] ainsi que les
@@ -238,7 +238,7 @@ lesquelles l'expression de TERT n'est pas détectée utilisent une voie
 alternative d'élongation des télomères.
 
 
-### La voie alternative d'élongation des télomères
+#### La voie alternative d'élongation des télomères
 
 Cette voie alternative d'élongation des télomères (appelée ALT pour *alternative
 lengthening of telomeres*) a été découverte pour la première fois dans des
@@ -290,7 +290,7 @@ est ensuite complété pour reconstituer la région double-brin du télomère.
 Cette voie conduit à un allongement net des télomères.
 
 
-## Autres solutions évolutives au problème de la réplication
+### Autres solutions évolutives au problème de la réplication
 
 Outre l'élongation par la télomérase et par la voie ALT, d'autres mécanismes de
 réplication des télomères et de maintien de leur longueur sont apparus au cours
@@ -298,7 +298,7 @@ de l'évolution. Dans les paragraphes suivants, nous présentons trois mécanism
 originaux associés à des télomères non canoniques.
 
 
-### Les rétro-transposons de *Drosophila*
+#### Les rétro-transposons de *Drosophila*
 
 *Drosophila melanogaster* ne possède pas de télomérase. Chez cet organisme, les
 télomères sont maintenus par l'action de rétrotransposons [@raffa2013].
@@ -322,7 +322,7 @@ génération, tandis que l'érosion due au problème de la réplication est d'en
 résulte donc d'un équilibre dynamique entre ces deux phénomènes.
 
 
-### Les chromosomes fermés covalemment de *Borrelia*
+#### Les chromosomes fermés covalemment de *Borrelia*
 
 Les bactéries du genre *Borrelia* (dont *Borrelia burgdorferi*, l'agent
 pathogène de la maladie de Lyme) possèdent des ADN linéaires et contournent le
@@ -373,7 +373,7 @@ résolvase de télomères est un facteur nécessaire et suffisant pour contourne
 problème de la réplication des extrémités des ADN linéaires.
 
 
-### La protéine terminale de *Streptomyces*
+#### La protéine terminale de *Streptomyces*
 
 Les bactéries du genre *Streptomyces* (qui produisent de nombreuses molécules
 utilisées comme antibiotiques) possèdent des ADN linéaires portant une protéine
@@ -410,7 +410,7 @@ télomères des eucaryotes génèrent nécessairement une certaine hétérogén�
 longueur, contrairement à ces systèmes évolutivement distants.
 
 
-## Le problème de la protection des extrémités
+### Le problème de la protection des extrémités
 
 Les extrémités des ADN linéaires sont vulnérables à différents processus
 cellulaires : la dégradation par des exonucléases, l'activation illicite de la
@@ -479,7 +479,7 @@ Les mécanismes du NHEJ et de la recombinaison homologue sont présentés
 brièvement dans les paragraphes suivants.
 
 
-### Jonction d'extrémités non-homologues (NHEJ)
+#### Jonction d'extrémités non-homologues (NHEJ)
 
 Le déroulement de la réparation d'une cassure double-brin par la voie NHEJ (chez
 les mammifères) est représenté schématiquement sur la figure ci-dessous :
@@ -505,7 +505,7 @@ l'absence de matrice pour guider la réparation, cette voie est
 potentiellement mutagène.
 
 
-### Recombinaison homologue
+#### Recombinaison homologue
 
 L'autre voie de réparation des cassures double-brin est la recombinaison
 homologue [@sanfilippo2008]. Cette voie est utilisée principalement pendant les
@@ -548,7 +548,7 @@ Holliday est un intermédiaire omniprésent dans les mécanismes de la
 recombinaison homologue.
 
 
-## Solutions moléculaires au problème de la protection apparues au cours de l'évolution
+### Solutions moléculaires au problème de la protection apparues au cours de l'évolution
 
 Comme nous l'avons vu dans les paragraphes précédents, les molécules d'ADN
 linéaires sont confrontées aux problèmes de la réplication et de la protection
@@ -566,7 +566,7 @@ l'étude de ces complexes a contribué à établir les connaissances actuelles s
 les télomères en général.
 
 
-### Chez les ciliés
+#### Chez les ciliés
 
 Les premières protéines télomériques ont été mises en évidence chez
 l'unicellulaire cilié *Oxytricha nova* [@gottschling1986]. Chez cet organisme
@@ -610,7 +610,7 @@ dans la figure ci-dessous :
 ![Figure : Complexes télomériques d'*O. nova* et *T. thermophila* [@giraud-panis2013]](intro/figures/cplx-telo-cilies.png)
 
 
-### Chez la drosophile
+#### Chez la drosophile
 
 Comme nous l'avons vu précédemment, chez la drosophile la longueur des télomères
 est régulée par l'activité de trois rétrotransposons, et leur séquence n'est
@@ -648,7 +648,7 @@ télomériques ancestrales, et ont favorisé l'émergence rapide des protéines 
 *terminin* liant les extrémités de l'ADN sans spécificité de séquence.
 
 
-### Chez les levures
+#### Chez les levures
 
 Les deux levures les plus utilisées comme organismes modèles en biologie des
 télomères sont *Saccharomyces cerevisiae* (levure bougeonnante) et

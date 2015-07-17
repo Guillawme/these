@@ -1,6 +1,6 @@
-# Les télomères humains
+## Les télomères humains
 
-## L'ADN télomérique et la *t-loop*
+### L'ADN télomérique et la *t-loop*
 
 Chez l'humain, l'ADN télomérique est constitué de répétitions en tandem du motif
 TTAGGG [@moyzis1988] qui s'étendent dans une région double-brin d'une longueur
@@ -39,7 +39,7 @@ l'accès à l'extrémité de la molécule d'ADN pour permettre l'élongation par
 la télomérase.
 
 
-## Les protéines télomériques forment le complexe *shelterin*
+### Les protéines télomériques forment le complexe *shelterin*
 
 Chez les vertébrés, en plus des nucléosomes, l'ADN télomérique est lié par un
 complexe de protéines spécifiques appelé le complexe *shelterin* [@delange2005]
@@ -122,7 +122,7 @@ La région double-brin serait occupée par des sous-complexes ne contenant pas
 forcément TPP1 et POT1.
 
 
-## Les facteurs télomériques accessoires
+### Les facteurs télomériques accessoires
 
 En plus des protéines du *shelterin*, présentes pendant toutes les phases du
 cycle cellulaire, et dont les fonctions connues sont essentiellement
@@ -154,7 +154,7 @@ En revanche ces autres modes de recrutement ne sont pas encore décrits au
 niveau moléculaire.
 
 
-## Régulation de la télomérase par les protéines télomériques
+### Régulation de la télomérase par les protéines télomériques
 
 La télomérase agit préférentiellement sur les télomères courts. Cette propriété
 a été mise en évidence pour la première fois chez la levure *Saccharomyces
@@ -181,7 +181,7 @@ n'est pas encore complètement compris, de même que le rôle possible de la
 *t-loop* dans la régulation de l'accessibilité de l'extrémité 3'.
 
 
-## Protection de l'extrémité du chromosome par le complexe *shelterin*
+### Protection de l'extrémité du chromosome par le complexe *shelterin*
 
 La fonction du *shelterin* à l'origine de son nom est celle de protection des
 extrémités contre les voies de réparation des cassures double-brin de l'ADN et

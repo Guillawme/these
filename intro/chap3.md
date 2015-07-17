@@ -1,6 +1,6 @@
-# TRF2 et RAP1 : deux protéines centrales
+## TRF2 et RAP1 : deux protéines centrales
 
-## Fonctions de TRF2 et RAP1
+### Fonctions de TRF2 et RAP1
 
 TRF2 a fait l'objet de nombreuses études *in vitro*, et ses propriétés
 d'interaction avec l'ADN sont maintenant bien décrites.
@@ -52,7 +52,7 @@ protéines, ce qui expliquerait l'absence de phénotype télomérique dans les
 cellules où RAP1 est délétée.
 
 
-## TRF2 et RAP1 sont des protéines multi-domaines
+### TRF2 et RAP1 sont des protéines multi-domaines
 
 TRF2 et RAP1 contiennent chacune plusieurs domaines connectés par des régions
 peu structurées relativement longues.  
@@ -109,7 +109,7 @@ complètement hypothétique, car les informations disponibles ne nous renseignen
 pas sur ces aspects.
 
 
-## Partenaires de TRF2 et RAP1
+### Partenaires de TRF2 et RAP1
 
 TRF2 et RAP1 recrutent de nombreux partenaires aux télomères. La base de données
 TeloPIN [*telomeric proteins interaction network* ; @luo2015] liste 248

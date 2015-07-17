@@ -1,4 +1,4 @@
-# Objectifs de ces travaux
+## Objectifs de ces travaux
 
 Le choix de présentation que nous avons fait dans l'introduction de cette thèse
 met en avant l'apport de la biologie structurale dans la compréhension générale
