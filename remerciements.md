@@ -31,7 +31,7 @@ si je n'avais pas fait ce stage hors cursus à la plateforme de cristallogenèse
 de l'Institut Pasteur en 2009. J'adresse un grand merci à Ahmed Haouz, directeur
 de la plateforme, qui m'y avait alors accueilli et m'avait très bien encadré.
 Merci également Ahmed pour ton soutien au début de ma thèse, et pour ton aide
-qui a permis l'obtention des cristaux mentionnés dans la troisème partie du
+qui a permis l'obtention des cristaux mentionnés dans la troisième partie du
 manuscrit. Je regrette de ne pas avoir eu plus souvent l'occasion de travailler
 en collaboration avec la plateforme, mais le projet a pris une tournure telle
 que nous avons eu besoin d'autres techniques que la cristallographie,
@@ -96,9 +96,9 @@ depuis tout ce temps !) et aux personnes rencontrées par votre intermédiaire :
 Anne-Sophie, Béatrice & Kévin, Claire, Guillaume, Adrien, Mikaël, Quentin,
 Virgile & Lenka (merci pour ces excellents souvenirs en Slovaquie), Elsa.
 Merci à tous de m'avoir aidé à me changer les idées régulièrement, c'était
-très important.  
+très important.
 Merci aussi Diyendo et Maud, je suis content d'avoir pu garder le contact avec
-vous alors que nous avons tous les trois commencé une thèse au même moment.  
+vous alors que nous avons tous les trois commencé une thèse au même moment.
 Merci à mes amis musiciens, tous présents pendant la thèse mais surtout dès mon
 arrivée à Paris il y a 5 ans pour la plupart. Merci Léo, Sonia, Sarah, Isabelle,
 Jean-Yves (ton humour décapant !!), Manu violoniste (si curieux de la biologie,
@@ -108,13 +108,14 @@ constante, et ton grog...), Lea (merci pour cette jolie mélodie que tu as
 composée), Alexis, Robin, Sylvain et les musiciens du Kwaga band. Merci en
 particulier Robin et Sylvain pour avoir bien pimenté (au sens figuré comme au
 sens propre : vos plats végétaliens sont formidables) les derniers mois de ma
-thèse. :-)  
+thèse. :-)
+
 Merci à toute ma famille, en premier mes parents Marie-Bé et Jacques, ma soeur
 Juliette (pardon, Juju) et mon frère Arthur. Merci pour votre grand soutien,
 vous avez toujours été là malgré la distance. Merci à tous les autres : tantes,
 oncles, cousines et cousins. Merci à mes grands-parents Nicole et René.
 Vous m'avez tous toujours encouragé, et vous avez supporté mes difficultés
-à vulgariser un sujet complexe. Merci pour tout.  
+à vulgariser un sujet complexe. Merci pour tout.
 Enfin, merci infiniment Rebecca. Merci pour ton soutien de chaque instant, pour
 ta bonne humeur, pour ta musique, pour tous ces moments formidables déjà passés
 ensemble (les souterrains de Paris, la côte Ouest des États-Unis, les sentiers
