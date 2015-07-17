@@ -124,7 +124,7 @@ forcément TPP1 et POT1.
 
 ## Les facteurs télomériques accessoires
 
-En plus des protéines du *shelterin*, présentes aux pendant toutes les phases du
+En plus des protéines du *shelterin*, présentes pendant toutes les phases du
 cycle cellulaire, et dont les fonctions connues sont essentiellement
 télomériques, on trouve aux télomères un grand nombre de facteurs accessoires.
 La base de données TeloPIN [*telomeric proteins interaction network* ; @luo2015]

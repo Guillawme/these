@@ -76,10 +76,13 @@ disponibles dans la PDB :
 
 ![Figure : Organisation des domaines de TRF2 et RAP1.](intro/figures/domaines-trf2-rap1.png)
 
-Aucune donnée structurale n'a été publiée à ce jour sur les protéines entières
-ni sur le complexe, seules des structures tridimensionnelles de domaines isolés
-sont actuellement disponibles dans la PDB. Ces structures sont listées dans le
-tableau suivant :
+Cette organisation en domaines connectés par des régions peu ou pas structurées
+confère à ces protéines une plasticité conformationnelle probablement importante
+pour leurs fonctions, mais les rend particulièrement difficiles à étudier.
+En effet, aucune donnée structurale n'a été publiée à ce jour sur les protéines
+entières ni sur le complexe, seules des structures tridimensionnelles de
+domaines isolés sont actuellement disponibles dans la PDB. Ces structures sont
+listées dans le tableau suivant :
 
            **Domaine**     **Entrée PDB**     **Référence**
 ----------------------    ----------------    ----------------
