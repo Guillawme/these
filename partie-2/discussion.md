@@ -55,24 +55,24 @@ cette fonction.
 
 Nous avons démontré que l'interaction entre TRF2 et WRN, précédemment mise en
 évidence avec les protéines entières [@opresko2002], ne peut pas être détectée
-par calorimétrie en utilisant la région minimale de WRN supposée suffisante pour
-l'interaction. Ceci peut signifier que le motif `KLLLP` présent dans la séquence
-de WRN aux positions 1073-1077 n'est pas un motif TBM et que l'interaction est
-due à d'autres régions des protéines, ou bien que le motif n'est pas suffisant
-pour conférer une affinité détectable comme c'est le cas pour le motif TBM de
-RAP1 (voir la première partie : nous ne pouvons pas détecter l'interaction entre
-les domaines isolés RAP1_1-208 et TRFH, alors que nous pouvons la détecter avec
-un peptide du motif TBM et avec les protéines entières). À cet égard, l'étude
-biophysique détaillée de l'interaction entre TRF2 et WRN entières serait
-intéressante et complémentaire de notre étude sur RAP1 : l'étude des facteurs
-télomériques accessoires est en effet une suite logique de l'étude des protéines
-du *shelterin*.
+par calorimétrie dans nos conditions expérimentales en utilisant la région
+minimale de WRN supposée suffisante pour l'interaction. Ceci peut signifier que
+le motif `KLLLP` présent dans la séquence de WRN aux positions 1073-1077 n'est
+pas un motif TBM et que l'interaction est due à d'autres régions des protéines,
+ou bien que le motif n'est pas suffisant pour conférer une affinité détectable
+comme c'est le cas pour le motif TBM de RAP1 (voir la première partie : nous ne
+pouvons pas détecter l'interaction entre les domaines isolés RAP1_1-208 et TRFH,
+alors que nous pouvons la détecter avec un peptide du motif TBM et avec les
+protéines entières). À cet égard, l'étude biophysique détaillée de l'interaction
+entre TRF2 et WRN entières serait intéressante et complémentaire de notre étude
+sur RAP1 : l'étude des facteurs télomériques accessoires est en effet une suite
+logique de l'étude des protéines du *shelterin*.
 
 Les protéines entières de l'étude d'@opresko2002 ont été exprimées en cellules
 d'insectes, elles portent donc potentiellement des modifications
 post-traductionnelles. Au contraire, toutes nos constructions sont exprimées
-dans *E. coli* et ne peuvent donc porter aucune modification. Ceci peut
-expliquer les résultats divergents que nous obtenons. Il n'existe pas de site de
+dans *E. coli* et ne portent *a priori* aucune modification. Ceci peut expliquer
+les résultats divergents que nous obtenons. Il n'existe pas de site de
 modification dans la région 949-1079 de WRN (selon Uniprot), mais la
 modification nécessaire se trouve peut-être du côté de TRF2 puisque cette
 dernière possède de nombreux sites de modification [@walker2012].
@@ -135,20 +135,21 @@ biologique ni d'un point de vue structural (cf. figure ci-dessus), ni d'un point
 de vue fonctionnel puisque cette construction de Ku70 est incapable de
 s'associer avec Ku80, or *in vivo* les deux sous-unités dépendent l'une de
 l'autre pour leur stabilité [@fell2015, et références associées]. Sur la base de
-ces considérations, l'interaction rapportée par @song2000 nous semble être un
+ces considérations, l'interaction rapportée par @song2000 pourrait être un
 faux positif.
 
 L'interaction mise en évidence *in vivo* [@ribes-zamora2013] par des expériences
-de PCA semble plus plausible. Ce type d'expérience n'exclut pas la possibilité
-d'une interaction indirecte, et puisque TRF2 et Ku sont toutes les deux des
-protéines de liaison à l'ADN il est possible que leur interaction dépende de la
-présence d'ADN. Il serait donc intéressant de tester l'interaction de Ku avec
-TRF2 en présence d'ADN, par exemple en préformant un complexe Ku/ADN puis en le
-titrant par TRF2. L'équipe de Jean-Baptiste Charbonnier a déjà mis au point des
-expériences de SPR (résonance plasmonique de surface) pour mesurer l'interaction
-de Ku avec des ADN immobilisés sur une puce, ce qui constitue un bon outil pour
-mesurer l'interaction de Ku fixé sur l'ADN avec ses partenaires protéiques.
-Il est également possible que Ku soit recruté par RAP1, comme le suggèrent des
+de PCA (*protein complementation assay*) semble plus plausible. Ce type
+d'expérience n'exclut pas la possibilité d'une interaction indirecte, et puisque
+TRF2 et Ku sont toutes les deux des protéines de liaison à l'ADN il est possible
+que leur interaction dépende de la présence d'ADN. Il serait donc intéressant de
+tester l'interaction de Ku avec TRF2 en présence d'ADN, par exemple en
+préformant un complexe Ku/ADN puis en le titrant par TRF2. L'équipe de
+Jean-Baptiste Charbonnier a déjà mis au point des expériences de SPR (résonance
+plasmonique de surface) pour mesurer l'interaction de Ku avec des ADN
+immobilisés sur une puce, ce qui constitue un bon outil pour mesurer
+l'interaction de Ku fixé sur l'ADN avec ses partenaires protéiques. Il est
+également possible que Ku soit recruté par RAP1, comme le suggèrent des
 expériences de co-immunoprécipitation dans lesquelles Ku co-précipite avec RAP1
 délété de son domaine RCT, donc indépendamment de TRF2 [@oconnor2004]. Une autre
 expérience directement réalisable, puisque nous disposons déjà des constructions
@@ -203,11 +204,14 @@ Nos résultats montrent cependant que TRF2 seule n'est pas suffisante pour
 recruter Ku directement, et suggèrent que l'interaction dépend de la fixation de
 TRF2 et/ou de Ku sur l'ADN, et de la présence de RAP1 en complexe avec TRF2.
 
-De façon plus générale, la caractérisation des interactions de TRF2 avec ses
-partenaires doit donc s'envisager dans un contexte plus complet, c'est-à-dire
-non seulement en présence de RAP1 (son partenaire constitutif), mais aussi dans
-la situation où TRF2 se trouve lié à l'ADN. Il apparaît alors important de
-comprendre finement le mode d'interaction de TRF2 avec l'ADN. La partie suivante
-présente les premiers résultats d'une étude en cours visant à compléter la
-description de ce mode d'interaction avec l'ADN au niveau moléculaire.
+L'ensemble des expériences que nous avons réalisées dans cette partie révèle
+surtout que la caractérisation des interactions de TRF2 avec ses partenaires
+doit s'envisager dans un contexte plus complet, c'est-à-dire non seulement en
+présence de RAP1 (son partenaire constitutif), mais aussi dans la situation où
+TRF2 se trouve liée à l'ADN. La grande flexibilité de TRF2 que nous avons mise
+en évidence dans la première partie suggère en effet que sa liaison à l'ADN
+modifie ses propriétés d'interaction. Il semble donc important de comprendre
+finement le mode d'interaction de TRF2 avec l'ADN. La troisième partie présente
+les premiers résultats d'une étude en cours visant à compléter la description de
+ce mode d'interaction avec l'ADN au niveau moléculaire.
 
