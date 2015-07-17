@@ -12,19 +12,19 @@ de ma thèse, ainsi que Claudine Mayer, Laure Crabbé et Herman van Tilbeurgh qu
 ont accepté de constituer le jury de la soutenance avec eux. Merci également
 Claudine d'avoir accepté le rôle de rapportice de mi-parcours.
 
-Une thèse serait irréalisable sans un directeur, en l'occurence une directrice :
-merci Marie-Hélène, merci pour tout. Merci tout d'abord d'avoir donné sa chance
-à un petit étudiant (avec ce petit stage de licence) ; qui aurait deviné
-à l'époque que cela nous mènerait jusqu'ici ? Les remerciements pourraient être
-longs si je tentais de les détailler complètement. Merci pour ta rigueur
-scientifique, et pour ta rigueur et ton souci du détail en général : je pensais
-être maniaque, je me suis aperçu que tu l'es au moins autant, mais sur d'autres
-choses (alors c'était plutôt bien complémentaire :-). Surtout merci pour ton
-optimisme et ton enthousiasme inébranlables et toujours communicatifs, qui ont
-fait que reproduire des manips un certain nombre de fois n'était finalement pas
-insurmontable (je m'en suis aperçu avec les expériences d'acétylation, qu'il
-a fallu refaire tellement de fois...). C'est aussi cet état d'esprit qui
-a confirmé mon goût pour la recherche.
+Une thèse serait irréalisable sans un directeur, en l'occurrence une
+directrice : merci Marie-Hélène, merci pour tout. Merci tout d'abord d'avoir
+donné sa chance à un petit étudiant (avec ce petit stage de licence) ; qui
+aurait deviné à l'époque que cela nous mènerait jusqu'ici ? Les remerciements
+pourraient être longs si je tentais de les détailler complètement. Merci pour ta
+rigueur scientifique, et pour ta rigueur et ton souci du détail en général : je
+pensais être maniaque, je me suis aperçu que tu l'es au moins autant, mais sur
+d'autres choses (alors c'était plutôt bien complémentaire :-). Surtout merci
+pour ton optimisme et ton enthousiasme inébranlables et toujours communicatifs,
+qui ont fait que reproduire des manips un certain nombre de fois n'était
+finalement pas insurmontable (je m'en suis aperçu avec les expériences
+d'acétylation, qu'il a fallu refaire tellement de fois...). C'est aussi cet état
+d'esprit qui a confirmé mon goût pour la recherche.
 
 Nous ne nous serions pas rencontrés, et cette thèse aurait donc été tout autre,
 si je n'avais pas fait ce stage hors cursus à la plateforme de cristallogenèse
