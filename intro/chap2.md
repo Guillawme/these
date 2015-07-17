@@ -59,8 +59,8 @@ Les 6 protéines qui forment ce complexe sont (dans l'ordre de leur découverte)
   séquence avec TRF1 et ses propriétés similaires de liaison à l'ADN
   [@bilaud1996], et dont la localisation télomérique a été confirmée de la même
   façon [@bilaud1997] ;
-- TIN2 : *TRF1-interacting factor 2*, identifiée comme un partenaire de TRF1
-  dans un crible de double-hybride, localisée aux télomères et dont les
+- TIN2 : *TRF1-interacting nuclear factor 2*, identifiée comme un partenaire de
+  TRF1 dans un crible de double-hybride, localisée aux télomères et dont les
   mutations provoquent des phénotypes télomériques [@kim1999] ;
 - RAP1 : *repressor/activator protein 1*, identifiée comme un partenaire de TRF2
   dans un crible de double-hybride, et par sa similarité de séquence avec scRap1
