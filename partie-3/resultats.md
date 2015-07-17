@@ -87,10 +87,10 @@ Table: Tableau : R~g~ et D~max~ des complexes Myb-court/ADN et Myb-long/ADN.
  Myb-long/ADN       30,33           150
 
 L'allure de la fonction P(r) du complexe Myb-court/ADN est caractéristique d'un
-objet globulaire légèrement allongé, avec un rapport R~g~/D~max~ proche de 1/3
-(ce rapport vaut 1/2 pour une sphère parfaite). Dans le cas du complexe
-Myb-long/ADN, le rapport R~g~/D~max~ est compris entre 1/5 et 1/4, mais sa
-fonction P(r) a globalement elle aussi une allure caractéristique d'un objet
+objet globulaire légèrement allongé, avec un rapport d'ellipticité R~g~/D~max~
+proche de 1/3 (ce rapport vaut 1/2 pour une sphère parfaite). Dans le cas du
+complexe Myb-long/ADN, le rapport R~g~/D~max~ est compris entre 1/5 et 1/4, mais
+sa fonction P(r) a globalement elle aussi une allure caractéristique d'un objet
 globulaire allongé car les grandes distances sont très faiblement représentées.
 
 
@@ -116,7 +116,7 @@ cristallisation suivante :
 - solution de cristallisation :
     + HEPES 100 mM pH = 7,5
     + PEG 8000 3-10 % m/v
-    + Ca acetate 50 mM
+    + Ca acétate 50 mM
 
 Cette condition n'a malheureusement produit que des cristaux irréguliers qui
 diffractaient seulement à très basse résolution (environ 20 Å).

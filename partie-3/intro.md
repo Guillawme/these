@@ -20,8 +20,7 @@ directement en N-terminal du domaine Myb et significativement protégées par
 l'ADN sont les suivantes : K402, K405, K408, K410 et K420 (en rouge dans les
 séquences présentées ci-dessous). De façon remarquable, ces cinq lysines sont
 bien conservées chez les espèces dont nous avons aligné les séquences (voir
-l'alignement en annexes), respectivement chez 10, 12, 10, 12 et 12 espèces parmi
-les 14 considérées.
+l'alignement en annexes) : chez 10 à 12 espèces parmi les 14 considérées.
 
 Dans le but d'affiner nos connaissances sur les déterminants structuraux de
 l'interaction entre la région C-terminale de TRF2 et l'ADN, nous avons donc
