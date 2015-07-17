@@ -188,7 +188,7 @@ La variation de R~g~ le long du chromatogramme nous renseigne sur l'homogénéit
 de l'échantillon, et permet de sélectionner uniquement les courbes donnant des
 valeurs de R~g~ sensiblement identiques. L'acquisition couplée à la
 chromatographie d'exclusion stérique apporte une grande redondance de données,
-ainsi nous pouvons sélectionner les courbes de façon très stringente.
+ainsi nous pouvons sélectionner les courbes sur des critères très stricts.
 Par exemple pour TRF2 nous avons sélectionné les courbes 100 à 106, car la
 comparaison de toutes les courbes a révélé une très légère tendance
 à l'agrégation dans le début du pic chromatographique. Le R~g~ quasiment
@@ -436,7 +436,7 @@ Nous détectons plusieurs types de lysines :
 
 La figure suivante indique comment nous avons interprété les spectres de masse :
 
-![Figure : **Interprétation des spectres de masse.** Les spectres orange et rouge (deux réplicats) correspondent à la protéine libre ; les spectres bleu clair et foncé (deux réplicats) correspondent à la protéine dans le complexe. Les fragments des protéines à l'origine des pics présentés sont indiqués au dessus des spectres, avec le nombre d'acétylations. **À gauche, exemple de lysines protégées dans le complexe** : le fragment acétylé est environ 4 fois moins abondant dans l'échantillon obtenu à partir de la protéine en complexe que dans celui obtenu à partir de la protéine libre. **À droite, exemple d'une lysine plus accessible dans le complexe** : le fragment acétylé est environ 3 fois plus abondant dans l'échantillon obtenu à partir de la protéine en complexe que dans celui obtenu à partir de la protéine libre.](partie-1/figures/lecture-spectres-ms.png)
+![Figure : **Interprétation des spectres de masse.** Les spectres orange et rouge (deux réplicats) correspondent à la protéine libre ; les spectres bleu clair et foncé (deux réplicats) correspondent à la protéine dans le complexe. Les fragments des protéines à l'origine des pics présentés sont indiqués au-dessus des spectres, avec le nombre d'acétylations. **À gauche, exemple de lysines protégées dans le complexe** : le fragment acétylé est environ 4 fois moins abondant dans l'échantillon obtenu à partir de la protéine en complexe que dans celui obtenu à partir de la protéine libre. **À droite, exemple d'une lysine plus accessible dans le complexe** : le fragment acétylé est environ 3 fois plus abondant dans l'échantillon obtenu à partir de la protéine en complexe que dans celui obtenu à partir de la protéine libre.](partie-1/figures/lecture-spectres-ms.png)
 
 Comme attendu, nous pouvons détecter l'interaction de haute affinité déjà
 décrite entre le domaine RAP1-RCT et la région TRF2-RBM, ce qui valide notre
@@ -446,14 +446,14 @@ complexe. Du côté de RAP1, les lysines K383 et K384 sont protégées dans le
 complexe, tandis que la lysine K324 est plus accessible dans le complexe.
 Ces résultats sont résumés dans la figure suivante :
 
-![Figure : **Empreintes de TRF2 sur RAP1 et de RAP1 sur TRF2 dans la région de l'interaction de haute affinité (TRF2-RBM et RAP1-RCT).** TRF2 est représenté en jaune, RAP1 en cyan. Les lysines sont représentées en sphères, celles qui sont protégées dans le complexe sont colorées en bleu, celles qui sont plus accessibles dans le complexe sont colorées en rouge. La figure a été réalisée avec l'entrée PDB 3K6G. Les pics issus des spectres de masse (deux réplicats) sont indiqués pour chaque lysine (spectres orange et rouge : protéine libre ; spectres bleus : protéine dans le complexe). Le fragment de la protéine correspondant à chaque pic est indiqué au dessus avec le nombre d'acétylations et les lysines représentées avec le même code couleur que dans la structure.](partie-1/figures/empreinte-rct-rbm-spectres.png)
+![Figure : **Empreintes de TRF2 sur RAP1 et de RAP1 sur TRF2 dans la région de l'interaction de haute affinité (TRF2-RBM et RAP1-RCT).** TRF2 est représenté en jaune, RAP1 en cyan. Les lysines sont représentées en sphères, celles qui sont protégées dans le complexe sont colorées en bleu, celles qui sont plus accessibles dans le complexe sont colorées en rouge. La figure a été réalisée avec l'entrée PDB 3K6G. Les pics issus des spectres de masse (deux réplicats) sont indiqués pour chaque lysine (spectres orange et rouge : protéine libre ; spectres bleus : protéine dans le complexe). Le fragment de la protéine correspondant à chaque pic est indiqué au-dessus avec le nombre d'acétylations et les lysines représentées avec le même code couleur que dans la structure.](partie-1/figures/empreinte-rct-rbm-spectres.png)
 
 Les lysines K327 et K329 de TRF2 sont aussi protégées dans le complexe (cf.
 figure suivante), ce qui suggère que le motif RBM de TRF2 dans le contexte des
 protéines entières est en réalité plus long d'une vingtaine de résidus que le
 motif minimal présent dans l'entrée PDB 3K6G [@chen2011].
 
-![Figure : **Protection des lysines K327 et K329 de TRF2 dans le complexe TRF2/RAP1.** Les spectres orange et rouge (deux réplicats) correspondent à la protéine libre ; les spectres bleu clair et foncé (deux réplicats) correspondent à la protéine dans le complexe. Le fragment de la protéine à l'origine du pic présenté est indiqué au dessus des spectres, avec le nombre d'acétylations.](partie-1/figures/trf2-rbm-etendu-spectres.png)
+![Figure : **Protection des lysines K327 et K329 de TRF2 dans le complexe TRF2/RAP1.** Les spectres orange et rouge (deux réplicats) correspondent à la protéine libre ; les spectres bleu clair et foncé (deux réplicats) correspondent à la protéine dans le complexe. Le fragment de la protéine à l'origine du pic présenté est indiqué au-dessus des spectres, avec le nombre d'acétylations.](partie-1/figures/trf2-rbm-etendu-spectres.png)
 
 Le domaine TRFH contient 18 lysines par monomère (cf. figure précédente), dont
 8 pour lesquelles nous avons pu détecter l'acétylation. Pour six d'entre elles

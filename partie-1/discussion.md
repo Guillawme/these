@@ -4,7 +4,9 @@ Notre étude de l'interaction entre TRF2 et RAP1 entières a révélé un mode
 d'interaction complexe qui n'était pas anticipé d'après les données disponibles
 sur les domaines isolés [@chen2011]. Au cours de cette étude nous avons mis en
 oeuvre des approches complémentaires sans lesquelles la compréhension de
-l'interaction entre les protéines entières aurait été très difficile.
+l'interaction entre les protéines entières aurait été très difficile. La grande
+convergence des résultats obtenus leur confère une robustesse qui nous a permis
+de construire un modèle complet de l'interaction entre ces deux protéines.
 Ces approches sont discutées dans les paragraphes suivants, ainsi que quelques
 voies de recherche potentiellement ouvertes par nos résultats.
 
