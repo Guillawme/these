@@ -68,8 +68,8 @@ pendant 1 CV.
 
 À cette étape, le protocole diffère selon la protéine :
 
-- Pour les domaines B-TRFH et Myb-long de TRF2, et le domaine 1-208 de RAP1, la
-  purification est terminée à cette étape.
+- Pour les domaines TRFH, B-TRFH et Myb-long de TRF2, et le domaine 1-208 de
+  RAP1, la purification est terminée à cette étape.
 - Pour RAP1 et RAP1-ARAGA, la purification est complétée par une étape de
   chromatographie d'échange d'anions.
 - Pour TRF2, WRN_949-1079 et le domaine Myb-court de TRF2, elle est complétée
@@ -221,9 +221,9 @@ de RAP1_1-208 sont présentés dans la figure ci-dessous :
 Le rendement est d'environ 20,9 mg de protéine par culot bactérien.
 
 
-#### B-TRFH
+#### TRFH et B-TRFH
 
-La purification de B-TRFH est réalisée en deux étapes : chromatographie
+La purification de TRFH et B-TRFH est réalisée en deux étapes : chromatographie
 d'affinité pour le nickel, clivage de l'étiquette histidine et séparation par
 une seconde chromatographie d'affinité pour le nickel.
 
@@ -232,7 +232,9 @@ de B-TRFH sont présentés dans la figure ci-dessous :
 
 ![Figure : Purification de B-TRFH.](mat-meth/figures/purif-b-trfh.jpg)
 
-Le rendement est d'environ 6 mg de protéine par culot bactérien.
+Le rendement est d'environ 6 mg de protéine par culot bactérien. Les résultats
+sont comparables pour TRFH, mais ne sont pas présentés car cette purification
+a été réalisée par une autre personne de l'équipe.
 
 
 #### WRN_949-1079

@@ -53,7 +53,7 @@ liquide et stockés à -80 °C.
 
 ### Détails spécifiques aux protéines
 
-#### TRF2, B-TRFH, WRN_949-1079, Myb-court, Myb-long
+#### TRF2, TRFH, B-TRFH, WRN_949-1079, Myb-court, Myb-long
 
 Ces protéines sont exprimées dans la souche *E. coli* BL21 DE3 star, à partir
 d'un plasmide pETM-13 contenant une séquence optimisée pour l'expression dans
