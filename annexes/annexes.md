@@ -69,6 +69,6 @@ RAP1-ARAGA) et par des carrés (lysines protégées uniquement par RAP1 sauvage)
 
 ## Publication
 
-Cet article est actuellement en révision pour une nouvelle soumission au journal
-*Nucleic Acids Research*.
+Cet article est actuellement en cours de finalisation pour être soumis au
+journal *Nucleic Acids Research*.
 
