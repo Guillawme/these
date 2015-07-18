@@ -1,10 +1,25 @@
-# Conclusion et perspectives
+# Conclusion
 
-Les résultats présentés dans la première partie concernant l'assemblage du
-complexe TRF2/RAP1 documentent à l'échelle moléculaire l'interaction entre ces
-deux protéines. Grâce à une combinaison de méthodes biophysiques et biochimiques
-permettant l'analyse des protéines entières, sans découpage en domaines isolés,
-nous avons mis en évidence un mode d'interaction complexe faisant intervenir de
+Pour clore cette thèse, nous revenons maintenant sur les objectifs que nous nous
+étions fixés, à savoir tenter de répondre aux questions suivantes :
+
+1. Comment l'architecture de TRF2 peut-elle expliquer ses fonctions si
+   nombreuses et variées ?
+2. Quels sont les effets de RAP1 sur TRF2 d'un point de vue conformationnel et
+   fonctionnel ?
+3. Comment ces deux protéines s'influencent-elles mutuellement concernant le
+   recrutement de leurs nombreux partenaires ?
+4. Quels déterminants structuraux de TRF2 permettent ses modes d'interaction
+   avec l'ADN ?
+
+Les résultats présentés dans la première partie apportent des éléments de
+réponse aux deux premières questions et documentent à l'échelle moléculaire
+l'interaction entre TRF2 et RAP1. Nous avons montré que TRF2 est hautement
+fexible, au même titre que le complexe TRF2/RAP1. Grâce à une combinaison de
+méthodes biophysiques et biochimiques permettant l'analyse des protéines
+entières, sans découpage en domaines isolés, nous avons également montré que
+l'assemblage du complexe s'accompagne d'importants changements de conformation
+des deux protéines, et dépend d'une interaction de basse affinité qui engage de
 grandes régions dans les deux protéines. Ce mode d'interaction n'était pas
 prédictible d'après les données disponibles au début de notre étude.
 
@@ -31,7 +46,7 @@ l'expérience d'empreinte). Ainsi pour comprendre le rôle biologique de cette
 région N-terminale, nous supposons qu'il sera plus informatif de comparer RAP1
 entière sauvage avec un mutant tronqué du domaine BRCT ou des deux domaines BRCT
 et Myb, plutôt qu'avec RAP1-ARAGA comme nous avons commencé à le faire dans la
-deuxième partie.  
+deuxième partie pour tenter de répondre à la troisième question.
 Cette comparaison serait pertinente dans des études *in vitro* mesurant
 l'interaction de TRF2 avec ses divers partenaires, en présence de RAP1 entière
 ou tronquée. Les progrès des techniques d'édition de génome permettront
@@ -43,19 +58,25 @@ complète entre TRF2 et RAP1 sans nécessiter de surexpression ou de déplétion
 (dont les conséquences sont difficiles à interpréter).
 
 Du point de vue méthodologique, nos résultats sur l'assemblage du complexe
-TRF2/RAP1 démontrent l'importance d'étudier des protéines entières, et par
+TRF2/RAP1 rappellent l'importance d'étudier des protéines entières, et par
 conséquent la nécessité de combiner des approches expérimentales
-complémentaires. Les protéines multi-domaines sont fréquentes chez les
-eucaryotes (REF !!), et il est clair que la compréhension de leurs fonctions
-à l'échelle moléculaire fait nécessairement appel à des combinaisons de
-techniques expérimentales telle que celle présentée ici. Il est important de
-remarquer que notre stratégie a été constamment adaptée aux nouvelles questions
-qui émergeaient au cours de l'étude, et qu'il nous aurait été difficile de
-prévoir à l'avance quelles techniques nous allions employer. Pour répondre aux
-problématiques actuelles en biologie structurale, une veille scientifique et
-technique assidue nous apparaît donc essentielle afin de cultiver une
-connaissance large de méthodes expérimentales, d'entretenir une expertise dans
-l'une de ces méthodes (au moins) et d'entretenir un niveau d'utilisateur averti
-dans les autres pour connaître leurs avantages et leurs limites et être capable
-de les mettre en oeuvre.
+complémentaires. Les protéines multi-domaines représentent en effet plus des
+deux tiers du protéome chez les eucaryotes [@vogel2004], et il est clair que la
+compréhension de leurs fonctions à l'échelle moléculaire fait nécessairement
+appel à des combinaisons de techniques expérimentales telle que celle présentée
+ici. Il est important de remarquer que notre stratégie a été constamment adaptée
+aux nouvelles questions qui émergeaient au cours de l'étude, et qu'il nous
+aurait été difficile de prévoir à l'avance quelles techniques nous allions
+employer. Pour répondre aux problématiques actuelles en biologie structurale,
+une veille scientifique et technique assidue nous apparaît donc essentielle afin
+de cultiver une connaissance large de méthodes expérimentales, d'entretenir une
+expertise dans l'une de ces méthodes (au moins) et d'entretenir un niveau
+d'utilisateur averti dans les autres pour connaître leurs avantages et leurs
+limites et être capable de les mettre en oeuvre.
+
+Enfin, nous avons commencé à répondre à la quatrième question dans la dernière
+partie présentant l'étude de la région C-terminale de TRF2. Les premiers
+résultats obtenus sont encourageants, et cette étude est en bonne voie
+d'aboutissement et devrait donner lieu à une publication dans les
+prochains mois.
 
