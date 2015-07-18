@@ -60,7 +60,8 @@
 - OB-fold : *oligonucleotide-binding fold*, domaine de liaison à l'ADN simple-brin
 - sb : simple-brin
 - db : double-brin
-- Pot1a
+- Pot1a : *protection of telomeres 1*, protéine télomérique de liaison aux
+  répétitions simple-brin
 - Tpt1
 - Pat1
 - Pat2
@@ -68,53 +69,81 @@
 - HipHop
 - Moi
 - Ver
-- GFP
-- Rap1
-- CST
+- GFP : *green fluorescent protein*
+- Rap1 : *repressor/activator protein 1*
+- CST : complexe formé par Cdc13, Stn1 et Ten1
 - Cdc13
 - Stn1
 - Ten1
 - Taz1
-- Pot1
+- Pot1 : *protection of telomeres 1*, protéine télomérique de liaison aux
+  répétitions simple-brin
 - Poz1
 - Tpz1
-- STORM
-- TRF1, TRF2
-- TIN2
-- RAP1
-- POT1
-- TPP1
-- TRFH
-- RCT
-- shRNA
-- TeloPIN
-- TBM
-- ChIP
-- PARP1
-- RBM
-- NLS
-- WRN
-- PCA
-- GST
-- PNUTS
-- MCPH1
-- SLX4
-- AFM
-- GEN1
-- CCE1
-- ITC
-- K~D~
-- K~A~
-- ΔH, ΔG, ΔS, T
-- SAXS, SEC-SAXS
-- RMN
-- RAP1-ARAGA
-- DNaseI
-- PDB
-- BRCT
-- Tbf1
-- Rif
-- Sir
-- YFP
-- SDS-PAGE
+- STORM : *stochastic optical reconstruction microscopy*, technique de
+  microscopie dite à "super-résolution"
+- TRF1 et TRF2 : *telomere repeat-binding factor 1 & 2*, protéines télomériques
+  de liaison aux répétitions double-brin chez les eucaryotes supérieurs, formant
+  le complexe *shelterin*
+- TIN2 : *TRF1-interacting nuclear factor 2*, protéine du complexe *shelterin*
+- RAP1 : *repressor/activator protein 1*, protéine du complexe *shelterin*
+- POT1 : *protection of telomeres 1*, protéine télomérique de liaison aux
+  répétitions simple-brin
+- TPP1 : 
+- TRFH : *TRF homology domain*, domaine de dimérisation des protéines de la
+  famille des TRF
+- RCT : *RAP1 C-terminus*, domaine C-terminal de RAP1
+- shRNA : *short hairpin RNA*, outil de biologie moléculaire permettant de
+  réduire l'expression d'un gène en dégradant l'ARN messager correspondant
+- TeloPIN : *Telomeric Proteins Interaction Network*, base de données recensant
+  les partenaires des protéines du *shelterin*
+- TBM : *TRFH-binding motif*, motif de liaison au domaine TRFH, de séquence
+  consensus `YxLxP` ou `YRL` pour la liaison à TRF2
+- ChIP : *chromatin immunoprécipitation*, technique de biologie moléculaire
+  permettant de déterminer les régions du génome auxquelles se lie une protéine donnée
+- PARP1 : *poly-ADP rybosylase protein 1*
+- RBM : *RAP1-binding motif*, région de TRF2 liant le domaine C-terminal de RAP1
+- NLS : *nuclear localization signal*, signal de localisation nucléaire
+- WRN : *Werner syndrome protein*, hélicase dont les déficiences provoquent le
+  syndrome de WRN
+- PCA : *protein complementation assay*, technique de biologie moléculaire
+  permettant de détecter des interactions protéine-protéine dans des cellules en culture
+- GST : *glutathione S-transférase*
+- PNUTS : 
+- MCPH1 : *microcephalin 1*
+- SLX4 : 
+- AFM : *atomic force microscopy*, microscopie à force atomique, technique
+  consistant à sonder une surface avec une pointe microscopique, permet de
+  mesurer la hauteur en chaque point de la surface
+- GEN1 : 
+- CCE1 : 
+- ITC : *isothermal titration calorimetry*, titration calorimétrique isotherme,
+  technique de biophysique permettant de mesurer les paramètres thermodynamiques
+  des interactions entre molécules purifiées
+- K~D~ : constante d'équilibre de dissociation (unité : M)
+- K~A~ : constante d'équilibre d'association (unité M^-1^)
+- ΔH : variation d'enthalpie (chaleur échangée au cours d'une réaction ou de la
+  formation d'un complexe)
+- ΔG : variation d'enthalpie libre
+- ΔS : variation d'entropie
+- T : température
+- SAXS, SEC-SAXS : *small angle X-ray scattering*, diffusion des rayons X aux
+  petits angles, et *size-exclusion chromatography - SAXS*, chromatographie
+  d'exclusion stérique couplée à la mesure de diffusion des rayons X aux petits
+  angles
+- RMN : résonnance magnétique nucléaire, technique de biologie structurale
+  permettant d'étudier des molécules en solution
+- RAP1-ARAGA : RAP1 humaine dont les résidus du motif TBM sont mutés en alanine
+- DNaseI : endonucléase I
+- PDB : *protein data bank*, dépôt centralisé de structures tridimensionnelles
+  de macromolécules
+- BRCT : *BRCA1 C-terminus*, domaine C-terminal de la protéine BRCA1, désigne
+  par extension la famille de domaines homologues
+- Tbf1 : 
+- Rif : 
+- Sir : *silent information regulator*, protéines de *saccharomyces cerevisiae*
+  responsables de la répression transcriptionnelle
+- YFP : *yellow fluorescent protein*
+- SDS-PAGE : *sodium dodecyl sulfate - polyacrylamide gel electrophoresis*,
+  électrophorèse sur gel de polyacrylamide en conditions dénaturantes
 - 
