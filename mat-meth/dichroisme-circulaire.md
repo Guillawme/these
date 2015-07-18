@@ -40,7 +40,7 @@ de la température de demi-dénaturation T~m~.
 ### Résultats
 
 Les spectres de dichroïsme circulaire de TRF2 et de RAP1 et RAP1-ARAGA sont
-présentés dans la figure ci-dessous :
+présentés dans la figure suivante :
 
 ![Figure : Spectres de dichroïsme circulaire de TRF2 (à gauche) et de RAP1 et RAP1-ARAGA (à droite).](mat-meth/figures/spectres-cd.png)
 

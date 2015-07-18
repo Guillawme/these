@@ -29,13 +29,13 @@ oligomères hautement condensés [@poulet2012]. Plus récemment, ils ont observ�
 que RAP1 diminue fortement cette capacité de TRF2 à condenser l'ADN télomérique
 et que cet effet de RAP1 dépend de la présence de sa région N-terminale puisque
 le domaine RCT isolé de RAP1 (pourtant suffisant pour lier TRF2 avec une forte
-affinité) n'affecte pas cette propriété de TRF2 (figure ci-dessous, panneau de
+affinité) n'affecte pas cette propriété de TRF2 (figure suivante, panneau de
 gauche).
 
 L'expérience de protection de la jonction de Holliday consiste à traiter la
 jonction par une résolvase (une endonucléase reconnaissant spécifiquement la
 structure branchée de la jonction de Holliday) et à observer le profil de
-clivage par électrophorèse (figure ci-dessous, panneau de droite).
+clivage par électrophorèse (figure suivante, panneau de droite).
 Les résolvases utilisées dans ces expériences sont GEN1, une résolvase nucléaire
 humaine, et CCE1, une résolvase mitochondriale. En complexe avec TRF2, la
 jonction de Holliday est nettement protégée contre la résolvase, tandis que la
@@ -49,7 +49,7 @@ RAP1, et que d'autres régions de RAP1 et de TRF2 sont certainement impliquées.
 Par ces deux approches nos collaborateurs ont pu ainsi mettre en évidence que
 RAP1 modifie les propriétés de TRF2, et que cet effet de RAP1 dépend de la
 présence de sa région N-terminale (communication personnelle de Marie-Josèphe
-Giraud-Panis, figure ci-dessous et article en annexe).
+Giraud-Panis, figure suivante et article en annexe).
 
 ![Figure : **Effets de RAP1 sur les propriétés d'interaction de TRF2 avec l'ADN.** **À gauche** : la condensation de l'ADN par TRF2 est affectée par RAP1 (comparer le panneau central au panneau du haut) mais pas par RAP1-RCT (comparer le panneau du bas au panneau du haut). L'axe vertical représente la longueur apparente de l'ADN (en nm, la ligne pointillée jaune situe la longueur de l'ADN libre), l'axe horizontal représente le volume du complexe (en nm^3^), et le code couleur représente la fréquence d'observation d'un complexe de longueur apparente d'ADN et de volume donnés. **À droite** : TRF2 protège la jonction de Holliday contre le clivage par les enzymes GEN1 (comparer les pistes 2 et 4) et CCE1 (comparer les pistes 12 et 14), l'interaction de RAP1 avec TRF2 abolit cette protection (pistes 5 à 9). RAP1 abolit aussi la protection d'un mutant de TRF2 délété du motif RBM (pistes 16 à 20).](partie-1/figures/afm-et-protection-hj.png)
 

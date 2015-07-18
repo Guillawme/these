@@ -6,13 +6,13 @@ Chez l'humain, l'ADN télomérique est constitué de répétitions en tandem du 
 TTAGGG [@moyzis1988] qui s'étendent dans une région double-brin d'une longueur
 typique de 10 à 15 kb et se prolongent par une extrémité simple-brin sortante en
 3' longue de 50 à 500 nucléotides [@makarov1997]. L'organisation de l'ADN
-télomérique est représentée schématiquement sur la figure ci-dessous :
+télomérique est représentée schématiquement sur la figure suivante :
 
 ![Figure : L'ADN télomérique des mammifères [@palm2008].](intro/figures/seq-telo-humain.png)
 
 L'extrémité simple-brin et la nature répétée des séquences télomériques rend
 possible la formation d'une structure en boucle appelée la *t-loop*, représentée
-dans la figure ci-dessous :
+dans la figure suivante :
 
 ![Figure : La *t-loop*. En haut à gauche, cliché de microscopie électronique [@griffith1999]. En haut à droite, cliché de microscopie STORM [*stochastic optical reconstruction microscopy* ; @doksani2013], la barre d'échelle équivaut à 400 nm. En bas, le modèle de la *t-loop* [@palm2008].](intro/figures/t-loop.jpg)
 

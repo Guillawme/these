@@ -41,7 +41,7 @@ indiqué lorsque nous mentionnerons ces télomères dans la suite de
 cette introduction.
 
 Les séquences des répétitions télomériques de quelques organismes modèles
-courants en biologie des télomères sont listées dans le tableau ci-dessous.
+courants en biologie des télomères sont listées dans le tableau suivant.
 
 Table: Tableau : Séquences des répétitions télomériques d'organismes modèles,
 d'après la base de données <http://telomerase.asu.edu> [@podlevsky2008].
@@ -332,7 +332,7 @@ hairpin telomeres*), et une enzyme appelée résolvase de télomères [parfois
 appelée protélomérase bien qu'elle n'ait rien en commun avec la télomérase des
 eucaryotes ; voir @chaconas2010] permet de séparer les deux molécules filles,
 concaténées en un dimère circulaire suite à la réplication [@chaconas2010].
-La figure ci-dessous illustre le mode de réplication des ADN linéaires
+La figure suivante illustre le mode de réplication des ADN linéaires
 à télomères en épingles à cheveux avec une initiation centrale et une étape de
 résolution des télomères qui reconstitue deux ADN linéaires fermés covalemment
 par des épingles à cheveux.
@@ -361,7 +361,7 @@ attaquant un groupement phosphate avec sa tyrosine catalytique. La conformation
 de la protéine force ensuite la formation d'une épingle à cheveux par la courte
 extrémité 5'-sortante générée par le clivage. Cette extrémité 5'-OH attaque le
 groupement phosphate lié à la tyrosine catalytique pour reformer une liaison
-phosphodiester et libérer l'enzyme. La figure ci-dessous illustre le mécanisme
+phosphodiester et libérer l'enzyme. La figure suivante illustre le mécanisme
 des résolvases de télomères.
 
 ![Figure : Mécanisme des résolvases de télomères [@shi2013].](intro/figures/mecanisme-ResT.png)
@@ -482,7 +482,7 @@ brièvement dans les paragraphes suivants.
 #### Jonction d'extrémités non-homologues (NHEJ)
 
 Le déroulement de la réparation d'une cassure double-brin par la voie NHEJ (chez
-les mammifères) est représenté schématiquement sur la figure ci-dessous :
+les mammifères) est représenté schématiquement sur la figure suivante :
 
 ![Figure : La voie NHEJ de réparation des cassures double-brin de l'ADN [inspiré de @grundy2014].](intro/figures/c-nhej.png)
 
@@ -512,7 +512,7 @@ homologue [@sanfilippo2008]. Cette voie est utilisée principalement pendant les
 phases S et G2, quand une chromatide soeur existe et peut donc servir de matrice
 pour guider la réparation. Contrairement au NHEJ, la recombinaison homologue
 produit des réparations très fidèles à la séquence d'origine. Le principe de la
-recombinaison homologue est illustré dans la figure ci-dessous :
+recombinaison homologue est illustré dans la figure suivante :
 
 ![Figure : La recombinaison homologue [inspiré de @sanfilippo2008, et adapté à partir d'une figure originale de Ewm sur Wikimedia Commons, CC BY-SA 3.0 : <http://commons.wikimedia.org/wiki/File%3AHR_schematic_diagram.svg>]](intro/figures/hr-schema.png)
 
@@ -605,7 +605,7 @@ puisqu'il contient au moins quatre protéines [@premkumar2014] : Pot1a, Tpt1,
 Pat1 et Pat2.
 
 L'organisation des complexes télomériques de ces deux ciliés est schématisée
-dans la figure ci-dessous :
+dans la figure suivante :
 
 ![Figure : Complexes télomériques d'*O. nova* et *T. thermophila* [@giraud-panis2013]](intro/figures/cplx-telo-cilies.png)
 
@@ -675,7 +675,7 @@ sortante en 3' du brin G et est essentiel pour sa protection contre les
 nucléases et également pour le recrutement de la télomérase lors de la
 réplication [@kupiec2014].  
 L'organisation du complexe télomérique de *S. cerevisiae* est présentée
-schématiquement dans la figure ci-dessous :
+schématiquement dans la figure suivante :
 
 ![Figure : Complexe télomérique de *S. cerevisiae* [@giraud-panis2013].](intro/figures/cplx-telo-cerevisiae.png)
 
@@ -691,7 +691,7 @@ Taz1. *S. pombe* possède aussi les protéines Stn1 et Ten1, mais à ce jour auc
 orthologue de Cdc13 n'est connu chez cette levure et les fonctions de son
 complexe (C)ST sont encore très peu décrites [@giraud-panis2010].
 L'organisation du complexe télomérique de *S. pombe* est présentée
-schématiquement dans la figure ci-dessous :
+schématiquement dans la figure suivante :
 
 ![Figure : Complexe télomérique de *S. pombe* [@giraud-panis2013].](intro/figures/cplx-telo-pombe.png)
 

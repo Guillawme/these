@@ -4,7 +4,7 @@
 
 La titration calorimétrique des deux constructions Myb-court et Myb-long par
 l'oligonucléotide double-brin T2-S5S7 (voir Matériel et méthodes) contenant deux
-sites TAGGG montre des profils très différents (figure ci-dessous) :
+sites TAGGG montre des profils très différents (figure suivante) :
 
 ![Figure : Titration calorimétrique des constructions Myb-court (à gauche) et Myb-long (à droite) par l'oligonuclétoide T2-S5S7.](partie-3/figures/itc-mybs.png)
 
@@ -33,16 +33,16 @@ Myb-court/ADN et Myb-long/ADN (cette fois avec l'oligonucléotide double-brin
 T2-S5S8, voir Matériel et méthodes). Deux réplicats ont été mesurés pour chaque
 complexe. Pour toutes les acquisitions le R~g~ est constant tout le long du
 chromatogramme, ce qui montre la bonne homogénéité des échantillons (un des deux
-réplicats de chaque complexe est présenté dans la figure ci-dessous) :
+réplicats de chaque complexe est présenté dans la figure suivante) :
 
 ![Figure : Variation des paramètres R~g~ (en rouge) et I~0~ (en noir) au cours de l'élution des complexes Myb-court/ADN (en haut) et Myb-long/ADN (en bas).](partie-3/figures/profils-rg-mybs.png)
 
 Les courbes finales correspondant à ces acquisitions ont été obtenues en
 calculant la moyenne des courbes 100 à 116 pour le complexe Myb-court/ADN
-(courbe orange dans la figure ci-dessous), et la moyenne des courbes 60 à 76
-pour le complexe Myb-long/ADN (courbe bleue foncée dans la figure ci-dessous).
+(courbe orange dans la figure suivante), et la moyenne des courbes 60 à 76
+pour le complexe Myb-long/ADN (courbe bleue foncée dans la figure suivante).
 Les courbes correspondant à l'autre réplicat (courbes rouge et bleu clair dans
-la figure ci-dessous) ont été obtenues en calculant la moyenne des courbes dans
+la figure suivante) ont été obtenues en calculant la moyenne des courbes dans
 la même région du chromatogramme.
 
 ![Figure : Courbes de SAXS des complexes Myb-court/ADN (deux réplicats en rouge et orange) et Myb-long/ADN (deux réplicats en bleu foncé et clair).](partie-3/figures/courbes-saxs-mybs.png)
@@ -71,7 +71,7 @@ conformation non aléatoire, en accord avec son interaction avec l'ADN montrée
 par l'expérience d'empreinte de nos collaborateurs.
 
 Les fonctions de distribution des distances des deux complexes (deuxième
-réplicat) sont présentées dans la figure ci-dessous :
+réplicat) sont présentées dans la figure suivante :
 
 ![Figure : Fonctions de distribution des distances des complexes Myb-court/ADN (orange) et Myb-long/ADN (bleu). Le panneau de droite rappelle les formes caractéristiques que peut prendre cette fonction : en rouge pour un domaine globulaire, en bleu pour le domaine globulaire connecté à une extrémité dépliée, en vert pour la protéine à deux domaines connectés par une région flexible, en noir la même protéine à deux domaines avec un *linker* plus rigide [@receveur-brechot2012].](partie-3/figures/p-r-mybs-th.png)
 
@@ -164,7 +164,7 @@ L'apparence typique de ces cristaux est montrée dans la photo ci-dessous :
 
 Ces derniers cristaux nous ont permis d'obtenir plusieurs jeux de données à des
 résolutions allant de 1,8 à 2,2 Å, tous du groupe d'espace P 1 2~1~ 1. Ces jeux de
-données sont présentés dans le tableau ci-dessous, avec les statistiques de
+données sont présentés dans le tableau suivant, avec les statistiques de
 traitement des données :
 
 Table: Tableau : Jeux de données cristallographiques et statistiques de

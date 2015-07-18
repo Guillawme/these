@@ -6,7 +6,7 @@ La superposition de notre structure cristallographique du complexe
 TRFH/RAP1-TBM avec celle du complexe TRFH/Apollo-TBM
 [entrée PDB 3BUA, @chen2008] montre que les motifs TBM de ces deux protéines
 occupent le même site de liaison dans le domaine TRFH, comme attendu.
-La superposition est présentée dans la figure ci-dessous :
+La superposition est présentée dans la figure suivante :
 
 ![Figure : Superposition des structures TRFH/RAP1-TBM et TRFH/Apollo-TBM. Le peptide RAP1-TBM est coloré en cyan, le peptide Apollo-TBM est coloré en violet, le domaine TRFH est coloré en jaune (ses résidus engagés dans l'interaction avec les motifs TBM sont colorés de la même couleur que les motifs).](partie-2/figures/tbm-apollo-rap1.png)
 
@@ -24,7 +24,7 @@ pour cette interaction secondaire avec les protéines entières. Pour détermine
 si la proximité du motif TBM de RAP1 pourrait compromettre la liaison d'Apollo,
 nous avons mesuré l'affinité du motif TBM d'Apollo pour le complexe TRF2/RAP1
 préformé, et réciproquement l'affinité de RAP1 pour le complexe TRF2/Apollo-TBM
-préformé (figure ci-dessous).
+préformé (figure suivante).
 
 ![Figure : Titrations calorimétriques de TRFH par Apollo-TBM (en haut à gauche), de TRF2 par Apollo-TBM (en haut à droite), du complexe TRF2/RAP1 préformé par Apollo-TBM (en bas à gauche) et du complexe TRF2/Apollo-TBM préformé par RAP1 (en bas à droite).](partie-2/figures/itc-apollo-trf2-rap1.png)
 
@@ -58,7 +58,7 @@ positions 1073 à 1077, qui est très semblable aux motifs TBM de liaison au
 domaine TRFH déjà mis en évidence [partie 1 et @chen2008; @kim2009; @wan2013].
 L'alignement de ce motif de WRN aux motifs TBM connus d'Apollo et NBS1
 [@chen2008], de PNUTS et MCPH1 [@kim2009], de SLX4 [@wan2013], et de RAP1
-(Partie 1), est représenté dans la figure ci-dessous :
+(Partie 1), est représenté dans la figure suivante :
 
 ![Figure : Alignement du motif KLLLP de WRN avec les motifs TBM connus d'Apollo, NBS1, PNUTS, MCPH1, SLX4 et RAP1. Les résidus du motif sont indiqués par les triangles noirs, le résidu R du motif consensus défini par [@kim2009] est surligné en bleu, les résidus identiques sont surlignés en rouge et les résidus similaires sont encadrés en bleu. Les alignements deux à deux sont aussi présentés.](partie-2/figures/alignement-tbms-wrn.png)
 
@@ -78,7 +78,7 @@ les protéines entières.
 
 La titration calorimétrique du domaine TRFH de TRF2 par WRN-RQC ne montre aucune
 interaction détectable entre ces deux protéines dans nos conditions
-expérimentales (figure ci-dessous), ce qui remet en question notre hypothèse
+expérimentales (figure suivante), ce qui remet en question notre hypothèse
 que le motif `KLLLP` dans la séquence de WRN soit un motif TBM.
 
 ![Figure : Titrations calorimétriques du domaine TRFH de TRF2 par WRN-RQC. À 10 °C (panneau de gauche), 20 °C (panneau central) et 30 °C (panneau de droite).](partie-2/figures/itc-wrn-trfh.png)
@@ -88,7 +88,7 @@ WRN [@opresko2002], il est possible que le domaine WRN-RQC interagisse avec TRF2
 dans une région située hors du domaine TRFH (comme c'est le cas pour RAP1 dont
 le site principal d'interaction est situé dans le *linker* de TRF2). Nous avons
 donc testé l'interaction de WRN-RQC avec TRF2 entière, et avons également obtenu
-un résultat négatif (figure ci-dessous).
+un résultat négatif (figure suivante).
 
 ![Figure : Titration calorimétrique de TRF2 par WRN-RQC.](partie-2/figures/itc-wrn-trf2.png)
 
@@ -135,7 +135,7 @@ l'objectif de produire un complexe minimal compatible avec une étude
 cristallographique. Nous avons donc dans un premier temps testé l'interaction de
 Ku avec le domaine TRFH de TRF2, par chromatographie d'exclusion stérique et par
 rétention sur résine de nickel. Nous n'avons pas pu confirmer l'interaction dans
-ces conditions (figure ci-dessous) :
+ces conditions (figure suivante) :
 
 ![Figure : Tests d'interaction entre Ku et TRFH. En haut, chromatogrammes d'exclusion stérique (Ku seul en bleu, mélange Ku + TRFH en rouge). En bas, analyse SDS-PAGE de la rétention sur résine de nickel.](partie-2/figures/tests-ku-trfh.png)
 
@@ -153,7 +153,7 @@ d'élution dans l'expérience où Ku est présent.
 
 Nous avons également réalisé la titration calorimétrique de Ku par TRFH et par
 TRF2, et nous confirmons que dans nos conditions expérimentales *in vitro*
-aucune interaction n'est détectée entre Ku et TRF2 (figure ci-dessous) :
+aucune interaction n'est détectée entre Ku et TRF2 (figure suivante) :
 
 ![Figure : Titrations calorimétriques de Ku par TRFH (à gauche) et par TRF2 (à droite).](partie-2/figures/itc-ku-trfh-trf2.png)
 
@@ -182,7 +182,7 @@ tous les essais.
 
 ![Figure : Chromatogrammes d'élution des *pull down* (courbes bleues). ADN seul (en haut à gauche), ADN saturé en TRF2 (en haut à droite), ADN saturé en TRF2/RAP1 (en bas à gauche), ADN saturé en TRF2/RAP1-ARAGA (en bas à droite). Le premier pic autour de 1 mL correspond à la fraction non retenue des extraits nucléaires, le pic d'élution se trouve dans la région où le tampon d'élution est à 100 % (courbe verte).](partie-2/figures/strep-pull-down-chromato.png)
 
-L'analyse par SDS-PAGE est présentée dans la figure ci-dessous :
+L'analyse par SDS-PAGE est présentée dans la figure suivante :
 
 ![Figure : Analyse SDS-PAGE des éluats de la figure précédente. 1 : extrait nucléaire (en entrée), 2 : marqueur de masse moléculaire, 3 : excès de TRF2 non fixé sur la colonne, 4 : excès d'extraits nucléaires non retenus par TRF2, 5 : éluat TRF2, 6 : excès de TRF2/RAP1 non fixé sur la colonne, 7 : excès d'extraits nucléaires non retenus par TRF2/RAP1, 8 : éluat TRF2/RAP1, 9 : excès de TRF2/RAP1-ARAGA non fixé sur la colonne, 10 : excès d'extraits nucléaires non retenus par TRF2/RAP1-ARAGA, 11 : éluat TRF2/RAP1-ARAGA, 12 : extrait nucléaires non retenus sur l'ADN, 13 : extraits nucléaires retenus sur l'ADN.](partie-2/figures/strep-pull-down-gel.png)
 

@@ -50,7 +50,7 @@ Dans nos conditions expérimentales (cf. Matériel et méthodes), la titration
 calorimétrique de TRF2 par RAP1 produit de façon reproductible une courbe à deux
 transitions sigmoïdes. D'autre part, lorsque nous titrons TRF2 par le domaine
 C-terminal isolé de RAP1 (RAP1-RCT) nous n'observons que la transition majeure
-dans la courbe de titration (figure ci-dessous), en accord avec les données déjà
+dans la courbe de titration (figure suivante), en accord avec les données déjà
 disponibles dans la littérature [@chen2011; @janoukova2015].
 
 ![Figure : Titration calorimétrique de TRF2 par RAP1 (panneau de gauche) et par RAP1-RCT (panneau de droite).](partie-1/figures/itc-t2-r1-rct.png)
@@ -131,7 +131,7 @@ au préalable de la haute pureté de nos préparations de TRF2 et RAP1 (cf.
 Matériel et méthodes, purification des protéines recombinantes).
 
 Les courbes de SAXS des protéines TRF2, RAP1, RAP1-RCT et des complexes
-TRF2/RAP1 et TRF2/RAP1-RCT sont présentées dans la figure ci-dessous :
+TRF2/RAP1 et TRF2/RAP1-RCT sont présentées dans la figure suivante :
 
 ![Figure : Courbes de SAXS de TRF2 (bleu), RAP1 (rouge), RAP1-RCT (jaune), TRF2/RAP1 (vert) et TRF2/RAP1-RCT (violet). Le panneau de droite montre un agrandissement dans la région des petits angles.](partie-1/figures/courbes-saxs-t2r1.png)
 
@@ -340,7 +340,7 @@ qu'il est suffisamment accessible pour être engagé dans une interaction.
 Nous avons voulu vérifier si ce motif était effectivement capable de lier le
 domaine TRFH. Pour cela nous avons testé par ITC l'interaction d'un peptide de
 RAP1 contenant ce motif `YRLGP` (résidus 89 à 106 de RAP1, appelés par la suite
-RAP1-TBM) avec le domaine TRFH de TRF2 (figure ci-dessous) : dans nos conditions
+RAP1-TBM) avec le domaine TRFH de TRF2 (figure suivante) : dans nos conditions
 expérimentales, nous obtenons un K~D~ ≃ 13 μM.
 
 ![Figure : Titration calorimétrique du domaine TRFH de TRF2 par le peptide RAP1-TBM.](partie-1/figures/itc-rap1-tbm-trfh.png)
@@ -358,7 +358,7 @@ Afin de confirmer que ce motif TBM est bien engagé dans l'interaction entre RAP
 et TRF2, nous avons muté en alanine les trois résidus Y, L et P dans la séquence
 `YRLGP` de RAP1 entière, donnant le motif muté `ARAGA`. Ce mutant est appelé
 RAP1-ARAGA. Nous avons mesuré l'interaction de ce mutant avec TRF2 par ITC
-(figure ci-dessous) :
+(figure suivante) :
 
 ![Figure : Titration calorimétrique de TRF2 par RAP1-ARAGA.](partie-1/figures/itc-trf2-araga.png)
 
@@ -378,7 +378,7 @@ TBM dans le domaine TRFH de TRF2. Cependant, cette interaction complète affecte
 probablement des régions plus grandes dans les protéines entières. Afin de
 déterminer quelles sont ces régions, nous avons réalisé des expériences
 d'empreinte protéique par acétylation des lysines. Le principe de cette méthode
-est schématisé dans la figure ci-dessous.
+est schématisé dans la figure suivante.
 
 ![Figure : Principe de l'expérience d'empreinte protéique.](partie-1/figures/footprint-principe.png)
 

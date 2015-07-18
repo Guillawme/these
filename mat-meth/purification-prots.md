@@ -170,7 +170,7 @@ une seconde chromatographie d'affinité pour le nickel, chromatographie
 d'affinité pour l'héparine, et finalement chromatographie d'exclusion stérique.
 
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
-de TRF2 sont présentés dans la figure ci-dessous :
+de TRF2 sont présentés dans la figure suivante :
 
 ![Figure : Purification de TRF2.](mat-meth/figures/purif-trf2.jpg)
 
@@ -185,7 +185,7 @@ une seconde chromatographie d'affinité pour le nickel, chromatographie d'échan
 d'anions, et finalement chromatographie d'exclusion stérique.
 
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
-de RAP1 sont présentés dans la figure ci-dessous :
+de RAP1 sont présentés dans la figure suivante :
 
 ![Figure : Purification de RAP1.](mat-meth/figures/purif-rap1.jpg)
 
@@ -200,7 +200,7 @@ une seconde chromatographie d'affinité pour le nickel, chromatographie
 d'affinité pour l'héparine, et finalement chromatographie d'exclusion stérique.
 
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
-de RAP1-ARAGA sont présentés dans la figure ci-dessous :
+de RAP1-ARAGA sont présentés dans la figure suivante :
 
 ![Figure : Purification de RAP1-ARAGA.](mat-meth/figures/purif-araga.jpg)
 
@@ -214,7 +214,7 @@ d'affinité pour le nickel, clivage de l'étiquette histidine et séparation par
 une seconde chromatographie d'affinité pour le nickel.
 
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
-de RAP1_1-208 sont présentés dans la figure ci-dessous :
+de RAP1_1-208 sont présentés dans la figure suivante :
 
 ![Figure : Purification de RAP1_1-208.](mat-meth/figures/purif-1-208.jpg)
 
@@ -228,7 +228,7 @@ d'affinité pour le nickel, clivage de l'étiquette histidine et séparation par
 une seconde chromatographie d'affinité pour le nickel.
 
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
-de B-TRFH sont présentés dans la figure ci-dessous :
+de B-TRFH sont présentés dans la figure suivante :
 
 ![Figure : Purification de B-TRFH.](mat-meth/figures/purif-b-trfh.jpg)
 
@@ -245,7 +245,7 @@ une seconde chromatographie d'affinité pour le nickel, et chromatographie
 d'affinité pour l'héparine.
 
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
-de WRN_949-1079 sont présentés dans la figure ci-dessous :
+de WRN_949-1079 sont présentés dans la figure suivante :
 
 ![Figure : Purification de WRN_949-1079.](mat-meth/figures/purif-wrn.jpg)
 
@@ -260,7 +260,7 @@ une seconde chromatographie d'affinité pour le nickel, et chromatographie
 d'affinité pour l'héparine.
 
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
-du Myb-court sont présentés dans la figure ci-dessous :
+du Myb-court sont présentés dans la figure suivante :
 
 ![Figure : Purification du Myb-court.](mat-meth/figures/purif-mybc.jpg)
 
@@ -274,7 +274,7 @@ d'affinité pour le nickel, clivage de l'étiquette histidine et séparation par
 une seconde chromatographie d'affinité pour le nickel.
 
 Les chromatogrammes et l'analyse des fractions par SDS-PAGE pour la purification
-du Myb-long sont présentés dans la figure ci-dessous :
+du Myb-long sont présentés dans la figure suivante :
 
 ![Figure : Purification du Myb-long.](mat-meth/figures/purif-mybl.jpg)
 

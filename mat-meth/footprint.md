@@ -7,7 +7,7 @@ une protéine en présence d'un réactif capable de produire un adduit covalent 
 certaines chaines latérales. De nombreux réactifs sont disponibles pour cibler
 les différentes chaines latérales, selon des mécanismes propres à chaque type de
 chaine latérale (acide carboxylique, amine, alcool, thiol) [@mendoza2009].
-Le principe de la technique est schématisé dans la figure ci-dessous.
+Le principe de la technique est schématisé dans la figure suivante.
 
 ![Figure : Principe de l'expérience d'empreinte protéique.](mat-meth/figures/footprint-principe.png)
 
@@ -30,7 +30,7 @@ cristallographique [@kvaratskhelia2002].
 Pour l'étude de l'interaction entre TRF2 et RAP1, nous avons utilisé
 l'acétylation des lysines comme réaction d'empreinte. Le réactif permettant
 cette réaction est le sulfo-NHS-acetate, dont la structure est représentée dans
-la figure ci-dessous.
+la figure suivante.
 
 ![Figure : Structure du sulfo-NHS-acetate.](mat-meth/figures/sulfo-NHS-acetate.png)
 

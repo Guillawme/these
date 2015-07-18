@@ -13,7 +13,7 @@ sur un oligonucléotide à deux sites sont aussi séparés). Les fractions d'int
 sont réunies et concentrées jusqu'à environ 22 mg/mL en complexe.
 
 Un chromatogramme typique obtenu en préparant le complexe Myb-long/T2-S5S7 est
-présenté dans la figure ci-dessous :
+présenté dans la figure suivante :
 
 ![Figure : Chromatogramme d'exclusion stérique du complexe Myb-long/ADN. Absorbance à 280 nm en bleu, absorbance à 260 nm en rouge.](mat-meth/figures/myb-long_adn-sup75.png)
 
