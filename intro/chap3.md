@@ -84,6 +84,8 @@ entières ni sur le complexe, seules des structures tridimensionnelles de
 domaines isolés sont actuellement disponibles dans la PDB. Ces structures sont
 listées dans le tableau suivant :
 
+Table: Tableau : Structures tridimensionnelles des domaines de TRF2 et RAP1.
+
            **Domaine**     **Entrée PDB**     **Référence**
 ----------------------    ----------------    ----------------
               RAP1-Myb       1FEX               @hanaoka2001
