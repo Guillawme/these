@@ -11,8 +11,8 @@ la seule qui permette d'obtenir une valeur réelle de la constante d'équilibre 
 dissociation (K~D~), sans marquage (contrairement aux méthodes de mesure de
 polarisation ou d'anisotropie de fluorescence) ni immobilisation d'un des
 partenaires (contrairement à la résonance plasmonique de surface) ni séparation
-(contrairement aux techniques de chromatographie et d'électrophorèse).
-Le calorimètre est schématisé dans la figure suivante :
+(contrairement aux techniques de centrifugation, de chromatographie et
+d'électrophorèse). Le calorimètre est schématisé dans la figure suivante :
 
 ![Figure : Représentation schématique d'un calorimètre de titration isotherme (domaine public : <https://en.wikipedia.org/wiki/File:ITC1.png>).](partie-1/figures/calorimetre.png)
 
