@@ -446,7 +446,7 @@ complexe. Du côté de RAP1, les lysines K383 et K384 sont protégées dans le
 complexe, tandis que la lysine K324 est plus accessible dans le complexe.
 Ces résultats sont résumés dans la figure suivante :
 
-![Figure : **Empreintes de TRF2 sur RAP1 et de RAP1 sur TRF2 dans la région de l'interaction de haute affinité (TRF2-RBM et RAP1-RCT).** TRF2 est représenté en jaune, RAP1 en cyan. Les lysines sont représentées en sphères, celles qui sont protégées dans le complexe sont colorées en bleu, celles qui sont plus accessibles dans le complexe sont colorées en rouge. La figure a été réalisée avec l'entrée PDB 3K6G. Les pics issus des spectres de masse (deux réplicats) sont indiqués pour chaque lysine (spectres orange et rouge : protéine libre ; spectres bleus : protéine dans le complexe). Le fragment de la protéine correspondant à chaque pic est indiqué au-dessus avec le nombre d'acétylations et les lysines représentées avec le même code couleur que dans la structure.](partie-1/figures/empreinte-rct-rbm-spectres.png)
+![Figure : **Empreintes de TRF2 sur RAP1 et de RAP1 sur TRF2 dans la région de l'interaction de haute affinité (TRF2-RBM et RAP1-RCT).** TRF2 est représentée en jaune, RAP1 en cyan. Les lysines sont représentées en sphères, celles qui sont protégées dans le complexe sont colorées en bleu, celles qui sont plus accessibles dans le complexe sont colorées en rouge. La figure a été réalisée avec l'entrée PDB 3K6G. Les pics issus des spectres de masse (deux réplicats) sont indiqués pour chaque lysine (spectres orange et rouge : protéine libre ; spectres bleus : protéine dans le complexe). Le fragment de la protéine correspondant à chaque pic est indiqué au-dessus avec le nombre d'acétylations et les lysines représentées avec le même code couleur que dans la structure.](partie-1/figures/empreinte-rct-rbm-spectres.png)
 
 Les lysines K327 et K329 de TRF2 sont aussi protégées dans le complexe (cf.
 figure suivante), ce qui suggère que le motif RBM de TRF2 dans le contexte des
@@ -491,5 +491,5 @@ positionnement relatif du domaine TRFH de TRF2 et de la région N-terminale de
 RAP1 dans le complexe formé par les protéines entières. Ce modèle est présenté
 dans la figure suivante :
 
-![Figure : Modèle du complexe TRF2/RAP1 au niveau du domaine TRFH de TRF2 et de la région N-terminale de RAP1. TRF2 est représenté en jaune et RAP1 en cyan. Les lysines et les résidus du motif TBM de RAP1 sont colorés selon le même code que dans les figures précédentes.](partie-1/figures/modele-trfh-r1-nter.png)
+![Figure : Modèle du complexe TRF2/RAP1 au niveau du domaine TRFH de TRF2 et de la région N-terminale de RAP1. TRF2 est représentée en jaune et RAP1 en cyan. Les lysines et les résidus du motif TBM de RAP1 sont colorés selon le même code que dans les figures précédentes.](partie-1/figures/modele-trfh-r1-nter.png)
 

@@ -32,7 +32,7 @@ indiqués par la suite.
 #### Lyse des bactéries
 
 Chaque culot bactérien est resuspendu dans 40 mL de tampon NiA additionné de
-PMSF qsp 1 mM final et de Triton-X-100 qsp O,5 % v/v final. La suspension
+PMSF qsp 1 mM final et de Triton-X-100 qsp 0,5 % v/v final. La suspension
 bactérienne résultante est additionnée de lysozyme à raison de 20 mg par culot
 et incubée 15 min à température ambiante sous agitation. Les bactéries sont
 alors lysées par sonication (sans dépasser 10 °C) : 60 pulses de 1 s espacées
