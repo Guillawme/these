@@ -1,6 +1,6 @@
 REM Ces variables sont mal définies sur mon poste au labo
 REM Ce fichier sert à les définir correctement pour que
-REM git puisse trouver son fichier de confirguration
+REM git puisse trouver son fichier de configuration
 
 set HOMEDRIVE=C:
 set HOMEPATH=\Users\gg226854
