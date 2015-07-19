@@ -69,6 +69,9 @@ RAP1-ARAGA) et par des carrés (lysines protégées uniquement par RAP1 sauvage)
 
 ## Publication
 
-Cet article est actuellement en cours de finalisation pour être soumis au
-journal *Nucleic Acids Research*.
+Cet article est actuellement en cours de finalisation pour être soumis
+à publication. Les figures supplémentaires ne sont pas présentées afin de ne pas
+alourdir les annexes avec des informations redondantes déjà présentées dans la
+thèse. Elles sont néanmoins disponibles dans la version numérique de
+cette thèse.
 
