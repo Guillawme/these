@@ -24,9 +24,9 @@ Temporary Items
 
 ## Autres
 *.docx
-*.pdf
-*.png
-*.jpg
+#*.pdf
+#*.png
+#*.jpg
 *.xcf
 *.tif
 *.tiff
