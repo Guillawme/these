@@ -94,21 +94,23 @@ qui ont justement réussi à m'en faire sortir suffisamment régulièrement.
 Merci à mes amis du lycée (c'est super d'avoir pu rester en contact avec vous
 depuis tout ce temps !) et aux personnes rencontrées par votre intermédiaire :
 Anne-Sophie, Béatrice & Kévin, Claire, Guillaume, Adrien, Mikaël, Quentin,
-Virgile & Lenka (merci pour ces excellents souvenirs en Slovaquie), Elsa.
+Virgile & Lenka (merci pour ce magnifique séjour en Slovaquie), Elsa.
 Merci à tous de m'avoir aidé à me changer les idées régulièrement, c'était
 très important.
 Merci aussi Diyendo et Maud, je suis content d'avoir pu garder le contact avec
-vous alors que nous avons tous les trois commencé une thèse au même moment.
+vous après l'université alors que nous avons tous commencé une thèse au
+même moment.
 Merci à mes amis musiciens, tous présents pendant la thèse mais surtout dès mon
 arrivée à Paris il y a 5 ans pour la plupart. Merci Léo, Sonia, Sarah, Isabelle,
 Jean-Yves (ton humour décapant !!), Manu violoniste (si curieux de la biologie,
-c'est toujours un plaisir de te raconter mes recherches), Claire (promis je ne
-te parlerai plus de passer ton HDR), Aline & Pierre, Béatrice (ta bonne humeur
-constante, et ton grog...), Lea (merci pour cette jolie mélodie que tu as
-composée), Alexis, Robin, Sylvain et les musiciens du Kwaga band. Merci en
-particulier Robin et Sylvain pour avoir bien pimenté (au sens figuré comme au
-sens propre : vos plats végétaliens sont formidables) les derniers mois de ma
-thèse. :-)
+c'est toujours un plaisir de te raconter mes recherches), Patricia &
+Jean-Michel, Claire (promis je ne te parlerai plus de passer ton HDR), Aline &
+Pierre, Béatrice (ta bonne humeur constante, et ton grog...), Lea (merci pour
+cette jolie mélodie que tu as composée), Alexis, Julien, Patricia (Mapaúlina)
+Robin, Sylvain, Camille, Erwan et les autres musiciens du Kwaga band. Merci en
+particulier Robin et Sylvain pour avoir bien pimenté les derniers mois de ma
+thèse :-) au sens figuré comme au sens propre (vos plats végétaliens sont
+formidables).
 
 Merci à toute ma famille, en premier mes parents Marie-Bé et Jacques, ma soeur
 Juliette (pardon, Juju) et mon frère Arthur. Merci pour votre grand soutien,
