@@ -58,3 +58,10 @@ expertise dans l'une de ces méthodes (au moins) et d'entretenir un niveau
 d'utilisateur averti dans les autres pour connaître leurs avantages et leurs
 limites et être capable de les mettre en œuvre.
 
+
+
+
+
+
+*« Je ne sais pas le reste. »*
+
