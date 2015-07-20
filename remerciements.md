@@ -2,15 +2,17 @@
 
 Ces travaux ont été réalisés au laboratoire de biologie structurale et
 radiobiologie (LBSR) du service de bioénergétique, biologie structurale et
-mécanismes (SB2SM) du CEA. Je souhaite tout d'abord remercier la direction des
-sciences de la vie du CEA qui a bien voulu m'attribuer un contrat doctoral pour
-travailler dans ce laboratoire pendant ces trois dernières années. Je remercie
-également tous les chercheurs du LBSR qui m'y ont fait un bon accueil.
+mécanismes (SB2SM) du CEA. Je souhaite tout d'abord remercier le programme
+Irtélis de la direction des sciences de la vie du CEA qui a bien voulu
+m'attribuer un contrat doctoral pour travailler dans ce laboratoire pendant ces
+trois dernières années. Merci à Bruno Robert, directeur du SB2SM, qui a soutenu
+ma candidature au concours. Je remercie également tous les chercheurs du LBSR
+qui m'y ont fait un très bon accueil.
 
 Je remercie Dominique Housset et Vincent Géli qui ont accepté d'être rapporteurs
 de ma thèse, ainsi que Claudine Mayer, Laure Crabbé et Herman van Tilbeurgh qui
 ont accepté de constituer le jury de la soutenance avec eux. Merci également
-Claudine d'avoir accepté le rôle de rapportice de mi-parcours.
+Claudine d'avoir accepté le rôle de rapportrice de mi-parcours.
 
 Une thèse serait irréalisable sans un directeur, en l'occurrence une
 directrice : merci Marie-Hélène, merci pour tout. Merci tout d'abord d'avoir
@@ -26,31 +28,34 @@ finalement pas insurmontable (je m'en suis aperçu avec les expériences
 d'acétylation, qu'il a fallu refaire tellement de fois...). C'est aussi cet état
 d'esprit qui a confirmé mon goût pour la recherche.
 
-Nous ne nous serions pas rencontrés, et cette thèse aurait donc été tout autre,
-si je n'avais pas fait ce stage hors cursus à la plateforme de cristallogenèse
-de l'Institut Pasteur en 2009. J'adresse un grand merci à Ahmed Haouz, directeur
-de la plateforme, qui m'y avait alors accueilli et m'avait très bien encadré.
-Merci également Ahmed pour ton soutien au début de ma thèse, et pour ton aide
-qui a permis l'obtention des cristaux mentionnés dans la troisième partie du
-manuscrit. Je regrette de ne pas avoir eu plus souvent l'occasion de travailler
-en collaboration avec la plateforme, mais le projet a pris une tournure telle
-que nous avons eu besoin d'autres techniques que la cristallographie,
-c'est ainsi.
+Marie-Hélène et moi ne nous serions pas rencontrés, et cette thèse aurait donc
+été tout autre, si je n'avais pas fait ce stage hors cursus à la plateforme de
+cristallogenèse de l'Institut Pasteur en 2009. J'adresse un grand merci à Ahmed
+Haouz, directeur de la plateforme, qui m'y avait alors accueilli et m'avait très
+bien encadré. Merci également Ahmed pour ton soutien au début de ma thèse, et
+pour ton aide qui a permis l'obtention des cristaux mentionnés dans la troisième
+partie du manuscrit. Je regrette de ne pas avoir eu plus souvent l'occasion de
+travailler en collaboration avec la plateforme, mais le projet a pris une
+tournure telle que nous avons eu besoin d'autres techniques que la
+cristallographie, c'est ainsi.
 
 Les expériences réalisées pendant cette thèse ont pu être menées à bien grâce
 à la participation de nombreuses personnes. J'adresse mes plus grands
 remerciements à Yann-Vaï Le Bihan : tes conseils m'ont été précieux pendant
 toute ma thèse, et c'est en grande partie grâce à toi que je suis devenu
-autonome pour les manipulations. Merci également à Simona Miron pour m'avoir
-enseigné la calorimétrie (ITC) et pour sa participation à tous nos travaux.
+autonome pour les manipulations. Merci également Simona Miron pour m'avoir
+enseigné la calorimétrie et pour ta participation à tous nos travaux.
 Merci à Carine Tellier-Lebègue pour son aide avec la biologie moléculaire et les
 purifications de protéines. Un immense merci à Bob Thai pour sa grande
 implication dans les expériences d'empreinte par acétylation : tu m'as enseigné
 les bases de la spectrométrie de masse, tu as été super réactif quand il fallait
 qu'on reproduise rapidement des expériences, j'en suis très reconnaissant.
-Merci Wala pour ta participation à quelques-unes de ces expériences, c'était une
-aide bienvenue. Je te souhaite bon courage pour la fin de ta thèse, et sois
-certaine que je viendrai à ta soutenance. :-)
+Merci Clément pour avoir fourni le dimère Ku purifié, et pour avoir réalisé
+quelques expériences, et merci pour ta motivation de doctorant fraichement
+arrivé (ça aide quand, en troisième année, on a épuisé une bonne partie de cette
+motivation des débuts). Merci Wala pour ta participation à quelques-unes de ces
+expériences, c'était une aide bienvenue. Je te souhaite bon courage pour la fin
+de ta thèse, et sois certaine que je viendrai à ta soutenance. :-)
 
 Je remercie également les scientifiques des lignes de lumière du synchrotron
 SOLEIL pour leur assistance durant les collectes et le traitement initial des
@@ -73,8 +78,8 @@ j'en garde un excellent souvenir.
 
 Je remercie toutes les personnes qui ont installé une bonne ambiance dans le
 bureau que nous avons partagé pendant que je l'ai occupé ces trois dernières
-années : Benjamin, Isslam, Wala, Philippe, Jinqi et Jonathan. C'était un plaisir
-d'être votre voisin pendant ces moments de rigolade et parfois même de
+années : Benjamin, Isslam, Wala, Philippe, Jingqi et Jonathan. C'était un
+plaisir d'être votre voisin pendant ces moments de rigolade et parfois même de
 discussions scientifiques sérieuses (si, si). Merci aussi à ceux "d'en haut" :
 le labo et les bureaux voisins. L'étage, cette autre dimension où on s'aperçoit
 toujours trop tard qu'on a oublié quelque chose au rez-de-chaussée : stylo,
