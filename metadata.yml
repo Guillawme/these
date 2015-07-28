@@ -4,6 +4,7 @@ author: Guillaume Gaullier
 date: Juillet 2015
 bibliography: references.bib
 csl: embo-journal.csl
+nocite: @blackburn2006
 abstract: |
     Les télomères sont les extrémités des chromosomes linéaires des eucaryotes.
     Ils sont constitués de répétitions en tandem d'un motif court riche en
