@@ -60,7 +60,7 @@ de ta thèse, et sois certaine que je viendrai à ta soutenance. :-)
 Je remercie également les scientifiques des lignes de lumière du synchrotron
 SOLEIL pour leur assistance durant les collectes et le traitement initial des
 données : Beatriz Guimarães et Pierre Legrand (PROXIMA 1), Martin Savko (PROXIMA
-2), et Adrien Thureau (SWING). Ils n'hésitent jamais à sacrifier des nuits et
+2), et Aurélien Thureau (SWING). Ils n'hésitent jamais à sacrifier des nuits et
 des week-ends pour s'assurer du bon fonctionnement de l'instrumentation complexe
 des lignes de lumière, et méritent donc des remerciements particuliers.
 
