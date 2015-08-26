@@ -102,6 +102,10 @@
   d'exclusion stérique couplée à la mesure de diffusion des rayons X aux petits
   angles
 - sb : simple-brin
+- SPR : *surface plasmon resonance*, résonance plasmonique de surface, technique
+  de biophysique permettant de mesurer les vitesses d'association et de
+  dissociation de complexes entre molécules purifiées (l'une des deux étant
+  immobilisée)
 - SDS-PAGE : *sodium dodecyl sulfate - polyacrylamide gel electrophoresis*,
   électrophorèse sur gel de polyacrylamide en conditions dénaturantes
 - SDSA : *synthesis-dependant strand annealing*
