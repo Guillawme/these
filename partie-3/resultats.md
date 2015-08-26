@@ -2,27 +2,87 @@
 
 ### Calorimétrie
 
-La titration calorimétrique des deux constructions Myb-court et Myb-long par
+Les titrations calorimétriques des deux constructions Myb-court et Myb-long par
 l'oligonucléotide double-brin T2-S5S7 (voir Matériel et méthodes) contenant deux
-sites TAGGG montre des profils très différents (figure suivante) :
+sites TAGGG sont présentées dans la figure suivante :
 
-![Figure : Titration calorimétrique des constructions Myb-court (à gauche) et Myb-long (à droite) par l'oligonuclétoide T2-S5S7.](partie-3/figures/itc-mybs.png)
+![Figure : Titrations calorimétriques des constructions Myb-court (à gauche) et Myb-long (à droite) par l'oligonuclétoide T2-S5S7.](partie-3/figures/itc-mybs.png)
 
-Du fait d'une grande incertitude sur la concentration du lot d'oligonucléotide
-utilisé pour cette expérience, nous n'avons pas pu calculer les constantes
-d'équilibre de dissociation de façon fiable. Le thermogramme de la titration du
-Myb-court contient aussi des artéfacts de dilution probablement dus à une
-différence de composition entre le tampon de la seringue et celui de la cuve.
-Ces titrations seront reproduites très prochainement avec un lot
-d'oligonucléotide précisément dosé.
+Les paramètres thermodynamiques obtenus sont résumés dans le tableau suivant :
 
-Il est toutefois intéressant de noter que les thermogrammes montrent des pics
-positifs dans le cas du Myb-court (la variation d'enthalpie ΔH est positive,
-l'interaction est donc endothermique) et des pics négatifs dans le cas du
-Myb-long (ΔH est négative, l'interaction est donc exothermique).
-Cette différence témoigne d'un mode de liaison différent et suggère que la
-région du *linker* présente dans la construction Myb-long participe bien
-à l'interaction avec l'ADN.
+Table: Tableau : Comparaison des paramètres thermodynamiques des interactions
+Myb-court/ADN et Myb-long/ADN.
+
+**Paramètre**     **Myb-court/ADN**  **Myb-long/ADN**
+----------------- ------------------ -----------------
+  N                 0,496              0,420
+  K~D~ (µM)         0,45               2,47
+  ΔG (cal/mol)      -8221,5            -7248,92
+  ΔH (cal/mol)      -5816              -8596
+  -TΔS (cal/mol)    -2405,5            1347,08
+
+Puisque l'oligonucléotide à deux sites se trouve dans la seringue et qu'une
+molécule d'oligonucléotide se lie à deux molécules de protéine présentes dans la
+cuve, la stoechiométrie attendue pour l'interaction est de 0,5 (1 ligand pour
+2 récepteurs, soit 0,5 ligand par récepteur). Le paramètre N déterminé par
+l'analyse du thermogramme représente la stoechiométrie à condition que les
+concentrations des deux molécules soient précisément déterminées, et à condition
+que chacune des deux molécules soit active à 100 %. Le paramètre N peut être
+calculé par la formule suivante [@milev2015] :
+
+$N = S \times \frac{FA_{cuve}}{FA_{seringue}}$
+
+où S est la stoechiométrie et FA la fraction active telle que
+
+$FA = \frac{[molécule]_{active}}{[molécule]_{totale}}$
+
+Nous pouvons raisonnablement faire l'hypothèse que l'oligonucléotide est actif
+à 100 % car nous avons vérifié son hybridation correcte. La valeur de
+N inférieure à 0,5 est par conséquent probablement attribuable à une fraction
+active de protéine inférieure à 100 %, ce qui est vraisemblable étant donné
+qu'il est en pratique impossible de purifier parfaitement une protéine.
+La formule précédente donne des fractions actives de 99,2 % et 84 % pour
+Myb-court et Myb-long, respectivement.
+
+Les affinités de Myb-court et Myb-long pour l'ADN sont du même ordre de
+grandeur, dans la gamme micromolaire basse. Cependant la comparaison des
+paramètres thermodynamiques ΔG (variation d'enthalpie libre), ΔH (variation
+d'enthalpie) et ΔS (variation d'entropie) renseigne sur le mode de liaison.
+ΔG est négatif pour une interaction favorable, il est directement lié à la
+constante d'équilibre de dissociation par la relation ΔG = -RT ln K~D~ (R =
+1,987 cal.K^-1^.mol^-1^ est la constante des gaz parfaits, T est la température
+de l'expérience en K). D'autre part, ΔH et ΔS contribuent à ΔG selon la relation
+ΔG = ΔH - TΔS. Ainsi, une variation d'enthalpie libre favorable à l'interaction
+(donc négative) nécessite une contribution enthalpique (ΔH) négative et une
+contribution entropique (ΔS) positive. Les valeurs des paramètres ΔG, ΔH et -TΔS
+des deux interactions étudiées sont représentées graphiquement dans la figure
+suivante :
+
+![Figure : Comparaison des contributions enthalpique et entropique dans les interactions Myb-court/ADN et Myb-long/ADN.](partie-3/figures/parametres-thermo-mybs.png)
+
+La contribution enthalpique (ΔH) est principalement due aux liaisons hydrogène
+établies et rompues au cours de l'interaction (une valeur négative de ΔH indique
+que des liaisons ont été établies). Nous observons que la contribution
+enthalpique est plus favorable pour Myb-long que pour Myb-court (d'un facteur
+environ 1,5), ce qui signifie que Myb-long établit plus de liaisons hydrogène
+avec l'ADN. Cette observation est en accord avec les résultats de l'expérience
+d'empreinte de nos collaborateurs.
+
+La contribution entropique (ΔS) représente les changements de solvatation et de
+conformation. Notamment, ΔS est négatif (la contribution à ΔG est donc
+défavorable) lorsqu'une partie de la chaîne protéique perd des degrés de liberté
+conformationnelle au cours de l'interaction. La contribution entropique est
+défavorable pour Myb-long, comparé à Myb-court. Nous pouvons en déduire que la
+portion de *linker* (résidus 400 à 445) adopte probablement une conformation
+plus contrainte dans le complexe avec l'ADN, comparé à celle qu'elle adopte dans
+la forme libre de la protéine. Ceci est également en accord avec l'hypothèse de
+l'implication de cette région de TRF2 dans l'interaction avec l'ADN.
+
+Il résulte de ces différentes contributions enthalpique et entropique que la
+variation d'enthalpie libre de l'interaction Myb-long/ADN est presque égale
+à celle de l'interaction Myb-court/ADN (cette dernière est plus favorable d'un
+facteur environ 1,1), ce qui explique le même ordre de grandeur des constantes
+d'équilibre de dissociation correspondantes.
 
 
 ### SAXS
