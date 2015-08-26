@@ -42,7 +42,7 @@ permet d'obtenir par ajustement d'un modèle mathématique les valeurs de K~A~ (
 constante d'équilibre d'association ; K~A~ = 1 / K~D~), ΔS (la variation
 d'entropie) et n (la stoechiométrie) associées à l'interaction. La variation
 d'enthalpie libre associée à l'interaction (ΔG) peut finalement être calculée
-avec l'équation ΔG = ΔH - T ΔS. La titration calorimétrique est la seule
+avec l'équation ΔG = ΔH - TΔS. La titration calorimétrique est la seule
 technique à ce jour qui puisse fournir tous ces paramètres thermodynamiques en
 une expérience.
 
@@ -74,7 +74,7 @@ TRF2/RAP1-RCT et TRF2/RAP1 (a : transition majeure ; b : transition mineure).
  ΔH (kcal/mol)        -7,4                 -6,2     (a)
                                             1       (b)
 
- T.ΔS (kcal/mol)       6,1                  7,07    (a)
+ TΔS (kcal/mol)        6,1                  7,07    (a)
                                             9,1     (b)
 --------------------------------------------------------
 
