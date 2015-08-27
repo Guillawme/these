@@ -124,8 +124,8 @@ oncles, cousines et cousins. Merci à mes grands-parents Nicole et René.
 Vous m'avez tous toujours encouragé, et vous avez supporté mes difficultés
 à vulgariser un sujet complexe. Merci pour tout.
 Enfin, merci infiniment Rebecca. Merci pour ton soutien de chaque instant, pour
-ta bonne humeur, pour ta musique, pour tous ces moments formidables déjà passés
+ta bonne humeur, pour ta musique, pour tous ces moments merveilleux déjà passés
 ensemble (les souterrains de Paris, la côte Ouest des États-Unis, les sentiers
 de Belle-Île, la Bogue d'Or, les Alpes en plein été, le festival Interceltique,
-et j'en oublie certainement...), et pour les prochains qui arriveront bientôt.
+et j'en oublie certainement...), et pour tous ceux à venir.
 
