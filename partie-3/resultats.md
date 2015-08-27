@@ -105,7 +105,7 @@ Les courbes correspondant à l'autre réplicat (courbes rouge et bleu clair dans
 la figure suivante) ont été obtenues en calculant la moyenne des courbes dans
 la même région du chromatogramme.
 
-![Figure : Courbes de SAXS des complexes Myb-court/ADN (deux réplicats en rouge et orange) et Myb-long/ADN (deux réplicats en bleu foncé et clair).](partie-3/figures/courbes-saxs-mybs.png)
+![Figure : Courbes de SAXS des complexes Myb-court/ADN (deux réplicats en rouge et orange) et Myb-long/ADN (deux réplicats en bleu foncé et clair). Le panneau de droite montre un agrandissement dans la région des petits angles.](partie-3/figures/courbes-saxs-mybs.png)
 
 L'analyse de Guinier montre que les complexes Myb-court/ADN et Myb-long/ADN ont
 respectivement des R~g~ de 20 et 28 Å. La différence de R~g~ de 8 Å est
