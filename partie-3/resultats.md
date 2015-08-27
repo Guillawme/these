@@ -74,7 +74,7 @@ défavorable) lorsqu'une partie de la chaîne protéique perd des degrés de lib
 conformationnelle au cours de l'interaction. La contribution entropique est
 défavorable pour Myb-long, comparé à Myb-court. Nous pouvons en déduire que la
 portion de *linker* (résidus 400 à 445) adopte probablement une conformation
-plus contrainte dans le complexe avec l'ADN, comparé à celle qu'elle adopte dans
+plus contrainte dans le complexe avec l'ADN, comparée à celle qu'elle adopte dans
 la forme libre de la protéine. Ceci est également en accord avec l'hypothèse de
 l'implication de cette région de TRF2 dans l'interaction avec l'ADN.
 
