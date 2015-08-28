@@ -51,6 +51,7 @@
 - ITC : *isothermal titration calorimetry*, titration calorimétrique isotherme,
   technique de biophysique permettant de mesurer les paramètres thermodynamiques
   des interactions entre molécules purifiées
+- K : unité de mesure de température (degré Kelvin), 273 K = 0 °C
 - K~A~ : constante d'équilibre d'association (unité M^-1^)
 - kb : 1000 pb
 - K~D~ : constante d'équilibre de dissociation (unité M)
