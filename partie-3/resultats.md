@@ -44,39 +44,40 @@ qu'il est en pratique impossible de purifier parfaitement une protéine.
 La formule précédente donne des fractions actives de 99,2 % et 84 % pour
 Myb-court et Myb-long, respectivement.
 
-Les affinités de Myb-court et Myb-long pour l'ADN sont du même ordre de
-grandeur, dans la gamme micromolaire basse. Cependant la comparaison des
-paramètres thermodynamiques ΔG (variation d'enthalpie libre), ΔH (variation
-d'enthalpie) et ΔS (variation d'entropie) renseigne sur le mode de liaison.
-ΔG est négatif pour une interaction favorable, il est directement lié à la
-constante d'équilibre de dissociation par la relation ΔG = -RT ln K~D~ (R =
+L'affinité de Myb-long pour l'ADN est environ 5 fois moins bonne que celle de
+Myb-court, mais est tout de même forte car dans la gamme micromolaire basse.
+La comparaison des paramètres thermodynamiques ΔG (variation d'enthalpie libre),
+ΔH (variation d'enthalpie) et ΔS (variation d'entropie) renseigne sur le mode de
+liaison. ΔG est négatif pour une interaction favorable, il est directement lié
+à la constante d'équilibre de dissociation par la relation ΔG = -RT ln K~D~ (R =
 1,987 cal.K^-1^.mol^-1^ est la constante des gaz parfaits, T est la température
 de l'expérience en K). D'autre part, ΔH et ΔS contribuent à ΔG selon la relation
-ΔG = ΔH - TΔS. Ainsi, une variation d'enthalpie libre favorable à l'interaction
-(donc négative) nécessite une contribution enthalpique (ΔH) négative et une
-contribution entropique (ΔS) positive. Les valeurs des paramètres ΔG, ΔH et -TΔS
-des deux interactions étudiées sont représentées graphiquement dans la figure
-suivante :
+ΔG = ΔH - TΔS. Ainsi, une variation d'enthalpie libre (ΔG) favorable
+à l'interaction (donc négative) nécessite une contribution enthalpique (ΔH)
+négative et une contribution entropique (ΔS) positive. Les valeurs des
+paramètres ΔG, ΔH et -TΔS des deux interactions étudiées sont représentées
+graphiquement dans la figure suivante :
 
 ![Figure : Comparaison des contributions enthalpique et entropique dans les interactions Myb-court/ADN et Myb-long/ADN.](partie-3/figures/parametres-thermo-mybs.png)
 
 La contribution enthalpique (ΔH) est principalement due aux liaisons hydrogène
-établies et rompues au cours de l'interaction (une valeur négative de ΔH indique
-que des liaisons ont été établies). Nous observons que la contribution
-enthalpique est plus favorable pour Myb-long que pour Myb-court (d'un facteur
-environ 1,5), ce qui signifie que Myb-long établit plus de liaisons hydrogène
-avec l'ADN. Cette observation est en accord avec les résultats de l'expérience
-d'empreinte de nos collaborateurs.
+établies et rompues au cours de l'interaction [@leavitt2001] : une valeur
+négative de ΔH indique que des liaisons ont été établies. Nous observons que la
+contribution enthalpique est plus favorable pour Myb-long que pour Myb-court
+(d'un facteur environ 1,5), ce qui signifie que Myb-long établit plus de
+liaisons hydrogène avec l'ADN. Cette observation est en accord avec les
+résultats de l'expérience d'empreinte de nos collaborateurs.
 
 La contribution entropique (ΔS) représente les changements de solvatation et de
-conformation. Notamment, ΔS est négatif (la contribution à ΔG est donc
-défavorable) lorsqu'une partie de la chaîne protéique perd des degrés de liberté
-conformationnelle au cours de l'interaction. La contribution entropique est
-défavorable pour Myb-long, comparé à Myb-court. Nous pouvons en déduire que la
-portion de *linker* (résidus 400 à 445) adopte probablement une conformation
-plus contrainte dans le complexe avec l'ADN, comparée à celle qu'elle adopte dans
-la forme libre de la protéine. Ceci est également en accord avec l'hypothèse de
-l'implication de cette région de TRF2 dans l'interaction avec l'ADN.
+conformation [@leavitt2001]. Notamment, ΔS est négatif (la contribution à ΔG est
+donc défavorable) lorsqu'une partie de la chaîne protéique perd des degrés de
+liberté conformationnelle au cours de l'interaction. La contribution entropique
+est défavorable pour Myb-long, comparée à celle de Myb-court. Nous pouvons en
+déduire que la portion de *linker* (résidus 400 à 445) adopte probablement une
+conformation plus contrainte dans le complexe avec l'ADN, comparée à celle
+qu'elle adopte dans la forme libre de la protéine. Ceci est également en accord
+avec l'hypothèse de nos collaborateurs sur l'implication de cette région de TRF2
+dans l'interaction avec l'ADN.
 
 Il résulte de ces différentes contributions enthalpique et entropique que la
 variation d'enthalpie libre de l'interaction Myb-long/ADN est presque égale
