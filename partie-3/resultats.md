@@ -380,15 +380,15 @@ de densité électronique sont suffisamment interprétables pour permettre la
 construction complète de l'oligonucléotide, ce qui confirme que les positions
 relatives des modèles de départ sont correctes.
 
-Malheureusement, malgré tous nos efforts d'affinement, nous n'observons aucune
-densité positive dans la région N-terminale de la protéine dans la carte de
-différence mFo-DFc. Une explication possible vient du fait que les cristaux
-utilisés pour collecter ces données ont été obtenus plusieurs jours après la
-préparation du complexe (le temps nécessaire pour obtenir les premiers cristaux
-et affiner les conditions de cristallisation), ainsi il se peut que le *linker*
-se soit dégradé pendant la conservation à 4 °C du complexe en solution, et que
-nos cristaux ne contiennent que la forme courte du domaine Myb. Maintenant que
-la condition de cristallisation est bien définie, une nouvelle préparation de
-cristaux est en cours pour laquelle nous préparerons les gouttes de
-cristallisation dans l'heure qui suit la préparation du complexe.
+Malheureusement, malgré tous nos efforts d'affinement, nous n'observons que des
+pics de densité électronique discontinus dans la carte de différence mFo-DFc.
+Une explication possible vient du fait que les cristaux utilisés pour collecter
+ces données ont été obtenus plusieurs jours après la préparation du complexe (le
+temps nécessaire pour obtenir les premiers cristaux et affiner les conditions de
+cristallisation), ainsi il se peut que le linker se soit partiellement dégradé
+pendant la conservation à 4 °C du complexe en solution, et que nos cristaux ne
+contiennent qu'une forme dégradée de la construction Myb-long. Maintenant que la
+condition de cristallisation est bien définie, il serait possible d'obtenir de
+nouveaux cristaux en préparant les gouttes de cristallisation immédiatement
+après la préparation du complexe, afin de minimiser les risques de dégradation.
 
