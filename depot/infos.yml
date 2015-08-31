@@ -1,0 +1,71 @@
+---
+titre:
+    fr: Étude structurale de l'assemblage du complexe télomérique humain TRF2/RAP1
+    en: Structural study of the assembly of human TRF2/RAP1 telomeric complex
+résumé:
+    fr: |
+      Les télomères sont les extrémités des chromosomes linéaires des eucaryotes.
+      Ils sont constitués de répétitions en tandem d'un motif court riche en
+      guanine, et liés par des protéines spécifiques. Chez les vertébrés ces
+      protéines forment un complexe appelé le shelterin et dont l'intégrité est
+      critique pour assurer la réplication correcte des extrémités des
+      chromosomes, et pour les protéger contre une prise en charge illicite par
+      les voies de réparation des cassures double-brin de l'ADN. Des dysfonctions
+      des télomères engendrent une instabilité du génome qui peut conduire à la
+      sénescence ou au cancer. Les télomères représentent une région subnucléaire
+      où les protéines du shelterin sont fortement enrichies, ce qui permet
+      l'implication dans les fonctions biologiques d'interactions de basse
+      affinité. Parmi les protéines du shelterin, la protéine de liaison aux
+      répétitions télomériques TRF2 et son partenaire constitutif RAP1 sont les
+      facteurs majeurs responsables de la protection des extrémités. Nous avons
+      étudié en détails l'assemblage du complexe TRF2/RAP1 par des approches
+      intégrées de biologie structurale, de biophysique et de biochimie.
+      Nous avons montré que cet assemblage s'accompagne d'importants ajustements
+      de conformation des deux protéines, et implique une interaction de basse
+      affinité qui engage de grandes régions des deux protéines et affecte leurs
+      propriétés d'interactions.
+    en: |
+      Telomeres are the ends of eukaryotic linear chromosomes. They are made of
+      tandem repeats of a short guanine-rich motif and bound by specific proteins.
+      In vertebrates, these proteins form a complex called shelterin, the
+      integrity of which is critical to ensure proper replication of chromosome
+      ends and to protect them against illicit targeting by DNA double-strand
+      break repair pathways. Telomere dysfunctions lead to genome instability,
+      which can ultimately cause senescence or cancer. Telomeres are a subnuclear
+      region in which shelterin proteins are highly enriched, enhancing low
+      affinity interactions of important biological function. Among shelterin
+      proteins, telomeric repeat-binding protein TRF2 and its constitutive partner
+      RAP1 are the main factors responsible for end protection. We studied in
+      details the assembly of TRF2/RAP1 complex by means of integrated structural,
+      biophysical and biochemical approaches. We showed that this assembly
+      displays important conformational adjustments of both proteins, and involves
+      a low affinity interaction engaging large regions in both proteins which
+      affects their interaction properties.
+mots-clés:
+    fr: télomères, TRF2, RAP1, SAXS, ITC, cristallographie, empreinte protéique
+    en: telomeres, TRF2, RAP1, SAXS, ITC, crystallography, protein footprinting
+jury:
+    - nom: Le Du
+      prénom: Marie-Hélène
+      fonction: directrice de thèse
+    - nom: Géli
+      prénom: Vincent
+      fonction: rapporteur
+    - nom: Housset
+      prénom: Dominique
+      fonction: rapporteur
+    - nom: Crabbé
+      prénom: Laure
+      fonction: examinatrice
+    - nom: Mayer
+      prénom: Claudine
+      fonction: examinatrice
+    - nom: van Tilbeurgh
+      prénom: Herman
+      fonction: examinateur
+laboratoire: |
+    Équipe Enveloppe nucléaire, télomères et réparation de l'ADN
+    Département de Biochimie, Biophysique et Biologie Structurale
+    Institut de Biologie Intégrative de la Cellule (I2BC)
+    UMR 9198 CNRS, CEA, Université Paris-Sud
+...
