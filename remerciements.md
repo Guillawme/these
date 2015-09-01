@@ -112,9 +112,9 @@ c'est toujours un plaisir de te raconter mes recherches), Patricia &
 Jean-Michel, Claire (promis je ne te parlerai plus de passer ton HDR), Aline &
 Pierre, Béatrice (ta bonne humeur constante, et ton grog...), Lea (merci pour
 cette jolie mélodie que tu as composée), Alexis, Julien, Patricia (Mapaúlina)
-Robin, Sylvain, Camille, Erwan et les autres musiciens du Kwaga band. Merci en
-particulier Robin et Sylvain pour avoir bien pimenté les derniers mois de ma
-thèse :-) au sens figuré comme au sens propre (vos plats végétaliens sont
+Robin, Sylvain, Camille, Erwan, Pablo et les autres musiciens du Kwaga band.
+Merci en particulier Robin et Sylvain pour avoir bien pimenté les derniers mois
+de ma thèse :-) au sens figuré comme au sens propre (vos plats végétaliens sont
 formidables).
 
 Merci à toute ma famille, en premier mes parents Marie-Bé et Jacques, ma soeur
