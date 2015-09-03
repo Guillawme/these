@@ -15,7 +15,7 @@ aux extrémités des chromosomes, et qui n'est pas documenté d'un point de vue
 structural. Le même écart entre les informations fonctionnelles et structurales
 se retrouve pour TRF2 et RAP1.
 
-TRF2 est une protéine centrale aux télomères, où elle assure des fonctions
+TRF2 est une protéine essentielle aux télomères, où elle assure des fonctions
 multiples : elle contrôle la topologie et la condensation de l'ADN, elle permet
 la formation de la *t-loop*, elle recrute un grand nombre de facteurs
 accessoires, et elle protège les extrémités contre la voie de signalisation des

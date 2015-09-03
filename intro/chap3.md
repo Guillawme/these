@@ -1,4 +1,4 @@
-## TRF2 et RAP1 : deux protéines centrales
+## TRF2 et RAP1 : deux protéines essentielles
 
 ### Fonctions de TRF2 et RAP1
 
@@ -130,7 +130,7 @@ d'informations sur la nature directe ou indirecte des interactions mises en
 
 Concernant TRF2, un des modes de recrutement de ses partenaires a été bien
 caractérisé au niveau moléculaire. Son domaine TRFH contient un site conservé de
-liaison par un motif appelé TBM (*TRFH-binding motif*) de séquence consensus
+liaison pour un motif appelé TBM (*TRFH-binding motif*) de séquence consensus
 `YxLxP`, initialement mis en évidence par une étude ciblée de son interaction
 avec la protéine Apollo [@chen2008], et également découvert dans la protéine
 NBS1 [mais pour laquelle l'interaction a seulement été vérifiée *in vitro* avec
