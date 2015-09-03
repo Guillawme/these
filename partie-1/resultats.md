@@ -39,12 +39,15 @@ chaque injection et le rapport molaire entre elles. Lorsque les concentrations
 de départ sont bien choisies, le tracé de la variation d'enthalpie en fonction
 du rapport molaire à chaque point d'injection donne une courbe sigmoïde qui
 permet d'obtenir par ajustement d'un modèle mathématique les valeurs de K~A~ (la
-constante d'équilibre d'association ; K~A~ = 1 / K~D~), ΔS (la variation
-d'entropie) et n (la stoechiométrie) associées à l'interaction. La variation
-d'enthalpie libre associée à l'interaction (ΔG) peut finalement être calculée
-avec l'équation ΔG = ΔH - TΔS. La titration calorimétrique est la seule
-technique à ce jour qui puisse fournir tous ces paramètres thermodynamiques en
-une expérience.
+constante d'équilibre d'association ; K~A~ = 1 / K~D~) et n (la stoechiométrie)
+associées à l'interaction. La variation d'enthalpie libre associée
+à l'interaction (ΔG) peut être calculée avec l'équation ΔG = - RT ln(K~A~) où
+R est la constante des gaz parfaits et T la température. Finalement, la
+variation d'entropie (ΔS) est calculée à partir de la relation ΔG = ΔH - TΔS.
+La titration calorimétrique est la seule technique à ce jour qui puisse fournir
+tous ces paramètres thermodynamiques en une expérience. D'autre part, cette
+technique en solution nous apparaît pertinente pour l'étude de protéines
+solubles telles que TRF2 et RAP1.
 
 Dans nos conditions expérimentales (cf. Matériel et méthodes), la titration
 calorimétrique de TRF2 par RAP1 produit de façon reproductible une courbe à deux
