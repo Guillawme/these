@@ -48,24 +48,31 @@ jury:
     - nom: Le Du
       prénom: Marie-Hélène
       fonction: directrice de thèse
+      lieu: UMR 9198 CNRS, CEA, Université Paris-Sud
     - nom: Géli
       prénom: Vincent
       fonction: rapporteur
+      lieu: Centre de Recherche en Cancérologie de Marseille
     - nom: Housset
       prénom: Dominique
       fonction: rapporteur
+      lieu : Institut de Biologie Structurale
     - nom: Crabbé
       prénom: Laure
       fonction: examinatrice
+      lieu: UMR 9198 CNRS, CEA, Université Paris-Sud
     - nom: Mayer
       prénom: Claudine
       fonction: examinatrice
+      lieu: Institut Pasteur
     - nom: van Tilbeurgh
       prénom: Herman
       fonction: examinateur
+      lieu: UMR 9198 CNRS, CEA, Université Paris-Sud
 laboratoire: |
     Équipe Enveloppe nucléaire, télomères et réparation de l'ADN
     Département de Biochimie, Biophysique et Biologie Structurale (B3S)
     Institut de Biologie Intégrative de la Cellule (I2BC)
     UMR 9198 CNRS, CEA, Université Paris-Sud
+école-doctorale: ED 425 Innovation thérapeutique
 ...

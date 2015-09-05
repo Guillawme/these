@@ -50,12 +50,12 @@ Mots-clés (en) : telomeres, TRF2, RAP1, SAXS, ITC, crystallography, protein foo
 
 Jury :
 
-Le Du Marie-Hélène (directrice de thèse)
-Géli Vincent (rapporteur)
-Housset Dominique (rapporteur)
-Crabbé Laure (examinatrice)
-Mayer Claudine (examinatrice)
-van Tilbeurgh Herman (examinateur)
+Le Du Marie-Hélène (directrice de thèse, UMR 9198)
+Géli Vincent (rapporteur, Centre de Recherche en Cancérologie de Marseille)
+Housset Dominique (rapporteur, Institut de Biologie Structurale)
+Crabbé Laure (examinatrice, UMR 9198)
+Mayer Claudine (examinatrice, Institut Pasteur)
+van Tilbeurgh Herman (examinateur, UMR 9198)
 
 Laboratoire :
 
@@ -64,3 +64,4 @@ Département de Biochimie, Biophysique et Biologie Structurale (B3S)
 Institut de Biologie Intégrative de la Cellule (I2BC)
 UMR 9198 CNRS, CEA, Université Paris-Sud
 
+École doctorale : ED 425 Innovation thérapeutique
