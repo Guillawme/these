@@ -290,7 +290,7 @@ En accord avec les graphes de Kratky, nous observons que TRF2 adopte une
 conformation étendue, avec une grande distance séparant ses domaines Myb
 (jusqu'à environ 230 Å ; figure ci-dessus, A), et que la conformation de RAP1
 est également étendue (figure ci-dessus, B). Concernant RAP1-RCT, sa grande
-valeur de Dmax ainsi que son graphe de Kratky caractéristique d'une chaine
+valeur de D~max~ ainsi que son graphe de Kratky caractéristique d'une chaine
 majoritairement dépliée peuvent s'expliquer par le fait que notre construction
 [réalisée avant la publication de la structure du domaine RCT par @chen2011]
 comporte en N-terminal 36 résidus de plus que le domaine minimal.
