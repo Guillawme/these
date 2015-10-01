@@ -26,6 +26,8 @@ files = metadata.yml \
 	annexes/annexes.md \
 	references.md
 
+all: html docx
+
 html: these.html
 these.html: $(files)
 	pandoc -s -S --filter pandoc-citeproc $(files) \
@@ -35,5 +37,4 @@ docx: these.docx
 these.docx: $(files)
 	pandoc -s -S --filter pandoc-citeproc $(files) \
 	--from markdown --to docx -o these.docx
-
 
