@@ -2,8 +2,20 @@
 
 Ce dépôt contient tous les fichiers relatifs à la rédaction de ma thèse.
 
-Sous Windows 7 sur mon poste du labo, utiliser `terminal-git.bat` pout ouvrir un
-terminal dans le bon dossier et avec les bonnes variables d'environnement
-définies pour permettre à git de bien trouver son fichier de configuration.
+Les commandes suivantes permettent de construire un fichier html ou docx, ou les
+deux, quasi-complet (les annexes ne sont pas ajoutées, la mise en page reste
+simple, pas de numérotation des titres, tableau et figures, pas de table des
+matières ni des tableaux et figures, pas de sauts de page entre les sections) :
 
-Sous Mac OS X à la maison, il suffit d'utiliser le terminal normalement.
+```
+make html
+make docx
+make all
+```
+
+À terme, une version mise en page sera rendue publique sur le portail
+[Thèses en ligne](https://tel.archives-ouvertes.fr).
+
+Si quelqu'un souhaite contribuer une feuille de style pour mettre en page le
+fichier html plus joliment, que cette personne n'hésite pas à me contacter.
+
