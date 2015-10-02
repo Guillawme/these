@@ -80,18 +80,19 @@ Je remercie toutes les personnes qui ont installé une bonne ambiance dans le
 bureau que nous avons partagé pendant que je l'ai occupé ces trois dernières
 années : Benjamin, Isslam, Wala, Philippe, Jingqi et Jonathan. C'était un
 plaisir d'être votre voisin pendant ces moments de rigolade et parfois même de
-discussions scientifiques sérieuses (si, si). Merci aussi à ceux "d'en haut" :
-le labo et les bureaux voisins. L'étage, cette autre dimension où on s'aperçoit
-toujours trop tard qu'on a oublié quelque chose au rez-de-chaussée : stylo,
-cahier, timer, marqueur, info nécessaire pour la manip qu'on a oublié de noter,
-etc. chaque chose utile imaginable a été oubliée en bas au moins une fois.
-Merci aux habitants de cette dimension d'avoir supporté les emprunts récurrents
-de stylos, marqueurs, etc. C'est aussi une dimension où on prend conscience de
-la relativité du temps : lorsque l'on s'y trouve, le temps semble passer très
-vite tandis que les occupants du rez-de-chaussée ont l'impression que l'attente
-pour partir à la cantine dure des siècles. Occupant un bureau au rdc et
-travaillant dans le labo à l'étage, ma perception du temps a été pour le moins
-étrange pendant ces trois ans.
+discussions scientifiques sérieuses (si, si). Merci aux voisins des bureaux du
+rez-de-chaussée, en particulier Michel pour ton *coaching* actif pendant les
+derniers mois. Merci aussi à ceux "d'en haut" : le labo et les bureaux voisins.
+L'étage, cette autre dimension où on s'aperçoit toujours trop tard qu'on
+a oublié quelque chose au rdc : stylo, cahier, timer, marqueur, info nécessaire
+pour la manip qu'on a oublié de noter, etc. chaque chose utile imaginable a été
+oubliée en bas au moins une fois. Merci aux habitants de cette dimension d'avoir
+supporté les emprunts récurrents de stylos, marqueurs, etc. C'est aussi une
+dimension où on prend conscience de la relativité du temps : lorsque l'on s'y
+trouve, le temps semble passer très vite tandis que les occupants du rdc ont
+l'impression que l'attente pour partir à la cantine dure des siècles.
+Occupant un bureau au rdc et travaillant dans le labo à l'étage, ma perception
+du temps a été pour le moins étrange pendant ces trois ans.
 
 Enfin, je tiens à remercier tout particulièrement toutes les *autres* personnes
 sans qui cette thèse ne serait pas aboutie. Celles qui n'étaient pas au labo, et
