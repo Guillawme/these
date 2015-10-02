@@ -58,7 +58,9 @@ secondaire de basse affinité.
 Ces différences montrent clairement que l'étude d'assemblages protéiques
 complexes par calorimétrie nécessite d'évaluer systématiquement les effets de la
 température et des concentrations en protéines pour pouvoir détecter toutes les
-transitions associées au mode d'assemblage.
+transitions associées au mode d'assemblage. D'autre part, la température
+physiologique est difficile à atteindre dans de telles études *in vitro* du fait
+de la stabilité thermique limitée des protéines purifiées.
 
 
 ### Convergence des résultats et corrélation avec la conservation des protéines
