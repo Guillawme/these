@@ -13,13 +13,14 @@ Les paramètres thermodynamiques obtenus sont résumés dans le tableau suivant 
 Table: Tableau : Comparaison des paramètres thermodynamiques des interactions
 Myb-court/ADN et Myb-long/ADN.
 
-**Paramètre**     **Myb-court/ADN**  **Myb-long/ADN**
------------------ ------------------ -----------------
-  N                 0,496              0,420
-  K~D~ (µM)         0,45               2,47
-  ΔG (cal/mol)      -8221,5            -7248,92
-  ΔH (cal/mol)      -5816              -8596
-  -TΔS (cal/mol)    -2405,5            1347,08
+**Paramètre**     **Myb-court/ADN**           **Myb-long/ADN**
+----------------- --------------------------- --------------------------
+  N                 0,496                       0,420
+  K~A~ (M^-1^)      2,21.10^6^ ± 4,53.10^4^     3,89.10^5^ ± 9,89.10^3^
+  K~D~ (µM)         0,45 ± 0,01                 2,47 ± 0,07
+  ΔG (cal/mol)      -8221,50 ± 11,53            -7248,92 ± 28,60
+  ΔH (cal/mol)      -5816 ± 17,77               -8596 ± 89,37
+  -TΔS (cal/mol)    -2405,5 ± 29,30             1347,08 ± 117,97
 
 Puisque l'oligonucléotide à deux sites se trouve dans la seringue et qu'une
 molécule d'oligonucléotide se lie à deux molécules de protéine présentes dans la
@@ -49,7 +50,7 @@ Myb-court, mais est tout de même forte car dans la gamme micromolaire basse.
 La comparaison des paramètres thermodynamiques ΔG (variation d'enthalpie libre),
 ΔH (variation d'enthalpie) et ΔS (variation d'entropie) renseigne sur le mode de
 liaison. ΔG est négatif pour une interaction favorable, il est directement lié
-à la constante d'équilibre de dissociation par la relation ΔG = -RT ln K~D~ (R =
+à la constante d'équilibre de dissociation par la relation ΔG = RT ln K~D~ (R =
 1,987 cal.K^-1^.mol^-1^ est la constante des gaz parfaits, T est la température
 de l'expérience en K). D'autre part, ΔH et ΔS contribuent à ΔG selon la relation
 ΔG = ΔH - TΔS. Ainsi, une variation d'enthalpie libre (ΔG) favorable
@@ -58,7 +59,7 @@ négative et une contribution entropique (ΔS) positive. Les valeurs des
 paramètres ΔG, ΔH et -TΔS des deux interactions étudiées sont représentées
 graphiquement dans la figure suivante :
 
-![Figure : Comparaison des contributions enthalpique et entropique dans les interactions Myb-court/ADN et Myb-long/ADN.](partie-3/figures/parametres-thermo-mybs.png)
+![Figure : Comparaison des contributions enthalpique et entropique dans les interactions Myb-court/ADN et Myb-long/ADN. Variation d'enthalpie libre en rouge, variation d'enthalpie en bleu et variation d'entropie en vert.](partie-3/figures/parametres-thermo-mybs.png)
 
 La contribution enthalpique (ΔH) est principalement due aux liaisons hydrogène
 établies et rompues au cours de l'interaction [@leavitt2001] : une valeur
