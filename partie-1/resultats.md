@@ -12,9 +12,14 @@ dissociation (K~D~), sans marquage (contrairement aux méthodes de mesure de
 polarisation ou d'anisotropie de fluorescence) ni immobilisation d'un des
 partenaires (contrairement à la résonance plasmonique de surface) ni séparation
 (contrairement aux techniques de centrifugation, de chromatographie et
-d'électrophorèse). Le calorimètre est schématisé dans la figure suivante :
+d'électrophorèse). Cette technique en solution nous apparaît pertinente pour
+l'étude de protéines solubles telles que TRF2 et RAP1 en absence d'ADN.
+Remarquons que la résonance plasmonique de surface (SPR) serait bien adaptée
+à l'étude des interactions entre protéines télomériques en présence d'ADN,
+puisqu'un ADN immobilisé permettrait de mimer le télomère. Le calorimètre est
+schématisé dans la figure suivante :
 
-![Figure : Représentation schématique d'un calorimètre de titration isotherme (domaine public : <https://en.wikipedia.org/wiki/File:ITC1.png>).](partie-1/figures/calorimetre.png)
+![Figure : Représentation schématique d'un calorimètre de titration isotherme (domaine public : <https://en.wikipedia.org/wiki/File:ITC1.png>)](partie-1/figures/calorimetre.png)
 
 Une des deux molécules est placée dans la cuve et l'autre dans la seringue.
 Les concentrations doivent être de l'ordre de 10x K~D~ dans la cuve et 100x K~D~
@@ -40,14 +45,15 @@ de départ sont bien choisies, le tracé de la variation d'enthalpie en fonction
 du rapport molaire à chaque point d'injection donne une courbe sigmoïde qui
 permet d'obtenir par ajustement d'un modèle mathématique les valeurs de K~A~ (la
 constante d'équilibre d'association ; K~A~ = 1 / K~D~) et n (la stoechiométrie)
-associées à l'interaction. La variation d'enthalpie libre associée
-à l'interaction (ΔG) peut être calculée avec l'équation ΔG = - RT ln(K~A~) où
-R est la constante des gaz parfaits et T la température. Finalement, la
-variation d'entropie (ΔS) est calculée à partir de la relation ΔG = ΔH - TΔS.
-La titration calorimétrique est la seule technique à ce jour qui puisse fournir
-tous ces paramètres thermodynamiques en une expérience. D'autre part, cette
-technique en solution nous apparaît pertinente pour l'étude de protéines
-solubles telles que TRF2 et RAP1.
+associées à l'interaction. La valeur de KA correspond au coefficient directeur
+de la tangente au point d'inflexion, tandis que la stoechiométrie correspond au
+rapport molaire auquel le point d'inflexion apparaît. La variation d'enthalpie
+libre associée à l'interaction (ΔG) peut être calculée avec l'équation ΔG = - RT
+ln(K~A~) où R est la constante des gaz parfaits (R = 1,987 cal.K^-1^.mol^-1^) et
+T la température. Finalement, la variation d'entropie (ΔS) est calculée à partir
+de la relation ΔG = ΔH - TΔS. La titration calorimétrique est la seule technique
+à ce jour qui puisse fournir tous ces paramètres thermodynamiques en une
+expérience, et donc de caractériser en détails des interactions complexes.
 
 Dans nos conditions expérimentales (cf. Matériel et méthodes), la titration
 calorimétrique de TRF2 par RAP1 produit de façon reproductible une courbe à deux
@@ -56,7 +62,7 @@ C-terminal isolé de RAP1 (RAP1-RCT) nous n'observons que la transition majeure
 dans la courbe de titration (figure suivante), en accord avec les données déjà
 disponibles dans la littérature [@chen2011; @janoukova2015].
 
-![Figure : Titration calorimétrique de TRF2 par RAP1 (panneau de gauche) et par RAP1-RCT (panneau de droite).](partie-1/figures/itc-t2-r1-rct.png)
+![Figure : Titration calorimétrique de TRF2 par RAP1 (panneau de gauche) et par RAP1-RCT (panneau de droite)](partie-1/figures/itc-t2-r1-rct.png)
 
 La comparaison des différents paramètres thermodynamiques de ces interactions
 (tableau suivant) nous permet de confirmer que la transition majeure correspond
@@ -83,9 +89,9 @@ TRF2/RAP1-RCT et TRF2/RAP1 (a : transition majeure ; b : transition mineure).
 
 Nous obtenons les K~D~ suivants :
 
-- TRF2/RAP1-RCT : K~D~ ≃ 1 nM (la valeur est approximative car il y a peu de
+- TRF2/RAP1-RCT : K~D~ ≃ 0,5 nM (la valeur est approximative car il y a peu de
   points dans la région d'inflexion de la sigmoïde),
-- TRF2/RAP1 : K~D~ ≃ 1 nM pour la transition majeure, et K~D~ ≃ 0,5 μM pour la
+- TRF2/RAP1 : K~D~ ≃ 0,5 nM pour la transition majeure, et K~D~ ≃ 0,5 μM pour la
   transition mineure (la valeur est approximative car la transition mineure est
   en partie masquée par la transition majeure).
 
@@ -268,7 +274,9 @@ basée sur l'approximation que les particules diffusant les rayons X sont
 globulaires [elle tend à sous-estimer le R~g~ pour des protéines flexibles, voir
 @receveur-brechot2012].
 
-Table: Tableau : R~g~, D~max~ et masses moléculaires des protéines et des complexes (nd : non déterminé).
+Table: Tableau : R~g~, D~max~ et masses moléculaires des protéines et des
+complexes (nd : non déterminé ; les valeurs de R~g~ et D~max~ sont obtenues par
+la fonction de distribution des distances)
 
  **Protéine ou complexe**     **Masse moléculaire théorique (kDa)**     **Masse moléculaire expérimentale (kDa)**     **R~g~ (Å)**    **D~max~ (Å)**
 --------------------------   ---------------------------------------   -------------------------------------------   --------------  ----------------
@@ -302,17 +310,17 @@ détecter des changements de conformation globaux et qui se produisent pour
 l'ensemble des molécules présentes dans l'échantillon.
 
 En comparant les enveloppes superposées de TRF2 et du complexe TRF2/RAP1 (figure
-ci-dessus, G), nous pouvons observer que la présence de RAP1 semble étendre
-encore plus la conformation de TRF2, comme l'indique une plus grande valeur de
-D~max~ pour le complexe TRF2/RAP1 comparé à TRF2 seul. Au contraire, la
-conformation du complexe TRF2/RAP1-RCT n'est pas significativement différente de
-celle de TRF2 seul, comme en témoignent les valeurs de R~g~ et D~max~
-relativement proches (voir aussi la figure ci-dessus, F). Enfin, de façon
-particulièrement intéressante, la comparaison de ces enveloppes révèle que
-celles de TRF2 et RAP1 ne peuvent pas se superposer à celle du complexe
-TRF2/RAP1 (figure ci-dessus, H : un exemple parmi tous nos essais), ce qui
-indique que la formation du complexe fait intervenir un changement de
-conformation majeur des deux protéines.
+ci-dessus, G), nous pouvons observer que le complexe TRF2/RAP1 est plus étendu
+que TRF2 seule, comme l'indique une plus grande valeur de D~max~ pour le
+complexe TRF2/RAP1 comparé à TRF2 seule. Au contraire, la conformation du
+complexe TRF2/RAP1-RCT n'est pas significativement différente de celle de TRF2
+seule, comme en témoignent les valeurs de R~g~ et D~max~ relativement proches
+(voir aussi la figure ci-dessus, F). Enfin, de façon particulièrement
+intéressante, la comparaison de ces enveloppes révèle que celles de TRF2 et RAP1
+ne peuvent pas se superposer à celle du complexe TRF2/RAP1 (figure ci-dessus,
+H : un exemple parmi tous nos essais), ce qui indique que la formation du
+complexe fait intervenir un changement de conformation majeur des
+deux protéines.
 
 
 ### L'interaction entre TRF2 et RAP1 implique un motif TBM
@@ -366,11 +374,12 @@ RAP1-ARAGA. Nous avons mesuré l'interaction de ce mutant avec TRF2 par ITC
 ![Figure : Titration calorimétrique de TRF2 par RAP1-ARAGA.](partie-1/figures/itc-trf2-araga.png)
 
 Comme attendu, nous retrouvons la transition majeure correspondant
-à l'interaction de haute affinité entre le domaine RCT de RAP1 et TRF2.
-Sans être totalement abolie, la transition mineure est nettement réduite, et il
-n'est plus possible de calculer le K~D~ correspondant. Ceci démontre que le
-motif TBM de RAP1 participe bien à l'interaction complète avec TRF2, même si le
-signal résiduel suggère que la surface d'interaction est plus étendue.
+à l'interaction de haute affinité (K~D~ ≃ 0,5 nM) entre le domaine RCT de RAP1
+et TRF2. Sans être totalement abolie, la transition mineure est nettement
+réduite, et il n'est plus possible de calculer le K~D~ correspondant.
+Ceci démontre que le motif TBM de RAP1 participe bien à l'interaction complète
+avec TRF2, même si le signal résiduel suggère que la surface d'interaction est
+plus étendue.
 
 
 ### Les surfaces d'interaction entre TRF2 et RAP1 ne sont pas limitées au motif TBM
