@@ -69,9 +69,12 @@ RAP1-ARAGA) et par des carrés (lysines protégées uniquement par RAP1 sauvage)
 
 ## Publication
 
-Cet article est actuellement en cours de finalisation pour être soumis
-à publication. Les figures supplémentaires ne sont pas présentées afin de ne pas
-alourdir les annexes avec des informations redondantes déjà présentées dans la
-thèse. Elles sont néanmoins disponibles dans la version numérique de
-cette thèse.
+Les résultats présentés dans les parties 1 et 2 sont publiés dans l'article
+suivant :
+
+Gaullier G, Miron S, Pisano S, Buisson R, Le Bihan Y-V, Tellier-Lebègue C,
+Messaoud W, Roblin P, Guimarães BG, Thai R, Giraud-Panis M-J, Gilson E & Le Du
+M-H (2016) A higher-order entity formed by the flexible assembly of RAP1 with
+TRF2. *Nucl. Acids Res.* Advance Access published January 8, 2016.
+<http://dx.doi.org/10.1093/nar/gkv1531>
 
