@@ -1,6 +1,8 @@
 # Thèse de Guillaume
 
-Ce dépôt contient tous les fichiers relatifs à la rédaction de ma thèse.
+Ce dépôt contient tous les fichiers relatifs à la rédaction de ma thèse, et est
+publié chez trois hébergeurs: [Bitbucket][these-bb], [GitHub][these-gh] et
+[Framagit][these-frama].
 
 Les commandes suivantes permettent de construire un fichier html ou docx, ou les
 deux, quasi-complet (l'outil [pandoc](http://pandoc.org) doit être installé) :
@@ -25,11 +27,16 @@ Si quelqu'un souhaite contribuer une feuille de style pour mettre en page le
 fichier html plus joliment, que cette personne n'hésite pas à me contacter.
 
 
+[these-bb]: https://bitbucket.org/Guillawme/these
+
+[these-gh]: https://github.com/Guilz/these
+
+[these-frama]: https://framagit.org/Guillawme/these
+
 [these-tel]: https://tel.archives-ouvertes.fr/tel-01281310
 
 [tel]: https://tel.archives-ouvertes.fr
 
 [these-self-ar]: https://framadrive.org/index.php/s/j1gVpJxXO7Ubryd/download
 
-[pages-perso]: https://guilz.github.io
-
+[pages-perso]: https://guilz.github.io/phd.html
