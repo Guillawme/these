@@ -1,11 +1,11 @@
-# Thèse de Guillaume
+# Ma thèse de doctorat
 
-Ce dépôt contient tous les fichiers relatifs à la rédaction de ma thèse, et est
-publié chez trois hébergeurs: [Bitbucket][these-bb], [GitHub][these-gh] et
-[Framagit][these-frama].
+Ce dépôt contient tous les fichiers sources de la rédaction de ma thèse. Un
+[dépôt miroir][these-gh] est aussi disponible sur GitHub.
 
 Les commandes suivantes permettent de construire un fichier html ou docx, ou les
-deux, quasi-complet (l'outil [pandoc](http://pandoc.org) doit être installé) :
+deux à la fois, quasi-complet (l'outil [pandoc](http://pandoc.org) doit être
+installé) :
 
 ```
 make html
@@ -14,17 +14,15 @@ make all
 ```
 
 La mise en page obtenue est simple : les titres, tableau et figures ne sont pas
-numérotés, les tables des matières, des tableaux et des figures ne sont pas
-construites, les sauts de page nécessaires entre les sections ne sont pas
-ajoutés. De plus les annexes ne sont pas ajoutées.
+numérotés, certaines figures ne sont pas correctement à l'échelle, les tables
+des matières, des tableaux et des figures ne sont pas construites, les sauts de
+page nécessaires entre les sections ne sont pas ajoutés, et les annexes ne sont
+pas incorporées au fichier généré.
 
 Le [fichier PDF correspondant à la version finale][these-tel] est disponible
 dans l'archive publique [Thèses en ligne][tel].
 Une [copie auto-archivée][these-self-ar] est aussi accessible depuis
 [mes pages perso][pages-perso].
-
-Si quelqu'un souhaite contribuer une feuille de style pour mettre en page le
-fichier html plus joliment, que cette personne n'hésite pas à me contacter.
 
 
 [these-bb]: https://bitbucket.org/Guillawme/these
