@@ -35,6 +35,6 @@ Une [copie auto-archivée][these-self-ar] est aussi accessible depuis
 
 [tel]: https://tel.archives-ouvertes.fr
 
-[these-self-ar]: https://framadrive.org/index.php/s/j1gVpJxXO7Ubryd/download
+[these-self-ar]: https://keybase.pub/guillawme/these/ 
 
-[pages-perso]: https://guilz.github.io/phd.html
+[pages-perso]: https://www.gaullier.org/fr/these/
